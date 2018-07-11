@@ -1,4 +1,5 @@
 import numpy as np
+import random
 import copy
 from numpy.core.defchararray import startswith, endswith
 import matplotlib.pyplot as plt
@@ -27,7 +28,7 @@ def get_data(file_name):
 def get_majority_label(examples):
     labels_list = {}
     for example in examples:
-        label = example[len(examples)-1]
+        label = example[len(example[0])-1]
         if label in labels_list:
             labels_list[label] += 1
         else:
@@ -49,7 +50,6 @@ def information_gain(prob_list):
     for prob in prob_list:
         if prob != 0:
             result -= prob * log(prob, 2)
-        # result = result - (1 - prob) * log(1 - prob, 2)
     return result
 
 
@@ -147,9 +147,10 @@ def merge_trees(my_tree, sub_tree, node_id, i, value, examples):
         index += 1
         return my_tree
     else:
-        # TODO random result and not majority
+        # TODO random result and not majority ???
         if not examples:
-            name = ""
+            print("random!")
+            name = str(value) + " : " + random.choice(labels_list)
         else:
             name = str(value) + " : " + str(get_majority_label(examples))
         my_tree.create_node(str(name), index, parent=i)
@@ -166,13 +167,13 @@ def are_samples_equals(examples):
 
 
 def build_tree(examples, all_features, i, value, possibilities_list, height):
-    examples_list = [example[-1] for example in examples]
+    # examples_list = [example[-1] for example in examples]
     my_tree = Tree()
 
-    if examples_list is None:
+    if examples is None:
         return None
 
-    if not examples_list:
+    if not examples:
         return None
 
     all_equals = are_samples_equals(examples)
@@ -180,7 +181,7 @@ def build_tree(examples, all_features, i, value, possibilities_list, height):
         return all_equals
 
     if height == 0 or len(all_features) == 0:
-        return get_majority_label(examples_list)
+        return get_majority_label(examples)
 
     if len(all_features) == 1:
         optimal_feature = all_features.pop()
@@ -252,8 +253,8 @@ def calculate_error(my_tree, data_list):
 
 # main
 set_index_value()
-training_examples = get_data("data1.txt")
-validations_examples = get_data("data2.txt")
+training_examples = get_data("train.txt")
+validations_examples = get_data("validation.txt")
 # TODO add possiblities for each feature
 possiblities_list = ['y', 'n', 'u']
 # possibilities_list = {'features': ['1', '2']}
@@ -282,6 +283,7 @@ for i in range(features_num, features_num + 1):
         if isinstance(my_tree, Tree):
             my_tree.show()
 
+# plotting graph
 # xvalue = np.arange(0, 17, 1)
 # plt.plot(xvalue, train, label="train")
 # plt.plot(xvalue, validation, label="validation")
