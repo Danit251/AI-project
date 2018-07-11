@@ -191,6 +191,8 @@ def build_tree(examples, all_features, i, value, possibilities_list, height):
     if value is None:
         my_tree.create_node(optimal_feature, i)
     else:
+        # feature = features_list[optimal_feature]
+        # name = str(value) + " : " + feature
         name = str(value) + " : " + str(optimal_feature)
         my_tree.create_node(str(name), i)
     all_features.discard(optimal_feature)
@@ -255,6 +257,10 @@ def calculate_error(my_tree, data_list):
 set_index_value()
 training_examples = get_data("train.txt")
 validations_examples = get_data("validation.txt")
+
+# TODO features name list
+features_list = []
+
 # TODO add possiblities for each feature
 possiblities_list = ['y', 'n', 'u']
 # possibilities_list = {'features': ['1', '2']}
