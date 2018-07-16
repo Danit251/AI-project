@@ -28,7 +28,7 @@ def get_data(file_name):
 def get_majority_label(examples):
     labels_list = {}
     for example in examples:
-        label = example[len(example[0])-1]
+        label = example[len(example)-1]
         if label in labels_list:
             labels_list[label] += 1
         else:
@@ -40,6 +40,7 @@ def get_majority_label(examples):
         if labels_list[label] > count_label:
             count_label = labels_list[label]
             major_label = label
+
     return major_label
 
 
@@ -149,10 +150,10 @@ def merge_trees(my_tree, sub_tree, node_id, i, value, examples):
     else:
         # TODO random result and not majority ???
         if not examples:
-            print("random!")
             name = str(value) + " : " + random.choice(labels_list)
         else:
             name = str(value) + " : " + str(get_majority_label(examples))
+        print(name)
         my_tree.create_node(str(name), index, parent=i)
         index += 1
         return my_tree
@@ -170,8 +171,8 @@ def build_tree(examples, all_features, i, value, possibilities_list, height):
     # examples_list = [example[-1] for example in examples]
     my_tree = Tree()
 
-    if examples is None:
-        return None
+    # if examples is None:
+    #     return None
 
     if not examples:
         return None
@@ -255,21 +256,24 @@ def calculate_error(my_tree, data_list):
 
 # main
 set_index_value()
-training_examples = get_data("train.txt")
-validations_examples = get_data("validation.txt")
+training_examples = get_data("features files/training_examples.txt")
+validations_examples = get_data("features files/test_examples.txt")
 
 # TODO features name list
 features_list = []
 
 # TODO add possiblities for each feature
-possiblities_list = ['y', 'n', 'u']
+# possiblities_list = ['y', 'n', 'u']
+possiblities_list = ['0', '1']
 # possibilities_list = {'features': ['1', '2']}
 
 # TODO add list of labels
-labels_list = ['republican.', 'democrat.', 'other.']
+# labels_list = ['republican.', 'democrat.', 'other.']
+labels_list = ['austen', 'bronte', 'melville', 'verne']
 
 features_num = len(training_examples[0]) - 1
-all_features = {k for k in range(16)}
+# all_features = {k for k in range(16)}
+all_features = {k for k in range(1)}
 
 train = []
 validation = []
@@ -280,10 +284,10 @@ for i in range(features_num, features_num + 1):
     j = 0
     features_copy = all_features.copy()
     my_tree = build_tree(training_examples, features_copy, 1, None, possiblities_list, i)
-    train_error = calculate_error(my_tree, training_examples)
-    validation_error = calculate_error(my_tree, validations_examples)
-    train.append(train_error)
-    validation.append(validation_error)
+    # train_error = calculate_error(my_tree, training_examples)
+    # validation_error = calculate_error(my_tree, validations_examples)
+    # train.append(train_error)
+    # validation.append(validation_error)
     print("height = " + str(i))
     if my_tree is not None:
         if isinstance(my_tree, Tree):
