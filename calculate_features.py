@@ -1,6 +1,9 @@
 import types
 import character_specific_features
+import syntactic_features
+import word_specific_features
 import os
+import numpy as np
 
 features_modules = [character_specific_features]
 
@@ -20,6 +23,8 @@ def create_features_vector(text, label):
                if isinstance(getattr(module, a), types.FunctionType) and not a.startswith('__')]
     for f in features_funcs:
         feature_vector.append(f(text))
+    feature_vector += syntactic_features.calculate_syntactic_feature_vector(text)
+    # feature_vector += word_specific_features.calculate_words_feature_vector(text)
     return [feature_vector, label]
 
 
@@ -28,21 +33,12 @@ def create_corpus_vector():
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
     """
-    # author = 'verne'
     vectors = []
     for author in os.listdir("corpus/data"):
         for book in os.listdir("corpus/data/" + author):
             for filename in os.listdir("corpus/data/" + author + "/" + book):
                 if filename.endswith(".txt"):
-                    with open("corpus/data/" + author + "/" + book + "/" + filename, 'w+') as file:
+                    with open("corpus/data/" + author + "/" + book + "/" + filename, 'r', encoding='utf-8', errors='ignore') as file:
                         text = file.read()
                         vectors.append(create_features_vector(text, author))
-    return vectors
-
-
-
-example_text = "wow"
-# print(create_features_vector(example_text, 'Roi Shtivi'))
-
-
-print(create_corpus_vector())
+    return np.asarray(vectors)

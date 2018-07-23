@@ -52,7 +52,7 @@ def ratio_of_letters(text):
 
 def ratio_digit_to_char(text):
     try:
-        return __num_of_alphabetic_chars(text)/__num_of_digit(text)
+        return __num_of_digit(text)/len(text)
     except ZeroDivisionError:
         return 1
 
