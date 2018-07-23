@@ -1,5 +1,6 @@
 import string
 import nltk
+import re
 # from nltk.parse.stanford import StanfordDependencyParser
 # from stanfordcorenlp import StanfordCoreNLP
 from pycorenlp import StanfordCoreNLP
@@ -100,24 +101,45 @@ def present_tense_frequency():
     #  because the tags list doesn't actually contain all the possible tags, as explained above
 
 
-def dependency_parse(text):
-    # path_to_jar = "/Users/nogastern/Desktop/AI/project/AI-project/stanford-parser-full-2018-02-27/stanford-parser.jar"
-    # path_to_models_jar = "/Users/nogastern/Desktop/AI/project/AI-project/stanford-parser-full-2018-02-27/stanford-parser-3.9.1-models.jar"
-    # dep_parser = StanfordDependencyParser(path_to_jar=path_to_jar, path_to_models_jar= path_to_models_jar)
-    # result = dep_parser.raw_parse(text)  # TODO change to raw_parse_sents
-    # dep = result.__next__()
-    # print(list(dep.triples()))
-    nlp = StanfordCoreNLP("http://localhost:9000")
-    # res = nlp.annotate(text, properties={'annotators':'parse', 'outputFormat': 'json'})
-    # res = nlp.dependency_parse(text)
-    # print(res)
-    print(nlp.tokensregex(text, pattern = " ", filter = False))
-    return
+def dependency_parse(sent, parser):
+    # nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
+    # sentences = text.split(".")
+    # for sent in sentences:
+    #     sent = sent.strip()
+    #     if not sent:
+    #         continue
+    res = parser.annotate(sent, properties={'annotators':'parse', 'outputFormat': 'json'})
+    return res['sentences'][0]['parse']
 
-# with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
-#     text = file.read()
 
-text = "this is a test sentence that is hopefully long enough to be helpful."
-#        "This is another sentence, just to make it longer and more interesting"
+def average_tree_depth(text):
+    nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
+    sentences = text.split(".")
+    total_trees_depth = 0
+    for sent in sentences:
+        sent = sent.strip()
+        if not sent:
+            continue
+        parsed = dependency_parse(sent, nlp)
+        print(sent)
+        print(parsed)
+        total_trees_depth += find_tree_depth(parsed)
+    return total_trees_depth / len(sentences)
+
+
+def find_tree_depth(tree):
+    lines = tree.split("\n")
+    depth = 0
+    for line in lines:
+        line_depth = re.search('\S', line).start()
+        if line_depth > depth:
+            depth = line_depth
+    return depth
+
+
+with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
+    text = file.read()
+
+# text = "this is a test sentence that is hopefully long enough to be helpful . This is another sentence, just to make it longer and more interesting"
 # print(calculate_syntactic_feature_vector(text))
-dependency_parse(text)
+print(average_tree_depth(text))
