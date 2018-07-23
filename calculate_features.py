@@ -28,12 +28,13 @@ def create_corpus_vector():
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
     """
+    # author = 'verne'
     vectors = []
     for author in os.listdir("corpus/data"):
         for book in os.listdir("corpus/data/" + author):
             for filename in os.listdir("corpus/data/" + author + "/" + book):
                 if filename.endswith(".txt"):
-                    with open("corpus/data/" + author + "/" + book + "/" + filename, 'r') as file:
+                    with open("corpus/data/" + author + "/" + book + "/" + filename, 'w+') as file:
                         text = file.read()
                         vectors.append(create_features_vector(text, author))
     return vectors
@@ -41,7 +42,7 @@ def create_corpus_vector():
 
 
 example_text = "wow"
-print(create_features_vector(example_text, 'Roi Shtivi'))
+# print(create_features_vector(example_text, 'Roi Shtivi'))
 
 
 print(create_corpus_vector())
