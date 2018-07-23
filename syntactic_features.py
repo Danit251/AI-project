@@ -3,6 +3,7 @@ import nltk
 from nltk.parse.stanford import StanfordDependencyParser
 
 nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
 
 tags_count = 0
 tags_frequencies = {}
@@ -105,7 +106,7 @@ def dependency_parse(text):
     print(list(dep.triples()))
     return
 
-with open("/Users/nogastern/Desktop/AI/project/AI-project/corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
+with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
     text = file.read()
 
 # text = "this is a test sentence that is hopefully long enough to be helpful."
