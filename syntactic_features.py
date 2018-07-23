@@ -1,9 +1,12 @@
 import string
 import nltk
-from nltk.parse.stanford import StanfordDependencyParser
+# from nltk.parse.stanford import StanfordDependencyParser
+# from stanfordcorenlp import StanfordCoreNLP
+from pycorenlp import StanfordCoreNLP
 
-nltk.download('averaged_perceptron_tagger')
-nltk.download('punkt')
+
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('punkt')
 
 tags_count = 0
 tags_frequencies = {}
@@ -98,17 +101,23 @@ def present_tense_frequency():
 
 
 def dependency_parse(text):
-    path_to_jar = "/Users/nogastern/Desktop/AI/project/AI-project/stanford-parser-full-2018-02-27/stanford-parser.jar"
-    path_to_models_jar = "/Users/nogastern/Desktop/AI/project/AI-project/stanford-parser-full-2018-02-27/stanford-parser-3.9.1-models.jar"
-    dep_parser = StanfordDependencyParser(path_to_jar=path_to_jar, path_to_models_jar= path_to_models_jar)
-    result = dep_parser.raw_parse(text)  # TODO change to raw_parse_sents
-    dep = result.__next__()
-    print(list(dep.triples()))
+    # path_to_jar = "/Users/nogastern/Desktop/AI/project/AI-project/stanford-parser-full-2018-02-27/stanford-parser.jar"
+    # path_to_models_jar = "/Users/nogastern/Desktop/AI/project/AI-project/stanford-parser-full-2018-02-27/stanford-parser-3.9.1-models.jar"
+    # dep_parser = StanfordDependencyParser(path_to_jar=path_to_jar, path_to_models_jar= path_to_models_jar)
+    # result = dep_parser.raw_parse(text)  # TODO change to raw_parse_sents
+    # dep = result.__next__()
+    # print(list(dep.triples()))
+    nlp = StanfordCoreNLP("http://localhost:9000")
+    # res = nlp.annotate(text, properties={'annotators':'parse', 'outputFormat': 'json'})
+    # res = nlp.dependency_parse(text)
+    # print(res)
+    print(nlp.tokensregex(text, pattern = " ", filter = False))
     return
 
-with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
-    text = file.read()
+# with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
+#     text = file.read()
 
-# text = "this is a test sentence that is hopefully long enough to be helpful."
+text = "this is a test sentence that is hopefully long enough to be helpful."
 #        "This is another sentence, just to make it longer and more interesting"
-print(calculate_syntactic_feature_vector(text))
+# print(calculate_syntactic_feature_vector(text))
+dependency_parse(text)
