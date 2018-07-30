@@ -20,15 +20,23 @@ tags_list = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD',
 
 
 def calculate_syntactic_feature_vector(text):
+    # print("init")
     initialize(text)
+    # print("punctuation_chars_ratio")
     vector = [punctuation_chars_ratio(text)]
+    # print("tags")
     for tag in tags_list:  # this has to be done this way because we want the vector to contain the
         # same features in the same order for all the texts (meaning we can't use a data structure
         # that has no defined order and we can't look only at the tags that appear in this specific text)
         vector.append(get_pos_tag_frequency(tag))
+    # print("past_tense_frequency()")
     vector.append(past_tense_frequency())
+    # print("present_tense_frequency()")
     vector.append(present_tense_frequency())  # these two don't sum up to 1 because there's another
     # category (base form verb)
+    # print("average_tree_depth")
+    # nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
+    # vector.append(average_tree_depth(text, nlp))
     return vector
 
 
@@ -112,9 +120,8 @@ def dependency_parse(sent, parser):
     return res['sentences'][0]['parse']
 
 
-def average_tree_depth(text):
-    nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
-    sentences = text.split(".")
+def average_tree_depth(text, nlp):
+    sentences = text.replace(";",".").split(".")
     total_trees_depth = 0
     for sent in sentences:
         sent = sent.strip()
@@ -142,4 +149,4 @@ with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
 
 # text = "this is a test sentence that is hopefully long enough to be helpful . This is another sentence, just to make it longer and more interesting"
 # print(calculate_syntactic_feature_vector(text))
-print(average_tree_depth(text))
+# print(average_tree_depth(text))
