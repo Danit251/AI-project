@@ -1,29 +1,25 @@
 import calculate_features
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import GridSearchCV
-from sklearn import svm
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn import tree
 
-# 'C',
-# 'max_iter',
-# 'shrinking',
-# 'cache_size',
+# 'min_weight_fraction_leaf',
 # 'class_weight',
-# 'decision_function_shape',
+# 'min_samples_split',
+# 'max_depth',
+# 'criterion',
+# 'min_samples_leaf',
 # 'random_state',
-# 'kernel',
-# 'probability',
-# 'gamma',
-# 'coef0',
-# 'tol',
-# 'degree',
-# 'verbose'
+# 'max_features',
+# 'min_impurity_split',
+# 'max_leaf_nodes',
+# 'splitter',
+# 'presort'
 
 
 parameters = {
-    'kernel': ('linear', 'rbf', 'poly'),
-    'C': [0.5, 1.5, 10, 100, 1000, 5000, 10000, 30000, 70000, 140000],
-    'gamma': [1e-12, 1e-11, 1e-7, 1e-4, 1e-2, 0.2,1e-10, 0.007]
+    'max_depth': [1, 2, 3, 4, 5],
+    'max_features': [1, 2, 3, 4]
 }
 
 
@@ -32,7 +28,7 @@ if __name__ == '__main__':
     X = data[:, 0]
     y = data[:, 1]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
-    clf = GridSearchCV(svm.SVC(), parameters)
+    clf = GridSearchCV(tree.DecisionTreeClassifier(), parameters)
     # train
     clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
     # test
