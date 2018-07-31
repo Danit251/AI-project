@@ -36,7 +36,7 @@ def calculate_syntactic_feature_vector(text, author, book, filename):
     # category (base form verb)
     # print("average_tree_depth")
     # nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
-    vector.append(average_tree_depth(author, book, filename))
+    # vector.append(average_tree_depth(author, book, filename))
     return vector
 
 
