@@ -1,7 +1,9 @@
 from pycorenlp import StanfordCoreNLP
 import os
+import nltk.data
 
 nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
+tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 def debug_jane_eyre():
     author = "bronte"
@@ -15,10 +17,10 @@ def debug_jane_eyre():
 
 def create_files():
     for author in os.listdir("corpus/data"):
-        if author.startswith("."):
+        if author.startswith(".") or author == "bronte":
             continue
         for book in os.listdir("corpus/data/" + author):
-            if book.startswith(".") or book == "Bronte-Professor":
+            if book.startswith("."):
                 continue
             for filename in os.listdir("corpus/data/" + author + "/" + book):
                 if filename.endswith(".txt"):
@@ -30,21 +32,22 @@ def create_files():
 
 
 def write_to_file(write_file, text):
-    sentences = text.replace(";", ".").split(".")
+    # sentences = text.replace(";", ".").split(".")
+    sentences = tokenizer.tokenize(text)
     for sent in sentences:
         # print(sent)
         # print("*****")
         sent = sent.strip()
         if not sent:
             continue
-        # try:
-        res = nlp.annotate(sent, properties={'annotators':'parse', 'outputFormat': 'json'})
-        write_file.write(res['sentences'][0]['parse'])
-        write_file.write("\n~~~~~~\n")
-        # except:
-        #     write_file.write("no parsing")
-        #     write_file.write("\n~~~~~~\n")
+        try:
+            res = nlp.annotate(sent, properties={'annotators':'parse', 'outputFormat': 'json'})
+            write_file.write(res['sentences'][0]['parse'])
+            write_file.write("\n~~~~~~\n")
+        except TypeError:
+            write_file.write("no parsing")
+            write_file.write("\n~~~~~~\n")
 
 
-# create_files()
-debug_jane_eyre()
+create_files()
+# debug_jane_eyre()

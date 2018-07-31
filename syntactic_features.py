@@ -129,7 +129,7 @@ def average_tree_depth(author, book, filename):
         parsed_text = file.read()
     parsed_sents = parsed_text.split("\n~~~~~~\n")
     for parsed_sent in parsed_sents:
-        if parsed_sent:
+        if parsed_sent and parsed_sent != "no parsing":
             total_trees_depth += find_tree_depth(parsed_sent)
     return total_trees_depth / len(parsed_sents)
 
