@@ -8,7 +8,7 @@ import numpy as np
 features_modules = [character_specific_features]
 
 
-def create_features_vector(text, label):
+def create_features_vector(text, label, author, book, filename):
     """
     Create a feature vector for the given text over all the public functions in all modules.
     :param text: text to vectorize
@@ -23,7 +23,7 @@ def create_features_vector(text, label):
                if isinstance(getattr(module, a), types.FunctionType) and not a.startswith('__')]
     for f in features_funcs:
         feature_vector.append(f(text))
-    feature_vector += syntactic_features.calculate_syntactic_feature_vector(text)
+    feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
     # feature_vector += word_specific_features.calculate_words_feature_vector(text)
     return [feature_vector, label]
 
@@ -40,5 +40,5 @@ def create_corpus_vector():
                 if filename.endswith(".txt"):
                     with open("corpus/data/" + author + "/" + book + "/" + filename, 'r', encoding='utf-8', errors='ignore') as file:
                         text = file.read()
-                        vectors.append(create_features_vector(text, author))
+                        vectors.append(create_features_vector(text, author, author, book, filename))
     return np.asarray(vectors)
