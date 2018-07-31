@@ -16,7 +16,7 @@ def create_features_vector(text, label, author, book, filename):
     feature_vector = []
     feature_vector += character_specific_features.get_feature_vector(text)
     feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
-    # feature_vector += word_specific_features.calculate_words_feature_vector(text)
+    feature_vector += word_specific_features.calculate_words_feature_vector(text)
     return [feature_vector, label]
 
 
