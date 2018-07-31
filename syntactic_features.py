@@ -19,7 +19,7 @@ tags_list = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD',
 # the tagger actually uses more than that, for example "." is tagged as ".". TODO: try to find the full list of possible tags
 
 
-def calculate_syntactic_feature_vector(text):
+def calculate_syntactic_feature_vector(text, author, book, filename):
     # print("init")
     initialize(text)
     # print("punctuation_chars_ratio")
@@ -36,7 +36,7 @@ def calculate_syntactic_feature_vector(text):
     # category (base form verb)
     # print("average_tree_depth")
     # nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
-    # vector.append(average_tree_depth(text, nlp))
+    vector.append(average_tree_depth(author, book, filename))
     return vector
 
 
@@ -110,28 +110,28 @@ def present_tense_frequency():
 
 
 def dependency_parse(sent, parser):
-    # nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
-    # sentences = text.split(".")
-    # for sent in sentences:
-    #     sent = sent.strip()
-    #     if not sent:
-    #         continue
     res = parser.annotate(sent, properties={'annotators':'parse', 'outputFormat': 'json'})
     return res['sentences'][0]['parse']
 
 
-def average_tree_depth(text, nlp):
-    sentences = text.replace(";",".").split(".")
+def average_tree_depth(author, book, filename):
+    # sentences = text.replace(";",".").split(".")
     total_trees_depth = 0
-    for sent in sentences:
-        sent = sent.strip()
-        if not sent:
-            continue
-        parsed = dependency_parse(sent, nlp)
-        print(sent)
-        print(parsed)
-        total_trees_depth += find_tree_depth(parsed)
-    return total_trees_depth / len(sentences)
+    # for sent in sentences:
+    #     sent = sent.strip()
+    #     if not sent:
+    #         continue
+        # parsed = dependency_parse(sent, nlp)
+        # print(sent)
+        # print(parsed)
+        # total_trees_depth += find_tree_depth(parsed)
+    with open("corpus/parsed_data/"+author+"/"+book+"/"+filename, 'r') as file:
+        parsed_text = file.read()
+    parsed_sents = parsed_text.split("\n~~~~~~\n")
+    for parsed_sent in parsed_sents:
+        if parsed_sent:
+            total_trees_depth += find_tree_depth(parsed_sent)
+    return total_trees_depth / len(parsed_sents)
 
 
 def find_tree_depth(tree):
@@ -144,9 +144,9 @@ def find_tree_depth(tree):
     return depth
 
 
-with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
-    text = file.read()
+# with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
+#     text = file.read()
 
 # text = "this is a test sentence that is hopefully long enough to be helpful . This is another sentence, just to make it longer and more interesting"
 # print(calculate_syntactic_feature_vector(text))
-# print(average_tree_depth(text))
+# print(average_tree_depth(text, ""))
