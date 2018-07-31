@@ -67,7 +67,7 @@ def ratio_digit_to_char(text):
         return 1
 
 
-def ratio_space_to_word_length(text):
+def ratio_space_to_text_length(text):
     try:
         return __num_of_spaces(text)/len(text)
     except ZeroDivisionError:
