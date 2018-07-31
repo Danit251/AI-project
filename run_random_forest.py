@@ -1,8 +1,8 @@
 import calculate_features
 import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn import tree, ensemble
-# import graphviz
+from sklearn.ensemble import RandomForestClassifier
+
 
 # 'min_weight_fraction_leaf',
 # 'class_weight',
@@ -29,14 +29,12 @@ if __name__ == '__main__':
     X = data[:, 0]
     y = data[:, 1]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
-    clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
+    clf = GridSearchCV(RandomForestClassifier(), parameters)
     # train
     clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
     # test
     predicted = clf.predict(np.ndarray.tolist(X_test))
     print(clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test)))
 
-    # print the tree
-    # dot_data = tree.export_graphviz(clf.best_estimator_, out_file=None)
-    # graph = graphviz.Source(dot_data)
-    # graph.render("dt")
+    # print(clf.best_estimator_.feature_importances_)
+

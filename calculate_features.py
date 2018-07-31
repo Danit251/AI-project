@@ -5,8 +5,6 @@ import word_specific_features
 import os
 import numpy as np
 
-features_modules = [character_specific_features]
-
 
 def create_features_vector(text, label, author, book, filename):
     """
@@ -16,13 +14,7 @@ def create_features_vector(text, label, author, book, filename):
     :return: the vector
     """
     feature_vector = []
-    features_funcs = []
-    for module in features_modules:
-        # list of all public functions
-        features_funcs += [getattr(module, a) for a in dir(module)
-               if isinstance(getattr(module, a), types.FunctionType) and not a.startswith('__')]
-    for f in features_funcs:
-        feature_vector.append(f(text))
+    feature_vector += character_specific_features.get_feature_vector(text)
     feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
     # feature_vector += word_specific_features.calculate_words_feature_vector(text)
     return [feature_vector, label]
