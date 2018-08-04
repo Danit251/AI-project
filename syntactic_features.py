@@ -29,13 +29,9 @@ def calculate_syntactic_feature_vector(text, author, book, filename):
         # same features in the same order for all the texts (meaning we can't use a data structure
         # that has no defined order and we can't look only at the tags that appear in this specific text)
         vector.append(get_pos_tag_frequency(tag))
-    # print("past_tense_frequency()")
     vector.append(past_tense_frequency())
-    # print("present_tense_frequency()")
     vector.append(present_tense_frequency())  # these two don't sum up to 1 because there's another
     # category (base form verb)
-    # print("average_tree_depth")
-    # nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
     # vector.append(average_tree_depth(author, book, filename))
     return vector
 
@@ -115,16 +111,7 @@ def dependency_parse(sent, parser):
 
 
 def average_tree_depth(author, book, filename):
-    # sentences = text.replace(";",".").split(".")
     total_trees_depth = 0
-    # for sent in sentences:
-    #     sent = sent.strip()
-    #     if not sent:
-    #         continue
-        # parsed = dependency_parse(sent, nlp)
-        # print(sent)
-        # print(parsed)
-        # total_trees_depth += find_tree_depth(parsed)
     with open("corpus/parsed_data/"+author+"/"+book+"/"+filename, 'r') as file:
         parsed_text = file.read()
     parsed_sents = parsed_text.split("\n~~~~~~\n")
