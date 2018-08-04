@@ -7,7 +7,7 @@ def get_feature_vector(text):
     return [ratio_of_special_chars(text),
             ratio_of_letters(text),
             ratio_digit_to_char(text),
-            ratio_space_to_word_length(text),
+            ratio_space_to_text_length(text),
             ratio_of_spaces_to_white_space(text),
             ratio_tabs_to_white_spaces(text)
             ]

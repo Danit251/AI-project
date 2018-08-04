@@ -41,9 +41,9 @@ if __name__ == '__main__':
     # clf = GridSearchCV(svm.SVC(), parameters)
 
     # scaling to (-1,1) range
-    scaling = MinMaxScaler(feature_range=(-1, 1)).fit(X_train)
-    X_train = scaling.transform(X_train)
-    X_test = scaling.transform(X_test)
+    # scaling = MinMaxScaler(feature_range=(-1, 1)).fit(X_train)
+    # X_train = scaling.transform(X_train)
+    # X_test = scaling.transform(X_test)
 
     clf = svm.SVC(kernel='linear', C=140000, gamma=1e-12)
     # train
