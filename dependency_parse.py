@@ -2,13 +2,13 @@ from pycorenlp import StanfordCoreNLP
 import os
 import nltk.data
 
-nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run
+nlp = StanfordCoreNLP("http://localhost:9000")  # this requires a server to run: java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 
 def create_files():
     for author in os.listdir("corpus/data"):
-        if author.startswith(".") or author == "bronte" or author == "melville":
+        if author.startswith("."):
             continue
         for book in os.listdir("corpus/data/" + author):
             if book.startswith("."):
@@ -40,4 +40,4 @@ def write_to_file(write_file, text):
             write_file.write("\n~~~~~~\n")
 
 
-create_files()
+# create_files()
