@@ -1,0 +1,749 @@
+(ROOT
+  (NP
+    (NP (DT The) (NNP Great))
+    (NP (NNP Heidelburgh) (NNP Tun))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (ADVP (RB Now))
+    (VP (VBZ comes))
+    (NP
+      (NP (DT the) (NN Baling))
+      (PP (IN of)
+        (NP (DT the) (NN Case))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (S
+      (VP (TO to)
+        (VP (VB comprehend)
+          (NP (PRP it))
+          (ADVP (RB aright)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD must)
+      (VP (VB know)
+        (NP
+          (NP (NN something))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJ curious) (JJ internal) (NN structure))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN thing))
+                  (VP (VBN operated)
+                    (PP (IN upon))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (S
+        (S
+          (VP (VBG Regarding)
+            (NP (DT the) (NN Sperm) (NN Whale) ('' ') (NNS s))))
+        (VP (VBP head)
+          (PP (IN as)
+            (NP (DT a) (JJ solid) (NN oblong)))))
+      (, ,)
+      (S
+        (NP (PRP you))
+        (VP (MD may) (, ,)
+          (PP (IN on)
+            (NP
+              (NP (DT an)
+                (ADJP (JJ inclined))
+                (NN plane))
+              (, ,)
+              (ADVP (RB sideways))))
+          (VP (VBP divide)
+            (NP (PRP it))
+            (PP (IN into)
+              (NP (CD two) (NNS quoins))))))
+      (, ,)
+      (PP
+        (X (SYM *))
+        (IN whereof)
+        (S
+          (S
+            (NP (DT the) (JJR lower))
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (JJ bony) (NN structure))
+                (, ,)
+                (VP (VBG forming)
+                  (NP
+                    (NP (DT the) (NN cranium))
+                    (CC and)
+                    (NP (NNS jaws))))
+                (, ,))))
+          (CC and)
+          (S
+            (NP (DT the) (JJ upper)
+              (NP (DT an) (JJ unctuous) (NN mass)))
+            (ADJP (RB wholly) (JJ free)
+              (PP (IN from)
+                (NP (NNS bones))))))))
+    (: ;)
+    (S
+      (NP (PRP$ its) (JJ broad) (JJ forward) (NN end))
+      (VP (VBG forming)
+        (NP
+          (NP (DT the) (VBN expanded) (JJ vertical) (JJ apparent) (NN forehead))
+          (PP (IN of)
+            (NP (DT the) (NN whale))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (IN At)
+        (NP
+          (NP (DT the) (NN middle))
+          (PP (IN of)
+            (NP (DT the) (NN forehead)))))
+      (VP
+        (ADVP (RB horizontally))
+        (VB subdivide)
+        (NP (DT this) (JJ upper) (NN quoin))))
+    (, ,)
+    (CC and)
+    (S
+      (ADVP (RB then))
+      (NP (PRP you))
+      (VP (VBP have)
+        (NP
+          (NP (CD two)
+            (ADJP (RB almost) (JJ equal))
+            (NNS parts))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (ADVP (RB before))
+              (VP (VBD were)
+                (ADVP (RB naturally))
+                (VP (VBN divided)
+                  (PP (IN by)
+                    (NP
+                      (NP (DT an) (JJ internal) (NN wall))
+                      (PP (IN of)
+                        (NP (DT a) (JJ thick) (JJ tendinous) (NN substance))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (SBAR
+      (X (SYM *))
+      (S
+        (NP (NNP Quoin))
+        (VP (VBZ is) (RB not)
+          (NP (DT a) (JJ Euclidean) (NN term)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ belongs)
+      (PP (TO to)
+        (NP (DT the) (JJ pure) (JJ nautical) (NNS mathematics))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP know)
+      (SBAR (RB not) (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBZ has)
+            (VP (VBN been)
+              (VP (VBN defined)
+                (PP (IN before))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT A) (NN quoin))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT a) (JJ solid))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ differs)
+                (PP (IN from)
+                  (NP
+                    (NP (DT a) (NN wedge))
+                    (PP (IN in)
+                      (S
+                        (VP (VBG having)
+                          (NP (PRP$ its) (JJ sharp) (NN end))
+                          (VP (VBN formed)
+                            (PP (IN by)
+                              (NP
+                                (NP (DT the) (JJ steep) (NN inclination))
+                                (PP (IN of)
+                                  (NP (CD one) (NN side)))))))))))))))
+        (, ,)
+        (CONJP (RB instead) (IN of))
+        (NP
+          (NP (DT the) (JJ mutual) (VBG tapering))
+          (PP (IN of)
+            (NP (DT both) (NNS sides))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJR lower))
+      (VP (VBN subdivided)
+        (NP (NN part))))
+    (, ,)
+    (VP (VBD called)
+      (SBAR
+        (S
+          (NP (DT the) (NN junk))
+          (, ,)
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP (CD one) (JJ immense) (NN honeycomb))
+                (PP (IN of)
+                  (NP (NN oil))))))
+          (, ,)
+          (VP (VBN formed)
+            (PP (IN by)
+              (NP
+                (NP
+                  (NP (DT the) (VBG crossing)
+                    (CC and)
+                    (VBG recrossing))
+                  (, ,)
+                  (PP (IN into)
+                    (NP
+                      (NP
+                        (QP (CD ten) (CD thousand)))
+                      (VP (VBN infiltrated)
+                        (NP (NNS cells)))))
+                  (, ,))
+                (PP (IN of)
+                  (NP
+                    (NP (JJ tough) (JJ elastic) (JJ white) (NNS fibres))
+                    (PP (IN throughout)
+                      (NP (PRP$ its) (JJ whole) (NN extent)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ upper) (NN part))
+      (, ,)
+      (VP (VBN known)
+        (PP (IN as)
+          (NP (DT the) (NNP Case))))
+      (, ,))
+    (VP (MD may)
+      (VP (VB be)
+        (VP (VBN regarded)
+          (PP (IN as)
+            (NP
+              (NP (DT the) (JJ great) (NNP Heidelburgh) (NNP Tun))
+              (PP (IN of)
+                (NP (DT the) (NN Sperm) (NN Whale))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG (CC And)
+    (SBAR (IN as)
+      (S
+        (NP (DT that) (JJ famous) (JJ great) (NN tierce))
+        (VP (VBZ is)
+          (ADVP (RB mystically))
+          (VP (VBN carved)
+            (PP (IN in)
+              (NP
+                (NP (NN front))
+                (, ,)
+                (SBAR (IN so)
+                  (S
+                    (NP
+                      (NP (DT the) (NN whale) (POS '))
+                      (NNS s))
+                    (NP
+                      (NP (JJ vast) (JJ plaited) (NN forehead) (NNS forms))
+                      (ADJP (JJ innumerable)
+                        (NP
+                          (NP (JJ strange) (NNS devices))
+                          (PP (IN for)
+                            (NP
+                              (NP (DT the) (JJ emblematical) (NN adornment))
+                              (PP (IN of)
+                                (NP (PRP$ his) (JJ wondrous) (NN tun))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (X
+    (ADVP (RB Moreover))
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (NP
+          (NP (DT that))
+          (PP (IN of)
+            (NP (NNP Heidelburgh))))
+        (VP (VBD was)
+          (ADVP (RB always))
+          (VP (VBN replenished)
+            (PP (IN with)
+              (NP
+                (NP (DT the)
+                  (ADJP (RBS most) (JJ excellent)))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NNS wines))
+                    (PP (IN of)
+                      (NP (DT the) (NNP Rhenish) (NNS valleys)))))))))))
+    (, ,)
+    (SBAR (IN so)
+      (S
+        (NP
+          (NP (DT the) (NN tun))
+          (PP (IN of)
+            (NP (DT the) (NN whale))))
+        (VP (VBZ contains)
+          (PP (IN by)
+            (NP
+              (NP
+                (ADVP (RB far))
+                (NP (DT the) (RBS most) (JJ precious))
+                (PP (IN of)
+                  (NP
+                    (NP (PDT all))
+                    (NP (PRP$ his) (JJ oily) (NNS vintages)))))
+              (: ;)
+              (ADVP (RB namely))))
+          (, ,)
+          (NP
+            (NP (DT the) (RB highly))
+            (: -)
+            (VP (VBN prized)
+              (NP (NNS spermaceti)))))))
+    (, ,)
+    (X (IN in))
+    (NP (PRP$ its)
+      (NP
+        (ADJP
+          (ADJP (RB absolutely) (JJ pure))
+          (, ,)
+          (ADJP (JJ limpid))
+          (, ,)
+          (CC and)
+          (ADJP (JJ odoriferous)))
+        (NN state)))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV (CC Nor)
+    (VBZ is)
+    (NP (DT this))
+    (NP
+      (NP (JJ precious) (NN substance))
+      (SBAR
+        (S
+          (VP (VBD found)
+            (ADJP (JJ unalloyed))
+            (PP (IN in)
+              (NP
+                (NP (DT any) (JJ other) (NN part))
+                (PP (IN of)
+                  (NP (DT the) (NN creature)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Though))
+        (PP (IN in)
+          (NP
+            (NP (NN life))
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ remains)
+                  (ADJP (RB perfectly) (JJ fluid))))))))
+      (, ,)
+      (ADVP (RB yet))
+      (, ,)
+      (PP
+        (PP (IN upon)
+          (NP (NN exposure)))
+        (PP (TO to)
+          (NP (DT the) (NN air))))
+      (, ,)
+      (PP (IN after)
+        (NP (NN death)))
+      (, ,)
+      (NP (PRP it))
+      (ADVP (RB soon))
+      (VP (VBZ begins)
+        (PP (TO to)
+          (NP (NN concrete)))))
+    (: ;)
+    (S
+      (VP (VBG sending)
+        (ADVP (RB forth))
+        (NP
+          (NP (JJ beautiful) (JJ crystalline) (NNS shoots))
+          (, ,)
+          (PP (IN as)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (DT the) (JJ first) (JJ thin) (JJ delicate) (NN ice))
+                (VP (VBZ is)
+                  (ADVP (RB just))
+                  (VP (VBG forming)
+                    (PP (IN in)
+                      (NP (NN water)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ large) (NN whale) ('' ') (NNS s))
+      (NP (NN case)))
+    (ADVP (RB generally))
+    (VP (VBZ yields)
+      (PP (IN about)
+        (NP
+          (NP
+            (QP (CD five) (CD hundred))
+            (NNS gallons))
+          (PP (IN of)
+            (NP (NN sperm)))))
+      (, ,)
+      (SBAR (IN though)
+        (S
+          (PP (IN from)
+            (NP (JJ unavoidable) (NNS circumstances)))
+          (, ,)
+          (NP
+            (NP (JJ considerable))
+            (PP (IN of)
+              (NP (PRP it))))
+          (VP
+            (VP (VBZ is)
+              (VP (VBN spilled) (, ,)
+                (NP (NNS leaks))))
+            (, ,)
+            (CC and)
+            (VP (VBZ dribbles)
+              (ADVP (RB away)))
+            (, ,)
+            (CC or)
+            (VP (VBZ is)
+              (ADVP (RB otherwise))
+              (VP
+                (ADVP (RB irrevocably))
+                (VBN lost)
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (JJ ticklish) (NN business))
+                    (PP (IN of)
+                      (S
+                        (VP (VBG securing)
+                          (SBAR
+                            (WHNP (WP what))
+                            (S
+                              (NP (PRP you))
+                              (VP (MD can)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP know)
+      (PP (RB not)
+        (PP (IN with)
+          (NP
+            (NP (WP what) (NN fine))
+            (CC and)
+            (NP
+              (NP (JJ costly) (NN material))
+              (SBAR
+                (S
+                  (NP (DT the) (NNP Heidelburgh) (NNP Tun))
+                  (VP (VBD was)
+                    (VP (VBN coated)
+                      (PP (IN within)))))))))
+        (, ,)
+        (CC but)
+        (PP (IN in)
+          (NP
+            (NP (JJ superlative) (NN richness))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (NP (NN coating))
+                (VP (MD could) (RB not)
+                  (ADVP (RB possibly))
+                  (VP (VB have)
+                    (VP (VBN compared)
+                      (PP (IN with)
+                        (NP
+                          (NP (DT the) (JJ silken) (NN pearl))
+                          (: -)
+                          (NP
+                            (NP
+                              (NP (VBN coloured) (NN membrane))
+                              (, ,)
+                              (PP (IN like)
+                                (NP
+                                  (NP (DT the) (NN lining))
+                                  (PP (IN of)
+                                    (NP (DT a) (JJ fine) (NN pelisse)))))
+                              (, ,))
+                            (VP (VBG forming)
+                              (NP
+                                (NP (DT the) (JJ inner) (NN surface))
+                                (PP (IN of)
+                                  (NP (DT the) (NN Sperm) (NN Whale))))
+                              ('' ')
+                              (NP (NNS s) (NN case)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD will)
+        (VP (VB have)
+          (VP (VBN been)
+            (VP (VBN seen)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT the) (NNP Heidelburgh) (NNP Tun))
+                    (PP (IN of)
+                      (NP (DT the) (NN Sperm) (NN Whale))))
+                  (VP (VBZ embraces)
+                    (NP
+                      (NP (DT the) (JJ entire) (NN length))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (JJ entire) (NN top))
+                          (PP (IN of)
+                            (NP (DT the) (NN head))))))))))))))
+    (: ;)
+    (CC and)
+    (S
+      (SBAR (IN since)
+        (PRN (: --)
+          (SBAR (IN as)
+            (S
+              (VP (VBZ has)
+                (VP (VBN been)
+                  (ADVP (RB elsewhere))
+                  (VP (VBN set)
+                    (ADVP (RB forth)))))))
+          (: --))
+        (S
+          (NP (DT the) (NN head))
+          (VP (VBZ embraces)
+            (NP
+              (NP (CD one) (NN third))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ whole) (NN length))
+                  (PP (IN of)
+                    (NP (DT the) (NN creature)))))
+              (, ,)
+              (VP
+                (ADVP (RB then))
+                (VBG setting) (IN that)
+                (NP (NN length))
+                (PP (RB down) (IN at)
+                  (NP
+                    (NP (CD eighty) (NNS feet))
+                    (PP (IN for)
+                      (NP (DT a) (JJ good) (VBN sized) (NN whale))))))))))
+      (, ,)
+      (NP (PRP you))
+      (VP (VBP have)
+        (NP
+          (NP
+            (QP (JJR more) (IN than) (CD twenty)))
+          (: -)
+          (NP
+            (NP (CD six) (NNS feet))
+            (PP (IN for)
+              (NP
+                (NP (DT the) (NN depth))
+                (PP (IN of)
+                  (NP (DT the) (NN tun)))))))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (JJ lengthwise)
+                (SBAR
+                  (S
+                    (VP (VBD hoisted)
+                      (PRT (RP up)
+                        (CC and)
+                        (RP down))
+                      (PP (IN against)
+                        (NP
+                          (NP (DT a) (NN ship) (POS '))
+                          (NNS s) (NN side))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (IN As)
+        (PP (IN in)
+          (S
+            (VP (VBG decapitating)
+              (NP (DT the) (NN whale))))))
+      (, ,)
+      (NP
+        (NP (DT the) (NN operator) (POS '))
+        (NNS s) (NN instrument))
+      (VP (VBZ is)
+        (VP (VBN brought)
+          (ADVP (RB close)
+            (PP (TO to)
+              (NP (DT the) (NN spot))))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT an) (NN entrance))
+              (VP (VBZ is)
+                (ADVP (RB subsequently))
+                (VP (VBN forced)
+                  (PP (IN into)
+                    (NP (DT the) (NNS spermaceti) (NN magazine))))))))))
+    (: ;)
+    (S
+      (NP (PRP he))
+      (VP (VBZ has) (, ,)
+        (ADVP (RB therefore))
+        (, ,)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (RB uncommonly) (JJ heedful))
+              (, ,)
+              (SBAR (IN lest)
+                (S
+                  (NP (DT a) (JJ careless) (, ,) (JJ untimely) (NN stroke))
+                  (VP (MD should)
+                    (VP
+                      (VP (VB invade)
+                        (NP (DT the) (NN sanctuary)))
+                      (CC and)
+                      (VP
+                        (ADVP (RB wastingly))
+                        (VB let)
+                        (PRT (RP out))
+                        (NP (PRP$ its) (JJ invaluable) (NNS contents))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT this)
+            (ADJP (JJ decapitated))
+            (NN end))
+          (PP (IN of)
+            (NP
+              (NP
+                (NP (DT the) (NN head))
+                (, ,)
+                (ADVP (RB also)))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBZ is)
+                    (PP (IN at)
+                      (NP (JJ last) (JJ elevated))))))))
+          (ADJP (IN out)
+            (PP (IN of)
+              (NP (DT the) (NN water))))
+          (, ,)
+          (CC and)
+          (VP (VBN retained)
+            (PP (IN in)
+              (NP (DT that) (NN position)))
+            (PP (IN by)
+              (NP
+                (NP (DT the) (JJ enormous) (VBG cutting))
+                (VP (VBZ tackles)))))
+          (, ,)
+          (SBAR (WP$ whose)
+            (S
+              (NP
+                (NP (NN hempen) (NNS combinations))
+                (, ,)
+                (PP (IN on)
+                  (NP (CD one) (NN side)))
+                (, ,))
+              (VP (VBP make)
+                (NP
+                  (NP (RB quite) (DT a) (NN wilderness))
+                  (PP (IN of)
+                    (NP (NNS ropes))))))))
+        (PP (IN in)
+          (NP (DT that) (NN quarter)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (PP (RB much)
+      (S
+        (VP (VBG being)
+          (VP (VBD said)))))
+    (PRN (, ,)
+      (S
+        (VP (VB attend)
+          (ADVP (RB now))))
+      (, ,))
+    (NP (PRP I))
+    (VP (VBP pray)
+      (NP (PRP you))
+      (, ,)
+      (PP (TO to)
+        (NP
+          (NP (DT that)
+            (ADJP
+              (ADJP (JJ marvellous))
+              (CC and)
+              (PRN (: --)
+                (PP (IN in)
+                  (NP (DT this) (JJ particular) (NN instance)))
+                (: --))
+              (ADJP (RB almost) (JJ fatal)))
+            (NN operation))
+          (PP (IN whereby)
+            (NP
+              (NP (DT the) (NN Sperm) (NN Whale) ('' ') (NNS s))
+              (SBAR
+                (S
+                  (NP (JJ great) (NNP Heidelburgh) (NNP Tun))
+                  (VP (VBZ is)
+                    (VP (VBN tapped))))))))))
+    (. .)))
+~~~~~~

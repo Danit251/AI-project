@@ -1,0 +1,232 @@
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NN SULPHUR))
+    (: -)
+    (NP (NN BOTTOM))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ is)
+        (ADVP (RB seldom))
+        (VP (VBN seen))))
+    (: ;)
+    (S
+      (ADVP (IN at) (JJS least))
+      (NP (PRP I))
+      (VP (VBP have)
+        (ADVP (RB never))
+        (VP (VBN seen)
+          (NP (PRP him))
+          (PP
+            (PP (IN except)
+              (PP (IN in)
+                (NP (DT the) (NN remoter) (JJ southern) (NNS seas))))
+            (, ,)
+            (CC and)
+            (RB then)
+            (PP
+              (ADVP (RB always))
+              (IN at)
+              (NP
+                (ADJP (RB too) (JJ great))
+                (DT a) (NN distance))))
+          (S
+            (VP (TO to)
+              (VP (VB study)
+                (SBAR
+                  (S
+                    (NP (PRP$ his))
+                    (VP (VBP countenance))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ is)
+        (ADVP (RB never))
+        (VP (VBN chased))))
+    (: ;)
+    (S
+      (NP (PRP he))
+      (VP (MD would)
+        (VP (VB run)
+          (ADVP (RB away))
+          (SBAR
+            (PP (IN with)
+              (NP (NN rope))
+              (: -))
+            (S
+              (VP (VBZ walks)
+                (PP (IN of)
+                  (NP (NN line)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNS Prodigies))
+    (VP (VBP are)
+      (VP (VBN told)
+        (PP (IN of)
+          (NP (PRP him)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NNP Adieu))
+    (, ,)
+    (NP (NNP Sulphur) (NNP Bottom))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD can)
+      (VP (VB say)
+        (ADJP
+          (ADJP (NN nothing) (JJR more))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP
+                (VP (VBZ is)
+                  (ADJP (JJ true)
+                    (PP (IN of)
+                      (NP (PRP ye)))))
+                (, ,)
+                (CC nor)
+                (VP (MD can))))))
+        (NP (DT the) (JJS oldest) (NN Nantucketer))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (ADVP (RB Thus))
+    (VP (VBZ ends)
+      (NP (NN BOOK)))
+    (NP (PRP I))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NN FOLIO) (-RRB- -RRB-))
+      (, ,)
+      (CC and)
+      (NP (RB now)))
+    (VP (VBZ begins)
+      (NP (NN BOOK) (CD II)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG (-LRB- -LRB-)
+    (NP (NNP OCTAVO))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (NP (NNS OCTAVOES) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (X (SYM *))
+    (: --)
+    (NP (DT These))
+    (VP (VBP embrace)
+      (S
+        (NP
+          (NP
+            (NP (DT the) (NNS whales))
+            (PP (IN of)
+              (NP (JJ middling) (NN magnitude))))
+          (, ,)
+          (PP (IN among)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (JJ present))
+                (VP (MD may)
+                  (VP (VB be)
+                    (VP (VBN numbered)))))))
+          (: :)))
+      (: --)
+      (NP (PRP I)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR
+      (X (SYM *))
+      (S
+        (ADVP (WRB Why))
+        (NP
+          (NP (DT this) (NN book))
+          (PP (IN of)
+            (NP (NNS whales))))
+        (VP (VBZ is) (RB not)
+          (ADJP (VBN denominated)))))
+    (NP (DT the) (NNP Quarto))
+    (VP (VBZ is)
+      (ADJP (RB very) (JJ plain)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Because))
+    (, ,)
+    (S
+      (SBAR (IN while)
+        (S
+          (NP
+            (NP (DT the) (NNS whales))
+            (PP (IN of)
+              (NP
+                (NP (DT this) (NN order))
+                (PRN (, ,)
+                  (SBAR (IN though)
+                    (FRAG
+                      (ADJP (JJR smaller)
+                        (PP (IN than)
+                          (NP
+                            (NP (DT those))
+                            (PP (IN of)
+                              (NP (DT the) (JJ former) (NN order))))))))
+                  (, ,)))))
+          (ADVP (RB nevertheless))
+          (VP (VB retain)
+            (NP (DT a) (JJ proportionate) (NN likeness))
+            (PP (TO to)
+              (NP
+                (NP
+                  (NP (PRP them))
+                  (PP (IN in)
+                    (NP (NN figure))))
+                (, ,) (RB yet)
+                (NP
+                  (NP (DT the) (NN bookbinder) (POS '))
+                  (NNS s)))))))
+      (NP
+        (NP (JJ Quarto) (NN volume))
+        (PP (IN in)
+          (NP (PRP$ its) (JJ dimensioned) (NN form))))
+      (VP (VBZ does) (RB not)
+        (VP (VB preserve)
+          (NP
+            (NP (DT the) (NN shape))
+            (PP (IN of)
+              (NP (DT the) (NNP Folio) (NN volume)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NNP Octavo) (NN volume))
+      (VP (VBZ does)))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (CD II))
+    (. .)))
+~~~~~~

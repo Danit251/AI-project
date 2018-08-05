@@ -1,0 +1,15 @@
+(ROOT
+  (S
+    (S
+      (VP (VBG Waking)))
+    (: --)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (ADVP (RB really))
+      (VP (VBD WAS)
+        (NP (DT a) (NN kitten))
+        (, ,)
+        (ADVP (IN after) (DT all))))
+    (. .)))
+~~~~~~

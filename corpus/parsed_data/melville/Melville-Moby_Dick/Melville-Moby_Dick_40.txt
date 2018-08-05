@@ -1,0 +1,230 @@
+(ROOT
+  (FRAG (-LRB- -LRB-)
+    (NP (NNP BLACK) (NN FISH))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB Where))
+      (S
+        (NP (DT any) (NN name))
+        (VP (VBZ happens)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ vague)
+                  (CC or)
+                  (JJ inexpressive))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP
+      (VP (MD shall)
+        (VP (VB say)
+          (ADVP (RB so))))
+      (, ,)
+      (CC and)
+      (VP (VBP suggest)
+        (NP (DT another))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do)
+      (ADVP (RB so) (RB now))
+      (, ,)
+      (S
+        (VP (VBG touching)
+          (NP
+            (NP (DT the) (JJ Black) (NN Fish))
+            (, ,)
+            (RRC
+              (ADVP (RB so) (: -))
+              (VP (VBN called) (, ,)
+                (SBAR (IN because)
+                  (S
+                    (NP (NN blackness))
+                    (VP (VBZ is)
+                      (NP
+                        (NP (DT the) (NN rule))
+                        (PP (IN among)
+                          (NP
+                            (QP (RB almost) (DT all))
+                            (NNS whales)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB So))
+    (, ,)
+    (VP (VB call)
+      (NP (PRP him))
+      (NP
+        (NP (DT the) (NNP Hyena) (NNP Whale))
+        (, ,)
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VB please))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP$ His) (NN voracity))
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (RB well) (VBN known))
+          (PRN (, ,)
+            (CC and)
+            (PP (IN from)
+              (NP (DT the) (NN circumstance))))
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (DT the) (JJ inner) (NNS angles))
+                (PP (IN of)
+                  (NP (PRP$ his) (NNS lips))))
+              (VP (VBP are)
+                (NP (JJ curved) (NNS upwards))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ carries)
+      (NP
+        (NP (DT an) (JJ everlasting) (JJ Mephistophelean) (NN grin))
+        (PP (IN on)
+          (NP (PRP$ his) (NN face)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (DT This) (NN whale) (NNS averages))
+    (NP
+      (NP (DT some) (CD sixteen)
+        (CC or)
+        (CD eighteen) (NNS feet))
+      (PP (IN in)
+        (NP (NN length))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBN found)
+        (PP (IN in)
+          (NP
+            (QP (RB almost) (DT all))
+            (NNS latitudes)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (NP
+        (NP (DT a) (JJ peculiar) (NN way))
+        (PP (IN of)
+          (S
+            (VP (VBG showing)
+              (SBAR
+                (S
+                  (NP (PRP$ his) (NN dorsal))
+                  (VP (VBD hooked)
+                    (NP (NN fin))
+                    (PP (IN in)
+                      (NP
+                        (NP (NN swimming))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (VP (VBZ looks)
+                              (NP
+                                (NP (NN something))
+                                (PP (IN like)
+                                  (NP (DT a) (JJ Roman) (NN nose)))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (S
+      (SBAR
+        (WHADVP (WRB When))
+        (S
+          (VP
+            (ADVP (RB not) (RBR more) (RB profitably))
+            (VBN employed))))
+      (, ,)
+      (NP (DT the) (NN sperm) (NN whale) (NNS hunters))
+      (VP
+        (ADVP (RB sometimes))
+        (VBP capture)
+        (NP (DT the) (NN Hyena) (NN whale))
+        (, ,)
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (PRT (RP up))
+              (NP
+                (NP (DT the) (NN supply))
+                (PP (IN of)
+                  (NP (JJ cheap) (NN oil))))
+              (PP (IN for)
+                (NP (JJ domestic) (NN employment)))
+              (: --)
+              (PP (IN as)
+                (NP (DT some) (JJ frugal) (NNS housekeepers)))
+              (, ,)
+              (PP
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN absence))
+                    (PP (IN of)
+                      (NP (NN company)))))
+                (, ,)
+                (CC and)
+                (ADVP (RB quite) (RB alone))
+                (PP (IN by)
+                  (NP (PRP themselves)))))))))
+    (, ,)
+    (VP (VBP burn)
+      (ADJP (JJ unsavory)))
+    (NP
+      (NP (NN tallow))
+      (PP (RB instead) (IN of)
+        (NP (JJ odorous) (NN wax))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR (IN Though)
+      (S
+        (NP (PRP$ their) (NN blubber))
+        (VP (VBZ is)
+          (ADJP (RB very) (JJ thin)))))
+    (, ,)
+    (NP
+      (NP (DT some))
+      (PP (IN of)
+        (NP (DT these) (NNS whales))))
+    (VP (MD will)
+      (VP (VB yield)
+        (S
+          (NP (PRP you))
+          (NP
+            (NP (NNS upwards))
+            (PP (IN of)
+              (NP
+                (NP (CD thirty) (NNS gallons))
+                (PP (IN of)
+                  (NP (NN oil)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (CD II))
+    (. .)))
+~~~~~~

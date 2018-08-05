@@ -1,0 +1,288 @@
+(ROOT
+  (FRAG (-LRB- -LRB-)
+    (NP (NN RIGHT) (NN WHALE))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ yields)
+      (NP
+        (NP
+          (NP (DT the) (NN article))
+          (VP
+            (ADVP (RB commonly))
+            (VBN known)
+            (PP (IN as)
+              (NP (NN whalebone)
+                (CC or)
+                (NN baleen)))))
+        (: ;)
+        (CC and)
+        (NP
+          (NP (DT the) (NN oil))
+          (ADJP (RB specially) (VBN known))))
+      (PP (IN as) ('' '')
+        (NP
+          (NP (NN whale) (NN oil))
+          (, ,) ('' '')
+          (NP
+            (NP (DT an) (JJ inferior) (NN article))
+            (PP (IN in)
+              (NP (NN commerce)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Among)
+      (NP (DT the) (NNS fishermen)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ is)
+      (ADVP (RB indiscriminately))
+      (VP (VBN designated)
+        (PP (IN by)
+          (NP (PDT all) (DT the)))
+        (PP (VBG following)
+          (NP
+            (NP (NNS titles))
+            (: :)
+            (NP (DT The) (NN Whale))
+            (: ;)
+            (NP (DT the) (NNP Greenland) (NNP Whale))
+            (: ;)
+            (NP (DT the) (JJ Black) (NN Whale))
+            (: ;)
+            (NP (DT the) (NNP Great) (NNP Whale))
+            (: ;)
+            (NP (DT the) (JJ True) (NN Whale))
+            (: ;)
+            (NP (DT the) (NNP Right) (NNP Whale))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN deal))
+        (PP (IN of)
+          (NP
+            (NP (NN obscurity))
+            (PP (VBG concerning)
+              (NP
+                (NP (DT the) (NN identity))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NNS species))
+                    (VP (RB thus)
+                      (ADVP (RB multitudinously))
+                      (VBN baptised))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHNP (WDT What))
+    (SQ
+      (VP
+        (ADVP (RB then))
+        (VBZ is)
+        (NP
+          (NP (DT the) (NN whale))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (NP (PRP I))
+              (VP (VBP include)
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (JJ second) (NNS species))
+                    (PP (IN of)
+                      (NP (PRP$ my) (NNS Folios)))))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT the) (JJ Great) (NN Mysticetus))
+          (PP (IN of)
+            (NP (DT the) (NNP English) (NNS naturalists))))
+        (: ;)
+        (NP
+          (NP
+            (NP (DT the) (NNP Greenland) (NNP Whale))
+            (PP (IN of)
+              (NP (DT the) (NNP English) (NN whalemen))))
+          (: ;)
+          (NP
+            (NP (DT the) (NNP Baliene) (NNP Ordinaire))
+            (PP (IN of)
+              (NP (DT the) (JJ French) (NN whalemen))))
+          (: ;)
+          (NP
+            (NP (DT the) (NNPS Growlands) (NNP Walfish))
+            (PP (IN of)
+              (NP (DT the) (NNS Swedes)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (NN whale))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (PP (IN for)
+                (NP
+                  (QP (JJR more) (IN than) (CD two))
+                  (NNS centuries) (NN past)))
+              (VP (VBZ has)
+                (VP (VBN been)
+                  (VP (VBN hunted)
+                    (PP (IN by)
+                      (NP (DT the) (NNP Dutch)
+                        (CC and)
+                        (NNP English)))
+                    (PP (IN in)
+                      (NP (DT the) (NNP Arctic) (NNS seas)))))))))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (NP
+          (NP
+            (NP (DT the) (NN whale))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (DT the) (JJ American) (NNS fishermen))
+                (VP
+                  (VP (VBP have)
+                    (ADVP (RB long))
+                    (VP (VBN pursued)
+                      (PP (IN in)
+                        (NP (DT the) (JJ Indian) (NN ocean)))
+                      (, ,)
+                      (PP (IN on)
+                        (NP (DT the) (NNP Brazil) (NNPS Banks)))
+                      (, ,)
+                      (PP (IN on)
+                        (NP (DT the)))))
+                  (CC Nor)
+                  (VP ('' ')
+                    (NP-TMP (NNP West) (NNP Coast)))))))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (JJ various) (JJ other) (NNS parts))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN world))
+                (, ,)
+                (VP (VBN designated)
+                  (PP (IN by)
+                    (NP (PRP them)))
+                  (PP (RB Right)
+                    (NP (NNP Whale) (NNP Cruising) (NNPS Grounds))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT Some) (JJ pretend))
+    (VP (TO to)
+      (VP (VB see)
+        (NP
+          (NP (DT a) (NN difference))
+          (PP (IN between)
+            (NP
+              (NP
+                (NP (DT the) (NNP Greenland) (NN whale))
+                (PP (IN of)
+                  (NP (DT the) (NNP English))))
+              (CC and)
+              (NP
+                (NP (DT the) (JJ right) (NN whale))
+                (PP (IN of)
+                  (NP (DT the) (NNPS Americans)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (NP (PRP they))
+    (ADVP (RB precisely))
+    (VP
+      (VP (VBP agree)
+        (PP (IN in)
+          (NP (DT all) (PRP$ their) (JJ grand) (NNS features))))
+      (: ;)
+      (CC nor)
+      (VP (VBZ has)
+        (ADVP (RB there) (RB yet))
+        (VP (VBN been)
+          (VP (VBN presented)
+            (NP (DT a) (JJ single) (JJ determinate) (NN fact))
+            (PP (IN upon)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (TO to)
+                    (VP (VB ground)
+                      (NP (DT a) (JJ radical) (NN distinction)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (PP (IN by)
+        (NP
+          (NP (JJ endless) (NNS subdivisions))
+          (VP (VBN based)
+            (PP (IN upon)
+              (NP
+                (NP (DT the) (RBS most) (JJ inconclusive) (NNS differences))
+                (, ,)
+                (SBAR (IN that)
+                  (S
+                    (NP
+                      (NP (DT some) (NNS departments))
+                      (PP (IN of)
+                        (NP (JJ natural) (NN history))))
+                    (VP (VBN become)
+                      (ADJP (RB so) (RB repellingly) (JJ intricate)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ right) (NN whale))
+    (VP (MD will)
+      (VP (VB be)
+        (VP
+          (ADVP (RB elsewhere))
+          (VBN treated)
+          (PP (IN of)
+            (PP (IN at)
+              (NP (DT some) (NN length))))
+          (, ,)
+          (PP (IN with)
+            (NP
+              (NP (NN reference))
+              (PP (TO to)
+                (S
+                  (VP (VBG elucidating)
+                    (NP (DT the) (NN sperm) (NN whale))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (NN I))
+    (. .)))
+~~~~~~

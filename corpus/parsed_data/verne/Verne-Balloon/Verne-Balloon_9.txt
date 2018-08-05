@@ -1,0 +1,1965 @@
+(ROOT
+  (FRAG
+    (NP (JJ Former) (NNS Experiments))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN attempt))
+        (SBAR
+          (S
+            (VP (VBZ has)
+              (ADVP (RB often))
+              (VP (VBN been)
+                (VP (VBN made)))))))
+      (, ,)
+      (NP (NNS gentlemen))
+      (, ,))
+    (VP (VBD said)
+      (NP (DT the) (NN doctor))
+      (, ,)
+      (S
+        (VP (TO to)
+          (VP (VB rise)
+            (CC and)
+            (VB descend)
+            (SBAR
+              (PP (IN at))
+              (S
+                (VP (MD will))))
+            (, ,)
+            (PP (IN without)
+              (S
+                (VP (VBG losing)
+                  (NP (NN ballast)
+                    (CC or)
+                    (NN gas))
+                  (PP (IN from)
+                    (NP (DT the) (NN balloon))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (DT A) (JJ French) (NN aeronaut))
+    (, ,)
+    (NP (NN M))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Meunier) (, ,))
+    (VP (VBD tried)
+      (S
+        (VP (TO to)
+          (VP (VB accomplish)
+            (NP (DT this))
+            (PP (IN by)
+              (S
+                (VP (VBG compressing)
+                  (NP (NN air))
+                  (PP (IN in)
+                    (NP (DT an) (JJ inner) (NN receptacle))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (DT A) (JJ Belgian))
+    (, ,)
+    (NP (NN Dr))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (NNP Van) (NNP Hecke))
+      (, ,)
+      (PP (IN by)
+        (NP
+          (NP (NNS means))
+          (PP (IN of)
+            (NP (NNS wings)
+              (CC and)
+              (NNS paddles)))))
+      (, ,)
+      (VP (VBD obtained)
+        (NP
+          (NP (DT a) (JJ vertical) (NN power))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD would)
+                (VP (VB have)
+                  (VP (VBN sufficed)
+                    (PP (IN in)
+                      (NP (JJS most) (NNS cases)))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (JJ practical) (NNS results))
+        (VP (VBN secured)
+          (PP (IN from)
+            (NP (DT these) (NNS experiments)))))
+      (VP (VBP have)
+        (VP (VBN been)
+          (ADJP (JJ insignificant)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (ADVP (RB therefore))
+      (VP (VBD resolved)
+        (S
+          (VP (TO to)
+            (VP (VB go)
+              (PP (IN about)
+                (NP (DT the) (NN thing)))
+              (ADVP (RBR more) (RB directly)))))))
+    (: ;)
+    (S
+      (ADVP (RB so))
+      (, ,)
+      (PP (IN at)
+        (NP (DT the) (NN start)))
+      (, ,)
+      (NP (PRP I))
+      (VP (VBD dispensed)
+        (PP (IN with)
+          (NP (NN ballast))
+          (ADVP (RB altogether)))
+        (, ,)
+        (S
+          (VP (VBG excepting)
+            (PP (IN as)
+              (NP
+                (NP
+                  (NP (DT a) (NN provision))
+                  (PP (IN for)
+                    (NP
+                      (NP (NNS cases))
+                      (PP (IN of)
+                        (NP (JJ special) (NN emergency))))))
+                (, ,)
+                (PP (JJ such) (IN as)
+                  (NP
+                    (NP (DT the) (NN breakage))
+                    (PP (IN of)
+                      (NP (PRP$ my) (NN apparatus)))))
+                (, ,)
+                (CC or)
+                (NP
+                  (NP (DT the) (NN necessity))
+                  (PP (IN of)
+                    (S
+                      (VP (VBG ascending)
+                        (ADVP (RB very)
+                          (ADVP (RB suddenly)))))))))))
+        (, ,)
+        (SBAR (RB so) (IN as)
+          (S
+            (VP (TO to)
+              (VP (VB avoid)
+                (NP (JJ unforeseen) (NNS obstacles))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NNS means))
+      (PP (IN of)
+        (NP (NN ascent)
+          (CC and)
+          (NN descent))))
+    (VP
+      (VP (VBP consist)
+        (ADVP (RB simply))
+        (PP (IN in)
+          (S
+            (VP (VBG dilating)
+              (CC or)
+              (VBG contracting)
+              (NP
+                (NP (DT the) (NN gas))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ is)
+                      (PP (IN in)
+                        (NP (DT the) (NN balloon)))
+                      (PP (IN by)
+                        (NP
+                          (NP (DT the) (NN application))
+                          (PP (IN of)
+                            (NP (JJ different) (NNS temperatures)))))))))))))
+      (, ,)
+      (CC and)
+      (VP
+        (ADVP (RB here))
+        (VBZ is)
+        (NP
+          (NP (DT the) (NN method))
+          (PP (IN of)
+            (S
+              (VP (VBG obtaining)
+                (PP (IN that)
+                  (NP (NN result)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBD saw)
+      (S
+        (NP (PRP me))
+        (VP (VB bring)
+          (PRT (RP on))
+          (NP
+            (NP (NN board))
+            (PP (IN with)
+              (NP
+                (NP (DT the) (NN car) (JJ several) (NNS cases)
+                  (CC or)
+                  (NNS receptacles))
+                (, ,)
+                (NP
+                  (NP (DT the) (NN use))
+                  (SBAR
+                    (WHPP (IN of)
+                      (WHNP (WDT which)))
+                    (S
+                      (NP (PRP you))
+                      (VP (MD may) (RB not)
+                        (VP (VB have)
+                          (VP (VBN understood)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP
+        (NP (CD five))
+        (PP (IN in)
+          (NP (NN number)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ first))
+      (VP (VBZ contains)
+        (PP (IN about)
+          (NP
+            (NP (CD twenty))
+            (: -)
+            (NP
+              (NP (CD five) (NNS gallons))
+              (PP (IN of)
+                (NP
+                  (NP (NN water))
+                  (, ,)
+                  (SBAR
+                    (WHPP (TO to)
+                      (WHNP (WDT which)))
+                    (S
+                      (NP (PRP I))
+                      (VP (VBP add)
+                        (NP
+                          (NP (DT a) (JJ few) (NNS drops))
+                          (PP (IN of)
+                            (NP (JJ sulphuric) (NN acid))))
+                        (, ,)
+                        (SBAR (RB so) (IN as)
+                          (S
+                            (VP (TO to)
+                              (VP (VB augment)
+                                (NP (PRP$ its) (NN capacity))
+                                (PP (IN as)
+                                  (NP
+                                    (NP (DT a) (NN conductor))
+                                    (PP (IN of)
+                                      (NP (NN electricity)))))))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (ADVP (RB then))
+      (NP (PRP I))
+      (VP (VBP decompose)
+        (NP (PRP it))
+        (PP (IN by)
+          (NP
+            (NP (NNS means))
+            (PP (IN of)
+              (NP (DT a) (JJ powerful) (NNP Buntzen) (NN battery)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN Water))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (NP (PRP you))
+          (VP (VBP know))))
+      (, ,))
+    (VP (VBZ consists)
+      (PP (IN of)
+        (NP
+          (NP (CD two) (NNS parts))
+          (PP (IN of)
+            (NP (NN hydrogen)))))
+      (PP (TO to)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP (NN oxygen) (NN gas))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ latter))
+      (, ,)
+      (PP (IN through)
+        (NP
+          (NP (DT the) (NN action))
+          (PP (IN of)
+            (NP (DT the) (NN battery)))))
+      (, ,))
+    (VP (VBZ passes)
+      (PP (IN at)
+        (NP (PRP$ its) (JJ positive) (NN pole)))
+      (PP (IN into)
+        (NP (DT the) (JJ second) (NN receptacle))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ third) (NN receptacle))
+      (, ,)
+      (VP (VBN placed)
+        (PP
+          (PP (IN above)
+            (NP (DT the) (JJ second) (CD one)))
+          (, ,)
+          (CC and)
+          (PP (IN of)
+            (ADVP (JJ double))
+            (NP (PRP$ its) (NN capacity)))))
+      (, ,))
+    (VP (VBZ receives)
+      (NP
+        (NP (DT the) (NN hydrogen))
+        (VP (VBG passing)
+          (PP (IN into)
+            (NP (PRP it)))
+          (PP (IN by)
+            (NP (DT the) (JJ negative) (NN pole))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Stopcocks))
+      (, ,)
+      (SBAR
+        (WHPP (IN of)
+          (WHNP (WDT which)))
+        (S
+          (NP (PRP one))
+          (VP (VBZ has)
+            (NP
+              (NP (DT an) (NN orifice))
+              (ADVP (RB twice)
+                (NP (DT the) (NN size)))
+              (PP (IN of)
+                (NP (DT the) (JJ other)))))))
+      (, ,))
+    (VP (VBP communicate)
+      (PP (IN between)
+        (NP
+          (NP (DT these) (NNS receptacles))
+          (CC and)
+          (NP
+            (NP (DT a) (JJ fourth) (CD one))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is)
+                  (VP (VBN called)
+                    (NP (DT the) (NN mixture) (NN reservoir))
+                    (, ,)
+                    (SBAR (IN since)
+                      (S
+                        (PP (IN in)
+                          (NP (PRP it)))
+                        (NP
+                          (NP (DT the) (CD two) (NNS gases))
+                          (VP (VBN obtained)
+                            (PP (IN by)
+                              (NP
+                                (NP (DT the) (NN decomposition))
+                                (PP (IN of)
+                                  (NP (DT the) (NN water)))))
+                            (S
+                              (VP (VB do)
+                                (ADVP (RB really))))))
+                        (VP (VBP commingle))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN capacity))
+      (PP (IN of)
+        (NP (DT this) (JJ fourth) (NN tank))))
+    (VP (VBZ is)
+      (ADVP (IN about)
+        (NP (CD forty)))
+      (: -)
+      (NP (CD one) (JJ cubic) (NNS feet)))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (PP (IN On)
+      (NP
+        (NP (DT the) (JJ upper) (NN part))
+        (PP (IN of)
+          (NP (DT this) (NN tank)))))
+    (VP (VBZ is))
+    (NP
+      (NP (DT a) (NN platinum) (NN tube))
+      (PP (VBN provided)
+        (PP (IN with)
+          (NP (DT a) (NN stopcock)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD will)
+        (ADVP (RB now) (RB readily))
+        (VP (VB understand))))
+    (, ,)
+    (NP
+      (NP (NNS gentlemen))
+      (, ,)
+      (NP
+        (NP (DT the) (NN apparatus))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (VP (VBN described)
+                (PP (TO to)
+                  (NP (PRP you)))))))))
+    (VP (VBZ is)
+      (ADVP (RB really))
+      (NP (DT a) (NN gas) (NN cylinder)
+        (CC and)
+        (NN blow) (: -) (NN pipe))
+      (PP (IN for)
+        (NP (NN oxygen)
+          (CC and)
+          (NN hydrogen)))
+      (, ,)
+      (NP
+        (NP (DT the) (NN heat))
+        (PP (IN of)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ exceeds)
+                (NP
+                  (NP (DT that))
+                  (PP (IN of)
+                    (NP (DT a)
+                      (S
+                        (VP (VBP forge)))
+                      (NN fire))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT This))
+        (ADJP (JJ much) (JJ established))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP proceed)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (JJ second) (NN part))
+          (PP (IN of)
+            (NP (PRP$ my) (NN apparatus))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (IN From)
+        (NP
+          (NP (DT the) (JJS lowest) (NN part))
+          (PP (IN of)
+            (NP (PRP$ my) (NN balloon)))))
+      (, ,)
+      (NP (WDT which))
+      (VP (VBZ is)
+        (ADJP (RB hermetically) (VBN closed))))
+    (, ,)
+    (NP
+      (NP (NN issue))
+      (ADJP
+        (NP (CD two) (NNS tubes))
+        (NP (DT a) (JJ little))))
+    (VP (NN distance)
+      (ADVP (RB apart)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (CD one))
+    (VP (VBZ starts)
+      (PP (IN among)
+        (NP
+          (NP (DT the) (JJ upper) (NNS layers))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN hydrogen) (NN gas))
+              (, ,)
+              (NP (DT the) (JJ other))))))
+      (PP (IN amid)
+        (NP (DT the) (JJR lower) (NNS layers))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT These) (CD two) (NNS pipes))
+    (VP (VBP are)
+      (VP (VBN provided)
+        (PP (IN at)
+          (NP
+            (NP
+              (NP
+                (NP (NNS intervals))
+                (PP (IN with)
+                  (NP
+                    (NP (JJ strong) (NNS jointings))
+                    (PP (IN of)
+                      (NP (NN india))))))
+              (: -)
+              (S
+                (VP (NN rubber))))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBP enable)
+                  (S
+                    (NP (PRP them))
+                    (VP (TO to)
+                      (VP (VB move)
+                        (PP (IN in)
+                          (NP (NN harmony)))
+                        (PP (IN with)
+                          (NP
+                            (NP (DT the) (NNS oscillations))
+                            (PP (IN of)
+                              (NP (DT the) (NN balloon)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT Both))
+      (PP (IN of)
+        (NP (PRP them))))
+    (VP
+      (VP (VBP run)
+        (ADVP (RB down) (RB as) (RB far))
+        (PP (IN as)
+          (NP (DT the) (NN car))))
+      (, ,)
+      (CC and)
+      (VP (VBP lose)
+        (NP (PRP themselves))
+        (PP (IN in)
+          (NP
+            (NP (DT an) (NN iron) (NN receptacle))
+            (PP (IN of)
+              (NP
+                (NP (JJ cylindrical) (NN form))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBN called)
+                        (NP (DT the) (NN heat) (: -) (NN tank))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ latter))
+    (VP (VBZ is)
+      (VP (VBN closed)
+        (PP (IN at)
+          (NP (PRP$ its) (CD two) (NNS ends)))
+        (PP (IN by)
+          (NP
+            (NP (CD two) (JJ strong) (NNS plates))
+            (PP (IN of)
+              (NP (DT the) (JJ same) (NN metal)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN pipe))
+        (VP (VBG running)
+          (PP (IN from)
+            (NP
+              (NP (DT the) (JJR lower) (NN part))
+              (PP (IN of)
+                (NP (DT the) (NN balloon)))))))
+      (VP (VBZ runs)
+        (PP (IN into)
+          (NP (DT this) (JJ cylindrical) (NN receptacle)))
+        (PP (IN through)
+          (NP (DT the) (JJR lower) (NN plate)))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (VP
+        (VP
+          (VP (VBZ penetrates)
+            (NP (DT the) (JJ latter)))
+          (CC and)
+          (VP
+            (ADVP (RB then))
+            (VBZ takes)
+            (NP
+              (NP (DT the) (NN form))
+              (PP (IN of)
+                (NP (DT a) (JJ helicoidal))))))
+        (CC or)
+        (VP (VB screw) (: -)
+          (S
+            (NP
+              (NP (JJ shaped) (NN spiral))
+              (, ,)
+              (NP
+                (NP (DT the) (NNS rings))
+                (PP (IN of)
+                  (NP (WDT which))))
+              (, ,))
+            (VP (VBG rising)
+              (NP (CD one))
+              (PP (IN over)
+                (NP (DT the) (JJ other))))))
+        (, ,)
+        (VP (VBP occupy)
+          (NP
+            (NP (RB nearly) (DT the) (NN whole))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN height))
+                (PP (IN of)
+                  (NP (DT the) (NN tank)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Before)
+      (S
+        (ADVP (RB again))
+        (VP (VBG issuing)
+          (PP (IN from)
+            (NP (PRP it))))))
+    (, ,)
+    (NP (DT this) (NN spiral))
+    (VP (VBZ runs)
+      (PP (IN into)
+        (NP
+          (NP (DT a) (JJ small) (NN cone))
+          (PP (IN with)
+            (NP
+              (NP (DT a) (NN concave) (NN base))
+              (, ,)
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ is)
+                    (VP (VBN turned)
+                      (ADVP (RB downward))
+                      (PP (IN in)
+                        (NP
+                          (NP (DT the) (NN shape))
+                          (PP (IN of)
+                            (NP (DT a) (JJ spherical) (NN cap))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (NN top))
+            (PP (IN of)
+              (NP (DT this) (NN cone)))
+            (SBAR (IN that)
+              (FRAG
+                (NP (DT the) (JJ second) (NN pipe) (NNS issues))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ runs) (, ,)
+        (SBAR (IN as)
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (VP (VBN said) (, ,)
+                (PP (IN into)
+                  (NP
+                    (NP (DT the) (JJ upper) (NNS beds))
+                    (PP (IN of)
+                      (NP (DT the) (NN balloon)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJ spherical) (NN cap))
+        (PP (IN of)
+          (NP (DT the) (JJ small) (NN cone))))
+      (VP (VBZ is)
+        (PP (IN of)
+          (NP (NN platinum)))
+        (, ,)
+        (ADVP (RB so) (IN as))
+        (S (RB not)
+          (VP (TO to)
+            (VP (VB melt)
+              (PP (IN by)
+                (NP
+                  (NP (DT the) (NN action))
+                  (PP (IN of)
+                    (NP (DT the) (NN cylinder)
+                      (CC and)
+                      (NN blow) (: -) (NN pipe)))))
+              (, ,)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (JJ latter) (NN are))
+                  (VP (VBN placed)
+                    (PP (IN upon)
+                      (NP
+                        (NP (DT the) (NN bottom))
+                        (PP (IN of)
+                          (NP (DT the) (NN iron) (NN tank)))))
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (NN midst))
+                        (PP (IN of)
+                          (NP (DT the) (JJ helicoidal) (NN spiral)))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NN extremity))
+        (PP (IN of)
+          (NP (PRP$ their) (NN flame))))
+      (VP (MD will)
+        (ADVP (RB slightly))
+        (VP (VB touch)
+          (NP
+            (NP (DT the) (NN cap))
+            (PP (IN in)
+              (NP (NN question)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP You))
+    (ADVP (DT all))
+    (VP (VBP know) (, ,)
+      (NP (NNS gentlemen))
+      (, ,)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP
+            (NP (DT a) (NN calorifere))
+            (, ,)
+            (PP (TO to)
+              (NP (NN heat) (NNS apartments)))
+            (, ,))
+          (VP (VBZ is)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (PRP it))
+          (VP (VBZ acts)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN air))
+      (PP (IN of)
+        (NP (DT the) (NNS apartments))))
+    (VP
+      (VP (VBZ is)
+        (VP (VBN forced)
+          (S
+            (VP (TO to)
+              (VP (VB pass)
+                (PP (IN through)
+                  (NP (PRP$ its) (NNS pipes))))))))
+      (, ,)
+      (CC and)
+      (VP (VBZ is)
+        (ADVP (RB then))
+        (VP (VBN released)
+          (PP (IN with)
+            (NP (DT a) (VBN heightened) (NN temperature))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Well))
+    (, ,)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (ADVP (RB just))
+          (VP (VBN described)
+            (S
+              (VP (TO to)))))))
+    (NP (PRP you))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (NN nothing) (JJR more))
+        (CC nor)
+        (ADJP (JJR less)))
+      (PP (IN than)
+        (NP (DT a) (NN calorifere))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (WHNP (WP what))
+    (SQ (VBZ is)
+      (NP
+        (NP (PRP it))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ takes)
+              (NP (NN place)))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN cylinder))
+      (ADVP (RB once))
+      (VP (VBD lighted)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN hydrogen))
+      (PP
+        (PP (IN in)
+          (NP (DT the) (NN spiral)))
+        (CC and)
+        (PP (IN in)
+          (NP (DT the) (JJ concave) (NN cone)))))
+    (VP
+      (VP (VBZ becomes)
+        (ADJP (JJ heated)))
+      (, ,)
+      (CC and)
+      (VP
+        (ADVP (RB rapidly))
+        (VBZ ascends)
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN pipe))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBZ leads)
+                  (PP (TO to)
+                    (NP
+                      (NP (DT the) (JJ upper) (NN part))
+                      (PP (IN of)
+                        (NP (DT the) (NN balloon))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT A) (NN vacuum))
+      (VP (VBZ is)
+        (VP (VBN created)
+          (PP (IN below)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ attracts)
+        (NP
+          (NP (DT the) (NN gas))
+          (PP (IN in)
+            (NP (DT the) (JJR lower) (NNS parts))))))
+    (: ;)
+    (S
+      (NP (DT this))
+      (VP
+        (VP (VBZ becomes)
+          (ADJP (JJ heated))
+          (PP (IN in)
+            (NP (PRP$ its) (NN turn))))
+        (, ,)
+        (CC and)
+        (VP (VBZ is)
+          (VP
+            (ADVP (RB continually))
+            (VBN replaced)))))
+    (: ;)
+    (S
+      (ADVP (RB thus))
+      (, ,)
+      (NP
+        (NP (DT an)
+          (ADJP (RB extremely) (JJ rapid))
+          (NN current))
+        (PP (IN of)
+          (NP (NN gas))))
+      (VP (VBZ is)
+        (VP (VBN established)
+          (PP
+            (PP (IN in)
+              (NP (DT the) (NNS pipes)))
+            (CC and)
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN spiral))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP
+                      (NP (NNS issues))
+                      (PP (IN from)
+                        (NP
+                          (NP (DT the) (NN balloon))
+                          (CC and)
+                          (NP (RB then)))))
+                    (VP
+                      (VP (VBZ returns)
+                        (PP (TO to)
+                          (NP (PRP it))))
+                      (, ,)
+                      (CC and)
+                      (VP (VBZ is)
+                        (VP (VBN heated)
+                          (PRT (RP over))
+                          (ADVP (RB again))
+                          (, ,)
+                          (ADVP (RB incessantly)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP (DT the) (NNS cases))
+    (VP (VBP increase)
+      (FRAG
+        (NP (CD 1))
+        (: /)
+        (S
+          (NP
+            (NP (CD 480))
+            (PP (IN of)
+              (NP
+                (NP (PRP$ their) (NN volume))
+                (PP (IN for)
+                  (NP
+                    (NP (DT each) (NN degree))
+                    (PP (IN of)
+                      (NP (NN heat))))))))
+          (VP (VBD applied)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR (IN If)
+      (PRN (, ,)
+        (ADVP (RB then))
+        (, ,))
+      (S
+        (NP (PRP I))
+        (VP (VBP force)
+          (NP
+            (NP (DT the) (NN temperature))
+            (NP (CD 18) (NNS degrees))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN hydrogen))
+      (PP (IN of)
+        (NP (DT the) (NN balloon))))
+    (VP (MD will)
+      (VP (VB dilate)
+        (NP (CD 18))
+        (PRN (: /)
+          (NP
+            (NP (CD 480))
+            (CC or)
+            (NP (CD 1614) (JJ cubic) (NNS feet))))))
+    (, ,)
+    (CC and)
+    (VP (MD will) (, ,)
+      (ADVP (RB therefore))
+      (, ,)
+      (VP (VB displace)
+        (NP
+          (NP
+            (QP (CD 1614) (JJR more))
+            (JJ cubic) (NNS feet))
+          (PP (IN of)
+            (NP
+              (NP (NN air))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (MD will)
+                    (VP (VB increase)
+                      (NP (PRP$ its) (JJ ascensional) (NN power))
+                      (PP (IN by)
+                        (NP (CD 160) (NNS pounds))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADJP (JJ equivalent)
+        (PP (TO to)
+          (S
+            (VP (VBG throwing)
+              (PRT (RP out))
+              (PP (IN that)
+                (NP
+                  (NP (NN weight))
+                  (PP (IN of)
+                    (NP (NN ballast))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (PRP I))
+          (VP (VBP augment)
+            (NP (DT the) (NN temperature))
+            (PP (IN by)
+              (NP (CD 180) (NNS degrees))))))
+      (, ,)
+      (NP (DT the) (NN gas))
+      (VP
+        (VP (MD will)
+          (VP (VB dilate)
+            (NP
+              (NP (CD 180))
+              (PRN (: /)
+                (NP (CD 480))))))
+        (CC and)
+        (VP (MD will)
+          (VP (VB displace)
+            (NP
+              (NP (CD 16))
+              (, ,)
+              (ADVP
+                (NP (CD 740) (JJ cubic) (NNS feet))
+                (RBR more)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP$ its) (JJ ascensional) (NN force))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBN augmented)
+            (PP (IN by)
+              (NP
+                (NP (CD 1))
+                (, ,)
+                (NP (CD 600) (NNS pounds))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP see) (, ,)
+      (NP (NNS gentlemen))
+      (, ,)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (ADVP (RB easily))
+            (VP (VB effect)
+              (NP
+                (NP
+                  (ADJP (RB very) (JJ considerable))
+                  (NNS changes))
+                (PP (IN of)
+                  (NP (NN equilibrium)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN volume))
+      (PP (IN of)
+        (NP (DT the) (NN balloon))))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN calculated)
+          (PP (IN in)
+            (NP (JJ such) (NN manner)))
+          (SBAR (IN that) (, ,)
+            (S
+              (S
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (NN half))
+                    (VP (VBD inflated))))
+                (, ,)
+                (NP (PRP it))
+                (VP (VBZ displaces)
+                  (S
+                    (NP
+                      (NP (DT a) (NN weight))
+                      (PP (IN of)
+                        (NP (NN air))))
+                    (ADJP (RB exactly) (JJ equal)))
+                  (PP
+                    (PP (TO to)
+                      (NP
+                        (NP (DT that))
+                        (PP (IN of)
+                          (NP
+                            (NP (DT the) (NN envelope))
+                            (VP (VBG containing)
+                              (NP (DT the) (NN hydrogen) (NN gas)))))))
+                    (, ,)
+                    (CC and)
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NN car))
+                        (ADJP (VBN occupied)
+                          (PP (IN by)
+                            (NP (DT the) (NNS passengers)))))))))
+              (, ,)
+              (CC and)
+              (S
+                (NP (DT all))
+                (NP (PRP$ its) (NN apparatus)
+                  (CC and)
+                  (NNS accessories))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (DT this) (NN point))
+        (PP (IN of)
+          (NP (NN inflation)))))
+    (, ,)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (PP (IN in)
+          (NP
+            (NP (JJ exact) (NN equilibrium))
+            (PP (IN with)
+              (NP (DT the) (NN air)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT neither))
+      (VP
+        (VP (VBZ mounts))
+        (CC nor)
+        (VP (VBZ descends))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN order)))
+    (, ,)
+    (ADVP (RB then))
+    (, ,)
+    (S
+      (VP (TO to)
+        (VP (VB effect)
+          (NP (DT an) (NN ascent)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP give)
+      (NP (DT the) (NN gas))
+      (NP
+        (NP (DT a) (NN temperature))
+        (ADJP (JJ superior)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN temperature))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (VBG surrounding) (NN air))
+                  (PP (IN by)
+                    (NP
+                      (NP (NNS means))
+                      (PP (IN of)
+                        (NP (PRP$ my) (NN cylinder))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN By)
+      (NP
+        (NP (DT this) (NN excess))
+        (PP (IN of)
+          (NP (NN heat)))))
+    (NP (PRP it))
+    (VP
+      (VP (VBZ obtains)
+        (NP (DT a) (JJR larger) (NN distention)))
+      (, ,)
+      (CC and)
+      (VP (VBZ inflates)
+        (NP (DT the) (NN balloon))
+        (ADVP (RBR more))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ latter))
+    (, ,)
+    (ADVP (RB then))
+    (, ,)
+    (VP (VBZ ascends)
+      (PP (IN in)
+        (NP (NN proportion)))
+      (SBAR (IN as)
+        (S
+          (NP (PRP I))
+          (VP (VBP heat)
+            (NP (DT the) (NN hydrogen))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN descent))
+      (, ,)
+      (PP (IN of)
+        (NP (NN course)))
+      (, ,))
+    (VP (VBZ is)
+      (VP (VBN effected)
+        (PP (IN by)
+          (S
+            (VP
+              (VP (VBG lowering)
+                (NP
+                  (NP (DT the) (NN heat))
+                  (PP (IN of)
+                    (NP (DT the) (NN cylinder)))))
+              (, ,)
+              (CC and)
+              (VP (VBG letting)
+                (NP (DT the) (NN temperature) (NN abate))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN ascent))
+      (VP (MD would)
+        (VP (VB be) (, ,)
+          (ADVP (RB usually))
+          (, ,)
+          (ADJP (RBR more) (JJ rapid)
+            (PP (IN than)
+              (NP (DT the) (NN descent)))))))
+    (: ;)
+    (CC but)
+    (S
+      (NP (DT that))
+      (VP (VBZ is)
+        (NP (DT a)
+          (ADJP (JJ fortunate))
+          (NN circumstance))
+        (, ,)
+        (SBAR (IN since)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (PP (IN of)
+                (NP
+                  (NP (DT no) (NN importance))
+                  (PP (TO to)
+                    (NP (PRP me)))))
+              (S
+                (VP (TO to)
+                  (VP (VB descend)
+                    (ADVP (RB rapidly))))))))
+        (, ,)
+        (SBAR (IN while)
+          (S (, ,)
+            (PP (IN on)
+              (NP (DT the) (JJ other) (NN hand)))
+            (, ,)
+            (NP (PRP it))
+            (VP (VBZ is)
+              (PP (IN by)
+                (NP (DT a)
+                  (ADJP (RB very) (JJ rapid))
+                  (NN ascent)))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP avoid)
+                    (NP (NNS obstacles))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ real) (NN danger))
+      (VP (VBZ lurks)
+        (PP (IN below))))
+    (, ,)
+    (CC and)
+    (FRAG (RB not)
+      (ADVP (RB above)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (IN Besides))
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (VP (VBN said)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (JJ certain) (NN quantity))
+        (PP (IN of)
+          (NP
+            (NP (NN ballast))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (MD will)
+                  (VP (VB enable)
+                    (S
+                      (NP (PRP me))
+                      (VP (TO to)
+                        (VP
+                          (VP (VB ascend)
+                            (ADVP (RBR more) (RB rapidly))
+                            (ADVP (RB still)))
+                          (, ,)
+                          (FRAG
+                            (WHADVP (WRB when))
+                            (ADJP (JJ necessary))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NN valve))
+      (, ,)
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN top))
+          (PP (IN of)
+            (NP (DT the) (NN balloon)))))
+      (, ,))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (NN nothing) (JJR more))
+        (CC nor)
+        (ADJP (JJR less)))
+      (PP (IN than)
+        (NP (DT a) (NN safety) (: -) (NN valve))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN balloon))
+      (ADVP (RB always))
+      (VP (VBZ retains)
+        (NP
+          (NP (DT the) (JJ same) (NN quantity))
+          (PP (IN of)
+            (NP (NN hydrogen))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NNS variations))
+        (PP (IN of)
+          (NP
+            (NP (NN temperature))
+            (SBAR (IN that)
+              (S
+                (NP (PRP I))
+                (VP (VBP produce)
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (NN midst))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT this))
+                          (VP (VBN shut) (: -)
+                            (PP (IN up)
+                              (NP (NN gas))))))))))))))
+      (VP (VBP are) (, ,)
+        (PP (IN of)
+          (NP (PRP themselves)))
+        (, ,)
+        (ADJP (JJ sufficient)
+          (S
+            (VP (TO to)
+              (VP (VB provide)))))
+        (PP (IN for)
+          (S
+            (NP (DT all) (DT these))
+            (VP (VBG ascending)
+              (CC and)
+              (VBG descending)
+              (NP (NNS movements)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP
+      (NP
+        (NP (NNS gentlemen))
+        (, ,)
+        (UCP
+          (PP (IN as)
+            (NP (DT a) (JJ practical) (NN detail)))
+          (, ,)
+          (S
+            (VP (VB let)
+              (S
+                (NP (PRP me))
+                (VP (VB add)
+                  (NP
+                    (NP (DT this))
+                    (: :)
+                    (NP
+                      (NP (DT The) (NN combustion))
+                      (PP (IN of)
+                        (NP (DT the) (NN hydrogen)))))))))
+          (CC and)
+          (PP (IN of)
+            (NP (DT the) (NN oxygen)))))
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN point))
+          (PP (IN of)
+            (NP (DT the) (NN cylinder))))))
+    (VP (VBZ produces)
+      (NP
+        (NP (RB solely) (DT the) (NN vapor)
+          (CC or)
+          (NN steam))
+        (PP (IN of)
+          (NP (NN water)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP
+        (VP (VBP have))
+        (, ,)
+        (ADVP (RB therefore))
+        (, ,)
+        (VP (VBD provided)
+          (NP
+            (NP (DT the) (JJR lower) (NN part))
+            (PP (IN of)
+              (NP (DT the) (JJ cylindrical) (NN iron) (NN box))))
+          (PP (IN with)
+            (NP (DT a) (NN scape) (: -) (NN pipe)))
+          (, ,)
+          (PP (IN with)
+            (NP (DT a) (NN valve) (NN operating)))
+          (PP (IN by)
+            (NP
+              (NP (NNS means))
+              (PP (IN of)
+                (NP
+                  (NP (DT a) (NN pressure))
+                  (PP (IN of)
+                    (NP (CD two) (NNS atmospheres))))))))))
+    (: ;)
+    (S
+      (ADVP (RB consequently))
+      (, ,)
+      (SBAR
+        (ADVP (RB so) (RB soon))
+        (IN as)
+        (S
+          (NP
+            (NP (DT this) (NN amount))
+            (PP (IN of)
+              (NP (NN pressure))))
+          (VP (VBZ is)
+            (VP (VBN attained)))))
+      (, ,)
+      (NP (DT the) (NN steam))
+      (VP (VBZ escapes)
+        (PP (IN of)
+          (NP (PRP itself)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VBP are)
+    (NP
+      (NP (DT the) (JJ exact) (NNS figures))
+      (: :)
+      (NP
+        (NP (CD 25) (NNS gallons))
+        (PP (IN of)
+          (NP (NN water)))
+        (, ,)
+        (VP (VBN separated)
+          (PP (IN into)
+            (NP
+              (NP (PRP$ its) (JJ constituent) (NNS elements))
+              (, ,)
+              (NP
+                (NP (NN yield))
+                (NP
+                  (NP (CD 200) (NNS pounds))
+                  (PP (IN of)
+                    (NP (NN oxygen)))))
+              (CC and)
+              (NP
+                (NP (CD 25) (NNS pounds))
+                (PP (IN of)
+                  (NP (NN hydrogen)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ represents) (, ,)
+      (PP (IN at)
+        (NP
+          (NP (JJ atmospheric) (NN tension))
+          (, ,)
+          (NP (CD 1))
+          (, ,)
+          (NP
+            (NP (CD 800) (JJ cubic) (NNS feet))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (JJ former))
+                (CC and)
+                (NP (CD 3)))))
+          (, ,)
+          (NP
+            (NP (CD 780) (JJ cubic) (NNS feet))
+            (PP (IN of)
+              (NP (DT the) (JJ latter))))
+          (, ,)
+          (CC or)
+          (NP
+            (NP
+              (NP (CD 5))
+              (, ,)
+              (NP (CD 670) (JJ cubic) (NNS feet))
+              (, ,))
+            (PP (IN in)
+              (NP (DT all)))
+            (, ,)
+            (PP (IN of)
+              (NP (DT the) (NN mixture)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Hence))
+    (, ,)
+    (NP
+      (NP (DT the) (NN stopcock))
+      (PP (IN of)
+        (NP (PRP$ my) (NN cylinder))))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (ADJP (RB fully) (JJ open))))
+    (, ,)
+    (VP (VBZ expends)
+      (NP
+        (NP (CD 27) (JJ cubic) (NNS feet))
+        (PP (IN per)
+          (NP (NN hour))))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (DT a) (NN flame))
+          (ADVP (IN at) (JJS least))
+          (NP-TMP (CD six) (NNS times))))
+      (PP (IN as)
+        (NP
+          (ADJP (JJ strong)
+            (PP (IN as)
+              (NP
+                (NP (DT that))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ large) (NNS lamps))
+                    (VP (VBN used)
+                      (PP (IN for)
+                        (NP (NN lighting)))))))))
+          (NNS streets))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (DT an) (NN average))
+        (, ,)
+        (UCP
+          (NP (RB then))
+          (, ,)
+          (CC and)
+          (SBAR (IN in) (NN order)
+            (S
+              (VP (TO to)
+                (VP (VB keep)
+                  (NP (PRP myself))
+                  (PP (IN at)
+                    (NP (DT a)
+                      (ADJP (RB very) (JJ moderate))
+                      (NN elevation))))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD should) (RB not)
+      (VP (VB burn)
+        (NP
+          (NP
+            (QP (JJR more) (IN than) (CD nine))
+            (JJ cubic) (NNS feet))
+          (PP (IN per)
+            (NP (NN hour))))
+        (, ,)
+        (SBAR (RB so) (IN that)
+          (S
+            (NP
+              (NP (PRP$ my)
+                (NP
+                  (NP (CD twenty))
+                  (: -)
+                  (NP (CD five) (NNS gallons))))
+              (PP (IN of)
+                (NP (NN water))))
+            (VP (VBP represent)
+              (NP
+                (NP
+                  (QP (CD six) (CD hundred)))
+                (CC and)
+                (NP
+                  (NP
+                    (NP (CD thirty))
+                    (PRN (: -)
+                      (UCP
+                        (NP
+                          (NP (CD six) (NNS hours))
+                          (PP (IN of)
+                            (NP (JJ aerial) (NN navigation))))
+                        (, ,)
+                        (CC or)
+                        (ADJP
+                          (NP (DT a) (RB little))
+                          (JJR more)
+                          (PP (IN than)
+                            (NP (CD twenty)))))
+                      (: -)))
+                  (NP-TMP (CD six) (NNS days)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Well))
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (NP (PRP I))
+        (VP (MD can)
+          (VP (VB descend)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP I))
+                (VP (VB please))))
+            (, ,)
+            (S
+              (VP (TO to)
+                (VP (VB replenish)
+                  (NP
+                    (NP (PRP$ my) (NN stock))
+                    (PP (IN of)
+                      (NP (NN water))))
+                  (PP (IN on)
+                    (NP (DT the) (NN way))))))))))
+    (, ,)
+    (NP (PRP$ my) (NN trip))
+    (VP (MD might)
+      (VP (VB be)
+        (VP
+          (ADVP (RB indefinitely))
+          (VBN prolonged))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (JJ Such))
+      (, ,)
+      (NP (NNS gentlemen))
+      (, ,))
+    (VP (VBZ is)
+      (NP (PRP$ my) (NN secret)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is)
+        (ADJP (JJ simple))))
+    (, ,)
+    (CC and)
+    (S (, ,)
+      (PP (IN like)
+        (NP (JJS most) (JJ simple) (NNS things)))
+      (, ,)
+      (NP (PRP it))
+      (VP (MD can) (RB not)
+        (VP (VB fail)
+          (S
+            (VP (TO to)
+              (VP (VB succeed)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN dilation)
+        (CC and)
+        (NN contraction))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN gas))
+          (PP (IN in)
+            (NP (DT the) (NN balloon))))))
+    (VP (VBZ is)
+      (NP
+        (NP (PRP$ my) (NNS means))
+        (PP (IN of)
+          (NP
+            (NP (NN locomotion))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ calls)
+                  (PP (IN for)
+                    (NP (CC neither)
+                      (NP (JJ cumbersome) (NNS wings))
+                      (, ,)
+                      (NP (CC nor)
+                        (DT any)
+                        (ADJP (JJ other) (JJ mechanical))
+                        (NN motor)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN calorifere)
+        (S
+          (VP (TO to)
+            (VP (VB produce)
+              (NP
+                (NP (DT the) (NNS changes))
+                (PP (IN of)
+                  (NP (NN temperature))))))))
+      (, ,)
+      (CC and)
+      (NP (DT a) (NN cylinder)
+        (S
+          (VP (TO to)
+            (VP (VB generate)
+              (NP (DT the) (NN heat))))))
+      (, ,))
+    (VP (VBP are)
+      (ADJP (DT neither) (JJ inconvenient)
+        (CC nor)
+        (JJ heavy)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think) (, ,)
+      (ADVP (RB therefore))
+      (, ,)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (VP (VBN combined)
+              (NP
+                (NP (PDT all) (DT the) (NNS elements))
+                (PP (IN of)
+                  (NP (NN success)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP (NN Dr) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ferguson))
+      (SBAR
+        (S
+          (VP
+            (VP
+              (ADVP (RB here))
+              (VBD terminated)
+              (NP (PRP$ his) (NN discourse)))
+            (, ,)
+            (CC and)
+            (VP (VBD was)
+              (ADVP (RBS most)))))))
+    (ADVP (RB heartily))
+    (VP (VBD applauded))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBD was) (RB not)
+        (NP (DT an) (NN objection)
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (PP (TO to)
+                  (NP (PRP it)))))))))
+    (: ;)
+    (S
+      (NP (DT all))
+      (VP (VBD had)
+        (VP (VBN been)
+          (VP (VBN foreseen)
+            (CC and)
+            (VBN decided)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (ADVP (RB However))
+      (, ,)
+      (VP (VBD said)
+        (NP (DT the) (NN captain))))
+    (, ,)
+    (NP (DT the) (NN thing))
+    (VP (MD may)
+      (VP (VB prove)
+        (ADJP (JJ dangerous))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (SBAR
+      (WHNP (WDT What))
+      (S
+        (NP
+          (NP (NNS matters))
+          (SBAR
+            (WHNP (IN that))
+            (, ,)
+            (S
+              (VP (VBD replied)
+                (NP (DT the) (NN doctor)))
+              (, ,))))
+        (VP (VBD provided)
+          (SBAR (IN that)
+            (S
+              (NP (PRP it))
+              (VP (VB be)
+                (ADJP (JJ practicable))))))))
+    (. ?)))
+~~~~~~

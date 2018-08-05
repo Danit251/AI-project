@@ -1,0 +1,2159 @@
+(ROOT
+  (NP
+    (NP (NN _))
+    (NP (NNP Problem) (CD 1))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (: --)
+    (NP
+      (NP
+        (NP (CD _))
+        (SBAR
+          (S
+            (NP (DT A) (NN _)
+              (CC and)
+              (NN _) (NN B) (NN _))
+            (VP (VBD began)
+              (NP-TMP (DT the) (NN year))
+              (PP (IN with)
+                (NP
+                  (QP (RB only) (CD 1))))))))
+      (, ,)
+      (NP (NN 000_l)))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (ADJP (IN _))
+      (DT a))
+    (: -)
+    (NP (NN piece))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP They))
+      (VP (VBD borrowed)
+        (ADVP (RB nought))))
+    (: ;)
+    (S
+      (NP (PRP they))
+      (VP (VBD stole)
+        (ADVP (RB nought))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (DT the) (JJ next) (NN New))
+        (: -)
+        (NP
+          (NP (NN Year) ('' '))
+          (NP (NNS s) (NN Day)))))
+    (NP (PRP they))
+    (VP (VBD had)
+      (NP
+        (NP (CD 60))
+        (, ,)
+        (NP (NN 000_l))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (PP (IN between)
+      (NP (PRP them)))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBD did)
+      (NP (PRP they))
+      (VP (VBP do)
+        (NP (PRP it))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (NP (NN Solution))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (: --)
+    (S
+      (NP (PRP They))
+      (VP (VBD went)
+        (NP (DT that) (NN day))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NNP Bank))
+            (PP (IN of)
+              (NP (NNP England)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN _) (NN A))
+      (NP (CD _)))
+    (VP (VBD stood)
+      (PP (IN in)
+        (NP
+          (NP (NN front))
+          (PP (IN of)
+            (NP (PRP it)))))
+      (, ,)
+      (SBAR (IN while)
+        (S
+          (NP
+            (NP (NN _) (NN B))
+            (NP (CD _)))
+          (VP
+            (VP (VBD went)
+              (NP (NN round)))
+            (CC and)
+            (VP (VBD stood)
+              (PP (IN behind)
+                (NP (PRP it))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (X
+    (X (SYM *))
+    (SYM *)
+    (X
+      (X (SYM *))
+      (SYM *)
+      (X (SYM *))
+      (NP
+        (NP (CD Two) (NNS answers))
+        (SBAR
+          (S
+            (VP (VBP have)
+              (VP (VBN been)
+                (VP
+                  (VP (VBN received))
+                  (, ,)
+                  (NP
+                    (NP (DT both) (JJ worthy))
+                    (PP (IN of)
+                      (NP (JJ much) (NN honour)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP ADDLEPATE))
+    (VP
+      (VP (VBZ makes)
+        (S
+          (NP (PRP them))
+          (VP
+            (VP (VB borrow) ('' '')
+              (NP (CD 0)))
+            ('' '')
+            (CC and)
+            (VP (VB steal) ('' '')
+              (NP (CD 0))))))
+      (, ,) ('' '')
+      (CC and)
+      (VP (VBZ uses)
+        (NP (DT both) (NNS cyphers))
+        (PP (IN by)
+          (S
+            (VP (VBG putting)
+              (NP (PRP them))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN right))
+                  (: -)
+                  (NP
+                    (NP (NN hand) (NN end))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (CD 1))
+                        (, ,)
+                        (NP (NN 000_l))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (NP (NN _))
+      (, ,)
+      (ADVP (RB thus)))
+    (VP (VBG producing)
+      (NP
+        (NP (CD 100))
+        (, ,)
+        (NP (NN 000_l))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NN _))
+    (, ,)
+    (SBAR
+      (WHNP (WDT which))
+      (S
+        (VP (VBZ is)
+          (ADVP (RB well))
+          (PP (IN over)
+            (NP (DT the) (NN mark))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (PRN (-LRB- -LRB-)
+      (CC or)
+      (S
+        (VP (TO to)
+          (VP (VB express)
+            (NP (PRP it))
+            (PP (IN in)
+              (NP (NNP Latin))))))
+      (-RRB- -RRB-))
+    (PP (IN AT)
+      (NP (NNP SPES) (NNP INFRACTA)))
+    (VP (VBZ has)
+      (VP (VBN solved)
+        (NP (PRP it))
+        (PP (RB even)
+          (FRAG
+            (ADVP (RBR more) (RB ingeniously))
+            (: :)))
+        (PP (IN with)
+          (NP
+            (NP
+              (NP (DT the) (JJ first) (NN cypher))
+              (SBAR
+                (S
+                  (NP (PRP she))
+                  (VP (VBZ turns)
+                    (NP (DT the))
+                    ('' '')
+                    (NP-TMP (CD 1))))))
+            ('' '')
+            (PP (IN of)
+              (NP (DT the) (CD 1)))))))
+    (, ,)
+    (X
+      (NP (NN 000_l)))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (FRAG
+      (PP
+        (ADVP (RB _))
+        (IN into)
+        (NP
+          (NP (DT a))
+          (VP ('' '')
+            (NP-TMP (CD 9))))))
+    (, ,) ('' '')
+    (VP
+      (ADVP (CC and))
+      (VBZ adds)
+      (NP (DT the) (NN result))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (JJ original) (NN sum))
+          (, ,)
+          (VP
+            (ADVP (RB thus))
+            (VBG getting)))))
+    (NP
+      (NP (CD 10))
+      (, ,)
+      (NP (NN 000_l)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN _))
+      (: :)
+      (PP (CC and)
+        (PP (IN in)
+          (NP (DT this)))
+        (, ,)
+        (PP (IN by)
+          (NP
+            (NP (NNS means))
+            (PP (IN of)
+              (NP (DT the) (JJ other)))
+            ('' '')))
+        (PRN
+          (FRAG
+            (NP (CD 0)))))
+      (, ,) ('' ''))
+    (NP (PRP she))
+    (VP (VBZ turns)
+      (NP
+        (NP (DT the))
+        ('' '')
+        (PP
+          (NP
+            (NP (CD 1))
+            ('' '')
+            (PP (IN into)
+              (NP (DT a)))
+            ('' ''))
+          (NP
+            (NP (CD 6))
+            (, ,) ('' '')
+            (VP
+              (ADVP (RB thus))
+              (VBG hitting)
+              (NP (DT the)
+                (ADJP (JJ exact)
+                  (NP-TMP (CD 60))
+                  (, ,))
+                (NN 000_l)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NN _) (NNS CLASS))
+    (VP (VBP LIST)
+      (NP (PRP I)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (PP (IN AT)
+      (NP (NNP SPES) (NNP INFRACTA)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP II))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP ADDLEPATE))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (X (SYM *))
+    (PP
+      (X (SYM *))
+      (SYM *)
+      (PP (SYM *)
+        (FRAG
+          (X
+            (X
+              (X (SYM *))
+              (NP (CD _)))
+            (NP (NNP Problem)))
+          (NP (CD 2))))
+      (. .))))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (: --)
+    (S
+      (S
+        (NP (CD _) (NN L) (NN _))
+        (VP (VBZ makes)
+          (NP (CD 5) (NNS scarves))
+          (, ,)
+          (SBAR (IN while)
+            (S
+              (NP (CD _) (NN M) (NN _))
+              (VP (VBZ makes)
+                (NP (CD 2)))))))
+      (: :)
+      (S
+        (NP (CD _) (NN Z) (NN _))
+        (VP (VBZ makes)
+          (NP (CD 4))
+          (SBAR (IN while)
+            (S
+              (NP (CD _) (NN L) (NN _))
+              (VP (VBZ makes)
+                (NP (CD 3))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (CD Five) (NNS scarves))
+      (PP (IN of)
+        (NP
+          (NP (CD _) (NN Z) (NN _) ('' ') (NNS s))
+          (SBAR
+            (S
+              (VP (VBP weigh)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP
+                      (NP (CD _) (NN L) (NN _) ('' ') (NNS s))
+                      (: ;)
+                      (NP
+                        (QP (CD 5) (IN of) (CD _))
+                        (NN M) (NN _) ('' ') (NNS s)))))))))))
+    (VP (VBP weigh)
+      (S
+        (NP
+          (NP (CD 3))
+          (PP (IN of)
+            (NP (CD _))))
+        (NP (NN Z) (NN _) ('' ') (NNS s))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (FRAG
+      (NP
+        (NP (CD One))
+        (PP (IN of)
+          (NP (CD _) (NN M) (NN _)))))
+    ('' ')
+    (NP (NNS s))
+    (VP (VBZ is)
+      (PP (IN as)
+        (NP
+          (ADJP (JJ warm)
+            (PP (IN as)
+              (NP
+                (NP (CD 4))
+                (PP (IN of)
+                  (NP
+                    (NP (CD _) (NN Z) (NN _) ('' ') (NNS s))
+                    (: :)
+                    (NP
+                      (NP
+                        (QP (CC and)
+                          (CD one)))
+                      (PP (IN of)
+                        (NP
+                          (NP (CD _) (NN L) (NN _) ('' ') (NNS s))
+                          (PP (IN as)
+                            (NP
+                              (ADJP (JJ warm)
+                                (PP (IN as)
+                                  (NP
+                                    (NP (CD 3))
+                                    (PP (IN of)
+                                      (NP (CD _) (NN M))))))
+                              (NN _))))))
+                    ('' '))))))
+          (NNS s))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (WDT Which))
+    (VP (VBZ is)
+      (ADVP (RB best))
+      (, ,)
+      (S
+        (VP (VBG giving)
+          (NP (JJ equal) (NN weight))
+          (PP (IN in)
+            (NP (DT the) (NN result)))
+          (PP (TO to)
+            (NP
+              (NP (NN rapidity))
+              (PP (IN of)
+                (NP
+                  (NP (NN work))
+                  (, ,)
+                  (NP (NN lightness))
+                  (, ,)
+                  (CC and)
+                  (NP (NN warmth)))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (NP (NN Answer))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (: --)
+    (S
+      (NP (DT The) (NN order))
+      (VP (VBZ is)
+        (NP
+          (NP
+            (NP (CD _) (NN M))
+            (NP (CD _)))
+          (, ,)
+          (NP
+            (NP (CD _) (NN L))
+            (NP
+              (NP (CD _))
+              (, ,)
+              (NP (CD _) (NN Z) (NN _)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (X (SYM *))
+    (PP
+      (X (SYM *))
+      (SYM *)
+      (PP (SYM *)
+        (FRAG
+          (X (SYM *))
+          (NP (CD _) (NN Solution))))
+      (. .))))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN _))
+    (PRN (: --)
+      (PP (IN As)
+        (PP (TO to)
+          (NP
+            (NP (NN rapidity))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (JJ other) (NNS things))
+                (S
+                  (VP (VBG being)
+                    (ADJP (JJ constant)))))
+              (-RRB- -RRB-))
+            (NP
+              (NP (CD _) (NN L) (NN _) ('' ') (NNS s))
+              (SBAR
+                (S
+                  (NP (NN merit))
+                  (VP (VBZ is)
+                    (PP (TO to)
+                      (NP
+                        (NP (CD _) (NN M) (NN _) ('' ') (NNS s))
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NN ratio))
+                            (PP (IN of)
+                              (NP
+                                (QP (CD 5) (TO to) (CD 2))))))))))))))))
+    (: :)
+    (NP
+      (NP (CD _) (NN Z) (NN _) ('' ') (NNS s))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB _)
+              (NP (NN L) (NN _) ('' ') (NNS s))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN ratio))
+                  (PP (IN of)
+                    (NP
+                      (QP (CD 4) (TO to) (CD 3)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (SBAR (IN In) (NN order)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP
+                (NP (CD one) (NN set))
+                (PP (IN of)
+                  (NP
+                    (NP (CD 3) (NNS numbers))
+                    (VP (VBG fulfilling)
+                      (NP (DT these) (NNS conditions))))))))))
+      (, ,)
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADVP (RB perhaps))
+        (NP
+          (NP (JJS simplest))
+          (SBAR
+            (S
+              (VP (TO to)
+                (VP
+                  (VP (VB take)
+                    (NP
+                      (NP (DT the) (CD one))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (VP (VBZ occurs)
+                            (ADJP
+                              (ADJP (RB _) (RB twice) (RB _))
+                              (PP (IN as)
+                                (NP (NN unity)))))))))
+                  (, ,)
+                  (CC and)
+                  (VP (VB reduce)
+                    (NP (DT the) (NNS others))
+                    (PP (TO to)
+                      (NP (NNS fractions)))))))))))
+    (: :)
+    (S
+      (NP (DT this))
+      (VP (VBZ gives) (, ,)
+        (PP (IN for)
+          (NP
+            (NP (CD _) (NN L) (NN _))
+            (, ,)
+            (NP (CD _) (NN M) (NN _))
+            (, ,)
+            (CC and)
+            (NP
+              (NP (CD _) (NN Z) (NN _))
+              (, ,)
+              (NP
+                (NP (DT the) (NNS marks))
+                (NP (CD 1))))))
+        (, ,)
+        (NP
+          (NP (CD 2))
+          (PRN (: /)
+            (NP
+              (NP (CD 5))
+              (, ,)
+              (NP (CD 4)))
+            (: /))
+          (NP (CD 3)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (S
+        (VP (VBG estimating)
+          (PP (IN for)
+            (NP (CD _) (NN lightness) (NN _))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP observe)
+      (SBAR (IN that)
+        (X
+          (X
+            (X (DT the)
+              (ADJP (JJR greater)))
+            (NP (DT the) (NN weight)))
+          (, ,)
+          (X (DT the) (JJR less))
+          (NP
+            (NP
+              (NP (DT the) (NN merit))
+              (, ,)
+              (ADVP (RB so)))
+            (PP (IN that)
+              (NP
+                (NP (CD _) (NN Z) (NN _) ('' ') (NNS s))
+                (SBAR
+                  (S
+                    (NP (NN merit))
+                    (VP (VBZ is)
+                      (S
+                        (VP (TO to)
+                          (VP (VB _)
+                            (NP (NN L) (NN _) ('' ') (NNS s))
+                            (PP (IN as)
+                              (NP
+                                (QP (CD 5) (TO to) (CD 1))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP
+      (NP (DT the) (NNS marks))
+      (PP (IN for)
+        (NP (CD _) (NN lightness) (NN _))))
+    (VP (VBP are)
+      (NP
+        (NP (CD 1))
+        (PRN (: /)
+          (NP
+            (NP (CD 5))
+            (, ,)
+            (NP (CD 5)))
+          (: /))
+        (NP (CD 3)))
+      (, ,)
+      (NP (CD 1)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC And)
+    (ADVP (RB similarly))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS marks))
+      (PP (IN for)
+        (NP (NN warmth))))
+    (VP (VBP are)
+      (NP
+        (NP (CD 3))
+        (, ,)
+        (NP (CD 1))
+        (, ,)
+        (NP
+          (NP (CD 1))
+          (PRN (: /)
+            (NP (CD 4))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB get)
+          (NP (DT the) (JJ total) (NN result)))))
+    (, ,)
+    (NP (PRP we))
+    (VP
+      (VP (MD must)
+        (VP (VB _)
+          (VP (VB multiply)
+            (NP
+              (NP
+                (QP (CD _) (CD _))
+                (NN L) (NN _) ('' ') (NNS s))
+              (ADVP
+                (NP (CD 3) (NNS marks))
+                (RB together))))))
+      (, ,)
+      (CC and)
+      (VP (VBP do)
+        (NP (DT the) (JJ same))
+        (PP
+          (PP (IN for)
+            (NP (CD _) (NN M) (NN _)))
+          (CC and)
+          (PP (IN for)
+            (NP (CD _) (NN Z) (NN _))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ final) (NNS numbers))
+    (VP (VBP are)
+      (NP
+        (NP
+          (QP (CD 1) (CD ×))
+          (CD 1))
+        (PRN (: /)
+          (FRAG
+            (FRAG
+              (NP (CD 5) (CD ×))
+              (NP
+                (NP (CD 3))
+                (, ,)
+                (ADJP (CD 2))))
+            (: /)
+            (FRAG
+              (FRAG
+                (NP (CD 5))
+                (NP (CD ×) (CD 5)))
+              (: /)
+              (FRAG
+                (FRAG
+                  (NP (CD 3) (NN ×))
+                  (NP
+                    (NP (CD 1))
+                    (, ,)
+                    (ADJP (CD 4))))
+                (: /)
+                (FRAG
+                  (NP
+                    (NP (CD 3)
+                      (ADJP (NN ×) (CD 1))
+                      (NN ×))
+                    (NP (CD 1)))
+                  (: /)
+                  (NP
+                    (NP (CD 4))
+                    (: ;)
+                    (NP (CD _)))
+                  (LS i))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (LS e))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (FRAG
+      (NP-TMP
+        (NP (NN _))
+        (NP (CD 3)))
+      (: /)
+      (NP
+        (NP (CD 5))
+        (, ,)
+        (ADJP (CD 2))))
+    (: /)
+    (FRAG
+      (NP-TMP
+        (NP (CD 3))
+        (, ,)
+        (NP (CD 1)))
+      (: /)
+      (NP
+        (NP (CD 3))
+        (: ;)
+        (NP (CD _) (LS i))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (LS e))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (NP (NN _))
+      (VP
+        (VP (VBG multiplying)
+          (PP (IN throughout)
+            (PP (IN by)
+              (NP (CD 15)))))
+        (PRN (-LRB- -LRB-)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (MD will) (RB not)
+                (VP (VB alter)
+                  (NP (DT the) (NN proportion))))))
+          (-RRB- -RRB-))
+        (, ,)
+        (NP
+          (NP (CD 9))
+          (, ,)
+          (NP
+            (NP
+              (NP (CD 10))
+              (, ,)
+              (NP (CD 5))
+              (: ;))
+            (VP (VBG showing)
+              (NP
+                (NP (DT the) (NN order))
+                (PP (IN of)
+                  (NP (NN merit))))
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP (CD _) (NN M))))))))))
+    (NP
+      (NP (CD _))
+      (, ,)
+      (NP
+        (NP (CD _) (NN L))
+        (NP (CD _)))
+      (, ,)
+      (NP (CD _) (NN Z) (NN _)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (SBAR
+      (X (SYM *))
+      (S
+        (SBAR
+          (X (SYM *))
+          (S
+            (SBAR
+              (X (SYM *))
+              (S
+                (VP (SYM *)
+                  (SBAR
+                    (FRAG
+                      (X
+                        (X (SYM *))
+                        (NP (CD Twenty)))
+                      (: -)
+                      (NP (CD nine)))))
+                (NP (NNS answers))))
+            (VP (VBP have)
+              (VP (VBN been)
+                (VP (VBN received) (, ,)
+                  (PP (IN of)
+                    (WHNP (WDT which))))))))
+        (NP (CD five))
+        (VP (VBP are)
+          (ADVP (RB right))
+          (ADJP
+            (PRN (, ,)
+              (CC and)
+              (NP
+                (NP (CD twenty))
+                (: -)
+                (NP (CD four))))
+            (JJ wrong)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT These) (JJ hapless) (NNS ones))
+    (VP (VBP have)
+      (NP
+        (NP
+          (NP
+            (NP (DT all))
+            (PRN (-LRB- -LRB-)
+              (PP (IN with)
+                (NP (CD three) (NNS exceptions)))
+              (-RRB- -RRB-)))
+          (VP (VBN fallen)
+            (PP (IN into)
+              (NP
+                (NP (DT the) (NN error))
+                (PP (IN of)
+                  (NP (CD _)))
+                (VP (VBG adding)
+                  (PP (IN _)
+                    (NP (DT the) (JJ proportional) (NNS numbers)))
+                  (ADVP (RB together))
+                  (, ,)
+                  (PP (IN for)
+                    (NP (DT each) (NN candidate))))))))
+        (, ,)
+        (CONJP (RB instead) (IN of))
+        (NP
+          (NP (CD _))
+          (VP (VBG multiplying)
+            (NP (NN _))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (NN _))
+      (ADVP (WRB Why))
+      (VP (VBP _)
+        (SBAR
+          (S
+            (NP (DT the) (JJ latter))
+            (VP (VBZ is)
+              (ADVP (RB right)
+                (PRN (, ,)
+                  (PP (RB rather) (IN than)
+                    (NP (DT the) (JJ former)))
+                  (, ,))
+                (S
+                  (VP (VBZ is)
+                    (ADVP (RB fully))
+                    (VP (VBN proved)
+                      (PP (IN in)
+                        (NP
+                          (NP (NN text))
+                          (: -)
+                          (NP (NNS books))))))))
+              (, ,)
+              (SBAR (IN so)
+                (S
+                  (NP (PRP I))
+                  (VP (MD will) (RB not)
+                    (VP (VB occupy)
+                      (NP (NN space))
+                      (PP (IN by)
+                        (S
+                          (VP (VBG stating)
+                            (NP (PRP it))
+                            (ADVP (RB here))))))))))))))
+    (: :)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (MD can)
+        (VP (VB be)
+          (NP
+            (ADJP (RB _) (JJ illustrated))
+            (NN _))
+          (PP
+            (ADVP (RB very) (RB easily))
+            (IN by)
+            (NP
+              (NP (DT the) (NN case))
+              (PP (IN of)
+                (NP
+                  (NP (NN length))
+                  (, ,)
+                  (NP (NN breadth))
+                  (, ,)
+                  (CC and)
+                  (NP (NN depth)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (VP (VB Suppose)
+        (NP (CD _))
+        (SBAR
+          (S
+            (NP (DT A) (NN _)
+              (CC and)
+              (NN _) (NN B) (NN _))
+            (VP (VBP are)
+              (NP
+                (NP
+                  (NP (JJ rival) (NNS diggers))
+                  (PP (IN of)
+                    (NP (JJ rectangular) (NNS tanks))))
+                (: :)
+                (S
+                  (NP
+                    (NP (DT the) (NN amount))
+                    (PP (IN of)
+                      (NP
+                        (NP (NN work))
+                        (VP (VBN done)))))
+                  (VP (VBZ is)
+                    (ADVP (RB evidently))
+                    (VP (VBN measured)
+                      (PP (IN by)
+                        (NP
+                          (NP (DT the) (NN number))
+                          (PP (IN of)
+                            (NP (CD _) (JJ cubical) (NNS feet))))))))))))))
+    (VP (VBP _)
+      (VP (VBN dug)
+        (PRT (RP out))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Let)
+      (NP
+        (NP (CD _))
+        (SBAR
+          (S
+            (NP (DT A) (NN _))
+            (VP (VB dig)
+              (NP
+                (NP
+                  (NP (DT a) (NN tank))
+                  (ADVP
+                    (NP (CD 10) (NNS feet))
+                    (RB long)))
+                (PRN (, ,)
+                  (NP-TMP (CD 10))
+                  (ADJP (JJ wide))
+                  (, ,)
+                  (NP-TMP (CD 2))
+                  (ADJP (JJ deep)))))))
+        (: :)
+        (S
+          (VP (VB let)
+            (NP
+              (NP
+                (NP (NN _) (NN B))
+                (NP (CD _) (NN dig))
+                (ADVP
+                  (NP (CD one) (CD 6) (NNS feet))
+                  (RB long)))
+              (PRN (, ,)
+                (NP-TMP (CD 5))
+                (ADJP (JJ wide))
+                (, ,)
+                (NP-TMP (CD 10))
+                (ADJP (JJ deep))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ cubical) (NNS contents))
+    (VP (VBP are)
+      (NP
+        (NP (CD 200))
+        (, ,)
+        (NP (CD 300) (: ;) (CD _))
+        (LS i)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (LS e))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN _) (NN _))
+      (NP (NN B) (NN _)))
+    (VP (VBZ is)
+      (NP
+        (NP (JJS best) (NN digger))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN ratio))
+            (PP (IN of)
+              (NP
+                (QP (CD 3) (TO to) (CD 2))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (VP (VB try)
+      (S
+        (VP
+          (VP (VBG marking)
+            (PP (IN for)
+              (NP
+                (NP (NN length) (, ,) (NN width) (, ,)
+                  (CC and)
+                  (NN depth) (, ,))
+                (ADVP (RB separately)))))
+          (: ;)
+          (VP (VBG giving)
+            (NP
+              (NP (DT a) (JJ maximum) (NN mark))
+              (PP (IN of)
+                (NP (CD 10))))
+            (PP (TO to)
+              (NP
+                (NP (DT the) (JJS best))
+                (PP (IN in)
+                  (NP (DT each) (NN contest))))))
+          (, ,)
+          (CC and)
+          (VP
+            (ADVP (RB then)
+              (NP (CD _)))
+            (VBG adding)
+            (PP (IN _)
+              (NP (DT the) (NNS results)))))))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (S
+        (PP (IN Of)
+          (NP
+            (NP (DT the) (CD twenty))
+            (: -)
+            (NP (CD four) (NNS malefactors))))
+        (, ,)
+        (NP (CD one))
+        (VP
+          (VP (VBZ gives)
+            (NP (DT no) (NN working)))
+          (, ,)
+          (CC and)
+          (VP
+            (ADVP (RB so))
+            (VBZ has)
+            (NP (DT no) (JJ real) (NN claim)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (VP (VBN named)))))))))
+      (: ;)
+      (CC but)
+      (S
+        (NP (PRP I))
+        (VP (VBP break)
+          (NP (DT the) (NN rule))
+          (PP (IN for)
+            (NP (RB once)))
+          (, ,)
+          (PP (IN in)
+            (NP (NN deference)))
+          (PP (TO to)
+            (NP
+              (NP (PRP$ its) (NN success))
+              (PP (IN in)
+                (NP (NNP Problem) (CD 1)))))
+          (: :)
+          (NP (PRP he)))))
+    (, ,)
+    (NP (PRP she)
+      (PRN (, ,)
+        (CC or)
+        (NP (PRP it))
+        (, ,)))
+    (VP (VBZ is)
+      (NP (NNP ADDLEPATE)))
+    (. .)))
+~~~~~~
+(ROOT
+  (X
+    (NP (DT The) (JJ other) (CD twenty))
+    (: -)
+    (S
+      (NP (CD three))
+      (VP (MD may)
+        (VP (VB be)
+          (VP (VBN divided)
+            (PP (IN into)
+              (NP (CD five) (NNS groups)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP First))
+      (CC and)
+      (NP (JJS worst)))
+    (VP
+      (VP (VBP are))
+      (PRN (, ,)
+        (S
+          (NP (PRP I))
+          (VP (VBP take)
+            (NP (PRP it))))
+        (, ,))
+      (NP
+        (NP (DT those))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD put)
+              (S
+                (NP (DT the) (JJ rightful) (NN winner) (CD _) (JJ last) (NN _))
+                (: ;)
+                (VP (VBG arranging)
+                  (NP (PRP them))
+                  (PP (IN as) ('' '')
+                    (NP
+                      (NP (NNP Lolo))
+                      (, ,)
+                      (NP (NNP Zuzu) (, ,) (NNP Mimi)))))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS names))
+      (PP (IN of)
+        (NP
+          (NP (DT these)
+            (ADJP (JJ desperate) (JJ wrong)))
+          (: -)
+          (NP (NNS doers)))))
+    (VP (VBP are)
+      (NP
+        (NP
+          (NP (NNP AYR) (, ,) (NNP BRADSHAW))
+          (PP (IN OF)
+            (NP (DT THE) (NN FUTURE))))
+        (, ,)
+        (NP
+          (NP (NN FURZE))
+          (: -)
+          (NP (NNP BUSH)
+            (CC and)
+            (NNP POLLUX)))
+        (PRN (-LRB- -LRB-)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP send)
+                (NP (DT a) (JJ joint) (NN answer)))))
+          (-RRB- -RRB-))
+        (, ,)
+        (NP
+          (NP (NN GREYSTEAD))
+          (, ,)
+          (NP (NN GUY))
+          (, ,)
+          (NP (JJ OLD) (NN HEN)))
+        (, ,)
+        (CC and)
+        (NP (NNP SIMPLE) (NNP SUSAN))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN latter))
+      (VP (VBD was)
+        (ADVP
+          (NP (CD _))
+          (RB once))
+        (ADVP (RB _))
+        (NP
+          (NP (JJS best))
+          (PP (IN of)
+            (NP (DT all))))))
+    (: ;)
+    (S
+      (NP (DT the) (JJ Old) (NN Hen))
+      (VP
+        (VP (VBZ has)
+          (VP (VBN taken)
+            (NP
+              (NP (NN advantage))
+              (PP (IN of)
+                (NP (PRP$ her) (NN simplicity))))))
+        (, ,)
+        (CC and)
+        (VP (VBD beguiled)
+          (NP (PRP her))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN chaff))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBD was)
+                    (NP
+                      (NP (DT the) (NN bane))
+                      (PP (IN of)
+                        (NP (PRP$ her) (JJ own) (NN chickenhood))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Secondly))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP point)
+      (NP
+        (NP (DT the) (NN finger))
+        (PP (IN of)
+          (S
+            (VP (VB scorn)
+              (PP (IN at)
+                (NP
+                  (NP (DT those))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBP have)
+                        (VP (VBN put)
+                          (NP (DT the) (JJS worst) (NN candidate))
+                          (PP (IN at)
+                            (NP
+                              (NP (DT the) (NN top))
+                              (: ;)
+                              (S
+                                (VP (VBG arranging)
+                                  (NP (PRP them))
+                                  (PP (IN as) ('' '')
+                                    (NP
+                                      (NP (NNP Zuzu))
+                                      (, ,)
+                                      (NP (NNP Mimi) (, ,) (NNP Lolo)))))))))))))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP
+        (NP (NNP GRAECIA))
+        (, ,)
+        (NP (NN M))))
+    (. .)))
+~~~~~~
+(ROOT
+  (INTJ (NN M) (. .)))
+~~~~~~
+(ROOT
+  (NP (NN E) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN X))
+      (. .)
+      (S
+        (VP ('' '') ('' '))))))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Tis))
+    (VP (NNP Greece) (, ,)
+      (ADVP (CC but)))
+    (: --) (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ third) (NN set))
+      (VP (VBP have)
+        (VP (VBN avoided)
+          (NP (DT both) (DT these) (NNS enormities)))))
+    (, ,)
+    (CC and)
+    (SINV
+      (VP (VBP have)
+        (ADVP (RB even))
+        (VP (VBN succeeded)
+          (PP (IN in)
+            (S
+              (VP (VBG putting)
+                (NP
+                  (NP (DT the) (JJS worst) (JJ last))
+                  (, ,)
+                  (NP
+                    (NP (PRP$ their) (NN answer))
+                    (VP (VBG being)))
+                  ('' '')))))))
+      (NP
+        (NP (NNP Lolo))
+        (, ,)
+        (NP
+          (NP (NNP Mimi))
+          (, ,)
+          (NP (NNP Zuzu)))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP$ Their) (NNS names))
+      (VP (VBP are)
+        (NP
+          (NP (NNP AYR))
+          (PRN (-LRB- -LRB-)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (ADVP (RB also))
+                (VP (VBZ appears)
+                  (PP (IN among)
+                    (NP (DT the)))
+                  ('' '')
+                  (PP (RB quite)
+                    (ADJP (RB too) (RB too)))
+                  ('' ''))))
+            (-RRB- -RRB-)))))
+    (, ,)
+    (FRAG
+      (NP (NN CLIFTON) (NN C)))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP (NN B) (. .)))
+~~~~~~
+(ROOT
+  (NP (NNP SAIREY) (NNP GAMP) (. .)))
+~~~~~~
+(ROOT
+  (NP (NN F) (. .)))
+~~~~~~
+(ROOT
+  (NP (NN B) (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (VP (VBZ has) (RB not)
+      (VP (VBN fallen)
+        (PP (IN into)
+          (NP
+            (NP (DT the) (JJ common) (NN error))
+            (: ;)
+            (S
+              (NP (PRP she))
+              (VP (VBD _)
+                (NP
+                  (NP (NNS multiplies))
+                  (VP (VBN _)
+                    (ADVP (RB together))))))))))
+    (NP
+      (NP (DT the) (JJ proportionate) (NNS numbers))
+      (SBAR
+        (S
+          (S
+            (NP (PRP she))
+            (VP (VBZ gets)))
+          (, ,)
+          (CC but)
+          (S
+            (PP (IN in)
+              (S
+                (VP (VBG getting)
+                  (NP (PRP them)))))
+            (NP (PRP she))
+            (VP (VBZ goes)
+              (ADJP (JJ wrong))
+              (, ,)
+              (PP (IN by)
+                (S
+                  (VP (VBG reckoning)
+                    (NP
+                      (NP
+                        (NP (NN warmth))
+                        (PP (IN as)
+                          (NP (DT a) (FW _) (FW de))))
+                      (X
+                        (X (SYM _))
+                        (: -)
+                        (NP (NN merit))
+                        (. .)))))))))))))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Possibly))
+    (NP (PRP she))
+    (VP (VBZ is)
+      (SBAR
+        (SBAR
+          (S
+            (VP ('' '')
+              (ADVP (RB Freshly) (JJ Burnt))
+              (, ,) ('' ''))))
+        (CC or)
+        (SBAR
+          (S
+            (VP (VBZ comes)))))
+      ('' '')
+      (PP (IN From)
+        (NP (NNP Bombay))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (NP (NNP JANET)
+    (CC and)
+    (NNP MRS) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (NNP SAIREY) (NNP GAMP))
+      (VP (VBP have)
+        (ADVP (RB also))
+        (VP (VBN avoided)
+          (NP (DT this) (NN error)))))
+    (: :)
+    (S
+      (NP
+        (NP (DT the) (NN method))
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBP have)
+              (VP (VBN adopted))))))
+      (VP (VBZ is)
+        (VP (VBN shrouded)
+          (PP (IN in)
+            (NP (NN mystery))))))
+    (: --)
+    (S
+      (NP (PRP I))
+      (ADVP (RB scarcely))
+      (VP (VBP feel)
+        (ADJP (JJ competent)
+          (S
+            (VP (TO to)
+              (VP (VB criticize)
+                (NP (PRP it))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP MRS))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP GAMP))
+    (VP (VBZ says)
+      (SBAR ('' '')
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (NNP Zuzu))
+              (VP (VBZ makes)
+                (NP (CD 4))
+                (SBAR (IN while)
+                  (S
+                    (NP (NNP Lolo))
+                    (VP (VBZ makes)
+                      (NP (CD 3))))))))
+          (, ,)
+          (NP (NNP Zuzu))
+          (VP (VBZ makes)
+            (NP (CD 6))
+            (SBAR (IN while)
+              (S
+                (NP (NNP Lolo))
+                (VP (VBZ makes)
+                  (NP
+                    (NP (CD 5))
+                    (PRN (-LRB- -LRB-)
+                      (NP (JJ bad) (NN reasoning))
+                      (-RRB- -RRB-)))
+                  (, ,)
+                  (SBAR (IN while)
+                    (S
+                      (NP (NNP Mimi))
+                      (VP (VBZ makes)
+                        (NP (CD 2))))))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (IN From)
+        (NP (DT this)))
+      (NP (PRP she))
+      (VP (VBZ concludes)))
+    ('' '')
+    (VP
+      (ADVP
+        (ADVP (RB therefore))
+        (NP (NNP Zuzu)))
+      (VBZ excels)
+      (PP (IN in)
+        (NP
+          (NP
+            (NP (NN speed))
+            (PP (IN by)
+              (NP (CD 1)))
+            ('' ''))
+          (PRN (-LRB- -LRB-)
+            (NP (CD _))
+            (LS i)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (LS e))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (ADVP (RB _))
+    (WHNP (WRB when))
+    (SQ
+      (VP (VBN compared)
+        (PP
+          (PP (IN with)
+            (NP (NN Lolo)))
+          (: ;)
+          (CC but)
+          (PP
+            (NP (WP what))
+            (IN about)
+            (NP (NNP Mimi))))))
+    (. ?) (-RRB- -RRB-)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB then))
+    (VP (VBZ compares)
+      (NP
+        (NP (DT the) (CD 3) (NNS kinds))
+        (PP (IN of)
+          (NP
+            (NP (NN excellence))
+            (, ,)
+            (VP (VBN measured)
+              (PP (IN on)
+                (NP (DT this) (JJ mystic) (NN scale))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP JANET))
+    (VP (VBZ takes)
+      (NP
+        (NP (DT the) (NN statement))
+        (, ,)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP ('' '')
+              (SBAR
+                (S
+                  (NP (NNP Lolo))
+                  (VP (VBZ makes)
+                    (NP (CD 5))
+                    (SBAR (IN while)
+                      (S
+                        (NP (NNP Mimi))
+                        (VP (VBZ makes)
+                          (NP (CD 2))
+                          (, ,) ('' '')
+                          (S
+                            (VP (TO to)
+                              (VP (VB prove)
+                                (NP
+                                  (NP (DT that))
+                                  ('' '')
+                                  (SBAR
+                                    (S
+                                      (NP (NNP Lolo))
+                                      (VP (VBZ makes)
+                                        (NP (CD 3))
+                                        (SBAR (IN while)
+                                          (S
+                                            (NP (NNP Mimi))
+                                            (VP (VBZ makes)
+                                              (NP
+                                                (NP (CD 1))
+                                                (CC and)
+                                                (NP (NNP Zuzu) (CD 4)))))))))))))))))))
+              ('' '')
+              (PRN (-LRB- -LRB-)
+                (ADJP (JJR worse))
+                (NN reasoning))))))
+      (PP (IN than)
+        (NP (NNP MRS))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (FRAG
+      (NP (NN GAMP)))
+    ('' ')
+    (NP (NN S))
+    (-RRB- -RRB-)
+    (VP
+      (VP
+        (PRN (, ,)
+          (CC and)
+          (ADVP (RB thence)))
+        (VBZ concludes)
+        (NP
+          (NP (IN that))
+          ('' '')
+          (SBAR
+            (S
+              (NP (NNP Zuzu))
+              (VP (VBZ excels)
+                (PP (IN in)))))))
+      (NP
+        (NP (NN speed))
+        (PP (IN by)
+          (NP
+            (NP (CD 1))
+            (PRN (: /)
+              (NP (CD 8)))))
+        ('' '')))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP JANET))
+    (VP (MD should)
+      (VP (VB have)
+        (VP (VBN been)
+          (NP
+            (NP (NNP ADELINE))
+            (, ,) ('' '')
+            (NP
+              (NP (NN mystery))
+              (PP (IN of)
+                (NP (NNS mysteries))))))))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ fourth) (NN set))
+    (ADVP (RB actually))
+    (VP (VBD put)
+      (NP
+        (NP (NNP Mimi))
+        (PP (IN at)
+          (NP (DT the) (NN top))))
+      (, ,)
+      (S
+        (VP (VBG arranging)
+          (NP (PRP them))
+          (PP (IN as) ('' '')
+            (NP
+              (NP (NNP Mimi))
+              (, ,)
+              (NP (NNP Zuzu) (, ,) (NNP Lolo)))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP
+        (NP (NNPS MARQUIS))
+        (CC AND)
+        (NP (NNPS CO))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP (NN B) (. .)))
+~~~~~~
+(ROOT
+  (NP (NN B) (. .)))
+~~~~~~
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (RB first) (JJ initial))
+    (ADVP (RB scarcely))
+    (NP
+      (NP (JJ legible))
+      (: :)
+      (NP (NN _)))
+    (VP (MD may)
+      (VP
+        (VP (VB _)
+          (S
+            (VP (VB be)
+              (VP (VBN meant))))
+          (PP (IN for) ('' '')
+            (NP (NN J) ('' '')))
+          (-RRB- -RRB-))
+        (, ,)
+        (CC and)
+        (VP
+          (NP (NNP STANZA)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ fifth) (NN set))
+    (VP (VBP consist)
+      (PP (IN of)
+        (NP
+          (NP (DT AN) (JJ ANCIENT) (NN FISH))
+          (CC and)
+          (NP (NN CAMEL)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (DT These) (JJ ill))
+    (: -)
+    (NP
+      (NP (JJ assorted) (NNS comrades))
+      (PRN (, ,)
+        (PP (IN by)
+          (NP
+            (NP (NN dint))
+            (PP (IN of)
+              (NP (NN foot)
+                (CC and)
+                (NN fin)))))
+        (, ,))
+      (SBAR
+        (S
+          (VP
+            (VP (VBP have)
+              (VP (VBN scrambled)
+                (PP (IN into)
+                  (NP (DT the) (JJ right) (NN answer)))))
+            (, ,)
+            (CC but)
+            (, ,)
+            (SBAR (IN as)
+              (S
+                (NP (PRP$ their) (NN method))
+                (VP (VBZ is)
+                  (ADJP (JJ wrong)))))))))
+    (, ,)
+    (PP (IN of)
+      (NP (NN course)))
+    (SBAR
+      (S
+        (NP (PRP it))
+        (VP (VBZ counts)
+          (PP (IN for)
+            (NP (NN nothing))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (NP (DT AN) (JJ ANCIENT) (NN FISH))
+    (VP (VBZ has)
+      (NP
+        (NP
+          (NP (RB very) (JJ ancient)
+            (CC and)
+            (JJ fishlike) (NNS ideas))
+          (SBAR (IN as)
+            (S
+              (VP (TO to)
+                (VP (VB _)
+                  (SBAR
+                    (WHADVP (WRB how))
+                    (S
+                      (NP (JJ _) (NNS numbers))
+                      (VP (VBP represent)
+                        (S
+                          (VP (NN merit) (: :)
+                            (S
+                              (NP (PRP she))
+                              (VP (VBZ says))))))))))
+              ('' ''))))
+        (NP
+          (NP (NNP Lolo) (NNS gains))
+          (LS 2)
+          (PRN (: -)
+            (NP (CD 1))
+            (: /))
+          (NP
+            (NP (CD 2))
+            (PP (IN on)
+              (NP (NNP Mimi)))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (NP (CD Two))
+      (CC and)
+      (NP
+        (NP
+          (NP (DT a) (JJ half) (NN _))
+          (SBAR
+            (WHNP (WDT what))))
+        (NP (NN _))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (X
+    (NP
+      (NP (NN Fish))
+      (, ,)
+      (NP (NN fish))
+      (, ,)
+      (NP (NN art)))
+    (NP
+      (NP (PRP thou))
+      (PP (IN in)
+        (NP (PRP$ thy) (NN duty))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (DT the) (CD five) (NNS winners)))
+    (NP (PRP I))
+    (VP (VBP put)
+      (NP
+        (NP (NNS BALBUS))
+        (CC and)
+        (NP
+          (NP (DT THE) (JJ ELDER) (NN TRAVELLER))
+          (ADVP (RB slightly))
+          (PP (IN below)
+            (NP (DT the) (JJ other) (CD three)))
+          (: --)
+          (NP
+            (NP (NNP BALBUS))
+            (PP (IN for)
+              (NP
+                (NP (JJ defective) (NN reasoning))
+                (, ,)
+                (NP
+                  (NP (DT the) (JJ other))
+                  (PP (IN for)
+                    (NP (JJ scanty) (NN working))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SQ
+      (NP (NNP BALBUS))
+      (VP (VBZ gives)
+        (NP (CD two) (NNS reasons))
+        (PP (IN for)
+          (S
+            (VP (VBG saying)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (CD _) (NN addition) (NN _))
+                    (PP (IN of)
+                      (NP (NNS marks))))
+                  (VP
+                    (VP (VBZ is)
+                      (NP (CD _))
+                      (S
+                        (VP (RB not) (VB _)
+                          (NP (DT the) (NN right) (NN method)))))
+                    (, ,)
+                    (CC and)
+                    (ADVP (RB then))
+                    (VP (VBZ adds))))))))))
+    ('' '')
+    (NP (PRP it))
+    (VP (VBZ follows)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN decision))
+          (VP (MD must)
+            (VP (VB be)
+              (VP (VBN made)
+                (PP (IN by)
+                  (NP
+                    (NP (NN _))
+                    (VP (VBG multiplying)
+                      (PP (IN _)
+                        (NP (DT the) (NNS marks)))
+                      (ADVP (RB together)))))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (RB hardly) (RBR more) (JJ logical))
+          (SBAR (IN than)
+            (S
+              (VP (TO to)
+                (VP (VB say) ('' '')
+                  (NP
+                    (NP (DT This))
+                    (SBAR
+                      (S
+                        (VP (VBZ is) (RB not)))))
+                  (NP-TMP (NN Spring)))))))))
+    (: :)
+    (S
+      (NP (NN _))
+      (ADVP (RB therefore))
+      (VP (VBD _)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD must)
+              (VP (VB be)
+                (NP (NN Autumn))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN CLASS))
+    (NP (NN LIST))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (PRP I))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP (NNP DINAH) (NNP MITE) (. .)))
+~~~~~~
+(ROOT
+  (NP (NN E) (. .)))
+~~~~~~
+(ROOT
+  (NP (NN B) (. .)))
+~~~~~~
+(ROOT
+  (INTJ (NN D) (. .)))
+~~~~~~
+(ROOT
+  (INTJ (NN L) (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP JORAM))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP II))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP BALBUS))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP (DT THE) (JJ ELDER) (NN TRAVELLER) (. .)))
+~~~~~~
+(ROOT
+  (X
+    (X (SYM *))
+    (SYM *)
+    (X
+      (X (SYM *))
+      (SYM *)
+      (X
+        (X (SYM *))
+        (PP (IN With)))
+      (NP
+        (NP (NN regard))
+        (SBAR
+          (S
+            (VP (TO to)
+              (VP (VB Knot)
+                (NP (NN V))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD can)
+      (ADVP (RB only))
+      (VP (VB repeat)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT a) (NN _) (JJ literal) (NN _) (NN interpretation))
+              (PP (IN of) ('' '')
+                (NP (NN fill))))
+            ('' '')
+            (VP (MD would)
+              (VP (VB seem)
+                (S
+                  (VP (TO to)
+                    (VP (VB _)
+                      (NP (PRP me)))))
+                (NP-TMP (CD _))
+                (S
+                  (VP (TO to)
+                    (VP (VB require)
+                      (SBAR (IN that)
+                        (S
+                          (NP
+                            (NP
+                              (NP (CD _))
+                              (NP (DT every) (NN _) (NN picture)))
+                            (PP (IN in)
+                              (NP (DT the) (NN gallery))))
+                          (VP (MD should)
+                            (VP (VB be)
+                              (VP (VBN marked)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NN VIS) (NN INERTIÆ))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (PP (IN in)
+            (NP (DT the) (NNP First) (NNP Class)))
+          (SBAR (IN if)
+            (S
+              (NP (PRP she))
+              (VP (VBD had)
+                (VP (VBN sent)
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (NN solution))
+                      (SBAR
+                        (S
+                          (NP (PRP she))
+                          (ADVP (RB now))
+                          (VP (VBZ offers)))))))))))))
+    (. .)))
+~~~~~~

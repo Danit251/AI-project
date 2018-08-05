@@ -1,0 +1,88 @@
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (NN RAZOR))
+    (VP (: -)
+      (ADVP (RB BACK)))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN seen)
+        (NP (PRP him))
+        (PP (IN at)
+          (NP (DT a) (NN distance)))
+        (PP (IN off)
+          (NP (NNP Cape) (NNP Horn)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (DT a) (VBG retiring) (NN nature)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ eludes)
+      (NP (DT both) (NNS hunters)
+        (CC and)
+        (NNS philosophers)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Though)
+      (NP (DT no) (NN coward)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ has)
+      (ADVP (RB never))
+      (VP
+        (ADVP (RB yet))
+        (VBN shown)
+        (NP
+          (NP (DT any) (NN part))
+          (PP (IN of)
+            (NP (PRP him)))
+          (PP (CC but)
+            (NP (PRP$ his) (RB back)))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ rises)
+                (PP (IN in)
+                  (NP (DT a) (JJ long) (JJ sharp) (NN ridge)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Let)
+      (S
+        (NP (PRP him))
+        (VP (VB go))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP know)
+        (NP
+          (NP (RB little) (JJR more))
+          (PP (IN of)
+            (NP (PRP him)))))
+      (, ,)
+      (CC nor)
+      (VP (VBZ does)
+        (S
+          (NP (NN anybody))
+          (ADJP (RB else)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (NN I))
+    (. .)))
+~~~~~~

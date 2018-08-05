@@ -1,0 +1,86 @@
+(ROOT
+  (FRAG (-LRB- -LRB-)
+    (NP (NNP ALGERINE) (NN PORPOISE))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (ADJP (RB Very) (JJ savage))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP
+        (ADVP (RB only))
+        (VBN found)
+        (PRN (, ,)
+          (S
+            (NP (PRP I))
+            (VP (VBP think)))
+          (, ,))
+        (PP (IN in)
+          (NP (DT the) (NNP Pacific)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (RB somewhat) (JJR larger))
+          (PP (IN than)
+            (NP (DT the) (NNP Huzza) (NNP Porpoise))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (RB much))
+        (PP (IN of)
+          (NP (DT the) (JJ same) (JJ general))))
+      (VP (VBP make)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (VP (VB Provoke)
+        (NP (PRP him))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (MD will)
+        (VP (VB buckle)
+          (PP (TO to)
+            (NP (DT a) (NN shark))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP have)
+        (VP (VBN lowered)
+          (PP (IN for)
+            (NP (PRP him)))
+          (NP-TMP (JJ many) (NNS times))))
+      (, ,)
+      (CC but)
+      (ADVP (RB never))
+      (VP
+        (ADVP (RB yet))
+        (VBD saw)
+        (S
+          (NP (PRP him))
+          (VP (VBN captured)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (CD III))
+    (. .)))
+~~~~~~

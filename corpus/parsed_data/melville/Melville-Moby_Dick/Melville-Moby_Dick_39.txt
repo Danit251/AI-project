@@ -1,0 +1,103 @@
+(ROOT
+  (FRAG (-LRB- -LRB-)
+    (NP (NN GRAMPUS))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (S
+      (VP (VBG possessing)
+        (NP
+          (NP (PDT all) (DT the) (JJ grand) (JJ distinctive) (NNS features))
+          (PP (IN of)
+            (NP (DT the) (NN leviathan))))))
+    (, ,)
+    (NP (JJS most) (NNS naturalists))
+    (VP (VBP have)
+      (VP (VBN recognised)
+        (NP (PRP him))
+        (PP (IN for)
+          (NP (CD one)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (PP
+        (PP (IN of)
+          (NP
+            (NP (JJ moderate) (NN octavo) (NN size))
+            (, ,)
+            (NP
+              (NP (VBG varying))
+              (PP (IN from)
+                (NP (CD fifteen) (TO to) (CD twenty))))))
+        (: -)
+        (PP
+          (NP (CD five) (NNS feet))
+          (IN in)
+          (NP (NN length)))
+        (, ,)
+        (CC and)
+        (PP (IN of)
+          (NP
+            (NP (JJ corresponding) (NNS dimensions))
+            (VP (VBP round)
+              (NP (DT the) (NN waist)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ swims)
+        (PP (IN in)
+          (NP (NNS herds)))))
+    (: ;)
+    (S
+      (NP (PRP he))
+      (VP (VBZ is)
+        (ADVP (RB never))
+        (VP
+          (VP
+            (ADVP (RB regularly))
+            (VBN hunted) (, ,)
+            (SBAR (IN though)
+              (S
+                (NP (PRP$ his) (NN oil))
+                (VP (VBZ is)
+                  (ADJP (JJ considerable)
+                    (PP (IN in)
+                      (NP (NN quantity))))))))
+          (, ,)
+          (CC and)
+          (VP
+            (ADJP (RB pretty) (JJ good))
+            (PP (IN for)
+              (NP (NN light)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (DT some) (NNS fishermen)))
+    (NP (PRP$ his) (NN approach))
+    (VP (VBZ is)
+      (VP (VBN regarded)
+        (PP (IN as)
+          (NP
+            (NP (JJ premonitory))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN advance))
+                (PP (IN of)
+                  (NP (DT the) (JJ great) (NN sperm) (NN whale)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (CD II))
+    (. .)))
+~~~~~~

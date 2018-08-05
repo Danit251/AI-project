@@ -1,0 +1,1283 @@
+(ROOT
+  (NP
+    (NP (DT The) (NNP Article))
+    (PP (IN in)
+      (NP (DT the) (NNP Daily) (NNP Telegraph)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Petermann))
+    (VP (VBZ backs)
+      (NP (PRP$ his) (NN Friend) (NN Dr)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP Ferguson))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (DT the) (JJ next) (NN day)))
+    (, ,)
+    (PP (IN in)
+      (NP
+        (NP (PRP$ its) (NN number))
+        (PP (IN of)
+          (NP (NNP January) (JJ 15th)))))
+    (, ,)
+    (NP (DT the) (NNP Daily) (NNP Telegraph))
+    (VP (VBD published)
+      (SBAR
+        (S
+          (S
+            (NP (DT an) (NN article))
+            (VP (VBN couched)
+              (PP (IN in)
+                (NP (DT the) (VBG following) (NNS terms)))))
+          (: :)
+          (S
+            (NP (NNP Africa))
+            (VP (VBZ is) (, ,)
+              (PP (IN at)
+                (NP (NN length)))
+              (, ,)
+              (ADJP (IN about)
+                (S
+                  (VP (TO to)
+                    (VP (VB surrender)
+                      (NP
+                        (NP (DT the) (NN secret))
+                        (PP (IN of)
+                          (NP (PRP$ her) (JJ vast) (NNS solitudes))))))))))
+          (: ;)
+          (S
+            (NP (DT a) (JJ modern) (NN OEdipus))
+            (VP (VBZ is)
+              (S
+                (VP (TO to)
+                  (VP (VB give)
+                    (NP (PRP us))
+                    (NP
+                      (NP (DT the) (NN key))
+                      (PP (TO to)
+                        (NP
+                          (NP (DT that) (NN enigma))
+                          (SBAR
+                            (WHNP (WDT which))
+                            (S
+                              (NP
+                                (NP (DT the) (VBN learned) (NNS men))
+                                (PP (IN of)
+                                  (NP (CD sixty) (NNS centuries))))
+                              (VP (VBP have) (RB not)
+                                (VP (VBN been)
+                                  (ADJP (JJ able)
+                                    (S
+                                      (VP (TO to)
+                                        (VP (VB decipher))))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ other) (NNS days)))
+    (, ,)
+    (S
+      (VP (TO to)
+        (VP (VB seek)
+          (NP
+            (NP (DT the) (NNS sources))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNP Nile))
+                (PRN (: --)
+                  (VP (VBZ fontes)
+                    (NP (NNP Nili) (NNP quoerere)))
+                  (: --))))))))
+    (VP (VBD was)
+      (VP (VBN regarded)
+        (PP (IN as)
+          (NP
+            (NP (DT a) (JJ mad) (NN endeavor))
+            (, ,)
+            (NP
+              (NP (DT a) (NN chimera))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (MD could) (RB not)
+                    (VP (VB be)
+                      (VP (VBN realized)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP (NN Dr) (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP Barth))
+    (, ,)
+    (PP (IN in)
+      (S
+        (VP (VBG following)
+          (PRT (RP out))
+          (S
+            (VP (TO to)
+              (VP (VB Soudan)
+                (NP
+                  (NP (DT the) (NN track))
+                  (VP (VBN traced)
+                    (PP (IN by)
+                      (NP (NNP Denham)
+                        (CC and)
+                        (NNP Clapperton))))
+                  (: ;)
+                  (NP (NNP Dr)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Livingstone))
+      (, ,)
+      (PP (IN in)
+        (S
+          (VP (VBG multiplying)
+            (NP (PRP$ his) (JJ fearless) (NNS explorations))
+            (PP (IN from)
+              (NP
+                (NP (DT the) (NNP Cape))
+                (PP (IN of)
+                  (NP (JJ Good) (NNP Hope)))))
+            (PP (TO to)
+              (NP
+                (NP
+                  (NP (DT the) (NN basin))
+                  (PP (IN of)
+                    (NP (DT the) (NNP Zambesi))))
+                (: ;)
+                (NP
+                  (NP (NNP Captains) (NNP Burton))
+                  (CC and)
+                  (NP (NNP Speke)))
+                (, ,)
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN discovery))
+                    (PP (IN of)
+                      (NP (DT the) (JJ great) (JJ interior) (NNS lakes))))))))))
+      (, ,))
+    (VP (VBP have)
+      (VP (VBN opened)
+        (NP (CD three) (NNS highways))
+        (PP (TO to)
+          (NP (JJ modern) (NN civilization)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP THEIR) (NNP POINT))
+        (PP (IN OF)
+          (NP (NNP INTERSECTION)))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (DT no) (NN traveller))
+            (VP (VBZ has)
+              (ADVP (RB yet))
+              (VP (VBN been)
+                (ADJP (JJ able)
+                  (S
+                    (VP (TO to)
+                      (VP (VB reach)))))))))
+        (, ,))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (JJ very) (NN heart))
+          (PP (IN of)
+            (NP (NNP Africa))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADVP (RB thither))
+        (SBAR (IN that)
+          (S
+            (NP (DT all) (NNS efforts))
+            (VP (MD should)
+              (ADVP (RB now))
+              (VP (VB be)
+                (VP (VBN directed))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS labors))
+      (PP (IN of)
+        (NP
+          (NP (DT these) (JJ hardy) (NNS pioneers))
+          (PP (IN of)
+            (NP (NN science))))))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (ADJP (RB about)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (VBN knit)
+                (PRT (RB together))
+                (PP (IN by)
+                  (NP
+                    (NP (DT the)
+                      (ADJP (JJ daring))
+                      (NN project))
+                    (PP (IN of)
+                      (NP (NN Dr)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NNP Samuel) (NNP Ferguson))
+    (, ,)
+    (SBAR
+      (WHNP (WP$ whose)
+        (NP (JJ fine) (NNS explorations)))
+      (S
+        (NP (PRP$ our) (NNS readers))
+        (VP (VBP have)
+          (ADVP (RB frequently))
+          (VP (VBN had)
+            (NP
+              (NP (DT the) (NN opportunity))
+              (PP (IN of)
+                (S
+                  (VP (VBG appreciating)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT This) (JJ intrepid) (NN discoverer))
+    (VP (VBZ proposes)
+      (S
+        (VP (TO to)
+          (VP (VB traverse)
+            (NP (DT all) (NNP Africa))
+            (PP (IN from)
+              (ADVP (JJ east)))
+            (PP (TO to)
+              (NP
+                (NP (JJ west))
+                (PP (IN IN)
+                  (NP (DT A) (NN BALLOON)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP we))
+        (VP (VBP are)
+          (ADJP (RB well) (VBN informed)))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN point))
+      (PP (IN of)
+        (NP
+          (NP (NN departure))
+          (PP (IN for)
+            (NP (DT this) (JJ surprising) (NN journey))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP
+              (NP (DT the) (NN island))
+              (PP (IN of)
+                (NP (NNP Zanzibar))))
+            (, ,)
+            (PP (IN upon)
+              (NP (DT the) (JJ eastern) (NN coast)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN As)
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NN point))
+          (PP (IN of)
+            (NP (NN arrival))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (VP (VBN reserved)
+        (PP (IN for)
+          (NP (NNP Providence)))
+        (S
+          (ADVP (RB alone))
+          (VP (TO to)
+            (VP (VB designate))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN proposal))
+        (PP (IN for)
+          (NP (DT this) (JJ scientific) (NN undertaking))))
+      (VP (VBD was)
+        (ADVP (RB officially))
+        (VP (VBN made) (, ,)
+          (ADVP (NN yesterday))
+          (, ,)
+          (PP (IN at)
+            (NP
+              (NP
+                (NP (DT the) (NNS rooms))
+                (PP (IN of)
+                  (NP (DT the) (NNP Royal) (NNP Geographical) (NNP Society))))
+              (, ,)
+              (CC and)
+              (NP
+                (NP (DT the) (NN sum))
+                (PP (IN of)
+                  (NP (CD twenty)))))))))
+    (: -)
+    (S
+      (NP
+        (QP (CD five) (CD hundred))
+        (NNS pounds))
+      (VP (VBD was)
+        (VP (VBN voted)
+          (S
+            (VP (TO to)
+              (VP (VB defray)
+                (NP
+                  (NP (DT the) (NNS expenses))
+                  (PP (IN of)
+                    (NP (DT the) (NN enterprise))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD shall)
+      (VP (VB keep)
+        (NP
+          (NP (PRP$ our) (NNS readers))
+          (VP (VBN informed)
+            (PP (IN as)
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NN progress))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT this) (NN enterprise))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (VP (VBZ has)
+                            (NP
+                              (NP (DT no) (NN precedent))
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT the) (NN annals))
+                                  (PP (IN of)
+                                    (NP (NN exploration))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (VP (MD may)
+          (VP (VB be)
+            (VP (VBN supposed))))))
+    (, ,)
+    (NP (DT the) (JJ foregoing) (NN article))
+    (VP (VBD had)
+      (NP
+        (NP (DT an) (JJ enormous))
+        (SBAR
+          (S
+            (VP (VBP echo)
+              (PP (IN among)
+                (NP (JJ scientific) (NNS people))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN At)
+      (ADVP (RB first)))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD stirred)
+      (PRT (RP up))
+      (NP
+        (NP
+          (NP (DT a) (NN storm))
+          (PP (IN of)
+            (NP (NN incredulity))))
+        (: ;)
+        (NP (NNP Dr))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Ferguson))
+    (VP (VBD passed)
+      (PP (IN for)
+        (NP
+          (NP (DT a)
+            (ADJP (RB purely) (JJ chimerical))
+            (NN personage))
+          (PP (IN of)
+            (NP (DT the) (NNP Barnum) (NN stamp)))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (PRN (, ,)
+              (PP (IN after)
+                (S
+                  (VP (VBG having)
+                    (VP (VBN gone)
+                      (PP (IN through)
+                        (NP (DT the) (NNP United) (NNPS States)))))))
+              (, ,))
+            (S
+              (VP (VBN proposed)
+                (S
+                  (VP (TO to)
+                    (VP (VB do)
+                      (NP (DT the) (JJ British) (NNP Isles)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT A) (JJ humorous) (NN reply))
+    (VP (VBD appeared)
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NNP February) (NN number))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNS Bulletins))
+              (IN de)
+              (NP
+                (NP (DT la) (NNP Societe) (NNP Geographique))
+                (PP (IN of)
+                  (NP (NNP Geneva))))))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (ADJP (RB very) (RB wittily))
+              (VP (VBD showed)
+                (PRT (IN up))
+                (NP
+                  (NP (DT the) (NNP Royal) (NNP Society))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNP London))
+                      (CC and)
+                      (NP (PRP$ their) (JJ phenomenal) (NN sturgeon)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (NNP Herr) (NNP Petermann))
+      (, ,)
+      (PP (IN in)
+        (NP
+          (NP (PRP$ his) (NNP Mittheilungen))
+          (, ,)
+          (VP (VBN published)
+            (PP (IN at)
+              (NP (NNP Gotha))))))
+      (, ,))
+    (VP (VBD reduced)
+      (NP (DT the) (NNP Geneva) (NN journal))
+      (PP (TO to)
+        (NP (DT the)
+          (ADJP (RBS most) (JJ absolute))
+          (NN silence))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Herr) (NNP Petermann))
+    (VP (VBD knew)
+      (NP (NNP Dr)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ferguson))
+      (ADVP (RB personally)))
+    (, ,)
+    (VP (CC and)
+      (VP (VBN guaranteed)
+        (NP
+          (NP (DT the) (NN intrepidity))
+          (PP (IN of)
+            (NP (PRP$ his) (JJ dauntless) (NN friend))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (ADVP (IN Besides))
+      (, ,)
+      (NP
+        (NP (DT all) (NN manner))
+        (PP (IN of)
+          (NP (NN doubt))))
+      (VP (VBD was)
+        (ADVP (RB quickly))
+        (VP (VBN put)
+          (PRT (RP out))
+          (PP (IN of)
+            (NP (DT the) (NN question))))))
+    (: :)
+    (S
+      (NP
+        (NP (NNS preparations))
+        (PP (IN for)
+          (NP (DT the) (NN trip))))
+      (VP (VBD were)
+        (VP (VBN set)
+          (PP (IN on)
+            (NP (NN foot)))
+          (PP (IN at)
+            (NP (NNP London))))))
+    (: ;)
+    (S
+      (NP
+        (NP (DT the) (NNS factories))
+        (PP (IN of)
+          (NP (NNP Lyons))))
+      (VP (VBD received)
+        (NP (DT a) (JJ heavy) (NN order))
+        (PP (IN for)
+          (NP
+            (NP (DT the) (NN silk))
+            (VP (VBN required)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NN body))
+                  (PP (IN of)
+                    (NP (DT the) (NN balloon))))))))))
+    (: ;)
+    (CC and)
+    (, ,)
+    (S
+      (ADVP (RB finally))
+      (, ,)
+      (NP (DT the) (JJ British) (NN Government))
+      (VP (VBD placed)
+        (NP
+          (NP (DT the) (NN transport))
+          (: -)
+          (NP
+            (NP (NN ship) (NNP Resolute))
+            (, ,)
+            (NP (NNP Captain) (NNP Bennett)))
+          (, ,))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN disposal))
+            (PP (IN of)
+              (NP (DT the) (NN expedition)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (RB once))
+        (, ,)
+        (PP (IN upon)
+          (NP
+            (NP (NN word))
+            (PP (IN of)
+              (NP (PDT all) (DT this)))))))
+    (, ,)
+    (S
+      (NP (DT a) (CD thousand) (NNS encouragements))
+      (VP (VBD were)
+        (VP (VBN offered))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNS felicitations))
+      (VP (VBD came)
+        (S
+          (VP (VBG pouring)
+            (PP (IN in)
+              (PP (IN from)
+                (NP (DT all) (NNS quarters))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP (DT The) (NNS details))
+        (PP (IN of)
+          (NP (DT the) (NN undertaking))))
+      (VP (VBD were)
+        (VP (VBN published)
+          (PP (IN in)
+            (NP
+              (NP (JJ full))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NNS bulletins))
+                  (PP (IN of)
+                    (NP
+                      (NP
+                        (NP (DT the) (NNP Geographical) (NNP Society))
+                        (PP (IN of)
+                          (NP (NNP Paris))))
+                      (: ;)
+                      (NP (DT a) (JJ remarkable) (NN article)))))))))))
+    (VP (VBD appeared)
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NNP Nouvelles) (NNP Annales) (NNP des) (NNP Voyages))
+          (, ,)
+          (NP (FW de) (FW la) (FW Geographie))
+          (, ,) (FW de)))
+      (NP-TMP (NN l)))
+    (NP
+      (NP (NNP Histoire))
+      (, ,)
+      (NP
+        (NP (FW et) (FW de) (NN l))
+        (NP (FW Archaeologie) (FW de) (NN M))))
+    (. .)))
+~~~~~~
+(ROOT
+  (INTJ (NN V) (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (DT A))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NNP Malte))
+    (: -)
+    (NP
+      (NP
+        (NP (NNP Brun))
+        (-LRB- -LRB-)
+        (NP
+          (NP (NNP New) (NNP Annals))
+          (PP (IN of)
+            (NP
+              (NP (NNS Travels))
+              (, ,)
+              (NP (NN Geography))
+              (, ,)
+              (NP (NN History))
+              (, ,)
+              (CC and)
+              (NP (NNP Archaeology)))))
+        (, ,))
+      (PP (IN by)
+        (NP (NN M))))
+    (. .)))
+~~~~~~
+(ROOT
+  (INTJ (NN V) (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (DT A))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Malte))
+      (PRN (: -)
+        (NP (NNP Brun)))
+      (-RRB- -RRB-))
+    (: ;)
+    (NP
+      (NP
+        (ADVP (CC and))
+        (DT a))
+      (VP (VBG searching)
+        (NP
+          (NP (NN essay))
+          (PP (IN in)
+            (NP (DT the) (NNP Zeitschrift) (NN fur) (NNP Allgemeine) (NNP Erdkunde)))))
+      (, ,)
+      (PP (IN by)
+        (NP (NN Dr))))
+    (. .)))
+~~~~~~
+(ROOT
+  (INTJ (NN W) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (NNP Koner))
+      (, ,)
+      (ADVP (RB triumphantly))
+      (VP
+        (VP (VBD demonstrated)
+          (NP
+            (NP (DT the) (NN feasibility))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN journey))
+                (, ,)
+                (NP
+                  (NP (PRP$ its) (NNS chances))
+                  (PP (IN of)
+                    (NP
+                      (NP (NN success))
+                      (, ,)
+                      (NP
+                        (NP
+                          (NP (DT the) (NN nature))
+                          (PP (IN of)
+                            (NP (DT the) (NNS obstacles)))
+                          (ADJP (VBG existing)))
+                        (, ,)
+                        (NP
+                          (NP (DT the) (JJ immense) (NNS advantages))
+                          (PP (IN of)
+                            (NP
+                              (NP (DT the) (JJ aerial) (NN mode))
+                              (PP (IN of)
+                                (NP (NN locomotion))))))))))))))
+        (, ,)
+        (CC and)
+        (VP (VBD found)
+          (NP (NN fault))
+          (PP (IN with)
+            (NP (NN nothing))))))
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (VBN selected) (NN point))
+        (PP (IN of)
+          (NP
+            (NP (NN departure))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (PRP it))
+                (VP (VBD contended)))))))
+      (VP (MD should)
+        (VP (VB be)
+          (NP
+            (NP (NNP Massowah))
+            (, ,)
+            (NP
+              (NP
+                (NP (DT a) (JJ small) (NN port))
+                (PP (IN in)
+                  (NP (NNP Abyssinia))))
+              (, ,)
+              (NP (NN whence) (NNP James) (NNP Bruce))
+              (, ,)
+              (PP (IN in)
+                (NP (CD 1768)))
+              (, ,)
+              (VP (VBN started)
+                (PP (IN upon)
+                  (NP (PRP$ his) (NNS explorations)))
+                (PP (IN in)
+                  (NP
+                    (NP (NN search))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NNS sources))
+                        (PP (IN of)
+                          (NP (DT the) (NNP Nile)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Apart))
+      (IN from)
+      (NP (DT that)))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD mentioned) (, ,)
+      (PP (IN in)
+        (NP
+          (NP (NNS terms))
+          (PP (IN of)
+            (NP (JJ unreserved) (NN admiration)))))
+      (, ,)
+      (NP
+        (NP (DT the) (JJ energetic) (NN character))
+        (PP (IN of)
+          (NP (NN Dr)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ferguson))
+      (, ,)
+      (CC and)
+      (NP
+        (NP (DT the) (NN heart))
+        (, ,)
+        (NP (NN thrice))))
+    (VP (VBD panoplied)
+      (PP (IN in)
+        (NP
+          (NP (NN bronze))
+          (, ,)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD could)
+                (VP (VB conceive)
+                  (CC and)
+                  (VB undertake)
+                  (NP (PDT such) (DT an) (NN enterprise)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The)
+      (ADJP (JJ North) (JJ American))
+      (NN Review))
+    (VP (MD could)
+      (ADVP (RB not))
+      (PRN (, ,)
+        (PP (IN without)
+          (NP (DT some) (NN displeasure)))
+        (, ,))
+      (VP (VB contemplate)
+        (NP
+          (NP
+            (ADJP (RB so) (JJ much))
+            (NN glory))
+          (VP (VBN monopolized)
+            (PP (IN by)
+              (NP (NNP England)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB therefore))
+    (ADVP (RB rather))
+    (VP (VBD ridiculed)
+      (SBAR
+        (S
+          (NP (DT the) (NN doctor))
+          (VP (VBZ s)
+            (NP (NN scheme))))))
+    (, ,)
+    (CC and)
+    (VP (VBD urged)
+      (NP (PRP him))
+      (, ,)
+      (PP (IN by)
+        (NP (DT all) (NNS means)))
+      (, ,)
+      (S
+        (VP (TO to)
+          (VP (VB push)
+            (NP (PRP$ his) (NNS explorations))
+            (ADVP (IN as) (RB far))
+            (PP (IN as)
+              (NP (NNP America))))))
+      (, ,)
+      (SBAR (IN while)
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (PP (IN about)
+              (NP (PRP it)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT a) (NN word)))
+    (, ,)
+    (PP (IN without)
+      (S
+        (VP (VBG going)
+          (PP (IN over)
+            (NP
+              (NP (PDT all) (DT the) (NNS journals))
+              (PP (IN in)
+                (NP (DT the) (NN world))))))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBD was)
+      (PP (RB not)
+        (NP (DT a) (JJ scientific) (NN publication)))
+      (, ,)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NNP Journal))
+          (PP (IN of)
+            (NP
+              (NP (NNP Evangelical) (NNPS Missions))
+              (PP (TO to)
+                (NP (DT the) (NNP Revue) (NNP Algerienne) (FW et) (NNP Coloniale)))))))
+      (, ,)
+      (PP (IN from)
+        (NP
+          (NP
+            (NP (DT the) (NNP Annales))
+            (RRC
+              (ADVP (FW de) (FW la))
+              (NP
+                (NP (NN Propagation) (FW de) (FW la) (FW Foi))
+                (PP (TO to)
+                  (NP (DT the) (NNP Church) (NNP Missionary) (NNP Intelligencer))))))
+          (, ,)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD had)
+                (NP (RB not) (NN something)
+                  (S
+                    (VP (TO to)
+                      (VP (VB say)
+                        (PP (IN about)
+                          (NP
+                            (NP (DT the) (NN affair))
+                            (PP (IN in)
+                              (NP (DT all) (PRP$ its) (NNS phases)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (JJ Many) (JJ large) (NNS bets))
+    (VP (VBD were)
+      (VP (VBN made)
+        (PP
+          (PP (IN at)
+            (NP (NNP London)))
+          (CC and)
+          (PP (IN throughout)
+            (NP (NNP England)))
+          (ADVP (RB generally)))
+        (, ,)
+        (ADVP (RB first))
+        (, ,)
+        (PP (IN as)
+          (PP (TO to)
+            (NP
+              (NP (DT the)
+                (ADJP (JJ real)
+                  (CC or)
+                  (JJ supposititious))
+                (NN existence))
+              (PP (IN of)
+                (NP (NN Dr))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NNP Ferguson))
+    (: ;)
+    (NP
+      (ADVP (RB secondly))
+      (, ,)
+      (SBAR
+        (SBAR (IN as)
+          (S
+            (PP (TO to)
+              (NP (DT the) (NN trip)))
+            (NP
+              (NP (PRP itself))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (, ,)
+                (S
+                  (NP (DT some))
+                  (VP (VBN contended))))
+              (, ,))
+            (VP (MD would) (RB not)
+              (VP (VB be)
+                (VP (VBN undertaken)
+                  (ADVP (IN at) (DT all)))))))
+        (, ,)
+        (CC and)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBD was)
+              (ADVP (RB really))
+              (VP (VBN contemplated) (, ,)
+                (PP (VBG according)
+                  (PP (TO to)
+                    (NP (NNS others))))
+                (: ;)
+                (ADVP (RB thirdly))
+                (, ,)
+                (PP (IN upon)
+                  (NP
+                    (NP (DT the) (NN success)
+                      (CC or)
+                      (NN failure))
+                    (UCP
+                      (PP (IN of)
+                        (NP (DT the) (NN enterprise))
+                        (: ;))
+                      (CC and)
+                      (ADVP (RB fourthly)))))
+                (, ,)
+                (PP (IN upon)
+                  (NP
+                    (NP (DT the) (NNS probabilities))
+                    (PP (IN of)
+                      (NP (NN Dr)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Ferguson))
+    (VP (VBZ s)
+      (NP (NN return)))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (DT The) (VBG betting))
+    (: -)
+    (S
+      (NP (NNS books))
+      (VP (VBD were)
+        (VP (VBN covered)
+          (PP (IN with)
+            (NP
+              (NP (NNS entries))
+              (PP (IN of)
+                (NP (JJ immense) (NNS sums)))))
+          (, ,)
+          (SBAR (IN as) (IN though)
+            (S
+              (NP (DT the) (NNP Epsom) (NNS races))
+              (VP (VBD were)
+                (PP (IN at)
+                  (NP (NN stake)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (S
+      (NP
+        (NP (NNS believers)
+          (CC and)
+          (NNS unbelievers))
+        (, ,)
+        (NP
+          (NP
+            (NP (DT the))
+            (VP (VBN learned)))
+          (CC and)
+          (NP (DT the) (JJ ignorant)))
+        (, ,))
+      (ADVP (RB alike))
+      (VP (VBD had)
+        (NP
+          (NP (PRP$ their) (NNS eyes))
+          (VP (VBN fixed)
+            (PP (IN on)
+              (NP (DT the) (NN doctor)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD became)
+        (NP
+          (NP (DT the) (NN lion))
+          (PP (IN of)
+            (NP (DT the) (NN day))))
+        (, ,)
+        (PP (IN without)
+          (S
+            (VP (VBG knowing)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP he))
+                  (VP (VBD carried)
+                    (PP (JJ such)
+                      (NP (DT a) (NN mane)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (PRP$ his) (NN part)))
+    (, ,)
+    (NP (PRP he))
+    (ADVP (RB willingly))
+    (VP (VBD gave)
+      (NP
+        (NP (DT the)
+          (ADJP (RBS most) (JJ accurate))
+          (NN information))
+        (VP (VBG touching)
+          (NP (PRP$ his) (NN project)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (VP
+        (ADVP (RB very) (RB easily))
+        (VBN approached) (, ,)
+        (S
+          (VP (VBG being)
+            (NP
+              (NP
+                (ADVP (RB naturally))
+                (DT the)
+                (ADJP (RBS most) (JJ affable))
+                (NN man))
+              (PP (IN in)
+                (NP (DT the) (NN world))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (QP (JJR More) (IN than) (CD one))
+        (JJ bold) (NN adventurer))
+      (VP (VBD presented)
+        (NP (PRP himself))
+        (, ,)
+        (S
+          (VP (VBG offering)
+            (S
+              (VP (TO to)
+                (VP (VB share)
+                  (NP
+                    (NP (DT the) (NNS dangers))
+                    (CONJP (RB as) (RB well) (IN as))
+                    (NP
+                      (NP (DT the) (NN glory))
+                      (PP (IN of)
+                        (NP (DT the) (NN undertaking))))))))))))
+    (: ;)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBD refused)
+        (S
+          (NP (PRP them))
+          (NP (DT all)))
+        (, ,)
+        (PP (IN without)
+          (S
+            (VP (VBG giving)
+              (NP (PRP$ his) (NNS reasons))
+              (PP (IN for)
+                (S
+                  (VP (VBG rejecting)
+                    (NP (PRP them))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (JJ Numerous) (NNS inventors))
+        (PP (IN of)
+          (NP
+            (NP (NN mechanism))
+            (ADJP (JJ applicable)
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NN guidance))
+                  (PP (IN of)
+                    (NP (NNS balloons)))))))))
+      (VP (VBD came)
+        (S
+          (VP (TO to)
+            (VP (VB propose)
+              (NP (PRP$ their) (NNS systems)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (MD would)
+        (VP (VB accept)
+          (NP (NN none)))))
+    (: ;)
+    (CC and)
+    (S (, ,)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (VP (VBN asked)
+              (SBAR (IN whether)
+                (S
+                  (NP (PRP he))
+                  (VP (VBD had)
+                    (VP (VBN discovered)
+                      (NP
+                        (NP (NN something))
+                        (PP (IN of)
+                          (NP (PRP$ his) (JJ own))))
+                      (PP (IN for)
+                        (NP (DT that) (NN purpose)))))))))))
+      (, ,)
+      (NP (PRP he))
+      (ADVP (RB constantly))
+      (VP
+        (VP (VBD refused)
+          (S
+            (VP (TO to)
+              (VP (VB give)
+                (NP (DT any) (NN explanation))))))
+        (, ,)
+        (CC and)
+        (VP
+          (ADVP (RB merely))
+          (VBD busied)
+          (S
+            (NP (PRP himself))
+            (ADJP (RBR more) (RB actively))
+            (PP (IN than)
+              (PP
+                (ADVP (RB ever))
+                (IN with)
+                (NP
+                  (NP (DT the) (NNS preparations))
+                  (PP (IN for)
+                    (NP (PRP$ his) (NN journey))))))))))
+    (. .)))
+~~~~~~

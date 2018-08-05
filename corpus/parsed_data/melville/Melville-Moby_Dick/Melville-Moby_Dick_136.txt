@@ -1,0 +1,95 @@
+(ROOT
+  (FRAG
+    (NP (NN Midnight))
+    (ADVP (JJ Aloft))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (DT THE) (NN MAIN))
+    (: -)
+    (FRAG
+      (X (SYM TOP))
+      (: -)
+      (NP (NNP SAIL) (NNP YARD)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (ADJP (RB Um))
+    (, ,)
+    (NP
+      (NP (NN um))
+      (, ,)
+      (NP (NN um))
+      (. .))))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Stop)
+      (NP (DT that) (NN thunder)))
+    (. !)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN Plenty))
+    (NP (RB too)
+      (NP (JJ much) (NN thunder))
+      (ADVP (IN up) (RB here)))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHNP (WDT What) ('' '))
+    (SQ
+      (VP (VBZ s)
+        (NP
+          (NP (DT the) (NN use))
+          (PP (IN of)
+            (NP (NN thunder))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (FRAG
+    (ADJP (RB Um))
+    (, ,)
+    (NP
+      (NP (NN um))
+      (, ,)
+      (NP (NN um))
+      (. .))))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (S
+        (NP (PRP We))
+        (VP (VBP don) ('' ')))
+      (NP (NN t))
+      (VP (VBP want)
+        (NP (NN thunder))))
+    (: ;)
+    (S
+      (NP (PRP we))
+      (VP (VBP want)
+        (NP
+          (NP (NN rum))
+          (: ;)
+          (VP (VB give)
+            (NP (PRP us))
+            (NP
+              (NP (DT a) (NN glass))
+              (PP (IN of)
+                (NP (NN rum))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP
+      (NP (RB Um))
+      (, ,)
+      (NP (NN um))
+      (, ,)
+      (NP (NN um)))
+    (. !) ('' '')))
+~~~~~~

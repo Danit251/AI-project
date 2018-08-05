@@ -1,0 +1,315 @@
+(ROOT
+  (NP (DT The) (NN Lamp) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (S
+        (SINV (VBD Had)
+          (NP (PRP you))
+          (VP (VBD descended)
+            (PP (IN from)
+              (NP
+                (NP
+                  (NP (DT the) (NNP Pequod) (POS '))
+                  (NNS s))
+                (SBAR
+                  (S
+                    (VP (VBP try))))))))
+        (: -)
+        (FRAG
+          (VP (VBZ works)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NNP Pequod) (POS '))
+                (NNS s))))))
+      (VP (VBP forecastle)
+        (PRN (, ,)
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (JJ off) (NN duty) (NN watch))
+              (VP (VBD were)
+                (VP (VBG sleeping)))))
+          (, ,))
+        (PP (IN for)
+          (NP (CD one)))
+        (NP-TMP (JJ single) (NN moment))))
+    (NP (PRP you))
+    (VP (MD would)
+      (VP (VB have)
+        (ADVP (RB almost))
+        (VP (VBN thought)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBD were)
+                (VP (VBG standing)
+                  (PP (IN in)
+                    (NP
+                      (NP (DT some))
+                      (VP (VBN illuminated)
+                        (NP
+                          (NP (NN shrine))
+                          (PP (IN of)
+                            (S
+                              (VP (VBN canonized)
+                                (NP (NNS kings)
+                                  (CC and)
+                                  (NNS counsellors))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (EX There))
+    (NP (PRP they))
+    (VP (VBD lay)
+      (PP (IN in)
+        (NP
+          (NP (PRP$ their) (JJ triangular) (NN oaken) (NNS vaults))
+          (, ,)
+          (NP
+            (NP
+              (NP (DT each) (NN mariner))
+              (NP (DT a) (JJ chiselled) (NN muteness)))
+            (: ;)
+            (NP
+              (NP (DT a) (NN score))
+              (PP (IN of)
+                (NP
+                  (NP (NNS lamps))
+                  (VP (VBG flashing)
+                    (PP (IN upon)
+                      (NP (PRP$ his) (JJ hooded) (NNS eyes)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNS merchantmen)))
+    (, ,)
+    (NP
+      (NP (NN oil))
+      (PP (IN for)
+        (NP (DT the) (NN sailor))))
+    (VP (VBZ is)
+      (ADJP (RBR more) (JJ scarce)
+        (PP (IN than)
+          (NP
+            (NP (DT the) (NN milk))
+            (PP (IN of)
+              (NP (NNS queens)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP
+          (VP (VB dress)
+            (PP (IN in)
+              (NP (DT the) (JJ dark))))
+          (, ,)
+          (CC and)
+          (VP (VB eat)
+            (PP (IN in)
+              (NP (DT the) (JJ dark))))
+          (, ,)
+          (CC and)
+          (VP (VB stumble)
+            (PP (IN in)
+              (NP (NN darkness)))
+            (PP (TO to)
+              (NP (PRP$ his) (NN pallet)))))))
+    (, ,)
+    (NP (DT this))
+    (VP (VBZ is)
+      (NP (PRP$ his) (JJ usual) (NN lot)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (NP (DT the) (NN whaleman))
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (NP (PRP he))
+        (VP (VBZ seeks)
+          (NP
+            (NP (DT the) (NN food))
+            (PP (IN of)
+              (NP (NN light)))))))
+    (, ,) (RB so)
+    (NP (PRP he))
+    (VP (VBZ lives)
+      (PP (IN in)
+        (NP (NN light))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ makes)
+      (SBAR
+        (S
+          (NP (PRP$ his))
+          (VP
+            (VP (VBP berth)
+              (NP
+                (NP (DT an) (NNP Aladdin) (POS '))
+                (NNS s) (NN lamp)))
+            (, ,)
+            (CC and)
+            (VP (VBZ lays)
+              (NP (PRP him))
+              (PRT (RP down))
+              (PP (IN in)
+                (NP (PRP it))))
+            (: ;)
+            (SBAR (RB so) (IN that)
+              (S
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN pitchiest) (NN night))
+                    (NP
+                      (NP (DT the) (NN ship) (POS '))
+                      (NNS s))))
+                (NP (JJ black) (NN hull))
+                (VP
+                  (ADVP (RB still))
+                  (VBZ houses)
+                  (NP (DT an) (NN illumination)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB See)
+      (PP (IN with)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP
+              (NP (JJ entire) (NN freedom))
+              (NP (DT the) (NN whaleman)))
+            (VP (VBZ takes)
+              (NP
+                (NP (PRP$ his) (NN handful))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS lamps))
+                    (PRN (: --)
+                      (ADVP (RB often))
+                      (NP
+                        (NP (CC but)
+                          (NP (JJ old) (NNS bottles))
+                          (CC and)
+                          (NP (NNS vials)))
+                        (, ,)
+                        (ADVP (RB though)))
+                      (: --)))))
+              (PP (TO to)
+                (NP (DT the) (NN copper)))
+              (NP-TMP
+                (NP (NN cooler))
+                (PP (IN at)
+                  (NP (DT the) (NN try)))
+                (: -)
+                (NP (NNS works)))
+              (PRN (, ,)
+                (CC and)
+                (VP (VBZ replenishes)
+                  (NP (PRP them))
+                  (ADVP (RB there)))
+                (, ,))
+              (PP (IN as)
+                (NP
+                  (NP (NNS mugs))
+                  (PP (IN of)
+                    (NP (NN ale)))))))))
+      (PP (IN at)
+        (NP (DT a) (NN vat))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ burns) (, ,)
+        (ADVP (RB too))
+        (, ,)
+        (S
+          (NP
+            (NP (DT the) (JJS purest))
+            (PP (IN of)
+              (NP (NN oil)))))
+        (, ,)
+        (PP (IN in)
+          (NP (PRP$ its) (JJ unmanufactured)))))
+    (, ,)
+    (CC and)
+    (, ,)
+    (S
+      (ADVP (RB therefore)))
+    (, ,)
+    (S
+      (NP (JJ unvitiated) (NN state))
+      (: ;)
+      (NP
+        (NP (DT a) (NN fluid))
+        (ADJP (JJ unknown)
+          (PP (TO to)
+            (NP
+              (NP (JJ solar) (, ,)
+                (ADJP (JJ lunar) (, ,)
+                  (CC or)
+                  (JJ astral))
+                (NNS contrivances))
+              (ADVP (RB ashore)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ sweet)
+        (PP (IN as)
+          (NP
+            (NP (JJ early) (NN grass) (NN butter))
+            (PP (IN in)
+              (NP (NNP April)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBZ goes))
+      (CC and)
+      (VP (VBZ hunts)
+        (PP (IN for)
+          (NP (PRP$ his) (NN oil)))
+        (, ,)
+        (SBAR (RB so) (IN as)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ sure)
+                  (PP (IN of)
+                    (NP (PRP$ its) (NN freshness)
+                      (CC and)
+                      (NN genuineness))))
+                (, ,)
+                (SBAR (RB even) (IN as)
+                  (S
+                    (NP
+                      (NP (DT the) (NN traveller))
+                      (PP (IN on)
+                        (NP (DT the) (NN prairie))))
+                    (VP (VBZ hunts)
+                      (PRT (RP up))
+                      (NP
+                        (NP (PRP$ his) (JJ own) (NN supper))
+                        (PP (IN of)
+                          (NP (NN game)))))))))))))
+    (. .)))
+~~~~~~

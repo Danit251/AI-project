@@ -1,0 +1,117 @@
+(ROOT
+  (S ('' '')
+    (S
+      (NP
+        (NP (CD Two))
+        (NP (NNS questions))
+        (, ,) ('' ''))
+      (NP (PRP he))
+      (VP (VBZ says)))
+    (, ,) ('' '')
+    (VP (VBP are)
+      (VP (VBN put)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (S
+        (VP (TO To)
+          (VP (VB solve)
+            (NP (CD one)))))
+      (NP (EX there))
+      (VP (VBZ is)
+        (NP (DT no) (NNS data))))
+    (: :)
+    (S
+      (NP (DT the) (JJ other) (NNS answers))
+      (NP (PRP itself)))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (IN As)
+        (PP (TO to)
+          (NP (DT the) (JJ first) (NN point))))
+      (, ,)
+      (NP (NN SCRUTATOR))
+      (VP (VBZ is)
+        (VP (VBN mistaken))))
+    (: ;)
+    (S
+      (NP (EX there))
+      (VP
+        (VP
+          (ADVP (CD _))
+          (VBP are)
+          (NP (CD _)))
+        (PRN (-LRB- -LRB-)
+          (SBAR (RB not)
+            (S
+              (VP ('' '') (VBZ is) ('' ''))))
+          (-RRB- -RRB-))
+        (NP
+          (NP (NNS data))
+          (ADJP (JJ sufficient)
+            (S
+              (VP (TO to)
+                (VP (VB answer)
+                  (NP (DT the) (NN question)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (S
+        (PP (IN As)
+          (PP (TO to)
+            (NP (DT the) (JJ other))))
+        (, ,)
+        (NP (PRP it))
+        (VP (VBZ is)
+          (ADJP (JJ interesting)
+            (S
+              (VP (TO to)
+                (VP (VB know)
+                  (SBAR (IN that)
+                    (S
+                      (NP (DT the) (NN question) ('' '') (NNS answers))
+                      (NP (PRP itself))))))))))
+      (, ,) ('' '')
+      (CC and)
+      (S
+        (NP (PRP I))
+        (VP (VBP am)
+          (ADJP (JJ sure)
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ does)
+                  (NP (DT the) (NN question) (JJ great) (NN credit)))))))))
+    (: :)
+    (S
+      (ADVP (RB still))
+      (NP (PRP I))
+      (VP (VBP fear)
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (MD can) (RB not)
+              (VP (VB enter)
+                (NP (PRP it))
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (NN list))
+                    (PP (IN of)
+                      (NP (NNS winners)))))
+                (, ,)
+                (SBAR (IN as)
+                  (S
+                    (NP (DT this) (NN competition))
+                    (VP (VBZ is)
+                      (ADJP (RB only) (JJ open)
+                        (PP (TO to)
+                          (NP (JJ human) (NNS beings)))))))))))))
+    (. .)))
+~~~~~~

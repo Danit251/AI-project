@@ -1,0 +1,511 @@
+(ROOT
+  (NP
+    (NP (DT The) (NNP Lee))
+    (NP (NNP Shore))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT Some) (NNS chapters)
+        (S
+          (ADVP (RB back))
+          (, ,)
+          (NP (CD one) (NN Bulkington))
+          (VP (VBD was)
+            (VP (VBN spoken)
+              (PP (IN of))))))
+      (, ,)
+      (NP (DT a)
+        (ADJP (JJ tall) (, ,) (JJ newlanded))
+        (NN mariner))
+      (, ,))
+    (VP (VBN encountered)
+      (PP (IN in)
+        (NP
+          (NP (NNP New) (NNP Bedford))
+          (PP (IN at)
+            (NP (DT the) (NN inn))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (PP (IN on)
+          (NP
+            (NP (DT that) (VBG shivering) (NN winter) ('' ') (NNS s))
+            (NP-TMP (NN night))))
+        (, ,)
+        (NP (DT the) (NNP Pequod))
+        (VP (VBD thrust)
+          (NP (PRP$ her) (JJ vindictive) (NNS bows))
+          (PP (IN into)
+            (NP (DT the) (JJ cold) (JJ malicious) (NNS waves))))))
+    (, ,)
+    (WHNP (WP who))
+    (SQ (MD should)
+      (NP (PRP I))
+      (VP (VB see)
+        (S
+          (VP (VBG standing)
+            (PP (IN at)
+              (NP
+                (NP (PRP$ her) (NN helm))
+                (PP (CC but)
+                  (NP (NNP Bulkington))))))))
+      (. !))))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD looked)
+      (PP (IN with)
+        (NP (JJ sympathetic) (NN awe)
+          (CC and)
+          (NN fearfulness)))
+      (PP (IN upon)
+        (NP
+          (NP (DT the) (NN man))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (PP (IN in)
+                (NP
+                  (NP (JJ mid))
+                  (: -)
+                  (NP
+                    (NP (NN winter))
+                    (VP
+                      (ADVP (RB just))
+                      (VBD landed)
+                      (PP (IN from)
+                        (NP
+                          (NP (DT a) (CD four) (NNS years) (POS '))
+                          (JJ dangerous) (NN voyage)))))))
+              (, ,)
+              (VP (MD could)
+                (ADVP (RB so))
+                (ADVP (RB unrestingly))
+                (VP (VB push)
+                  (PRT (RP off))
+                  (ADVP (RB again))
+                  (PP (IN for)
+                    (NP (RB still) (DT another) (JJ tempestuous) (NN term))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (NN land))
+    (VP (VBD seemed)
+      (S
+        (VP (VBG scorching)
+          (PP (TO to)
+            (NP (PRP$ his) (NNS feet))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (JJ Wonderfullest) (NNS things))
+      (VP (VBP are)
+        (ADVP (RB ever))
+        (NP (DT the) (JJ unmentionable))))
+    (: ;)
+    (S
+      (NP (JJ deep) (NNS memories))
+      (VP (VBP yield)
+        (NP
+          (NP (DT no) (NNS epitaphs))
+          (: ;)
+          (NP (DT this) (CD six)))))
+    (: -)
+    (S
+      (NP (NN inch) (NN chapter))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (JJ stoneless) (NN grave))
+          (PP (IN of)
+            (NP (NNP Bulkington))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Let)
+      (SBAR
+        (S
+          (NP (PRP me))
+          (ADVP (RB only))
+          (VP (VBP say)
+            (SBAR (IN that)
+              (S
+                (NP (PRP it))
+                (VP (VBD fared)
+                  (PP (IN with)
+                    (NP (PRP him)))
+                  (SBAR (IN as)
+                    (SINV
+                      (PP (IN with)
+                        (NP (DT the) (NN storm))
+                        (: -))
+                      (VP (VBD tossed))
+                      (NP
+                        (NP (NN ship))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (ADVP (RB miserably))
+                            (VP (VBZ drives)
+                              (PP (IN along)
+                                (NP (DT the) (JJ leeward) (NN land)))))))
+                      (. .))))))))))))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN port))
+      (VP (MD would)
+        (VP (VB fain)
+          (VP (VB give)
+            (NP (NN succor))))))
+    (: ;)
+    (S
+      (NP (DT the) (NN port))
+      (VP (VBZ is)
+        (ADJP (JJ pitiful))))
+    (: ;)
+    (S
+      (SBAR (IN in)
+        (S
+          (NP (DT the) (NN port))
+          (VP (VBZ is)
+            (NP (NN safety)))))
+      (, ,)
+      (NP
+        (NP (NN comfort))
+        (, ,)
+        (NP (NN hearthstone))
+        (, ,)
+        (NP (NN supper))
+        (, ,)
+        (NP (JJ warm) (NNS blankets))
+        (, ,)
+        (NP (NNS friends))
+        (, ,)
+        (ADVP (DT all))
+        (NP (DT that))
+        ('' '))
+      (VP (VBZ s)
+        (NP
+          (NP (NN kind))
+          (PP (TO to)
+            (NP (PRP$ our) (NNS mortalities))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (PP (IN in)
+      (NP (DT that) (NN gale)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN port))
+      (, ,)
+      (NP (DT the) (NN land))
+      (, ,))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NN ship) ('' '))
+            (SBAR
+              (S
+                (NP
+                  (NP (NNS s))
+                  (ADJP (JJS direst) (NN jeopardy)))
+                (: ;)
+                (NP (PRP she))
+                (VP (MD must)
+                  (VP (VB fly)
+                    (NP
+                      (NP (DT all) (NN hospitality))
+                      (: ;)
+                      (NP
+                        (NP (CD one) (NN touch))
+                        (PP (IN of)
+                          (NP (NN land))))))))))
+          (, ,)
+          (SBAR (IN though)
+            (S
+              (NP (PRP it))
+              (VP (CC but)
+                (VP (VBP graze)
+                  (NP (DT the) (NN keel))))))
+          (, ,)
+          (VP (MD would)
+            (VP (VB make)
+              (NP (PRP$ her) (NN shudder))
+              (ADVP (IN through)
+                (CC and)
+                (IN through)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (IN With)
+        (NP
+          (NP (DT all))
+          (SBAR
+            (S
+              (NP (PRP$ her))
+              (VP (MD might))))))
+      (NP (PRP she))
+      (VP (VBZ crowds)
+        (S
+          (NP (DT all))
+          (VP (VB sail)
+            (PRT (RP off))
+            (NP (NN shore))))))
+    (: ;)
+    (S
+      (PP (IN in)
+        (S (RB so)
+          (VP (VBG doing))))
+      (, ,)
+      (S
+        (NP
+          (NP
+            (NP (NNS fights) (POS '))
+            (NN gainst))
+          (SBAR
+            (S
+              (NP (DT the)
+                (NP
+                  (NP (RB very) (NNS winds))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBP fain))))))
+              (VP (MD would)
+                (VP (VB blow)
+                  (NP (PRP$ her) (NN homeward))))))))
+      (: ;)
+      (VP (VBZ seeks)
+        (S
+          (NP (PDT all) (DT the))
+          (NP
+            (NP (VBN lashed) (NN sea) ('' ') (NNS s))
+            (PP
+              (NP
+                (NP (NN landlessness) (RB again))
+                (: ;)
+                (PP (IN for)
+                  (NP (NN refuge)))
+                ('' '))
+              (NP
+                (NP
+                  (NP (NNS s) (NN sake))
+                  (VP
+                    (ADVP (RB forlornly))
+                    (VBG rushing)
+                    (PP (IN into)
+                      (NP (NN peril)))))
+                (: ;)
+                (NP
+                  (NP (PRP$ her) (JJ only) (NN friend))
+                  (NP (PRP$ her) (JJS bitterest) (NN foe)))))))))
+    (. !)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NNP Know))
+    (NP
+      (NP
+        (NP (PRP ye))
+        (ADVP (RB now)))
+      (, ,)
+      (NP (NNP Bulkington)))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNS Glimpses))
+    (VP (VBP do)
+      (S
+        (NP (PRP ye))
+        (VP (VB seem)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (PP (IN of)
+                  (NP
+                    (NP (DT that)
+                      (ADJP (RB mortally) (JJ intolerable))
+                      (NN truth))
+                    (: ;)
+                    (SBAR
+                      (SBAR (IN that)
+                        (S
+                          (NP (DT all) (JJ deep) (, ,) (JJ earnest) (NN thinking))
+                          (VP (VBZ is)
+                            (CC but)
+                            (NP
+                              (NP (DT the) (JJ intrepid) (NN effort))
+                              (PP (IN of)
+                                (NP (DT the) (NN soul)
+                                  (S
+                                    (VP (TO to)
+                                      (VP (VB keep)
+                                        (NP
+                                          (NP (DT the) (JJ open) (NN independence))
+                                          (PP (IN of)
+                                            (NP (PRP$ her) (NN sea)))))))))))))
+                      (: ;)
+                      (SBAR (IN while)
+                        (S
+                          (NP
+                            (NP (DT the) (JJS wildest) (NNS winds))
+                            (PP (IN of)
+                              (NP (NN heaven)
+                                (CC and)
+                                (NN earth))))
+                          (VP (VBP conspire)
+                            (S
+                              (VP (TO to)
+                                (VP (VB cast)
+                                  (NP (PRP$ her))
+                                  (PP (IN on)
+                                    (NP (DT the) (JJ treacherous) (, ,) (JJ slavish) (NN shore))))))))))))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (SBAR (IN as)
+      (S
+        (PP (IN in)
+          (NP (NN landlessness)))
+        (ADVP (RB alone))
+        (VP (VBZ resides)
+          (NP
+            (NP (JJS highest) (NN truth))
+            (, ,)
+            (NP (NN shoreless))
+            (, ,)
+            (NP
+              (NP (JJ indefinite))
+              (PP (IN as)
+                (NP (NNP God))))
+            (: --))
+          (ADVP (RB so)))))
+    (, ,)
+    (NP (JJR better))
+    (VP (VBZ is)
+      (S
+        (NP (PRP it))
+        (VP (TO to)
+          (VP
+            (VP (VB perish)
+              (PP (IN in)
+                (S
+                  (NP (DT that))
+                  (VP (VBG howling)
+                    (NP (NN infinite))))))
+            (, ,)
+            (CONJP (IN than))
+            (VP (VB be)
+              (VP
+                (ADVP (RB ingloriously))
+                (VBN dashed)
+                (PP (IN upon)
+                  (NP (DT the) (NN lee)))
+                (, ,)
+                (SBAR (RB even) (IN if)
+                  (S
+                    (NP (DT that))
+                    (VP (VBD were)
+                      (NP (NN safety)))))))))))
+    (. !)))
+~~~~~~
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP
+        (NP
+          (NP (NN worm))
+          (PRN (: -)
+            (PP (IN like))))
+        (, ,)
+        (ADVP (RB then))))
+    (, ,)
+    (INTJ (UH oh))
+    (. !)))
+~~~~~~
+(ROOT
+  (FRAG
+    (SBAR
+      (WHNP (WP who))
+      (S
+        (VP (MD would)
+          (VP (VB craven)
+            (NP (NN crawl))
+            (S
+              (VP (TO to)
+                (VP (VB land))))))))
+    (. !)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NNS Terrors))
+    (PP (IN of)
+      (NP (DT the) (JJ terrible)))
+    (. !)))
+~~~~~~
+(ROOT
+  (SQ (VBZ is)
+    (NP (PDT all) (DT this) (NN agony))
+    (ADJP (RB so) (JJ vain))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (VP
+      (VP (VB Take)
+        (NP (NN heart)))
+      (, ,)
+      (VP (VB take)
+        (NP (NN heart) (, ,) (NN O) (NN Bulkington))))
+    (. !)))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (NNP Bear))
+        (ADJP
+          (NP (PRP thee))
+          (RB grimly)))
+      (, ,)
+      (NP (NN demigod)))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN Up)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NN spray))
+          (PP (IN of)
+            (NP (PRP$ thy) (NN ocean)))
+          (PRN (: -)
+            (VP (VBG perishing))
+            (: --)))))
+    (PP (RB straight)
+      (ADJP (RB up)))
+    (, ,)
+    (VP (VBZ leaps)
+      (NP (PRP$ thy) (NN apotheosis)))
+    (. !)))
+~~~~~~

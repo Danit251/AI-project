@@ -1,0 +1,81 @@
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD took)
+      (NP (PRP$ her))
+      (PP (IN off)
+        (NP (DT the) (NN table)))
+      (SBAR (IN as)
+        (S
+          (NP (PRP she))
+          (VP
+            (VP (VBD spoke))
+            (, ,)
+            (CC and)
+            (VP (VBD shook)
+              (NP (PRP$ her))
+              (ADVP (RB backwards)
+                (CC and)
+                (RB forwards))
+              (PP (IN with)
+                (NP (DT all) (PRP$ her) (NN might))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Red) (NNP Queen))
+      (VP (VBD made)
+        (S
+          (NP (DT no) (NN resistance))
+          (NP (WDT whatever)))))
+    (: ;)
+    (S
+      (S
+        (ADVP (RB only))
+        (NP (PRP$ her) (NN face))
+        (VP (VBD grew)
+          (ADJP (RB very) (JJ small))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP$ her) (NNS eyes))
+        (VP (VBD got)
+          (ADJP (JJ large)
+            (CC and)
+            (JJ green)))))
+    (: :)
+    (CC and)
+    (S
+      (ADVP (RB still))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (NP (NNP Alice))
+          (VP (VBD went)
+            (PP (IN on)
+              (S
+                (VP (VBG shaking)
+                  (NP (PRP her))))))))
+      (, ,)
+      (NP (PRP she))
+      (VP (VBD kept)
+        (PP (IN on)
+          (VP (VBG growing)
+            (NP
+              (NP
+                (ADJP
+                  (ADJP (JJR shorter))
+                  (: --)
+                  (CC and)
+                  (ADJP (JJR fatter))
+                  (: --)))
+              (CC and)
+              (NP (JJR softer)
+                (PRN (: --)
+                  (CC and)
+                  (NP (NN rounder))
+                  (: --))))
+            (CC and)))))
+    (: --)))
+~~~~~~

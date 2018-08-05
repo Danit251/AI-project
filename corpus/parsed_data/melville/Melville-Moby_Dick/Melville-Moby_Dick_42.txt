@@ -1,0 +1,142 @@
+(ROOT
+  (FRAG (-LRB- -LRB-)
+    (NP (NN KILLER))
+    (-RRB- -RRB-) (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN From)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (VP (VBN seen)
+              (PP (IN of)
+                (NP (PRP him)))
+              (PP (IN at)
+                (NP (DT a) (NN distance))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD should)
+      (VP (VB say)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBD was)
+              (PP (IN about)
+                (NP
+                  (NP (DT the) (NN bigness))
+                  (PP (IN of)
+                    (NP (DT a) (NN grampus))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBZ is)
+        (ADJP (RB very) (JJ savage)))
+      (: --)
+      (NP
+        (NP (DT a) (NN sort))
+        (PP (IN of)
+          (NP (NNP Feegee) (NN fish)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB sometimes))
+    (VP
+      (VP (VBZ takes)
+        (NP (DT the) (JJ great) (NN Folio) (NNS whales))
+        (PP (IN by)
+          (NP (DT the) (NN lip))))
+      (, ,)
+      (CC and)
+      (VP (VBZ hangs)
+        (S
+          (NP (EX there))
+          (PP (IN like)
+            (NP (DT a) (NN leech)))))
+      (, ,)
+      (SBAR (IN till)
+        (S
+          (NP (DT the) (JJ mighty) (JJ brute))
+          (VP (VBZ is)
+            (VP (VBN worried)
+              (PP (TO to)
+                (NP (NN death))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (NN Killer))
+    (VP (VBZ is)
+      (ADVP (RB never))
+      (VP (VBN hunted)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBD heard)
+      (NP
+        (NP (WP what) (NN sort))
+        (PP (IN of)
+          (NP (NN oil)))
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ has))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NN Exception))
+    (VP (MD might)
+      (VP (VB be)
+        (VP (VBN taken)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN name))
+              (VP (VBN bestowed)
+                (PP (IN upon)
+                  (NP (DT this) (NN whale)))
+                (, ,)
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (NN ground))
+                    (PP (IN of)
+                      (NP (PRP$ its) (NN indistinctness)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S (IN For)
+      (NP (PRP we))
+      (VP (VBP are)
+        (NP (DT all) (NNS killers))
+        (, ,)
+        (PP
+          (PP (IN on)
+            (NP (NN land)))
+          (CC and)
+          (PP (IN on)
+            (NP (NN sea))))))
+    (: ;)
+    (S
+      (NP (NNPS Bonapartes)
+        (CC and)
+        (NNPS Sharks))
+      (VP (VBD included)))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK))
+    (NP (CD II))
+    (. .)))
+~~~~~~
