@@ -32,7 +32,7 @@ def calculate_syntactic_feature_vector(text, author, book, filename):
     vector.append(past_tense_frequency())
     vector.append(present_tense_frequency())  # these two don't sum up to 1 because there's another
     # category (base form verb)
-    # vector.append(average_tree_depth(author, book, filename))
+    vector.append(average_tree_depth(author, book, filename))
     return vector
 
 
@@ -128,12 +128,12 @@ def find_tree_depth(tree):
         line_depth = re.search('\S', line).start()
         if line_depth > depth:
             depth = line_depth
-    return depth
+    return depth/2
 
 
 # with open("corpus/data/austen/austen-sense/austen-sense_8.txt", 'r') as file:
 #     text = file.read()
 
 # text = "this is a test sentence that is hopefully long enough to be helpful . This is another sentence, just to make it longer and more interesting"
-# print(calculate_syntactic_feature_vector(text))
+# print(calculate_syntactic_feature_vector(text, "austen", "austen-sense", "austen-sense_8.txt"))
 # print(average_tree_depth(text, ""))
