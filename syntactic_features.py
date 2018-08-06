@@ -1,12 +1,6 @@
 import string
 import nltk
 import re
-# from nltk.parse.stanford import StanfordDependencyParser
-# from stanfordcorenlp import StanfordCoreNLP
-
-
-# nltk.download('averaged_perceptron_tagger')
-# nltk.download('punkt')
 
 tags_count = 0
 tags_frequencies = {}
