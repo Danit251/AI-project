@@ -33,10 +33,18 @@ parameters = {
     'gamma': [1e-12]
 }
 
-def run(test_ratio, data):
-    X = data[:, 0]
-    y = data[:, 1]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
+
+def run(test_ratio, data, split_by_book):
+    if split_by_book:
+        training_data, test_data = calculate_features.split_train_test(data)
+        X_train = training_data[:, 0]
+        y_train = training_data[:, 1]
+        X_test = test_data[:, 0]
+        y_test = test_data[:, 1]
+    else:
+        X = data[:, 0]
+        y = data[:, 1]
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
     # clf = GridSearchCV(svm.SVC(), parameters)
 
     # scaling to (-1,1) range
@@ -51,3 +59,24 @@ def run(test_ratio, data):
     predicted = clf.predict(np.ndarray.tolist(X_test))
     print(clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test)))
     # print(clf.best_params_)
+#
+# def run2(data):
+#     print("svm")
+#     run = 0
+#     score_list = []
+#     while run < 10:
+#         print(run)
+#         training_data, test_data = calculate_features.split_train_test(data)
+#         X_train = training_data[:, 0]
+#         y_train = training_data[:, 1]
+#         X_test = test_data[:, 0]
+#         y_test = test_data[:, 1]
+#         clf = svm.SVC(kernel='linear', C=140000, gamma=1e-12)
+#         # train
+#         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
+#         # test
+#         predicted = clf.predict(np.ndarray.tolist(X_test))
+#         score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
+#         score_list.append(score)
+#         run += 1
+#     print(sum(score_list) / len(score_list))

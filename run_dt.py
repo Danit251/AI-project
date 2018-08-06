@@ -24,10 +24,17 @@ parameters = {
 }
 
 
-def run(test_ratio, data):
-    X = data[:, 0]
-    y = data[:, 1]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
+def run(test_ratio, data, split_by_book):
+    if split_by_book:
+        training_data, test_data = calculate_features.split_train_test(data)
+        X_train = training_data[:, 0]
+        y_train = training_data[:, 1]
+        X_test = test_data[:, 0]
+        y_test = test_data[:, 1]
+    else:
+        X = data[:, 0]
+        y = data[:, 1]
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
     clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
     # train
     clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
