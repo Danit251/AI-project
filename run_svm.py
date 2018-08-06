@@ -33,11 +33,10 @@ parameters = {
     'gamma': [1e-12]
 }
 
-if __name__ == '__main__':
-    data = calculate_features.create_corpus_vector()
+def run(test_ratio, data):
     X = data[:, 0]
     y = data[:, 1]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
     # clf = GridSearchCV(svm.SVC(), parameters)
 
     # scaling to (-1,1) range
