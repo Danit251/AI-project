@@ -15,18 +15,18 @@ def create_features_vector(text, label, author, book, filename):
     """
     feature_vector = []
     feature_vector += character_specific_features.get_feature_vector(text)
-    feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
-    feature_vector += word_specific_features.calculate_words_feature_vector(text)
+    # feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
+    # feature_vector += word_specific_features.calculate_words_feature_vector(text)
     return [feature_vector, label]
 
 
-def create_corpus_vector():
+def create_corpus_vector(authors_num):
     """
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
     """
     vectors = []
-    for author in os.listdir("corpus/data"):
+    for author in os.listdir("corpus/data")[:authors_num]:
         for book in os.listdir("corpus/data/" + author):
             for filename in os.listdir("corpus/data/" + author + "/" + book):
                 if filename.endswith(".txt"):

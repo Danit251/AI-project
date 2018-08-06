@@ -3,7 +3,6 @@ import nltk
 import re
 # from nltk.parse.stanford import StanfordDependencyParser
 # from stanfordcorenlp import StanfordCoreNLP
-from pycorenlp import StanfordCoreNLP
 
 
 # nltk.download('averaged_perceptron_tagger')
