@@ -40,7 +40,8 @@ def run(test_ratio, data, split_by_book):
     clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
     # test
     predicted = clf.predict(np.ndarray.tolist(X_test))
-    print(clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test)))
+    score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
+    return clf, score
 
     # print the tree
     # dot_data = tree.export_graphviz(clf.best_estimator_, out_file=None)

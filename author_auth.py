@@ -1,16 +1,15 @@
 import argparse
-import os
-import run_svm, run_dt, run_rf
+import util
 import calculate_features
+import graphs
 
-AVAILABLE_ALGORITHMS = {'DT': run_dt, 'RF': run_rf, 'SVM': run_svm}
 
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('-authors_num',
                         type=check_range,
-                        default=len(os.listdir("corpus/data")),
+                        default=util.authors_num,
                         help="The number of authors to train over.")
     parser.add_argument('-test',
                         type=float,
@@ -19,15 +18,18 @@ def parse_arguments():
     parser.add_argument('-algo_list',
                         nargs='+',
                         default=['DT', 'RF', 'SVM'],
-                        help="List of algorithms to apply. Currently supporting {}".format(AVAILABLE_ALGORITHMS.keys()))
+                        help="List of algorithms to apply. Currently supporting {}".format(util.AVAILABLE_ALGORITHMS.keys()))
+    parser.add_argument('-split_by_book',
+                        action='store_true',
+                        help='split the data where a new book will be in the test')
     return parser, parser.parse_args()
 
 
 def check_range(value):
     ivalue = int(value)
-    if ivalue <= 0 or ivalue >= len(os.listdir("corpus/data")):
+    if ivalue <= 0 or ivalue >= util.authors_num:
          raise argparse.ArgumentTypeError("{} is an invalid authors int value, only at range 0 to {}".
-                                          format(value, len(os.listdir("corpus/data"))))
+                                          format(value, util.authors_num))
     return ivalue
 
 
@@ -36,10 +38,12 @@ if __name__ == "__main__":
     parser, args = parse_arguments()
 
     for algo in args.algo_list:
-        if algo.upper() not in AVAILABLE_ALGORITHMS:
-            parser.error("{} algorithm is not supported, try from {}".format(algo, AVAILABLE_ALGORITHMS.keys()))
+        if algo.upper() not in util.AVAILABLE_ALGORITHMS:
+            parser.error("{} algorithm is not supported, try from {}".format(algo, util.AVAILABLE_ALGORITHMS.keys()))
     # run each algorithm
     data = calculate_features.create_corpus_vector(args.authors_num)
     for algo in args.algo_list:
-        AVAILABLE_ALGORITHMS[algo].run(args.test, data)
-        # AVAILABLE_ALGORITHMS[algo].run2()
+        util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book)
+
+
+    # graphs.authors_num_to_success_ratio(args.test)
