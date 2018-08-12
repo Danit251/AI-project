@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass heb-article
+\textclass article
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -30,7 +30,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -54,6 +54,9 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -83,11 +86,7 @@
 רועי שתיוי, ורדית ארקש, נגה שטרן ודנית ישעיהו
 \end_layout
 
-\begin_layout Section
-הקדמה
-\end_layout
-
-\begin_layout Standard
+\begin_layout Abstract
 בעולם הספרות קיימת בעיה גדולה של גניבות ספרותיות.
  גניבה ספרותית היא שימוש לא נכון או גניבה של מילים, מחשבות, רעיונות וביטויים
  של האחר והצגתם כשלך.
@@ -103,7 +102,14 @@
 .
  האלגוריתמים נבחרו על פי החומר הנלמד בהרצאה וכן על פי מאמרים שונים
 \series bold
-[להוסיף רפרנס]
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+
 \series default
  שקראנו על נושא זה המשתמשים בהם.
 \end_layout
@@ -268,17 +274,51 @@
 \begin_layout Standard
 כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
  יותר, חילקנו את כל הספרים לפרקיהם.
- לכל פרק התייחסנו כטקסט נפרד של אותו הסופר וכך קיבלנו שלג'יין אוסטין 129
- טקסטים, להרמן מלוויל 266 טקסטים, לז'ול ורן 101 טקסטים, לשרלוט ברונטה 100
- טקסטים וכן ללואיס קרול 71 טקסטים.
+ לכל פרק התייחסנו כטקסט נפרד של אותו הסופר וכך קיבלנו שלג'יין אוסטין 
+\begin_inset Formula $129$
+\end_inset
+
+ טקסטים, להרמן מלוויל 
+\begin_inset Formula $266$
+\end_inset
+
+ טקסטים, לז'ול ורן 
+\begin_inset Formula $101$
+\end_inset
+
+ טקסטים, לשרלוט ברונטה 
+\begin_inset Formula $100$
+\end_inset
+
+ טקסטים וכן ללואיס קרול 
+\begin_inset Formula $71$
+\end_inset
+
+ טקסטים.
  נוסיף כי כל הספרים נלקחו מפרויקט גוטנברג, פרויקט המנגיש לציבור ספרים אשר
  אין להם זכויות יוצרים.
- הטקסטים המוזכרים נתונים בפרויקט בתיקיית "corpus" כאשר תחת תיקייה זו יש
- תיקייה לכל סופר ותחתיו חלוקה לפי כל ספר.
+ הטקסטים המוזכרים נתונים בפרויקט בתיקיית "
+\begin_inset Formula $\text{corpus}$
+\end_inset
+
+" כאשר תחת תיקייה זו יש תיקייה לכל סופר ותחתיו חלוקה לפי כל ספר.
 \end_layout
 
 \begin_layout Section
 פיצ'רים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+)להסביר מה זה פיצ'ר ולמה צריך אותו(
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -959,6 +999,23 @@
 \end_layout
 
 \begin_layout Section
+הגבלות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+טקסטים ממקורות שונים
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 אופן הרצת התוכנית
 \end_layout
 
@@ -1073,6 +1130,16 @@ h- או
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
