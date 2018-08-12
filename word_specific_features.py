@@ -1,9 +1,6 @@
 import string
 import nltk
 
-nltk.download('stopwords')
-
-
 def calculate_words_feature_vector(text):
     signs = set(string.punctuation)
     signs.remove('.')

@@ -2,6 +2,15 @@ import argparse
 import util
 import calculate_features
 import graphs
+import nltk
+import warnings
+
+# todo ?
+warnings.filterwarnings("always")
+
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 
 
