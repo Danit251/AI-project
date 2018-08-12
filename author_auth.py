@@ -52,7 +52,7 @@ if __name__ == "__main__":
     data = calculate_features.create_corpus_vector(args.authors_num)
     for algo in args.algo_list:
         clf, score = util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat)
-        result_file.write(algo + " result: " + str(score) + "\n")
+        result_file.write(util.ALGORITHMS_NAMES[algo] + " result: " + str(score) + "\n")
 
     result_file.write("\n")
     result_file.close()
