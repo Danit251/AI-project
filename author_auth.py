@@ -1,12 +1,7 @@
 import argparse
 import util
 import calculate_features
-import graphs
 import nltk
-import warnings
-
-# todo ?
-warnings.filterwarnings("always")
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -18,11 +13,11 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('-authors_num',
                         type=check_range,
-                        default=util.authors_num,
+                        default=util.AUTHORS_NUM,
                         help="The number of authors to train over.")
     parser.add_argument('-test',
                         type=float,
-                        default=0.2,
+                        default=util.TEST_SIZE,
                         help="The ratio of test split.")
     parser.add_argument('-algo_list',
                         nargs='+',
@@ -36,9 +31,9 @@ def parse_arguments():
 
 def check_range(value):
     ivalue = int(value)
-    if ivalue <= 0 or ivalue >= util.authors_num:
+    if ivalue <= 0 or ivalue >= util.AUTHORS_NUM:
          raise argparse.ArgumentTypeError("{} is an invalid authors int value, only at range 0 to {}".
-                                          format(value, util.authors_num))
+                                          format(value, util.AUTHORS_NUM))
     return ivalue
 
 
@@ -53,6 +48,3 @@ if __name__ == "__main__":
     data = calculate_features.create_corpus_vector(args.authors_num)
     for algo in args.algo_list:
         util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book)
-
-
-    # graphs.authors_num_to_success_ratio(args.test)

@@ -24,7 +24,7 @@ parameters = {
 }
 
 
-def run(test_ratio, data, split_by_book):
+def run(test_ratio, data, split_by_book=False):
     if split_by_book:
         training_data, test_data = calculate_features.split_train_test(data)
         X_train = training_data[:, 0]

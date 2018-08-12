@@ -5,9 +5,10 @@ import word_specific_features
 import os
 import numpy as np
 import random
+import util
 
 
-def create_features_vector(text, label, author, book, filename):
+def create_features_vector(text, label, author, book, filename, features_mask):
     """
     Create a feature vector for the given text over all the public functions in all modules.
     :param text: text to vectorize
@@ -15,13 +16,16 @@ def create_features_vector(text, label, author, book, filename):
     :return: the vector
     """
     feature_vector = []
-    feature_vector += character_specific_features.get_feature_vector(text)
-    feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
-    feature_vector += word_specific_features.calculate_words_feature_vector(text)
+    if features_mask[0]:
+        feature_vector += character_specific_features.get_feature_vector(text)
+    if features_mask[1]:
+        feature_vector += syntactic_features.calculate_syntactic_feature_vector(text, author, book, filename)
+    if features_mask[2]:
+        feature_vector += word_specific_features.calculate_words_feature_vector(text)
     return [feature_vector, label, book]
 
 
-def create_corpus_vector(authors_num):
+def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
     """
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
@@ -33,7 +37,7 @@ def create_corpus_vector(authors_num):
                 if filename.endswith(".txt"):
                     with open("corpus/data/" + author + "/" + book + "/" + filename, 'r', encoding='utf-8', errors='ignore') as file:
                         text = file.read()
-                        vectors.append(create_features_vector(text, author, author, book, filename))
+                        vectors.append(create_features_vector(text, author, author, book, filename, features_mask))
     return np.asarray(vectors)
 
 
