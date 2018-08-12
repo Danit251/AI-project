@@ -43,12 +43,13 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
         else:
             X = data[:, 0]
             y = data[:, 1]
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
-        clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
+        # if you want to play with it.
+        # clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
+        clf = tree.DecisionTreeClassifier(criterion='entropy', max_features=4, max_depth=4)
         # train
         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
         # test
-        # predicted = clf.predict(np.ndarray.tolist(X_test))
         score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
         score_sum += score
         run_count += 1

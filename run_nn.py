@@ -1,27 +1,17 @@
 import calculate_features
 import numpy as np
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KNeighborsClassifier
 
 
-# 'min_weight_fraction_leaf',
-# 'class_weight',
-# 'min_samples_split',
-# 'max_depth',
-# 'criterion',
-# 'min_samples_leaf',
-# 'random_state',
-# 'max_features',
-# 'min_impurity_split',
-# 'max_leaf_nodes',
-# 'splitter',
-# 'presort'
-
-
-parameters = {
-    'max_depth': [1, 2, 3, 4, 5],
-    'max_features': [1, 2, 3, 4]
-}
+# parameters = {
+#     'n_neighbors': [3, 5, 7, 17, 35, 100],
+#     'algorithm': ['auto', 'ball_tree', 'kd_tree'],
+#     'leaf_size': [50, 10, 75],
+#     'p': [1, 3],
+#     'n_jobs': [2, 3]
+# }
 
 
 def run(test_ratio, data, split_by_book=False, repeat=False):
@@ -43,7 +33,7 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
             X = data[:, 0]
             y = data[:, 1]
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
-        clf = GridSearchCV(RandomForestClassifier(), parameters)
+        clf = KNeighborsClassifier(n_neighbors=5, algorithm='auto', leaf_size=50, n_jobs=2, p=1)
         # train
         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
         # test
@@ -53,5 +43,3 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
         print("score = ", score)
     print("score average = ", score_sum / num_of_runs)
     return clf, score_sum
-
-    # print(clf.best_estimator_.feature_importances_)
