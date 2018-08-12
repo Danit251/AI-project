@@ -10,7 +10,7 @@ def main(argv):
     except:
         from pip._internal import main as pipmain
 
-    pipmain(['install', "--upgrade", "pip"])
+    pipmain(['install', "--user", "--upgrade", "pip"])
     pipmain(['install', "-q", "package"])
 
     try:
