@@ -1269,147 +1269,60 @@ h- או
 \begin_inset Formula $\text{:Jane Austen}$
 \end_inset
 
+ 
+\begin_inset Formula $\text{Emma, Persuation, Sense and Sensibility}$
+\end_inset
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Emma}$
+.
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Persuation}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Sense and Sensibility}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $\text{:Herman Melville}$
 \end_inset
 
+ 
+\begin_inset Formula $\text{Moby Dick, Omoo, A Romance Of The South Seas}$
+\end_inset
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Moby Dick}$
+.
+ 
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Omoo}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{A Romance Of The South Seas}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $\text{:Jule Verne}$
 \end_inset
 
+ 
+\begin_inset Formula $\text{Around the World in 80 days, The Secret of The Island, \text{Five Weeks in a Balloon}}$
+\end_inset
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Around the World in 80 days}$
+.
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{The Secret of The Island}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Five Weeks in a Balloon}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $\text{:Charlotte Bronte}$
 \end_inset
 
+ 
+\begin_inset Formula $\text{Jane Eyre, The professor, Villette}$
+\end_inset
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Jane Eyre}$
+.
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{The professor}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Villette}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $:\text{Lewis Carroll}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Alice's Adventures in Wonderland}$
+ 
+\begin_inset Formula $\text{Alice's Adventures in Wonderland, A Tangled Tale, \text{Sylvie and Bruno}, Through the Looking-Glass}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{A Tangled Tale}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Sylvie and Bruno}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Through the Looking-Glass}$
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Bibliography
@@ -1420,11 +1333,19 @@ key "key-1"
 \end_inset
 
  
-\begin_inset Formula $\text{Authorship Identification of Research Papers, Simen Skoglund 2015}$
+\begin_inset Formula 
+\[
+\text{Authorship Identification of Research Papers, Simen Skoglund 2015}
+\]
+
 \end_inset
 
 
-\begin_inset Formula $\text{de Roc Boronat, Carrer, and Leo Wanner. "On the Relevance of Syntactic and Discourse Features for Author Profiling and Identification." EACL 2017 681 (2017)‏}$
+\begin_inset Formula 
+\[
+\text{Relevance of Syntactic and Discourse Features for Author Profiling and Identification, Boronat, Carrer, and Wanner‏}
+\]
+
 \end_inset
 
 
