@@ -990,6 +990,126 @@ key "key-1"
 התוצאות/גרף]
 \end_layout
 
+\begin_layout Standard
+כאמור, התייחסנו לכל פרק בספר כטקסט נפרד.
+ מכיוון שהחלוקה לטקסטים שמשמשים לאימון וטקסטים שמשמשים למבחן נעשית באופן
+ רנדומלי, ייתכן שהמערכת תתאמן על פרקים מסוימים מתוך ספר, ולאחר מכן תבחן
+ על פרקים אחרים מתוך אותו ספר )למשל, ייתכן שהמערכת תתאמן על פרקים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1-5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתוך ספר מסוים, ותבחן על פרקים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6-10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתוך אותו ספר(.
+ כדי לוודא שהמערכת אכן מזהה את הסופרים עצמם, ולא מזהה את הספר בזכות העובדה
+ שהיא אומנה על פרקים אחרים מתוכו, הרצנו את האלגוריתמים עם חלוקה אחרת לאימון
+ ומבחן: מכל אחד מהסופרים נבחר באופן רנדומלי ספר אחד ששימש למבחן, ושאר הספרים
+ שימשו לאימון.
+ המערכת עדיין מתייחסת לכל פרק כטקסט נפרד, אבל ספר שמופיע במבחן בהכרח לא
+ הופיע באימון.
+ להלן התוצאות:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+[התוצאות]
+\end_layout
+
 \begin_layout Section
 הגבלות
 \end_layout
