@@ -1,0 +1,1079 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+פרויקט סיכום 
+\begin_inset Formula $AI$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+רועי שתיוי, ורדית ארקש, נגה שטרן ודנית ישעיהו
+\end_layout
+
+\begin_layout Section
+הקדמה
+\end_layout
+
+\begin_layout Standard
+בעולם הספרות קיימת בעיה גדולה של גניבות ספרותיות.
+ גניבה ספרותית היא שימוש לא נכון או גניבה של מילים, מחשבות, רעיונות וביטויים
+ של האחר והצגתם כשלך.
+ מטרתנו היא לפתור את בעיה זו על ידי כתיבת תוכנה המזהה בהינתן טקסט את הכותב
+ שלו.
+ בנינו מערכת היודעת בהינתן מאגר של טקסטים עם שם הכותב שלהם, ללמוד את אופי
+ כתיבתם.
+ לאחר הלמידה, המערכת תקבל טקסט ותקבע מי כתב אותו.
+ הלמידה שלנו תתבצע על ידי שלושה אלגרותמי למידה: 
+\begin_inset Formula $\text{Random Forest ,SVM ,Decision Tree}$
+\end_inset
+
+.
+ האלגוריתמים נבחרו על פי החומר הנלמד בהרצאה וכן על פי מאמרים שונים
+\series bold
+[להוסיף רפרנס]
+\series default
+ שקראנו על נושא זה המשתמשים בהם.
+\end_layout
+
+\begin_layout Section
+קורפוס
+\end_layout
+
+\begin_layout Standard
+בפרויקט בחרנו לזהות את אופי הכתיבה של הסופרים הבאים: ג'יין אוסטין, הרמן
+ מלוויל, ז'ול ורן, שרלוט ברונטה ולואיס קרול.
+ עבור כל אחד מהסופרים הכנסנו את הספרים הבאים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Jane Austen}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Emma}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Persuation}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Sense and Sensibility}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Herman Melville}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Moby Dick}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Omoo}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{A Romance Of The South Seas}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Jule Verne}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Around the World in 80 days}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{The Secret of The Island}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Five Weeks in a Balloon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Charlotte Bronte}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Jane Eyre}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{The professor}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Villette}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $:\text{Lewis Carroll}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Alice's Adventures in Wonderland}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{A Tangled Tale}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Sylvie and Bruno}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Through the Looking-Glass}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
+ יותר, חילקנו את כל הספרים לפרקיהם.
+ לכל פרק התייחסנו כטקסט נפרד של אותו הסופר וכך קיבלנו שלג'יין אוסטין 129
+ טקסטים, להרמן מלוויל 266 טקסטים, לז'ול ורן 101 טקסטים, לשרלוט ברונטה 100
+ טקסטים וכן ללואיס קרול 71 טקסטים.
+ נוסיף כי כל הספרים נלקחו מפרויקט גוטנברג, פרויקט המנגיש לציבור ספרים אשר
+ אין להם זכויות יוצרים.
+ הטקסטים המוזכרים נתונים בפרויקט בתיקיית "corpus" כאשר תחת תיקייה זו יש
+ תיקייה לכל סופר ותחתיו חלוקה לפי כל ספר.
+\end_layout
+
+\begin_layout Section
+פיצ'רים
+\end_layout
+
+\begin_layout Standard
+הפיצ'רים מחולקים ל-3 רמות שונות: תווים, מילים וניתוח תחבירי של הטקסט.
+ הפיצ'רים לפי החלוקות להלן:
+\end_layout
+
+\begin_layout Enumerate
+פיצ'רים ברמת התווים:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+תיאור הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+שם הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס התווים שאינם אותיות או רווחים לכלל התווים בטקסט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ratio\_of\_special\_chars$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס האותיות לכלל התווים בטקסט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ratio\_of\_letters$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס הספרות לכלל התווים בטקסט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ratio\_digit\_to\_char$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+היחס בין הרווחים לאורך הטקסט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ratio\_space\_to\_text\_length$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+היחס בין הרווחים לכלל סוגי התווים הריקים כמו טאבים וירידת שורה 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ratio\_of\_spaces\_tp\_white\_space$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס בין טאבים לשאר סוגי הרווחים הריקים 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ratio\_tabs\_to\_white\_spaces$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+היחס בין אותיות
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $punctuation\_chars\_ratio$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+פיצ'רים ברמת המילים:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+תיאור הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+שם הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס המילים הקצרות לכלל המילים 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $num\_of\_short\_words$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+אורך מילה ממוצע 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $average\_word\_length$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ממוצע מספר מילים במשפט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $average\_sentence\_length\_by\_words$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ממוצע מספר תווים במשפט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $average\_sentence\_length\_by\_chars$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+מספר מילים פונקציונליות במשפט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $num\_function\_words$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+פיצ'רים ברמה התחבירית:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+תיאור הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+שם הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+בהינתן תג מחזיר את היחס של התג בטקסט לעומת אורך הטקסט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $get\_pos\_tag\_frequency$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס של פעלים בזמן עבר לכלל המילים
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $past\_tense\_frequency$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס של פעלים בזמן הווה לכלל המילים
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $present\_tense\_frequency$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+הממוצע של עומק עץ תחבירי לכל המשפטים
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $average\_tree\_depth$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפיצ'רים שלנו הם יחסיים כלומר כל אחד מחושב ביחס לאורך המשפט או הטקסט.
+ יש חשיבות ליצור פיצ'רים באופן הזה על מנת לא להטות את התוצאות על פי אורך
+ הטקסט שהוא לא מייצג בהכרח בקורפוס שלנו או לתת עדיפות לסופרים בעלי יותר
+ טקסטים.
+ בנוסף לכך, עבור יצירת הפיצ'רים התחבריים השתמשנו בשני כלים:
+\begin_inset Formula $nltk.pos\_tag$
+\end_inset
+
+ ו-
+\begin_inset Formula $StanfordCoreNLP$
+\end_inset
+
+.
+ כאשר הראשון סייע לנו בתיוג חלקי הדיבר והשני סייע לבניית עצים תחביריים לכל
+ משפט.
+ כלים אלו עלולים לטעות בחלק מהמשפטים ולגרום לטעויות בחישוב הפיצ'רים, כאשר
+ יש בין 
+\begin_inset Formula $10\%$
+\end_inset
+
+ ל-
+\begin_inset Formula $15\%$
+\end_inset
+
+ שגיאה.
+\end_layout
+
+\begin_layout Section
+מימוש
+\end_layout
+
+\begin_layout Standard
+את העבודה שלנו חילקנו למספר קבצים על פי המודלים השונים בפרויקט.
+ להלן הקבצים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $character\_specific\_features.py$
+\end_inset
+
+ - בו נמצאים כל הפיצ'רים ברמת התווים וכן פונקציה ליצירת וקטור מייצג מהם.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $word\_specific\_features.py$
+\end_inset
+
+ - בו נמצאים כל הפיצ'רים ברמת המילים וכן פונקציה ליצירת וקטור מייצג מהם.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $syntactic\_features.py$
+\end_inset
+
+ - בו נמצאים כל הפיצ'רים ברמה התחבירית וכן פונקציה ליצירת וקטור מייצג מהם.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $calculate\_features.py$
+\end_inset
+
+ - מחשב את כל סוגי הפיצ'רים ויוצר וקטור המייצג את כולם יחד עבור כל אחד מהטקסטים
+ באימון.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $dependency\_parse.py$
+\end_inset
+
+ - מחשב את כל העצים עבור כל המשפטים בטקסט וכותב אותם לקובץ.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $run\_dt.py$
+\end_inset
+
+ - מריץ את ה-
+\begin_inset Formula $\text{Decision Tree}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $run\_rf.py$
+\end_inset
+
+ - מריץ את ה-
+\begin_inset Formula $\text{Random Forest}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $run\_svm.py$
+\end_inset
+
+ - מריץ את ה-
+\begin_inset Formula $\text{SVM}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $author\_auth.py$
+\end_inset
+
+ - הקובץ הראשי אשר מריץ את כל האלגוריתמים ומחשב את כל הפיצ'רים.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $graphs.py$
+\end_inset
+
+ - מייצר את הגרפים על סמך ההרצות השונות.
+\end_layout
+
+\begin_layout Standard
+בפרויקט זה השתמשנו בשלושה אלגוריתמים מובנים של פייתון מספריית 
+\begin_inset Formula $sklearn$
+\end_inset
+
+ והם: 
+\begin_inset Formula $\text{Random Forest ,SVM ,Decision Tree}$
+\end_inset
+
+.
+ לכל אלגוריתם יש קובץ הרצה המקבל את וקטורי הפיצ'רים של כל הטקסטים.
+ עבור כל אלגוריתם נחלק את הוקטורים באופן דיפולטיבי ל-
+\begin_inset Formula $80\%$
+\end_inset
+
+ אימון ו-
+\begin_inset Formula $20\%$
+\end_inset
+
+ טסט.
+\end_layout
+
+\begin_layout Section
+פרמטרים משפיעים
+\end_layout
+
+\begin_layout Standard
+במהלך הפרויקט הבנו כי קיימים פרמטרים רבים שעשויים להשפיע על התוצאות ויש
+ לקחת אותם בחשבון, ולכן החלטנו לבחון אותם.
+ ראשית, על פי המאמרים שקראנו הבנו כי יש הבדלים משמעותיים בין כל אחד מהאלגוריתמים
+ שבחרנו, ולכן גם רצינו לבחון ולהתמקד בהם, להלן התוצאות עבור כל אחד מהאלגוריתמים
+ עם כל הפיצ'רים וכל חמשת הסופרים:
+\end_layout
+
+\begin_layout Standard
+[
+\series bold
+התוצאות
+\backslash
+גרף]
+\end_layout
+
+\begin_layout Standard
+בנוסף לכך, ככל שיש יותר סופרים כך נדרשת הבחנה דקה יותר ביניהם על מנת לשייך
+ טקסט לסופר אחד ולא לאחר.
+ להלן תוצאות האלגוריתמים עבור מספר סופרים שונה:
+\end_layout
+
+\begin_layout Standard
+[
+\series bold
+התוצאות
+\backslash
+גרף]
+\end_layout
+
+\begin_layout Standard
+הבעיה העיקרית שנאלצנו להתמודד איתה בפרויקט היא מציאת הפיצ'רים האולטימטיביים
+ לאפיון סגנון כתיבת כל סופר.
+ חילקנו את הפיצ'רים ל-3 רמות: רמת התווים, רמת המילים ורמה תחבירית ובחנו
+ את תוצאות האלגוריתמים עבור כל אחד מסוגי הרמות.
+ להלן התוצאות:
+\end_layout
+
+\begin_layout Standard
+[
+\series bold
+התוצאות/גרף]
+\end_layout
+
+\begin_layout Section
+אופן הרצת התוכנית
+\end_layout
+
+\begin_layout Standard
+על מנת להריץ את התוכנית יש להריץ את השורה הבאה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{python3 author_{a}uth.py [-h] [-authors_{n}um AUTHORS_{N}UM] [-test TEST] [-algo_{l}ist ALGO_{L}IST [ALGO_{L}IST ...]]}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הדגלים:
+\end_layout
+
+\begin_layout Itemize
+h- או 
+\begin_inset Formula $\text{--help}$
+\end_inset
+
+ יציג את ההסבר על כל אחד מהדגלים ויצא.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{-authors\_num}$
+\end_inset
+
+ יקבל את מספר הסופרים שאנחנו רוצים לבחון.
+ ערך ברירת מחדל: 5.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{-test}$
+\end_inset
+
+יקבל מספר בין 0 ל-1 שיהווה את אחוז המידע שישמש לטסט.
+ ערך ברירת מחדל: 0.2.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{-algo\_list}$
+\end_inset
+
+רשימה שתכיל לפחות אלגוריתם אחד בו נשתמש ללמידה.
+ ערך ברירת מחדל: 'DT', 'SVM', 'RF')כל האלגוריתמים(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+דוגמה להרצה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{python3 author\_auth.py -authors\_num 4 -test 0.3 -algo\_list SVM RF}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שורה זו תריץ את הפרויקט עם 4 סופרים כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $30\%$
+\end_inset
+
+
+\numeric off
+ מהמידע ישמש לטסט וכן הלמידה תהיה עם האלגוריתמים 
+\begin_inset Formula $\text{SVM}$
+\end_inset
+
+ ו-
+\begin_inset Formula $\text{RF}$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
