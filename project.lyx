@@ -87,11 +87,13 @@
 \end_layout
 
 \begin_layout Abstract
-בעולם הספרות קיימת בעיה גדולה של גניבות ספרותיות.
- גניבה ספרותית היא שימוש לא נכון או גניבה של מילים, מחשבות, רעיונות וביטויים
- של האחר והצגתם כשלך.
- מטרתנו היא לפתור את בעיה זו על ידי כתיבת תוכנה המזהה בהינתן טקסט את הכותב
- שלו.
+זיהוי סופרים)
+\begin_inset Formula $\text{Authorship Identification}$
+\end_inset
+
+( זוהי טכניקה המשמשת לזיהוי סופר אנונימי על פי זיהוי אופן הכתיבה שלו ברמות
+ השונות.
+ מטרתנו היא לממש את טכניקה זו.
  בנינו מערכת היודעת בהינתן מאגר של טקסטים עם שם הכותב שלהם, ללמוד את אופי
  כתיבתם.
  לאחר הלמידה, המערכת תקבל טקסט ותקבע מי כתב אותו.
@@ -112,6 +114,8 @@ key "key-1"
 
 \series default
  שקראנו על נושא זה המשתמשים בהם.
+ במהלך הלמידה אנו נעזר בפיצ'רים שבנינו המייצגים תכונות מסוימות של הסופרים.
+ טכניקה זו שיישמו יכולה לסייע עבור גניבות ספרותיות.
 \end_layout
 
 \begin_layout Section
@@ -121,158 +125,108 @@ key "key-1"
 \begin_layout Standard
 בפרויקט בחרנו לזהות את אופי הכתיבה של הסופרים הבאים: ג'יין אוסטין, הרמן
  מלוויל, ז'ול ורן, שרלוט ברונטה ולואיס קרול.
- עבור כל אחד מהסופרים הכנסנו את הספרים הבאים:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{:Jane Austen}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Emma}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Persuation}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Sense and Sensibility}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{:Herman Melville}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Moby Dick}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Omoo}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{A Romance Of The South Seas}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{:Jule Verne}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Around the World in 80 days}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{The Secret of The Island}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Five Weeks in a Balloon}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{:Charlotte Bronte}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Jane Eyre}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{The professor}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Villette}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $:\text{Lewis Carroll}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Alice's Adventures in Wonderland}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{A Tangled Tale}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Sylvie and Bruno}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{Through the Looking-Glass}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
+ עבור כל אחד מהסופרים הכנסנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ספרים)ראה נספח(.
+ כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
  יותר, חילקנו את כל הספרים לפרקיהם.
  לכל פרק התייחסנו כטקסט נפרד של אותו הסופר וכך קיבלנו שלג'יין אוסטין 
 \begin_inset Formula $129$
@@ -309,16 +263,64 @@ key "key-1"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-)להסביר מה זה פיצ'ר ולמה צריך אותו(
-\end_layout
-
-\end_inset
-
-
+כל הפיצ'רים הם פונקציות המקבלות טקסט ונותנות לו ערך יחסי מסוים בין
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ל-
+\numeric on
+1
+\numeric off
+.
+ כל טקסט נריץ על כל הפיצ'רים שבנינו ואז מערכי הפיצ'רים נבנה וקטור המאפיין
+ כל טקסט.
+ באמצעות דימיון לוקטורים האלה נוכל אחר כך לזהות סופר לא ידוע של טקסט.
 \end_layout
 
 \begin_layout Standard
@@ -813,7 +815,7 @@ status open
  יש חשיבות ליצור פיצ'רים באופן הזה על מנת לא להטות את התוצאות על פי אורך
  הטקסט שהוא לא מייצג בהכרח בקורפוס שלנו או לתת עדיפות לסופרים בעלי יותר
  טקסטים.
- בנוסף לכך, עבור יצירת הפיצ'רים התחבריים השתמשנו בשני כלים:
+ בנוסף לכך, עבור יצירת הפיצ'רים התחבריים השתמשנו בשני כלים: 
 \begin_inset Formula $nltk.pos\_tag$
 \end_inset
 
@@ -824,16 +826,6 @@ status open
 .
  כאשר הראשון סייע לנו בתיוג חלקי הדיבר והשני סייע לבניית עצים תחביריים לכל
  משפט.
- כלים אלו עלולים לטעות בחלק מהמשפטים ולגרום לטעויות בחישוב הפיצ'רים, כאשר
- יש בין 
-\begin_inset Formula $10\%$
-\end_inset
-
- ל-
-\begin_inset Formula $15\%$
-\end_inset
-
- שגיאה.
 \end_layout
 
 \begin_layout Section
@@ -1003,16 +995,33 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-טקסטים ממקורות שונים
-\end_layout
-
+כאשר אנו מביטים בתוצאות עבודתנו עלינו לקחת בחשבון מספר גורמים העשויים להשפיע
+ לטובה או לרעה על התוצאות.
+ קורפוס העבודה באופן יחסי אינו גדול ומתבסס על מספר ספרים קטן אשר עלול לא
+ לייצג כהלכה את הסופרים.
+ כלומר, ייתכן שלא ייצגנו את מגוון סגנונות הכתיבה וצורות הכתיבה השונות העשויות
+ להשתנות בין ספריו של אותו הסופר.
+ בנוסף לכך, השתמשנו בכלים 
+\begin_inset Formula $nltk.pos\_tag$
 \end_inset
 
+ ו-
+\begin_inset Formula $StanfordCoreNLP$
+\end_inset
 
+ כלים ששימשו אותנו לתיוג הטקסט אשר באמצעותו יצרנו פיצ'רים נוספים.
+ כלים אלו שוגים בתיוגם ב-
+\begin_inset Formula $10\%$
+\end_inset
+
+ מהמקרים טעויות אשר עשויות ליצור פיצ'רים שלא מייצגים כראוי את הטקסט.
+ כמו כן, על מנת ליצור פיצ'רים חילקנו את הטקסט למשפטים, חלוקה אשר נעשתה באמצעות
+ סיום משפט, אך פעמים רבות לא ניתן היה לזהות כראוי את סיום המשפט.
+ למשל במשפטים בהם הופיע 
+\begin_inset Formula $\text{"Mr."}$
+\end_inset
+
+ לא יכולנו לזהות שהנקודה לא מסיימת משפט ולכן סטטיסטית תפסנו אותה כמשפט.
 \end_layout
 
 \begin_layout Section
@@ -1132,11 +1141,170 @@ h- או
 .
 \end_layout
 
+\begin_layout Section
+נספח
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Jane Austen}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Emma}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Persuation}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Sense and Sensibility}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Herman Melville}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Moby Dick}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Omoo}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{A Romance Of The South Seas}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Jule Verne}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Around the World in 80 days}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{The Secret of The Island}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Five Weeks in a Balloon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{:Charlotte Bronte}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Jane Eyre}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{The professor}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Villette}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $:\text{Lewis Carroll}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Alice's Adventures in Wonderland}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{A Tangled Tale}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Sylvie and Bruno}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Through the Looking-Glass}$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "key-1"
 
+\end_inset
+
+ 
+\begin_inset Formula $\text{Authorship Identification of Research Papers, Simen Skoglund 2015}$
+\end_inset
+
+
+\begin_inset Formula $\text{de Roc Boronat, Carrer, and Leo Wanner. "On the Relevance of Syntactic and Discourse Features for Author Profiling and Identification." EACL 2017 681 (2017)‏}$
 \end_inset
 
 
