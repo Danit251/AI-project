@@ -43,7 +43,7 @@ def check_range(value):
 if __name__ == "__main__":
 
     parser, args = parse_arguments()
-    result_file = open("result.txt", "w")
+    result_file = open("results.txt", "w")
 
     for algo in args.algo_list:
         if algo.upper() not in util.AVAILABLE_ALGORITHMS:

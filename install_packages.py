@@ -1,6 +1,5 @@
-#!/usr/bin/env python
 """
-pipreqs.py: run ``pip install`` iteratively over a requirements file.
+Installs the necessary packages.
 """
 
 

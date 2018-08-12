@@ -7,6 +7,6 @@ echo "Done installing"
 
 echo "Run project file"
 python3 author_auth.py
-echo "result"
+echo "Output results to results.txt"
 
 
