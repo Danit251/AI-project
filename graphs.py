@@ -33,3 +33,18 @@ def features():
     plt.xticks([1 / 4, 5 / 4, 9 / 4], LABELS)
     plt.legend()
     plt.show()
+
+
+def algorithms():
+    scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
+    data = calculate_features.create_corpus_vector()
+    labels = []
+    for name, algo in util.AVAILABLE_ALGORITHMS.items():
+        scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util.TEST_SIZE, data, repeat=True)[1])
+        labels.append(name)
+    plt.bar(range(3), scores)
+    plt.xticks(range(3), labels)
+    plt.show()
+
+
+# algorithms()
