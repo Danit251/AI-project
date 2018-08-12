@@ -26,6 +26,9 @@ def parse_arguments():
     parser.add_argument('-split_by_book',
                         action='store_true',
                         help='split the data where a new book will be in the test')
+    parser.add_argument('-repeat',
+                        action='store_true',
+                        help='run each algorithm several times and get the average result')
     return parser, parser.parse_args()
 
 
@@ -47,4 +50,4 @@ if __name__ == "__main__":
     # run each algorithm
     data = calculate_features.create_corpus_vector(args.authors_num)
     for algo in args.algo_list:
-        util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book)
+        util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat)

@@ -24,24 +24,37 @@ parameters = {
 }
 
 
-def run(test_ratio, data, split_by_book=False):
-    if split_by_book:
-        training_data, test_data = calculate_features.split_train_test(data)
-        X_train = training_data[:, 0]
-        y_train = training_data[:, 1]
-        X_test = test_data[:, 0]
-        y_test = test_data[:, 1]
+def run(test_ratio, data, split_by_book=False, repeat=False):
+    print("dt")
+    run_count = 0
+    score_sum = 0
+    if repeat:
+        num_of_runs = 100
     else:
-        X = data[:, 0]
-        y = data[:, 1]
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
-    clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
-    # train
-    clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
-    # test
-    predicted = clf.predict(np.ndarray.tolist(X_test))
-    score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
-    return clf, score
+        num_of_runs = 1
+    while run_count < num_of_runs:
+        print("run ", run_count)
+        if split_by_book:
+            training_data, test_data = calculate_features.split_train_test(data)
+            X_train = training_data[:, 0]
+            y_train = training_data[:, 1]
+            X_test = test_data[:, 0]
+            y_test = test_data[:, 1]
+        else:
+            X = data[:, 0]
+            y = data[:, 1]
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
+        clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
+        # train
+        clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
+        # test
+        # predicted = clf.predict(np.ndarray.tolist(X_test))
+        score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
+        score_sum += score
+        run_count += 1
+        print("score = ", score)
+    print("score average = ", score_sum / num_of_runs)
+    return clf, score_sum
 
     # print the tree
     # dot_data = tree.export_graphviz(clf.best_estimator_, out_file=None)

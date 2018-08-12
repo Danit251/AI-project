@@ -34,31 +34,44 @@ parameters = {
 }
 
 
-def run(test_ratio, data, split_by_book=False):
-    if split_by_book:
-        training_data, test_data = calculate_features.split_train_test(data)
-        X_train = training_data[:, 0]
-        y_train = training_data[:, 1]
-        X_test = test_data[:, 0]
-        y_test = test_data[:, 1]
+def run(test_ratio, data, split_by_book=False, repeat=False):
+    print("svm")
+    run_count = 0
+    score_sum = 0
+    if repeat:
+        num_of_runs = 10
     else:
-        X = data[:, 0]
-        y = data[:, 1]
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
-    # clf = GridSearchCV(svm.SVC(), parameters)
+        num_of_runs = 1
+    while run_count < num_of_runs:
+        print("run ", run_count)
+        if split_by_book:
+            training_data, test_data = calculate_features.split_train_test(data)
+            X_train = training_data[:, 0]
+            y_train = training_data[:, 1]
+            X_test = test_data[:, 0]
+            y_test = test_data[:, 1]
+        else:
+            X = data[:, 0]
+            y = data[:, 1]
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=0)
+        # clf = GridSearchCV(svm.SVC(), parameters)
 
-    # scaling to (-1,1) range
-    # scaling = MinMaxScaler(feature_range=(-1, 1)).fit(X_train)
-    # X_train = scaling.transform(X_train)
-    # X_test = scaling.transform(X_test)
+        # scaling to (-1,1) range
+        # scaling = MinMaxScaler(feature_range=(-1, 1)).fit(X_train)
+        # X_train = scaling.transform(X_train)
+        # X_test = scaling.transform(X_test)
 
-    clf = svm.SVC(kernel='linear', C=140000, gamma=1e-12)
-    # train
-    clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
-    # test
-    predicted = clf.predict(np.ndarray.tolist(X_test))
-    score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
-    return clf, score
+        clf = svm.SVC(kernel='linear', C=140000, gamma=1e-12)
+        # train
+        clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
+        # test
+        # predicted = clf.predict(np.ndarray.tolist(X_test))
+        score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
+        score_sum += score
+        run_count += 1
+        print("score = ", score)
+    print("score average = ", score_sum / num_of_runs)
+    return clf, score_sum
     
 #
 # def run2(data):
