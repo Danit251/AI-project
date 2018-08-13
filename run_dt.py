@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn import tree, ensemble
 import util
-# import graphviz
+import graphviz
 
 # 'min_weight_fraction_leaf',
 # 'class_weight',
@@ -25,7 +25,7 @@ parameters = {
 }
 
 
-def run(test_ratio, data, split_by_book=False, repeat=False):
+def run(test_ratio, data, split_by_book=False, repeat=False, feature_names=[]):
     run_count = 0
     score_sum = 0
     if repeat:
@@ -54,9 +54,26 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
             print('Iteration {} of Decision Tree resulted score of: {}\n'.format(run_count, score))
         score_sum += score
         run_count += 1
+
+
+        # print the tree
+        authors = get_names_of_authors(data)
+        print(authors)
+        dot_data = tree.export_graphviz(clf, out_file=None, feature_names=feature_names, class_names=authors)
+        graph = graphviz.Source(dot_data)
+        graph.render("dt")
+
     return clf, score_sum / num_of_runs
 
-    # print the tree
-    # dot_data = tree.export_graphviz(clf.best_estimator_, out_file=None)
-    # graph = graphviz.Source(dot_data)
-    # graph.render("dt")
+
+def get_names_of_authors(data):
+    # this is not very efficient because it probably could have been done earlier, when the data vector was created,
+    #  but I think it is simpler and not that bad in terms of running time.
+    authors = []
+    last_author = ""
+    for tuple in data:
+        author = tuple[1]
+        if author != last_author:
+            authors.append(author)
+            last_author = author
+    return authors

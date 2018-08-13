@@ -25,6 +25,17 @@ def create_features_vector(text, label, author, book, filename, features_mask):
     return [feature_vector, label, book]
 
 
+def feature_names_vector(features_mask=[1] * 3):
+    feature_names = []
+    if features_mask[0]:
+        feature_names += character_specific_features.get_feature_names()
+    if features_mask[1]:
+        feature_names += syntactic_features.get_feature_names()
+    if features_mask[2]:
+        feature_names += word_specific_features.get_feature_names()
+    return feature_names
+
+
 def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
     """
     Iterate over all authors and their books  and create a vector for each chapter
@@ -32,7 +43,11 @@ def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
     """
     vectors = []
     for author in os.listdir("corpus/data")[:authors_num]:
+        if author.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
+            continue
         for book in os.listdir("corpus/data/" + author):
+            if book.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
+                continue
             for filename in os.listdir("corpus/data/" + author + "/" + book):
                 if filename.endswith(".txt"):
                     with open("corpus/data/" + author + "/" + book + "/" + filename, 'r', encoding='utf-8', errors='ignore') as file:

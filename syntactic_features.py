@@ -13,20 +13,34 @@ tags_list = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD',
 
 
 def calculate_syntactic_feature_vector(text, author, book, filename):
-    # print("init")
     initialize(text)
-    # print("punctuation_chars_ratio")
-    vector = [punctuation_chars_ratio(text)]
-    # print("tags")
+    punc_char_rat = punctuation_chars_ratio(text)
+    vector = [punc_char_rat[0]]
+    global feature_names
+    feature_names = [punc_char_rat[1]]
     for tag in tags_list:  # this has to be done this way because we want the vector to contain the
         # same features in the same order for all the texts (meaning we can't use a data structure
         # that has no defined order and we can't look only at the tags that appear in this specific text)
-        vector.append(get_pos_tag_frequency(tag))
-    vector.append(past_tense_frequency())
-    vector.append(present_tense_frequency())  # these two don't sum up to 1 because there's another
+        res = get_pos_tag_frequency(tag)
+        vector.append(res[0])
+        feature_names.append(res[1])
+    past_tense = past_tense_frequency()
+    vector.append(past_tense[0])
+    feature_names.append(past_tense[1])
+    present_tense = present_tense_frequency()
+    vector.append(present_tense[0])  # these two don't sum up to 1 because there's another
     # category (base form verb)
-    vector.append(average_tree_depth(author, book, filename))
+    feature_names.append(present_tense[1])
+    avg_tree_depth = average_tree_depth(author, book, filename)
+    vector.append(avg_tree_depth[0])
+    feature_names.append(avg_tree_depth[1])
     return vector
+
+
+def get_feature_names():
+    if len(feature_names) == 0:
+        raise Exception("The feature vector must be calculated before get_feature_names() is called")
+    return feature_names
 
 
 def initialize(text):
@@ -37,9 +51,9 @@ def initialize(text):
 
 def punctuation_chars_ratio(text):
     if len(text) == 0:
-        return 0
+        return 0, "punctuation chars ratio"
     punctuation_count = sum([1 for char in text if char in set(string.punctuation)])
-    return punctuation_count / len(text)
+    return punctuation_count / len(text), "punctuation chars ratio"
 
 
 def pos_tag(text):
@@ -82,18 +96,18 @@ def add_to_verb_dict(tag):
 
 def get_pos_tag_frequency(tag):
     if tag not in tags_frequencies:
-        return 0
-    return tags_frequencies[tag] / tags_count  # the tag_count is here (instead of just using the length of the sentence)
+        return 0, "frequency of "+tag
+    return tags_frequencies[tag] / tags_count, "frequency of "+tag  # the tag_count is here (instead of just using the length of the sentence)
     #  because the tags list doesn't actually contain all the possible tags, as explained above
 
 
 def past_tense_frequency():
-    return (verbs_frequencies["VBD"] + verbs_frequencies["VBN"]) / tags_count  # the tag_count is here (instead of just using the length of the sentence)
+    return (verbs_frequencies["VBD"] + verbs_frequencies["VBN"]) / tags_count, "past tense frequency"  # the tag_count is here (instead of just using the length of the sentence)
     #  because the tags list doesn't actually contain all the possible tags, as explained above
 
 
 def present_tense_frequency():
-    return (verbs_frequencies["VBG"] + verbs_frequencies["VBP"] + verbs_frequencies["VBZ"]) / tags_count
+    return (verbs_frequencies["VBG"] + verbs_frequencies["VBP"] + verbs_frequencies["VBZ"]) / tags_count, "present tense frequency"
     # the tag_count is here (instead of just using the length of the sentence)
     #  because the tags list doesn't actually contain all the possible tags, as explained above
 
@@ -111,7 +125,7 @@ def average_tree_depth(author, book, filename):
     for parsed_sent in parsed_sents:
         if parsed_sent and parsed_sent != "no parsing":
             total_trees_depth += find_tree_depth(parsed_sent)
-    return total_trees_depth / len(parsed_sents)
+    return total_trees_depth / len(parsed_sents), "average tree depth"
 
 
 def find_tree_depth(tree):
