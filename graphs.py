@@ -41,7 +41,7 @@ def algorithms():
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util.TEST_SIZE, data, repeat=True)[1])
-        labels.append(name)
+        labels.append(util.ALGORITHMS_NAMES[name])
     plt.bar(range(3), scores)
     plt.xticks(range(3), labels)
     plt.show()

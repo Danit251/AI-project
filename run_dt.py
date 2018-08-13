@@ -51,12 +51,10 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
         # test
         score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
         if repeat:
-            print('Iteration {} of Nearest Neighbors resulted score of: {}\n'.format(run_count, score))
+            print('Iteration {} of Decision Tree resulted score of: {}\n'.format(run_count, score))
         score_sum += score
         run_count += 1
-    if repeat:
-        return clf, score_sum / num_of_runs
-    return clf, score
+    return clf, score_sum / num_of_runs
 
     # print the tree
     # dot_data = tree.export_graphviz(clf.best_estimator_, out_file=None)
