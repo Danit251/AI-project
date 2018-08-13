@@ -25,7 +25,7 @@ parameters = {
 }
 
 
-def run(test_ratio, data, split_by_book=False, repeat=False, feature_names=[]):
+def run(test_ratio, data, split_by_book=False, repeat=False):
     run_count = 0
     score_sum = 0
     if repeat:
