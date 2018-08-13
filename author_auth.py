@@ -8,6 +8,10 @@ CEND = '\33[0m'
 
 
 def parse_arguments():
+    """
+    Parse the user arguments
+    :return: parser objects and list of arguments
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument('-authors_num',
                         type=check_range,
@@ -34,6 +38,11 @@ def parse_arguments():
 
 
 def check_range(value):
+    """
+    Check the validity of the authors number
+    :param value: string that represent the authors number
+    :return: True if value is between 0 to AUTHORS_NUM
+    """
     ivalue = int(value)
     if ivalue <= 0 or ivalue >= util.AUTHORS_NUM:
          raise argparse.ArgumentTypeError("{} is an invalid authors int value, only at range 0 to {}".
@@ -42,7 +51,6 @@ def check_range(value):
 
 
 if __name__ == "__main__":
-
     parser, args = parse_arguments()
     result_file = open("results.txt", "w")
 
