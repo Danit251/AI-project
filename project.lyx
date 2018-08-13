@@ -87,11 +87,11 @@
 \end_layout
 
 \begin_layout Abstract
-זיהוי סופרים)
-\begin_inset Formula $\text{Authorship Identification}$
+זיהוי סופרים
+\begin_inset Formula $\left(\text{Authorship Identification}\right)$
 \end_inset
 
-( זוהי טכניקה המשמשת לזיהוי סופר אנונימי על פי זיהוי אופן הכתיבה שלו ברמות
+ זוהי טכניקה המשמשת לזיהוי סופר אנונימי על פי זיהוי אופן הכתיבה שלו ברמות
  השונות.
  מטרתנו היא לממש את טכניקה זו.
  בנינו מערכת היודעת בהינתן מאגר של טקסטים עם שם הכותב שלהם, ללמוד את אופי
@@ -373,7 +373,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ratio\_of\_special\_chars$
+\begin_inset Formula $\text{ratio\_of\_special\_chars}$
 \end_inset
 
 
@@ -396,7 +396,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ratio\_of\_letters$
+\begin_inset Formula $\text{ratio\_of\_letters}$
 \end_inset
 
 
@@ -419,7 +419,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ratio\_digit\_to\_char$
+\begin_inset Formula $\text{ratio\_digit\_to\_char}$
 \end_inset
 
 
@@ -442,7 +442,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ratio\_space\_to\_text\_length$
+\begin_inset Formula $\text{ratio\_space\_to\_text\_length}$
 \end_inset
 
 
@@ -465,7 +465,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ratio\_of\_spaces\_tp\_white\_space$
+\begin_inset Formula $\text{ratio\_of\_spaces\_tp\_white\_space}$
 \end_inset
 
 
@@ -488,7 +488,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ratio\_tabs\_to\_white\_spaces$
+\begin_inset Formula $\text{ratio\_tabs\_to\_white\_spaces}$
 \end_inset
 
 
@@ -511,7 +511,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $punctuation\_chars\_ratio$
+\begin_inset Formula $\text{punctuation\_chars\_ratio}$
 \end_inset
 
 
@@ -572,7 +572,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $num\_of\_short\_words$
+\begin_inset Formula $\text{num\_of\_short\_words}$
 \end_inset
 
 
@@ -595,7 +595,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $average\_word\_length$
+\begin_inset Formula $\text{average\_word\_length}$
 \end_inset
 
 
@@ -618,7 +618,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $average\_sentence\_length\_by\_words$
+\begin_inset Formula $\text{average\_sentence\_length\_by\_words}$
 \end_inset
 
 
@@ -641,7 +641,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $average\_sentence\_length\_by\_chars$
+\begin_inset Formula $\text{average\_sentence\_length\_by\_chars}$
 \end_inset
 
 
@@ -664,7 +664,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $num\_function\_words$
+\begin_inset Formula $\text{num\_function\_words}$
 \end_inset
 
 
@@ -725,7 +725,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $get\_pos\_tag\_frequency$
+\begin_inset Formula $\text{get\_pos\_tag\_frequency}$
 \end_inset
 
 
@@ -748,7 +748,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $past\_tense\_frequency$
+\begin_inset Formula $\text{past\_tense\_frequency}$
 \end_inset
 
 
@@ -771,7 +771,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $present\_tense\_frequency$
+\begin_inset Formula $\text{present\_tense\_frequency}$
 \end_inset
 
 
@@ -794,7 +794,7 @@ key "key-1"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $average\_tree\_depth$
+\begin_inset Formula $\text{average\_tree\_depth}$
 \end_inset
 
 
@@ -816,11 +816,11 @@ key "key-1"
  הטקסט שהוא לא מייצג בהכרח בקורפוס שלנו או לתת עדיפות לסופרים בעלי יותר
  טקסטים.
  בנוסף לכך, עבור יצירת הפיצ'רים התחבריים השתמשנו בשני כלים: 
-\begin_inset Formula $nltk.pos\_tag$
+\begin_inset Formula $\text{nltk.pos\_tag}$
 \end_inset
 
  ו-
-\begin_inset Formula $StanfordCoreNLP$
+\begin_inset Formula $\text{StanfordCoreNLP}$
 \end_inset
 
 .
@@ -838,28 +838,28 @@ key "key-1"
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $character\_specific\_features.py$
+\begin_inset Formula $\text{character\_specific\_features.py}$
 \end_inset
 
  - בו נמצאים כל הפיצ'רים ברמת התווים וכן פונקציה ליצירת וקטור מייצג מהם.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $word\_specific\_features.py$
+\begin_inset Formula $\text{word\_specific\_features.py}$
 \end_inset
 
  - בו נמצאים כל הפיצ'רים ברמת המילים וכן פונקציה ליצירת וקטור מייצג מהם.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $syntactic\_features.py$
+\begin_inset Formula $\text{syntactic\_features.py}$
 \end_inset
 
  - בו נמצאים כל הפיצ'רים ברמה התחבירית וכן פונקציה ליצירת וקטור מייצג מהם.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $calculate\_features.py$
+\begin_inset Formula $\text{calculate\_features.py}$
 \end_inset
 
  - מחשב את כל סוגי הפיצ'רים ויוצר וקטור המייצג את כולם יחד עבור כל אחד מהטקסטים
@@ -867,14 +867,14 @@ key "key-1"
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $dependency\_parse.py$
+\begin_inset Formula $\text{dependency\_parse.py}$
 \end_inset
 
  - מחשב את כל העצים עבור כל המשפטים בטקסט וכותב אותם לקובץ.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $run\_dt.py$
+\begin_inset Formula $\text{run\_dt.py}$
 \end_inset
 
  - מריץ את ה-
@@ -885,7 +885,7 @@ key "key-1"
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $run\_rf.py$
+\begin_inset Formula $\text{run\_rf.py}$
 \end_inset
 
  - מריץ את ה-
@@ -896,7 +896,7 @@ key "key-1"
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $run\_svm.py$
+\begin_inset Formula $\text{run\_svm.py}$
 \end_inset
 
  - מריץ את ה-
@@ -907,14 +907,14 @@ key "key-1"
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $author\_auth.py$
+\begin_inset Formula $\text{author\_auth.py}$
 \end_inset
 
  - הקובץ הראשי אשר מריץ את כל האלגוריתמים ומחשב את כל הפיצ'רים.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $graphs.py$
+\begin_inset Formula $\text{graphs.py}$
 \end_inset
 
  - מייצר את הגרפים על סמך ההרצות השונות.
@@ -922,7 +922,7 @@ key "key-1"
 
 \begin_layout Standard
 בפרויקט זה השתמשנו בשלושה אלגוריתמים מובנים של פייתון מספריית 
-\begin_inset Formula $sklearn$
+\begin_inset Formula $\text{sklearn}$
 \end_inset
 
  והם: 
@@ -1122,11 +1122,11 @@ key "key-1"
  כלומר, ייתכן שלא ייצגנו את מגוון סגנונות הכתיבה וצורות הכתיבה השונות העשויות
  להשתנות בין ספריו של אותו הסופר.
  בנוסף לכך, השתמשנו בכלים 
-\begin_inset Formula $nltk.pos\_tag$
+\begin_inset Formula $\text{nltk.pos\_tag}$
 \end_inset
 
  ו-
-\begin_inset Formula $StanfordCoreNLP$
+\begin_inset Formula $\text{StanfordCoreNLP}$
 \end_inset
 
  כלים ששימשו אותנו לתיוג הטקסט אשר באמצעותו יצרנו פיצ'רים נוספים.
