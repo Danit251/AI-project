@@ -7,6 +7,8 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
+CBLUEBG = '\33[44m'
+CEND = '\33[0m'
 
 
 def parse_arguments():
@@ -47,12 +49,19 @@ if __name__ == "__main__":
 
     for algo in args.algo_list:
         if algo.upper() not in util.AVAILABLE_ALGORITHMS:
-            parser.error("{} algorithm is not supported, try from {}".format(algo, util.AVAILABLE_ALGORITHMS.keys()))
+            parser.error("{} algorithm is not supported, try from {}\n".format(algo, util.AVAILABLE_ALGORITHMS.keys()))
     # run each algorithm
+    print("Collecting data from ../corpus/data\n")
     data = calculate_features.create_corpus_vector(args.authors_num)
     for algo in args.algo_list:
         clf, score = util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat)
-        result_file.write(util.ALGORITHMS_NAMES[algo] + " result: " + str(score) + "\n")
-
+        if args.repeat:
+            res_text = 'Running with {} over {} iterations resulted average score of: {}{}{}\n'.\
+                format(util.ALGORITHMS_NAMES[algo], util.REPEAT_ITERATION[algo], CBLUEBG, str(score), CEND)
+        else:
+            res_text = 'Running with {} resulted score of: {}{}{}\n'.\
+                format(util.ALGORITHMS_NAMES[algo],CBLUEBG, str(score), CEND)
+        print(res_text)
+        result_file.write(res_text)
     result_file.write("\n")
     result_file.close()

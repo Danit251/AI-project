@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
+import util
 
 
 # parameters = {
@@ -18,11 +19,10 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
     run_count = 0
     score_sum = 0
     if repeat:
-        num_of_runs = 100
+        num_of_runs = util.REPEAT_ITERATION['NN']
     else:
         num_of_runs = 1
     while run_count < num_of_runs:
-        print("run ", run_count)
         if split_by_book:
             training_data, test_data = calculate_features.split_train_test(data)
             X_train = training_data[:, 0]
@@ -38,8 +38,10 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
         # test
         score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
+        if repeat:
+            print('Iteration {} of Nearest Neighbors resulted score of: {}\n'.format(run_count, score))
         score_sum += score
         run_count += 1
-        print("score = ", score)
-    print("score average = ", score_sum / num_of_runs)
-    return clf, score_sum
+    if repeat:
+        return clf, score_sum / num_of_runs
+    return clf, score

@@ -4,7 +4,7 @@ import calculate_features
 import numpy as np
 
 
-def authors_num(test_ratio):
+def authors_num(test_ratio=util.TEST_SIZE):
     scores = np.zeros((len(util.AVAILABLE_ALGORITHMS), util.AUTHORS_NUM - 1))
     for i in range(2, util.AUTHORS_NUM + 1):
         data = calculate_features.create_corpus_vector(authors_num=i)
@@ -21,7 +21,7 @@ def features():
     scores = np.zeros((len(util.AVAILABLE_ALGORITHMS), util.FEATURES_MODULES_NUMBER))
     features_vectors = [calculate_features.create_corpus_vector(features_mask=[1, 0, 0]),
                         calculate_features.create_corpus_vector(features_mask=[0, 1, 0]),
-                        # calculate_features.create_corpus_vector(features_mask=[0, 0, 1])
+                        calculate_features.create_corpus_vector(features_mask=[0, 0, 1])
                         ]
     for i in range(len(features_vectors)):
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
@@ -45,6 +45,3 @@ def algorithms():
     plt.bar(range(3), scores)
     plt.xticks(range(3), labels)
     plt.show()
-
-
-# algorithms()
