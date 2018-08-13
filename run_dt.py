@@ -54,15 +54,9 @@ def run(test_ratio, data, split_by_book=False, repeat=False, feature_names=[]):
             print('Iteration {} of Decision Tree resulted score of: {}\n'.format(run_count, score))
         score_sum += score
         run_count += 1
-
-
-        # print the tree
-        authors = get_names_of_authors(data)
-        dot_data = tree.export_graphviz(clf, out_file=None, feature_names=feature_names, class_names=authors)
-        graph = graphviz.Source(dot_data)
-        graph.render("dt")
-
-    return clf, score_sum / num_of_runs
+    if repeat:
+        return clf, score_sum / num_of_runs
+    return clf, score
 
 
 def get_names_of_authors(data):
@@ -76,3 +70,16 @@ def get_names_of_authors(data):
             authors.append(author)
             last_author = author
     return authors
+
+
+def export_tree(clf, data):
+    """
+    export the visualization of the decision tree into readable PDF
+    :param clf: decision tree classifier
+    :param data:
+    """
+    feature_names = calculate_features.feature_names_vector()
+    authors = get_names_of_authors(data)
+    dot_data = tree.export_graphviz(clf, out_file=None, feature_names=feature_names, class_names=authors)
+    graph = graphviz.Source(dot_data)
+    graph.render("dt")

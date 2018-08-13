@@ -52,6 +52,6 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
             print('Iteration {} of Random Forest resulted score of: {}\n'.format(run_count, score))
         score_sum += score
         run_count += 1
-    return clf, score_sum / num_of_runs
-
-    # print(clf.best_estimator_.feature_importances_)
+    if repeat:
+        return clf, score_sum / num_of_runs
+    return clf, score

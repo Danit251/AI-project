@@ -34,6 +34,9 @@ def parse_arguments():
     parser.add_argument('-no_nltk_dwn',
                         action='store_true',
                         help='Will not download nltk\'s packages')
+    parser.add_argument('-export_tree',
+                        action='store_true',
+                        help='Will not download nltk\'s packages')
     return parser, parser.parse_args()
 
 
@@ -64,10 +67,11 @@ if __name__ == "__main__":
         nltk.download('averaged_perceptron_tagger')
     print("Collecting and parsing data from ../corpus/data\n")
     data = calculate_features.create_corpus_vector(args.authors_num)
-    feature_names = calculate_features.feature_names_vector()
     # run each algorithm
     for algo in args.algo_list:
-        clf, score = util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat, feature_names=feature_names)
+        clf, score = util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat)
+        if algo == 'DT' and args.export_tree:
+            util.AVAILABLE_ALGORITHMS[algo].export_tree(clf, data)
         if args.repeat:
             res_text = 'Running with {} over {} iterations resulted average score of: '.\
                 format(util.ALGORITHMS_NAMES[algo], util.REPEAT_ITERATION[algo], CBLUEBG, str(score), CEND)
@@ -78,3 +82,4 @@ if __name__ == "__main__":
         result_file.write('{}{}\n'.format(res_text, str(score)))
     result_file.write("\n")
     result_file.close()
+
