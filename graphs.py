@@ -13,6 +13,10 @@ def authors_num(test_ratio=util.TEST_SIZE):
 
     for name in util.AVAILABLE_ALGORITHMS.keys():
         plt.plot(list(range(2, util.AUTHORS_NUM + 1)), scores[util.ALGORITHMS_NUMS[name]], label=name)
+    plt.xlabel('Number of authors')
+    plt.ylabel('% correct classifications')
+    plt.xticks(range(2, 6))
+    plt.axis([2, 5, 0, 1.00])
     plt.legend()
     plt.show()
 
@@ -25,11 +29,15 @@ def features():
                         ]
     for i in range(len(features_vectors)):
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
-            print(name)
             scores[util.ALGORITHMS_NUMS[name], i] = (algo.run(util.TEST_SIZE, features_vectors[i])[1])
-    LABELS = ["Character", "Syntactic", "word"]
+    LABELS = ["Character", "Syntactic", "Word"]
     for i, name in enumerate(util.AVAILABLE_ALGORITHMS.keys()):
-        plt.bar(np.arange(util.FEATURES_MODULES_NUMBER)+(i/4), scores[util.ALGORITHMS_NUMS[name]], label=name, width=1/4)
+        bar = plt.bar(np.arange(util.FEATURES_MODULES_NUMBER)+(i/4), scores[util.ALGORITHMS_NUMS[name]], label=name, width=1/4)
+        for rect in bar:
+            height = rect.get_height()
+            plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
+    plt.xlabel('Feature class')
+    plt.ylabel('% correct classifications')
     plt.xticks([1 / 4, 5 / 4, 9 / 4], LABELS)
     plt.legend()
     plt.show()
@@ -41,7 +49,12 @@ def algorithms():
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util.TEST_SIZE, data, repeat=True)[1])
-        labels.append(util.ALGORITHMS_NAMES[name])
-    plt.bar(range(3), scores)
+        labels.append(name)
+    plt.xlabel('Algorithm')
+    plt.ylabel('% correct classifications')
+    bar = plt.bar(range(3), scores)
+    for rect in bar:
+        height = rect.get_height()
+        plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
     plt.xticks(range(3), labels)
     plt.show()

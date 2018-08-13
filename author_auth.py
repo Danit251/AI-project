@@ -3,7 +3,7 @@ import util
 import calculate_features
 import nltk
 
-CBLUEBG = '\33[44m'
+CBLUEBG = '\33[40m'
 CEND = '\33[0m'
 
 
