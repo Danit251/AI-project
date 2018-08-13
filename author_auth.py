@@ -3,10 +3,6 @@ import util
 import calculate_features
 import nltk
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-
 CBLUEBG = '\33[44m'
 CEND = '\33[0m'
 
@@ -31,6 +27,9 @@ def parse_arguments():
     parser.add_argument('-repeat',
                         action='store_true',
                         help='run each algorithm several times and get the average result')
+    parser.add_argument('-no_nltk_dwn',
+                        action='store_true',
+                        help='Will not download nltk\'s packages')
     return parser, parser.parse_args()
 
 
@@ -45,23 +44,28 @@ def check_range(value):
 if __name__ == "__main__":
 
     parser, args = parse_arguments()
-    result_file = open("results.txt", "a")
+    result_file = open("results.txt", "w")
 
     for algo in args.algo_list:
         if algo.upper() not in util.AVAILABLE_ALGORITHMS:
             parser.error("{} algorithm is not supported, try from {}\n".format(algo, util.AVAILABLE_ALGORITHMS.keys()))
-    # run each algorithm
-    print("Collecting data from ../corpus/data\n")
+    # download nltk's
+    if not args.no_nltk_dwn:
+        nltk.download('stopwords')
+        nltk.download('punkt')
+        nltk.download('averaged_perceptron_tagger')
+    print("Collecting and parsing data from ../corpus/data\n")
     data = calculate_features.create_corpus_vector(args.authors_num)
+    # run each algorithm
     for algo in args.algo_list:
         clf, score = util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat)
         if args.repeat:
-            res_text = 'Running with {} over {} iterations resulted average score of: {}{}{}\n'.\
+            res_text = 'Running with {} over {} iterations resulted average score of: '.\
                 format(util.ALGORITHMS_NAMES[algo], util.REPEAT_ITERATION[algo], CBLUEBG, str(score), CEND)
         else:
-            res_text = 'Running with {} resulted score of: {}{}{}\n'.\
-                format(util.ALGORITHMS_NAMES[algo],CBLUEBG, str(score), CEND)
-        print(res_text)
-        result_file.write(res_text)
+            res_text = 'Running with {} resulted score of: '.\
+                format(util.ALGORITHMS_NAMES[algo])
+        print('{}{}{}{}\n'.format(res_text, CBLUEBG, str(score), CEND))
+        result_file.write('{}{}\n'.format(res_text, str(score)))
     result_file.write("\n")
     result_file.close()
