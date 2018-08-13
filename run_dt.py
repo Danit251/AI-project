@@ -58,7 +58,6 @@ def run(test_ratio, data, split_by_book=False, repeat=False, feature_names=[]):
 
         # print the tree
         authors = get_names_of_authors(data)
-        print(authors)
         dot_data = tree.export_graphviz(clf, out_file=None, feature_names=feature_names, class_names=authors)
         graph = graphviz.Source(dot_data)
         graph.render("dt")
