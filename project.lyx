@@ -98,7 +98,7 @@
  כתיבתם.
  לאחר הלמידה, המערכת תקבל טקסט ותקבע מי כתב אותו.
  הלמידה שלנו תתבצע על ידי שלושה אלגרותמי למידה: 
-\begin_inset Formula $\text{Random Forest ,SVM ,Decision Tree}$
+\begin_inset Formula $\text{Random Forest ,Nearest Neighbor ,Decision Tree}$
 \end_inset
 
 .
@@ -896,11 +896,11 @@ key "key-1"
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $\text{run\_svm.py}$
+\begin_inset Formula $\text{run\_nn.py}$
 \end_inset
 
  - מריץ את ה-
-\begin_inset Formula $\text{SVM}$
+\begin_inset Formula $\text{Nearest Neighbor}$
 \end_inset
 
 .
@@ -926,7 +926,7 @@ key "key-1"
 \end_inset
 
  והם: 
-\begin_inset Formula $\text{Random Forest ,SVM ,Decision Tree}$
+\begin_inset Formula $\text{Random Forest ,Nearest Neighbor ,Decision Tree}$
 \end_inset
 
 .
@@ -1155,7 +1155,7 @@ key "key-1"
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST] [-algo\_list ALGO\_LIST [ALGO\_LIST ...]]}
+\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST] [-algo\_list ALGO\_LIST [ALGO\_LIST ...]][-repeat]}
 \]
 
 \end_inset
@@ -1198,7 +1198,19 @@ h- או
 \end_inset
 
 רשימה שתכיל לפחות אלגוריתם אחד בו נשתמש ללמידה.
- ערך ברירת מחדל: 'DT', 'SVM', 'RF')כל האלגוריתמים(.
+ ערך ברירת מחדל: 
+\begin_inset Formula $'DT','NN','RF'$
+\end_inset
+
+)כל האלגוריתמים(.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{-repeat}$
+\end_inset
+
+יריץ את האלגוריתמים הנבחרים מספר פעמים על מנת לתת סטטיסטיקה אמינה יותר.
+ ללא דגל זה נריץ כל אלגוריתמים פעם אחת.
 \end_layout
 
 \begin_layout Standard
@@ -1210,7 +1222,7 @@ h- או
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\text{python3 author\_auth.py -authors\_num 4 -test 0.3 -algo\_list SVM RF}
+\text{python3 author\_auth.py -authors\_num 4 -test 0.3 -algo\_list NN RF}
 \]
 
 \end_inset
@@ -1251,7 +1263,7 @@ h- או
 
 \numeric off
  מהמידע ישמש לטסט וכן הלמידה תהיה עם האלגוריתמים 
-\begin_inset Formula $\text{SVM}$
+\begin_inset Formula $\text{NN}$
 \end_inset
 
  ו-

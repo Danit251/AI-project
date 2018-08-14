@@ -20,8 +20,9 @@ import graphviz
 
 
 parameters = {
-    'max_depth': [1, 2, 3, 4, 5],
-    'max_features': [1, 2, 3, 4]
+    'max_depth': range(1, 8),
+    'max_features': range(20, 40),
+    # 'min_samples_leaf ': range(2, 10)
 }
 
 
@@ -45,9 +46,10 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
         # if you want to play with it.
         # clf = GridSearchCV(tree.DecisionTreeClassifier(criterion='entropy'), parameters)
-        clf = tree.DecisionTreeClassifier(criterion='entropy', max_features=4, max_depth=4)
+        clf = tree.DecisionTreeClassifier(criterion='entropy', max_features=38, max_depth=5)
         # train
         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
+        # print(clf.best_params_)
         # test
         score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
         if repeat:
