@@ -20,8 +20,11 @@ import util
 
 
 parameters = {
-    'max_depth': [1, 2, 3, 4, 5],
-    'max_features': [1, 2, 3, 4]
+    'max_depth': range(1,8),
+    'max_features': range(20, 40),
+    'n_estimators': range(20,30),
+    # 'min_samples_split': range(1,7),
+    # 'min_samples_leaf': range(1,5)
 }
 
 
@@ -43,7 +46,7 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
             X = data[:, 0]
             y = data[:, 1]
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
-        clf = GridSearchCV(RandomForestClassifier(), parameters)
+        clf = RandomForestClassifier(max_depth=6, max_features=21, min_samples_leaf=2, n_estimators=28, random_state=0)
         # train
         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
         # test
