@@ -1155,7 +1155,7 @@ key "key-1"
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST] [-algo\_list ALGO\_LIST [ALGO\_LIST ...]]}
+\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST] [-algo\_list ALGO\_LIST [ALGO\_LIST ...]][-repeat]}
 \]
 
 \end_inset
@@ -1203,6 +1203,14 @@ h- או
 \end_inset
 
 )כל האלגוריתמים(.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{-repeat}$
+\end_inset
+
+יריץ את האלגוריתמים הנבחרים מספר פעמים על מנת לתת סטטיסטיקה אמינה יותר.
+ ללא דגל זה נריץ כל אלגוריתמים פעם אחת.
 \end_layout
 
 \begin_layout Standard
