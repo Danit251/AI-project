@@ -9,7 +9,7 @@ def authors_num(test_ratio=util.TEST_SIZE):
     for i in range(2, util.AUTHORS_NUM + 1):
         data = calculate_features.create_corpus_vector(authors_num=i)
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
-            scores[util.ALGORITHMS_NUMS[name], i-2] = (algo.run(test_ratio, data)[1])
+            scores[util.ALGORITHMS_NUMS[name], i-2] = (algo.run(util, test_ratio, data)[1])
 
     for name in util.AVAILABLE_ALGORITHMS.keys():
         plt.plot(list(range(2, util.AUTHORS_NUM + 1)), scores[util.ALGORITHMS_NUMS[name]], label=name)
@@ -29,7 +29,7 @@ def features():
                         ]
     for i in range(len(features_vectors)):
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
-            scores[util.ALGORITHMS_NUMS[name], i] = (algo.run(util.TEST_SIZE, features_vectors[i])[1])
+            scores[util.ALGORITHMS_NUMS[name], i] = (algo.run(util, util.TEST_SIZE, features_vectors[i])[1])
     LABELS = ["Character", "Syntactic", "Word"]
     for i, name in enumerate(util.AVAILABLE_ALGORITHMS.keys()):
         bar = plt.bar(np.arange(util.FEATURES_MODULES_NUMBER)+(i/4), scores[util.ALGORITHMS_NUMS[name]], label=name, width=1/4)
@@ -48,7 +48,7 @@ def algorithms():
     data = calculate_features.create_corpus_vector()
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
-        scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util.TEST_SIZE, data, repeat=True)[1])
+        scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True)[1])
         labels.append(name)
     plt.xlabel('Algorithm')
     plt.ylabel('% correct classifications')
