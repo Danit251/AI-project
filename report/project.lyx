@@ -76,7 +76,7 @@
 
 \begin_layout Title
 פרויקט סיכום 
-\begin_inset Formula $AI$
+\begin_inset Formula $\text{AI}$
 \end_inset
 
 
@@ -87,11 +87,15 @@
 \end_layout
 
 \begin_layout Abstract
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 זיהוי סופרים
 \begin_inset Formula $\left(\text{Authorship Identification}\right)$
 \end_inset
 
- זוהי טכניקה המשמשת לזיהוי סופר אנונימי על פי זיהוי אופן הכתיבה שלו ברמות
+ היא טכניקה המשמשת לזיהוי סופר אנונימי על פי זיהוי אופן הכתיבה שלו ברמות
  השונות.
  מטרתנו היא לממש את טכניקה זו.
  בנינו מערכת היודעת בהינתן מאגר של טקסטים עם שם הכותב שלהם, ללמוד את אופי
@@ -116,6 +120,60 @@ key "key-1"
  שקראנו על נושא זה המשתמשים בהם.
  במהלך הלמידה אנו נעזר בפיצ'רים שבנינו המייצגים תכונות מסוימות של הסופרים.
  טכניקה זו שיישמו יכולה לסייע עבור גניבות ספרותיות.
+\end_layout
+
+\end_inset
+
+זיהוי מחברים הוא נושא חשוב בתחום של זיהוי שפה טבעית, הוא מאפשר לנו לזהות
+ את הכותב בעל ההסתברות הגבוהה ביותר להיות הבעלים של מאמר, כתבת חדשות, מסרון,
+ ספר ועוד.
+ כלי אוטומטי מסוג זה יכול להיות מיושם בשלל משימות כגון זיהוי מחבר אנונימי,
+ גילוי גניבה ספרותית, או מציאת סופר צללים.
+ בפרויקט זה נתמקד בזיהוי של כותבי ספרים תוך שימוש במאגר טקסטים בעזרת שלושה
+ אלגוריתמי למידת מכונה קלאסיים, כאשר שניים מהם נלמדו בקורס הנוכחי.
+ 
+\end_layout
+
+\begin_layout Abstract
+הניסויים שערכנו העלו תוצאות טובות למדי של כ- 
+\begin_inset Formula $90\%$
+\end_inset
+
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+לתקן אחרי הרצה כוללת של כל האלגוריתמים
+\end_layout
+
+\end_inset
+
+דיוק עבור סיווג נכון לכותב המקורי בעזרת שימוש באלגוריתם 
+\begin_inset Formula $\text{Random Forest}$
+\end_inset
+
+אשר בוצע על 
+\begin_inset Formula $16$
+\end_inset
+
+ ספרים שונים שחולקו ל- 
+\begin_inset Formula $683$
+\end_inset
+
+ פרקים שנלקחו מפרויקט גוטנברג 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+אזכור
+\end_layout
+
+\end_inset
+
+, כאשר כל קטע טקסט יוצג על ידי וקטור של פיצ'רים רלוונטים שהתחלקו לשלושה
+ מחלקות שונות.
+ 
 \end_layout
 
 \begin_layout Section
@@ -1361,6 +1419,16 @@ key "key-1"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+דגדג 
 \end_layout
 
 \end_body

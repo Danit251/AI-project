@@ -1,9 +1,9 @@
-import character_specific_features
-import syntactic_features
-import word_specific_features
 import os
 import numpy as np
 import random
+from src.features import character_specific_features
+from src.features import syntactic_features
+from src.features import word_specific_features
 
 
 def create_features_vector(text, label, author, book, filename, features_mask):
