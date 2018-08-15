@@ -10,7 +10,7 @@ CEND = '\33[0m'
 def parse_arguments():
     """
     Parse the user arguments
-    :return: parser objects and list of arguments
+    :return: parser objects and a list of arguments
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('-authors_num',
