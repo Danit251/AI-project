@@ -1,21 +1,20 @@
-import calculate_features
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-import util
-
+from sklearn.ensemble import RandomForestClassifier
+from src import util
+from src.features import calculate_features
 
 def run(test_ratio, data, split_by_book=False, repeat=False):
     run_count = 0
     score_sum = 0
     if repeat:
-        num_of_runs = util.REPEAT_ITERATION['NN']
+        num_of_runs = util.REPEAT_ITERATION['RF']
     else:
         num_of_runs = 1
-    # Calculates NN number of times
+    # Calculates RF number of times
     while run_count < num_of_runs:
 
-        # Splits data to train and test
+        # Splits the data to train and test
         if split_by_book:
             training_data, test_data = calculate_features.split_train_test(data)
             X_train = training_data[:, 0]
@@ -27,7 +26,7 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
             y = data[:, 1]
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
 
-        clf = KNeighborsClassifier(n_neighbors=5, algorithm='auto', leaf_size=50, n_jobs=2, p=1)
+        clf = RandomForestClassifier(max_depth=6, max_features=21, min_samples_leaf=2, n_estimators=28, random_state=0)
 
         # train
         clf.fit(np.ndarray.tolist(X_train), np.ndarray.tolist(y_train))
@@ -36,7 +35,7 @@ def run(test_ratio, data, split_by_book=False, repeat=False):
         score = clf.score(np.ndarray.tolist(X_test), np.ndarray.tolist(y_test))
 
         if repeat:
-            print('Iteration {} of Nearest Neighbors resulted score of: {}\n'.format(run_count, score))
+            print('Iteration {} of Random Forest resulted score of: {}\n'.format(run_count, score))
 
         score_sum += score
         run_count += 1

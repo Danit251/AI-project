@@ -1,7 +1,7 @@
 import os
-import run_nn
-import run_dt
-import run_rf
+from src import run_nn
+from src import run_dt
+from src import run_rf
 
 AVAILABLE_ALGORITHMS = {'DT': run_dt, 'RF': run_rf, 'NN': run_nn}
 REPEAT_ITERATION = {'DT': 100, 'RF': 100, 'NN': 100}

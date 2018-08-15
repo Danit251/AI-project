@@ -1,7 +1,7 @@
 import argparse
-import util
-import calculate_features
 import nltk
+from src import util
+from src.features import calculate_features
 
 CBLUEBG = '\33[40m'
 CEND = '\33[0m'
@@ -55,7 +55,7 @@ def check_range(value):
 
 if __name__ == "__main__":
     parser, args = parse_arguments()
-    result_file = open("results.txt", "w")
+    result_file = open("statistics/results.txt", "w")
 
     for algo in args.algo_list:
         if algo.upper() not in util.AVAILABLE_ALGORITHMS:

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
-import util
-import calculate_features
 import numpy as np
+from src import util
+from src.features import calculate_features
 
 
 def authors_num(test_ratio=util.TEST_SIZE):
