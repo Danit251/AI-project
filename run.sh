@@ -2,11 +2,10 @@
 
 echo "Installing necessary packages"
 python3 -m pip install --user --upgrade pip==9.0.3
-python3 install_packages.py requirements.txt
+python3 dependencies/install_packages.py dependencies/requirements.txt
 echo "Done installing"
 
 echo "Run project file"
 python3 author_auth.py
 echo "Output results to results.txt"
-
 

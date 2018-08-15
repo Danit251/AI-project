@@ -69,7 +69,7 @@ if __name__ == "__main__":
     data = calculate_features.create_corpus_vector(args.authors_num)
     # run each algorithm
     for algo in args.algo_list:
-        clf, score = util.AVAILABLE_ALGORITHMS[algo].run(args.test, data, args.split_by_book, args.repeat)
+        clf, score = util.AVAILABLE_ALGORITHMS[algo].run(util, args.test, data, args.split_by_book, args.repeat)
         if algo == 'DT' and args.export_tree:
             util.AVAILABLE_ALGORITHMS[algo].export_tree(clf, data)
         if args.repeat:

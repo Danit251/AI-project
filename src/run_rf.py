@@ -1,10 +1,9 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from src import util
 from src.features import calculate_features
 
-def run(test_ratio, data, split_by_book=False, repeat=False):
+def run(util, test_ratio, data, split_by_book=False, repeat=False):
     run_count = 0
     score_sum = 0
     if repeat:
