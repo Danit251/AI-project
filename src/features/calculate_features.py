@@ -48,6 +48,7 @@ def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
     for author in os.listdir("corpus/data")[:authors_num]:
         if author.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
             continue
+        print(author)
         for book in os.listdir("corpus/data/" + author):
             if book.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
                 continue
@@ -67,6 +68,7 @@ def split_train_test(data):
     """
     test_data = []
     training_data = []
+    test_books = []
     for author in os.listdir("corpus/data"):
         if author.startswith("."):
             continue
@@ -75,10 +77,11 @@ def split_train_test(data):
         while os.listdir("corpus/data/" + author)[test_book_index].startswith("."):
             test_book_index = random.randint(0, num_of_books - 1)  # TODO delete. This is needed only on mac
         test_book = os.listdir("corpus/data/" + author)[test_book_index]
-        print("test: ", test_book)
-        for item in data:
-            if item[2] == test_book:
-                test_data.append(item)
-            else:
-                training_data.append(item)
+        test_books.append(test_book)
+    # print("test: ", test_books)
+    for item in data:
+        if item[2] in test_books:
+            test_data.append(item)
+        else:
+            training_data.append(item)
     return np.asarray(training_data), np.asarray(test_data)
