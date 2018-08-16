@@ -429,7 +429,7 @@ status collapsed
 \end_layout
 
 \begin_layout Section
-עבודות בנושא
+רקע ספרותי
 \end_layout
 
 \begin_layout Section
@@ -437,79 +437,74 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-כל הפיצ'רים הם פונקציות המקבלות טקסט ונותנות לו ערך יחסי מסוים בין
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-0
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ל-
-\numeric on
-1
-\numeric off
-.
- כל טקסט נריץ על כל הפיצ'רים שבנינו ואז מערכי הפיצ'רים נבנה וקטור המאפיין
- כל טקסט.
- באמצעות דימיון לוקטורים האלה נוכל אחר כך לזהות סופר לא ידוע של טקסט.
+תהליך בחירת הפיצ'רים המתאימים לפתרון הבעיה הוא חלק חשוב אשר מכריע על איכות
+ המסווג המתקבל באופן ישיר.
+ מטרתנו היא למצוא פיצ'רים שיהיו ככל שיותר אינפורמטייבים, מבדלים )יוצרים
+ הפרדה ניכרת בסט הדוגמאות( ובלתי תלויים אחד בשני.
+ בעבודה זו כל הפיצ'רים שמימשנו הם פונקציות המקבלות טקסט ונותנות לו ערך מספרי,
+ כך בהרצת התוכנית יקבל כל קטע וקטור ערכים המאפיין אותו באופן ייחודי.
+ את הפיצ'רים חילקנו לשני מחלקות שונות, לקסיקלית ותחבירית.
 \end_layout
 
 \begin_layout Standard
-הפיצ'רים מחולקים ל-3 רמות שונות: תווים, מילים וניתוח תחבירי של הטקסט.
- הפיצ'רים לפי החלוקות להלן:
+הפיצ'רים שבחרנו הם יחסיים, כלומר כל אחד מהם מחושב ביחס לאורך המשפט או הטקסט.
+ החשיבות ליצירת הפיצ'רים באופן הזה נועד כדי לא להטות את התוצאות על פי אורך
+ הפרקים של כל כותב )אשר אינם מיוצגים באופן אחיד בקורפוס שלנו( או לתת עדיפות
+ לסופרים בעלי יותר טקסטים מאחרים.
+ בנוסף לכך.
 \end_layout
 
-\begin_layout Enumerate
-פיצ'רים ברמת התווים:
-\begin_inset Newline newline
+\begin_layout Standard
+ליצירת הפיצ'רים התחבריים השתמשנו בשני כלים: 
+\begin_inset Formula $\text{nltk.pos\_tag}$
+\end_inset
+
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+לעשות יפה
+\end_layout
+
+\end_inset
+
+ו-
+\begin_inset Formula $\text{StanfordCoreNLP}$
+\end_inset
+
+.
+ כאשר הספרייה הראשונה סייעה לנו בתיוג חלקי הדיבר והשנייה לבניית עצים תחביריים
+ לכל משפט.
+\end_layout
+
+\begin_layout Subsection
+פיצ'רים לקסיקליים
+\end_layout
+
+\begin_layout Standard
+את הפיצ'רים הלקסיקליים חילקנו לשני רמות- רמת התווים ורמת המילים.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+חסר הסבר לפי מה בחרנו את הפיצ'רים
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+פיצ'רים ברמת התווים:
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -527,6 +522,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
+\align center
 שם הפיצ'ר
 \end_layout
 
@@ -649,7 +645,7 @@ status collapsed
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -658,34 +654,11 @@ status collapsed
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_tabs\_to\_white\_spaces}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-היחס בין אותיות
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{punctuation\_chars\_ratio}$
+\begin_inset Formula $\text{ratio\_tabs\_to\_white\_spaces}$
 \end_inset
 
 
@@ -701,12 +674,12 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Subsubsection
 פיצ'רים ברמת המילים:
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="2">
 <features tabularvalignment="middle">
@@ -854,14 +827,32 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Section
 פיצ'רים ברמה התחבירית:
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+חסר הסבר על הפיצ'רים ברמה התחבירית, אפשר לדבר על העץ התחבירי ומה הוא מסמל
+ וגם על ה
+\begin_inset Formula $\text{past and present}$
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
+<lyxtabular version="3" rows="6" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -955,7 +946,7 @@ status collapsed
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -964,11 +955,34 @@ status collapsed
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $\text{average\_tree\_depth}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+היחס בין אותיות
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{punctuation\_chars\_ratio}$
 \end_inset
 
 
@@ -982,24 +996,6 @@ status collapsed
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-הפיצ'רים שלנו הם יחסיים כלומר כל אחד מחושב ביחס לאורך המשפט או הטקסט.
- יש חשיבות ליצור פיצ'רים באופן הזה על מנת לא להטות את התוצאות על פי אורך
- הטקסט שהוא לא מייצג בהכרח בקורפוס שלנו או לתת עדיפות לסופרים בעלי יותר
- טקסטים.
- בנוסף לכך, עבור יצירת הפיצ'רים התחבריים השתמשנו בשני כלים: 
-\begin_inset Formula $\text{nltk.pos\_tag}$
-\end_inset
-
- ו-
-\begin_inset Formula $\text{StanfordCoreNLP}$
-\end_inset
-
-.
- כאשר הראשון סייע לנו בתיוג חלקי הדיבר והשני סייע לבניית עצים תחביריים לכל
- משפט.
 \end_layout
 
 \begin_layout Section
