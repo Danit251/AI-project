@@ -21,7 +21,7 @@ for filename in os.listdir('raw_data'):
     for sen in corpus.sents('raw_data/{}'.format(filename)):
 
         # Opens new file to every chapter
-        if "chapter" in [w.lower() for w in sen]:
+        if "Chapter" in sen or "CHAPTER" in sen:
             f.close()
             f = open("{}/{}_{}.txt".format(directory, filename, str(count)), "w+")
             count += 1
