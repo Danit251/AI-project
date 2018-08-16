@@ -27,7 +27,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize default
 \use_geometry true
@@ -47,7 +47,7 @@
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 1
 \index Index
@@ -204,8 +204,17 @@ status open
 \end_layout
 
 \begin_layout Standard
-בעבודה זו בחרנו להתמקד במאגר המידע של פרויקט גוטנברג המכיל ארכיון דיגיטלי
- של ספרים מוכרים החופשיים לשימוש.
+בעבודה זו בחרנו להתמקד במאגר המידע של פרויקט גוטנברג
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ המכיל ארכיון דיגיטלי של ספרים מוכרים החופשיים לשימוש.
  בחרנו לזהות את אופי הכתיבה של חמשת הסופרים הבאים: ג'יין אוסטין, הרמן מלוויל,
  ז'ול ורן, שרלוט ברונטה ולואיס קרול.
  כאשר לכל אחד מהסופרים כללנו בן שלושה לארבעה ספרים 
@@ -239,7 +248,7 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-הפכנו כל פרק שאספנו לוקטור באורך של [מספר הפיצ'רים] 
+מכל פרק שאספנו ייצרנו וקטור באורך של [מספר הפיצ'רים] 
 \begin_inset Note Note
 status open
 
@@ -249,7 +258,7 @@ status open
 
 \end_inset
 
- כאשר כל תא בו מייצג תוצאה מספרית המתאימה לפיצ'ר ספציפי.
+ כאשר כל תא בו מייצג תוצאה נומרית המתאימה לפיצ'ר ספציפי.
  את 
 \begin_inset Formula $623$
 \end_inset
@@ -417,6 +426,10 @@ status collapsed
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+עבודות בנושא
 \end_layout
 
 \begin_layout Section
