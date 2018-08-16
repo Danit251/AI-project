@@ -58,3 +58,20 @@ def algorithms():
         plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
     plt.xticks(range(3), labels)
     plt.show()
+
+
+def split_by_book():
+    scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
+    data = calculate_features.create_corpus_vector()
+    labels = []
+    for name, algo in util.AVAILABLE_ALGORITHMS.items():
+        scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True, split_by_book=True)[1])
+        labels.append(name)
+    plt.xlabel('Algorithm')
+    plt.ylabel('% correct classifications')
+    bar = plt.bar(range(3), scores)
+    for rect in bar:
+        height = rect.get_height()
+        plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
+    plt.xticks(range(3), labels)
+    plt.show()
