@@ -56,6 +56,8 @@ def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
                 if filename.endswith(".txt"):
                     with open("corpus/data/" + author + "/" + book + "/" + filename, 'r', encoding='utf-8', errors='ignore') as file:
                         text = file.read()
+                        if not text:
+                            continue
                         vectors.append(create_features_vector(text, author, author, book, filename, features_mask))
     return np.asarray(vectors)
 
