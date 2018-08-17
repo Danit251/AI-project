@@ -7,7 +7,7 @@ Installing the required libraries can be done in two main ways:
 python3 dependencies/install_packages.py dependencies/requirements.txt
 ```
 or 
-```python
+```
 pip install --upgrade numpy scipy scikit-learn sklearn nltk matplotlib graphviz
 ```
 
