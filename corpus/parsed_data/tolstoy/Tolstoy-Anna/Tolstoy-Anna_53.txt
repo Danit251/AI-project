@@ -1,0 +1,990 @@
+(ROOT
+  (S
+    (NP (NNP Vronsky))
+    (VP (VBD was)
+      (VP (VBG staying)
+        (PP (IN in)
+          (NP
+            (NP (DT a) (NN roomy) (, ,) (JJ clean) (, ,) (JJ Finnish) (NN hut))
+            (, ,)
+            (VP (VBN divided)
+              (PP (IN into)
+                (NP (CD two)))
+              (PP (IN by)
+                (NP (DT a) (NN partition))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Petritsky))
+    (VP (VBD lived)
+      (PP (IN with)
+        (NP (PRP him)))
+      (PP (IN in)
+        (NP (NN camp)))
+      (ADVP (RB too)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Petritsky))
+    (VP (VBD was)
+      (ADJP (RB asleep))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNP Vronsky)
+            (CC and)
+            (NNP Yashvin))
+          (VP (VBD came)
+            (PP (IN into)
+              (NP (DT the) (NN hut)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV (`` ``)
+    (S
+      (VP
+        (VP (VB Get)
+          (PRT (RP up)))
+        (, ,)
+        (VP (VB don) ('' ')
+          (NP (NN t)
+            (S
+              (VP (VB go)
+                (PP (IN on)
+                  (NP (NN sleeping)))))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP (NNP Yashvin))
+    (, ,)
+    (S
+      (VP
+        (VP (VBG going)
+          (PP (IN behind)
+            (NP (DT the) (NN partition))))
+        (CC and)
+        (VP (VBG giving)
+          (NP
+            (NP (NNP Petritsky))
+            (, ,)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD was)
+                  (VP (VBG lying)
+                    (PP (IN with)
+                      (S
+                        (VP
+                          (VP (VBN ruffled)
+                            (NP (NN hair)))
+                          (CC and)
+                          (VP
+                            (PP (IN with)
+                              (NP
+                                (NP (PRP$ his) (NN nose))
+                                (PP (IN in)
+                                  (NP (DT the) (NN pillow)))))
+                            (, ,)
+                            (NP
+                              (NP (DT a) (NN prod))
+                              (PP (IN on)
+                                (NP (DT the) (NN shoulder))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Petritsky))
+    (VP
+      (VP (VBD jumped)
+        (PRT (RP up))
+        (PP
+          (ADVP (RB suddenly))
+          (IN onto)
+          (NP (PRP$ his) (NNS knees))))
+      (CC and)
+      (VP (VBD looked)
+        (NP (NN round))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP$ Your) (NN brother) ('' ') (NNS s))
+      (VP (VBN been)
+        (ADVP (RB here))))
+    (, ,) ('' '')
+    (NP (PRP he))
+    (VP (VBD said)
+      (PP (TO to)
+        (NP (NNP Vronsky))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (PRP He))
+    (VP
+      (VP (VBD waked)
+        (NP (PRP me))
+        (PRT (RP up)))
+      (, ,)
+      (VP (JJ damn)
+        (NP (PRP him)))
+      (, ,)
+      (CC and)
+      (VP (VBD said)
+        (NP (PRP he) ('' '))
+        (PP (NN d)
+          (NP (NN look)))
+        (PP (IN in)
+          (ADVP (RB again)))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (S
+      (INTJ (UH Oh))
+      (, ,)
+      (VP (VBP do)
+        (S
+          (VP (VB shut)
+            (PRT (RP up)))))
+      (, ,) (NN Yashvin))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (VP (VB Shut)
+      (PRT (RP up)))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S (`` ``)
+      (NP (PRP You))
+      ('' ')
+      (VP (NN d)
+        (VP
+          (ADVP (JJR better))
+          (VP (VB tell)
+            (NP (PRP me))
+            (NP
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (VP (TO to)
+                    (VP (VB drink)))))
+              (: ;)
+              (NP
+                (NP (PDT such) (DT a) (JJ nasty) (NN taste))
+                (PP (IN in)
+                  (NP (PRP$ my) (NN mouth)))))
+            (, ,)
+            (S
+              (NP (WDT that)))))))
+    (: ...) ('' '')
+    (S (`` ``)
+      (NP (NNP Brandy))
+      ('' ')
+      (VP (VBZ s)
+        (ADJP (JJR better))
+        (SBAR (IN than)
+          (S
+            (NP (NN anything))
+            (, ,) ('' '')
+            (VP (VBD boomed)
+              (NP (NNP Yashvin)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG (`` ``)
+    (INTJ (NN Tereshtchenko))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN brandy))
+      (PP (IN for)
+        (NP (PRP$ your) (NN master)
+          (CC and)
+          (NNS cucumbers))))
+    (, ,) ('' '')
+    (NP (PRP he))
+    (VP (VBD shouted) (, ,)
+      (S
+        (ADVP (RB obviously))
+        (VP (VBG taking)
+          (NP (NN pleasure))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN sound))
+              (PP (IN of)
+                (NP (PRP$ his) (JJ own) (NN voice))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (NNP Brandy) (, ,))
+    (VP (VBP do)
+      (S
+        (NP (PRP you))
+        (VP (VB think))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (VP (RB Eh))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (FRAG (CC And)
+      (NP (PRP you)))
+    ('' ')
+    (VP (NN ll)
+      (NP (NN drink) (NN something)))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (FRAG
+      (NP
+        (NP (DT All))
+        (ADJP (JJ right)
+          (NP-TMP
+            (NP (RB then))
+            (, ,)
+            (NP (PRP we))))))
+    ('' ')
+    (NP (NN ll))
+    (VP (VBP have)
+      (S
+        (NP (DT a) (NN drink))
+        (ADJP (RB together))))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Vronsky) (, ,))
+    (VP (VBP have)
+      (NP (DT a) (NN drink)))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP
+        (VP (VBD went)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN door))
+              (PP (IN of)
+                (NP (DT the) (NN partition) (NN wall))))))
+        (, ,)
+        (VP (VBD raised)
+          (NP (PRP$ his) (NNS hands)))
+        (, ,)
+        (CC and)
+        (VP (VBD hummed)
+          (PP (IN in)
+            (NP (NNP French))))))
+    (, ,) (`` ``)
+    (S
+      (NP (EX There))
+      (VP (VBD was)
+        (NP
+          (NP (DT a) (NN king))
+          (PP (IN in)
+            (NP (NNP Thule))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (SBARQ (`` ``)
+    (WHADVP (WRB Where))
+    (SQ (VBP are)
+      (NP
+        (NP (PRP you))
+        (ADVP (RP off)
+          (PP (TO to)))))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (S
+      (INTJ (UH Oh))
+      (, ,)
+      (ADVP (RB here))
+      (VP (VBP are)
+        (NP (PRP$ your) (CD three) (NNS horses))))
+    (, ,) ('' '')
+    (NP (PRP he))
+    (VP (VBD added) (, ,)
+      (S
+        (VP (VBG seeing)
+          (NP (DT the) (NN carriage) (NN drive))
+          (ADVP (RB up)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (PP
+      (PP (TO To)
+        (NP (DT the) (NNS stables)))
+      (, ,)
+      (CC and)
+      (PP
+        (NP
+          (NP (PRP I))
+          ('' ')
+          (SBAR
+            (S
+              (NP (FW ve))
+              (VP (VBD got)
+                (S
+                  (VP (TO to)
+                    (VP (VB see)
+                      (NP (NNP Bryansky))
+                      (PRN (, ,)
+                        (ADVP (RB too))
+                        (, ,)))))))))
+        (IN about)
+        (NP (DT the) (NNS horses))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP (NNP Vronsky))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (NNP Vronsky))
+      (VP (VBD had)
+        (SBAR (IN as)
+          (S
+            (NP (DT a) (NN fact))
+            (VP (VBD promised)
+              (S
+                (VP
+                  (VP (TO to)
+                    (VP (VB call)
+                      (PP (IN at)
+                        (NP
+                          (NP (NNP Bryansky) (POS '))
+                          (NNS s)))
+                      (, ,)
+                      (PP
+                        (NP
+                          (QP (DT some) (CD eight))
+                          (NNS miles))
+                        (IN from)
+                        (NP (NN Peterhof)))))
+                  (, ,)
+                  (CC and)
+                  (VP (TO to)
+                    (VP (VB bring)
+                      (NP (PRP him))
+                      (NP
+                        (NP (DT some) (NN money))
+                        (VP (VBG owing)
+                          (PP (IN for)
+                            (NP (DT some) (NNS horses))))))))))))))
+    (: ;)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD hoped)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP (NN time))
+              (S
+                (VP (TO to)
+                  (VP (VB get)
+                    (NP (DT that))
+                    (PP (IN in)
+                      (ADVP (RB too)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (NP (PRP$ his) (NNS comrades))
+    (VP (VBD were)
+      (ADJP
+        (ADVP (IN at) (RB once))
+        (JJ aware))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD was) (RB not)
+            (VP
+              (ADVP (RB only))
+              (VBG going)
+              (NP (RB there)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Petritsky))
+      (, ,)
+      (VP
+        (ADVP (RB still))
+        (VBG humming))
+      (, ,))
+    (VP
+      (VP (VBD winked))
+      (CC and)
+      (VP (VBD made)
+        (NP (DT a) (NN pout))
+        (PP (IN with)
+          (NP (PRP$ his) (NNS lips))))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (SBAR (IN though)
+            (S
+              (NP (PRP he))
+              (VP (MD would)
+                (VP (VB say) (: :) (`` ``)
+                  (INTJ (UH Oh) (, ,) (UH yes))))))
+          (, ,)
+          (NP (PRP we))
+          (VP (VBP know)
+            (NP (PRP$ your) (NNP Bryansky))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (FRAG
+    (S
+      (VP (VBZ is)
+        (S
+          (NP (PRP he))
+          (VP (VBG doing)
+            (NP (DT all) (NN right))))))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (VP (VB Stop))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (PRP$ Your) (NN brother))
+    (VP (VBD left)
+      (NP
+        (NP (DT a) (NN letter))
+        (CC and)
+        (NP (DT a) (NN note)))
+      (PP (IN for)
+        (NP (PRP you))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Wait)
+      (NP
+        (NP (DT a) (NN bit))
+        (: ;)
+        (SBARQ
+          (WHADVP (WRB where))
+          (SQ (VBP are)
+            (NP (PRP they)))
+          (. ?) ('' ''))))))
+~~~~~~
+(ROOT
+  (SBARQ
+    (INTJ (`` ``) (UH Well) (, ,))
+    (WHADVP (WRB where))
+    (SQ (VBP are)
+      (NP (PRP they)))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT That))
+    (ADVP ('' '))
+    (VP (VBZ s)
+      (ADVP (RB just))
+      (NP (DT the) (NN question)))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (S
+      (VP (VB Come) (, ,) (VB tell)
+        (NP (PRP me))))
+    (: ;)
+    (S
+      (NP (DT this))
+      (VP (VBZ is)
+        (ADJP (JJ silly))))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (PRP I))
+    (VP (VBP have) (RB not)
+      (VP (VBN lighted)
+        (NP (DT the) (NN fire))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP
+      (NP (RB Here))
+      (ADVP (RB somewhere)))
+    (PP (IN about))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Where))
+    (SQ (VBZ is)
+      (NP (DT the) (NN letter)))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S (CC Or)
+    (VP (VBD was)
+      (S
+        (NP (PRP it))
+        (NP (DT a) (NN dream))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (VP
+      (VP (VB Wait)
+        (NP (DT a) (NN bit)))
+      (, ,)
+      (VP (VB wait)
+        (NP (DT a) (NN bit))))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (S (CC But)
+      (NP (WP what))
+      ('' ')
+      (VP (VBZ s)
+        (NP
+          (NP (DT the) (NN use))
+          (PP (IN of)
+            (S
+              (VP (VBG getting)
+                (PP (IN in)
+                  (NP (DT a) (NN rage)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN If)
+      (NP
+        (NP (PRP you))
+        ('' ')
+        (PP (NN d)
+          (NP (JJ drunk) (CD four) (NNS bottles)))))
+    (NP-TMP (NN yesterday))
+    (PP (IN as)
+      (NP (PRP I)))
+    (VP (VBD did)
+      (NP (PRP you) ('' '))
+      (S
+        (VP (NN d)
+          (VP (VB forget)
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (PRP you))
+                (VP (VBD were)
+                  (VP (VBG lying)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Wait)
+      (NP
+        (NP (DT a) (NN bit))
+        (, ,)
+        (VP
+          (NP (PRP I) ('' '))
+          (S
+            (NP
+              (NP (NN ll))
+              (SBAR
+                (S
+                  (VP (VBP remember)))))))))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (VP (VB Wait)
+      (NP (DT a) (NN bit)))
+    (. !)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBD was)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (VP (VBG lying)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT this))
+      (VP (VBD was)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (PRP he))
+            (VP (VBD was)
+              (VP (VBG standing)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (UH Yes))
+    (PRN (: --)
+      (NP
+        (NP (RB yes))
+        (: --)
+        (NP (RB yes))))
+    (: ...)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Here))
+    (NP (PRP it))
+    (VP (VBZ is))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Vronsky))
+    (VP (VBD took)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN letter))
+            (CC and)
+            (NP (PRP$ his) (NN brother) ('' ') (NNS s)))
+          (VP (VBP note)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+        (NP
+          (NP (DT the) (NN letter))
+          (SBAR
+            (S
+              (NP (PRP he))
+              (VP (VBD was)
+                (VP (VBG expecting))))))))
+    (PRN (: --)
+      (PP (IN from)
+        (NP
+          (NP (PRP$ his) (NN mother))
+          (, ,)
+          (VP (VBG reproaching)
+            (NP (PRP him))
+            (PP (IN for)
+              (S (RB not)
+                (VP (VBG having)
+                  (VP (VBN been)
+                    (S
+                      (VP (TO to)
+                        (VP (VB see)
+                          (NP (PRP$ her))))))))))))
+      (: --))
+    (CC and)
+    (S
+      (NP (DT the) (NN note))
+      (VP (VBD was)
+        (PP (IN from)
+          (NP (PRP$ his) (NN brother)
+            (S
+              (VP (TO to)
+                (VP (VB say)
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP he))
+                      (VP (MD must)
+                        (VP (VB have)
+                          (NP
+                            (NP (DT a) (JJ little) (NN talk))
+                            (PP (IN with)
+                              (NP (PRP him)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NNP Vronsky))
+    (VP (VBD knew)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (NP
+              (NP (DT all))
+              (PP (IN about)
+                (NP (DT the) (JJ same) (NN thing))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ (`` ``)
+    (WHNP (WP What) (NN business))
+    (SQ (VBZ is)
+      (NP (PRP it))
+      (PP (IN of)
+        (NP (JJ theirs))
+        (. !) ('' '')))))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT the) (NN porch))
+        (PP (IN of)
+          (NP (DT the) (NN hut)))))
+    (NP (PRP he))
+    (VP (VBD was)
+      (VP (VBN met)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (CD two) (NNS officers))
+              (: ;)
+              (NP
+                (NP (CD one))
+                (PP (IN of)
+                  (NP (PRP$ his) (NN regiment)))))
+            (CC and)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (DT another))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NNP Vronsky) (POS '))
+      (NNS s) (NNS quarters))
+    (VP (VBD were)
+      (ADVP (RB always))
+      (NP
+        (NP (DT a) (NN meeting) (NN place))
+        (PP (IN for)
+          (NP (PDT all) (DT the) (NNS officers)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ (`` ``)
+    (WHADVP (WRB Where))
+    (SQ (VBP are)
+      (NP
+        (NP (PRP you))
+        (ADVP (RP off)
+          (PP (TO to)))))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (SBARQ (CC But)
+    (WHADVP (RB however))
+    (SQ (VBP are)
+      (NP (PRP you))
+      (VP (VBG going)
+        (PP (TO to)
+          (NP
+            (NP (NN race))
+            (PP (IN in)
+              (NP (DT this) (NN mud)))))))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (RB Here))
+    (VP (VBP are)
+      (NP (PRP$ my) (NNS saviors)))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (IN Before))
+    (NP (PRP him))
+    (VP (VBD stood)
+      (NP (DT the) (JJ orderly))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (NN tray))
+          (PP (IN of)
+            (NP (NN brandy)
+              (CC and)
+              (JJ salted) (NNS cucumbers))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (RB Here))
+    ('' ')
+    (VP (VBZ s)
+      (NP
+        (NP (NNP Yashvin))
+        (VP (VBG ordering)
+          (S
+            (NP (PRP me))
+            (VP (TO to)
+              (VP (VB drink)
+                (NP
+                  (NP (DT a) (NN pick))
+                  (PRN (: -)
+                    (NP (PRP me))
+                    (: -)))
+                (PRT (RP up))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (NP (NNP Volkov))
+    (VP
+      (VP (VBD climbed)
+        (PP (IN onto)
+          (NP (DT the) (NN roof))))
+      (CC and)
+      (VP (VBD began)
+        (S
+          (VP (VBG telling)
+            (NP (PRP us))
+            (SBAR
+              (WHADVP (WRB how)
+                (ADJP (JJ sad)))
+              (S
+                (NP (PRP he))
+                (VP (VBD was))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD said) (: :)
+      (SBAR
+        (S (`` `)
+          (S
+            (VP (VB Let)))
+          ('' ')
+          (NP (NNS s))
+          (VP (VBP have)
+            (NP
+              (NP (NN music))
+              (, ,)
+              (NP (DT the) (JJ funeral) (NN march)))))))
+    (. !) ('' ')))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Stop)
+      (NP (DT a) (NN bit)))
+    (, ,)
+    (NP (NNP Vronsky))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (FRAG
+      (NP (PRP We)))
+    ('' ')
+    (NP (NN ll))
+    (ADVP (DT all))
+    (VP (VBP have)
+      (NP (DT a) (NN drink)))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (SBAR
+    (S
+      (NP
+        (NP (PRP I))
+        (VP ('' ')
+          (NP-TMP (NN m))))
+      (VP (RB not)
+        (S
+          (VP (VBG going)
+            (S
+              (VP (TO to)
+                (VP (VB drink)
+                  (NP-TMP (NN today)))))))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT All) (NN right))
+    (, ,)
+    (ADVP (RB then))
+    (NP (PRP we))
+    (VP (MD must)
+      (VP (VB have)
+        (NP (PRP it))
+        (ADVP (RB alone))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (VP (VB Give)
+      (NP (PRP us))
+      (NP
+        (NP (DT the) (NN seltzer) (NN water))
+        (CC and)
+        (NP (JJ lemon))))
+    (. .) ('' '')))
+~~~~~~
+(ROOT
+  (INTJ (`` ``) (UH Well) (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD laughed)
+        (ADVP (RB gaily))
+        (, ,)
+        (S
+          (VP
+            (VP (VBG showing)
+              (NP (PRP$ his)
+                (ADJP (RB even))
+                (NNS teeth)))
+            (, ,)
+            (CC and)
+            (VP (VBG pulling)
+              (NP (PRP$ his) (NN cap))
+              (PP (IN over)
+                (NP (DT the) (JJ thin) (NN place)))))))
+      (, ,)
+      (VP (VBD went)
+        (ADVP (RB out)))
+      (CC and)
+      (VP (VBD got)
+        (PP (IN into)
+          (NP (PRP$ his) (NN carriage)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (`` ``)
+    (VP (TO To)
+      (NP (DT the) (NNS stables)))
+    (. !) ('' '')))
+~~~~~~
+(ROOT
+  (INTJ (`` ``) (RB Later) (. !) ('' '')))
+~~~~~~
