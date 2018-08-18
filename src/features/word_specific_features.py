@@ -1,6 +1,6 @@
 import string
 import nltk
-
+from collections import Counter
 
 def calculate_words_feature_vector(text):
     global feature_names
@@ -18,10 +18,13 @@ def calculate_words_feature_vector(text):
     words = text_without_dot.split(" ")
     words_num = len(words)
     sents_num = text_without_punc.count(" .")
-
-    vector = [num_of_short_words(words), average_word_length(len(text_without_spances), words_num),
+    vector = [num_of_short_words(words),
+              num_of_long_words(words),
+              num_of_unique_words(words),
+              average_word_length(len(text_without_spances), words_num),
               average_sentence_length_by_words(sents_num, words_num),
-              average_sentence_length_by_chars(len(text_without_spances), sents_num), num_function_words(words)]
+              average_sentence_length_by_chars(len(text_without_spances), sents_num),
+              num_function_words(words)]
     for tuple in vector:
         feature_vector.append(tuple[0])
         feature_names.append(tuple[1])
@@ -45,10 +48,27 @@ def num_of_short_words(words_list):
     return len(short_words) / len(words_list), "number of short words"
 
 
+def num_of_long_words(words_list):
+    if not words_list:
+        return 0
+    long_words = [x for x in words_list if len(x) > 9]
+    return len(long_words) / len(words_list), "number of long words"
+
+
+def num_of_unique_words(words_list):
+    if not words_list:
+        return 0
+    ctr = Counter(words_list)
+    count = 0
+    for word, repeations in ctr.items():  # for name, age in list.items():  (for Python 3.x)
+        if repeations == 1:
+            count += 1
+    return count/len(words_list), "number of unique words"
+
 def average_word_length(words_len_sum, words_num):
     if words_num == 0:
         return 0
-    return words_len_sum / words_num, "average word length"
+    return (words_len_sum / words_num), "average word length"
 
 
 def average_sentence_length_by_words(sents_num, words_num):
