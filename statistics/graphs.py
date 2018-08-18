@@ -29,7 +29,7 @@ def features():
                         ]
     for i in range(len(features_vectors)):
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
-            scores[util.ALGORITHMS_NUMS[name], i] = (algo.run(util, util.TEST_SIZE, features_vectors[i])[1])
+            scores[util.ALGORITHMS_NUMS[name], i] = (algo.run(util, util.TEST_SIZE, features_vectors[i], repeat=True)[1])
     LABELS = ["Character", "Syntactic", "Word"]
     for i, name in enumerate(util.AVAILABLE_ALGORITHMS.keys()):
         bar = plt.bar(np.arange(util.FEATURES_MODULES_NUMBER)+(i/4), scores[util.ALGORITHMS_NUMS[name]], label=name, width=1/4)
@@ -44,38 +44,46 @@ def features():
 
 
 def algorithms():
+    """
+    Compute the 3 algorithms results over 2 splitting methods.
+    :return: Graph that contains 6 results, 3 for each split.
+    """
     scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
+    # split_by_book a.k.a spp
+    sbb_scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
     data = calculate_features.create_corpus_vector()
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True)[1])
+        sbb_scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True, split_by_book=True)[1])
         labels.append(name)
     plt.xlabel('Algorithm')
     plt.ylabel('% correct classifications')
-    bar = plt.bar(range(3), scores)
-    for rect in bar:
-        height = rect.get_height()
-        plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
+    bars = [plt.bar(range(3), scores), plt.bar(range(3), sbb_scores, label='sbb')]
+    for bar in bars:
+        for rect in bar:
+            height = rect.get_height()
+            plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
+    plt.legend()
     plt.xticks(range(3), labels)
     plt.show()
 
 
-def split_by_book():
-    scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
-    data = calculate_features.create_corpus_vector()
-    labels = []
-    for name, algo in util.AVAILABLE_ALGORITHMS.items():
-        scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True, split_by_book=True)[1])
-        labels.append(name)
-    plt.xlabel('Algorithm')
-    plt.ylabel('% correct classifications')
-    bar = plt.bar(range(3), scores)
-    for rect in bar:
-        height = rect.get_height()
-        plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
-    plt.xticks(range(3), labels)
-    plt.show()
+# def split_by_book():
+#     scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
+#     data = calculate_features.create_corpus_vector()
+#     labels = []
+#     for name, algo in util.AVAILABLE_ALGORITHMS.items():
+#         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True, split_by_book=True)[1])
+#         labels.append(name)
+#     plt.xlabel('Algorithm')
+#     plt.ylabel('% correct classifications')
+#     bar = plt.bar(range(3), scores)
+#     for rect in bar:
+#         height = rect.get_height()
+#         plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
+#     plt.xticks(range(3), labels)
+#     plt.show()
 
 
-authors_num()
 algorithms()
