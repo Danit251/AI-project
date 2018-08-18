@@ -64,7 +64,7 @@ def algorithms():
     scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
     # split_by_book a.k.a spp
     sbb_scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
-    data = calculate_features.create_corpus_vector(authors_num=2)
+    data = calculate_features.create_corpus_vector()
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True)[1])
@@ -97,6 +97,3 @@ def algorithms():
 #         plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
 #     plt.xticks(range(3), labels)
 #     plt.show()
-
-
-feature_importance()

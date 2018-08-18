@@ -2,7 +2,7 @@ import string
 import nltk
 import re
 
-FEATURE_NUM = 42
+FEATURE_NUM = 43
 tags_count = 0
 tags_frequencies = {}
 verbs_frequencies = {}
@@ -120,7 +120,7 @@ def dependency_parse(sent, parser):
 
 def average_tree_depth(author, book, filename):
     total_trees_depth = 0
-    with open("corpus/parsed_data/"+author+"/"+book+"/"+filename, 'r') as file:
+    with open("corpus/parsed_data/"+author+"/"+book+"/"+filename, 'r', encoding='utf-8', errors='ignore') as file:
         parsed_text = file.read()
     parsed_sents = parsed_text.split("\n~~~~~~\n")
     for parsed_sent in parsed_sents:
