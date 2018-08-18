@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from src import util
 from src.features import calculate_features
+from src import util
 
 
 def authors_num(test_ratio=util.TEST_SIZE):
@@ -15,8 +15,8 @@ def authors_num(test_ratio=util.TEST_SIZE):
         plt.plot(list(range(2, util.AUTHORS_NUM + 1)), scores[util.ALGORITHMS_NUMS[name]], label=name)
     plt.xlabel('Number of authors')
     plt.ylabel('% correct classifications')
-    plt.xticks(range(2, 6))
-    plt.axis([2, 5, 0, 1.00])
+    plt.xticks(range(2, util.AUTHORS_NUM + 1))
+    plt.axis([2, util.AUTHORS_NUM, 0, 1.00])
     plt.legend()
     plt.show()
 
@@ -75,3 +75,7 @@ def split_by_book():
         plt.text(rect.get_x() + rect.get_width() / 2.0, height, '%0.2f' % height, ha='center', va='bottom')
     plt.xticks(range(3), labels)
     plt.show()
+
+
+authors_num()
+algorithms()

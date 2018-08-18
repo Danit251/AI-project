@@ -4,6 +4,7 @@ import random
 from src.features import character_specific_features
 from src.features import syntactic_features
 from src.features import word_specific_features
+from src import util
 
 
 def create_features_vector(text, label, author, book, filename, features_mask):
@@ -39,7 +40,7 @@ def feature_names_vector(features_mask=[1] * 3):
     return feature_names
 
 
-def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
+def create_corpus_vector(authors_num=util.AUTHORS_NUM, features_mask=[1] * 3):
     """
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
