@@ -3,6 +3,7 @@ import numpy as np
 from src.features import calculate_features
 from src import util
 
+LABELS = ["Character", "Syntactic", "Word"]
 
 def authors_num(test_ratio=util.TEST_SIZE):
     scores = np.zeros((len(util.AVAILABLE_ALGORITHMS), util.AUTHORS_NUM - 1))
@@ -21,6 +22,18 @@ def authors_num(test_ratio=util.TEST_SIZE):
     plt.show()
 
 
+def feature_importance():
+    data = calculate_features.create_corpus_vector()
+    importances = util.AVAILABLE_ALGORITHMS['RF'].run(util, util.TEST_SIZE, data)[0].feature_importances_
+    count = 0
+    for feature_class in LABELS:
+        plt.bar(range(count, count + util.FEATURE_CLASS_COUNT[feature_class]), importances[count:count+util.FEATURE_CLASS_COUNT[feature_class]], label=feature_class)
+        count += util.FEATURE_CLASS_COUNT[feature_class]
+    plt.xlabel('Feature number')
+    plt.ylabel('% of importance')
+    plt.legend()
+    plt.show()
+
 def features():
     scores = np.zeros((len(util.AVAILABLE_ALGORITHMS), util.FEATURES_MODULES_NUMBER))
     features_vectors = [calculate_features.create_corpus_vector(features_mask=[1, 0, 0]),
@@ -30,7 +43,7 @@ def features():
     for i in range(len(features_vectors)):
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
             scores[util.ALGORITHMS_NUMS[name], i] = (algo.run(util, util.TEST_SIZE, features_vectors[i], repeat=True)[1])
-    LABELS = ["Character", "Syntactic", "Word"]
+
     for i, name in enumerate(util.AVAILABLE_ALGORITHMS.keys()):
         bar = plt.bar(np.arange(util.FEATURES_MODULES_NUMBER)+(i/4), scores[util.ALGORITHMS_NUMS[name]], label=name, width=1/4)
         for rect in bar:
@@ -51,7 +64,7 @@ def algorithms():
     scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
     # split_by_book a.k.a spp
     sbb_scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
-    data = calculate_features.create_corpus_vector()
+    data = calculate_features.create_corpus_vector(authors_num=2)
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True)[1])
@@ -86,4 +99,4 @@ def algorithms():
 #     plt.show()
 
 
-algorithms()
+feature_importance()

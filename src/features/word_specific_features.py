@@ -2,6 +2,8 @@ import string
 import nltk
 from collections import Counter
 
+FEATURE_NUM = 7
+
 def calculate_words_feature_vector(text):
     global feature_names
     feature_names = []

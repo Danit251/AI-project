@@ -2,6 +2,7 @@ import string
 import nltk
 import re
 
+FEATURE_NUM = 42
 tags_count = 0
 tags_frequencies = {}
 verbs_frequencies = {}
