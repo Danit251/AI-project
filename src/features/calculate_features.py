@@ -4,7 +4,6 @@ import random
 from src.features import character_specific_features
 from src.features import syntactic_features
 from src.features import word_specific_features
-from src import util
 
 
 def create_features_vector(text, label, author, book, filename, features_mask):
