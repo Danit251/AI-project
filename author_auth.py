@@ -37,6 +37,9 @@ def parse_arguments():
     parser.add_argument('-export_tree',
                         action='store_true',
                         help='Will not download nltk\'s packages')
+    parser.add_argument('-calc_data',
+                        action='store_true',
+                        help='Will calculate features vector of the entire corpus')
     return parser, parser.parse_args()
 
 
@@ -66,7 +69,7 @@ if __name__ == "__main__":
         nltk.download('punkt')
         nltk.download('averaged_perceptron_tagger')
     print("Collecting and parsing data from ../corpus/data\n")
-    data = calculate_features.create_corpus_vector(args.authors_num)
+    data = calculate_features.get_corpus_vector(not args.calc_data, args.authors_num)
     # run each algorithm
     for algo in args.algo_list:
         clf, score = util.AVAILABLE_ALGORITHMS[algo].run(util, args.test, data, args.split_by_book, args.repeat)

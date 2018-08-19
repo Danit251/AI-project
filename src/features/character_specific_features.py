@@ -2,6 +2,7 @@ import re
 special_chars = ['~', '@', '#', "$", '%', '^', '&', '*', '-', '_', '=',
                  '+', '<', '>', '|', '[', ']', '{', '}', '\\', '/']
 
+FEATURE_NUM = 6
 
 def get_feature_vector(text):
     special_chars = ratio_of_special_chars(text)

@@ -1,0 +1,1992 @@
+(ROOT
+  (FRAG
+    (SBAR
+      (WHNP (WDT What))
+      (S
+        (NP
+          (NP (JJ Russian))
+          (, ,)
+          (VP (VBG reading)
+            (NP
+              (NP (DT the) (NN account))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ last) (NN part))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN campaign))
+                      (PP (IN of)
+                        (NP (CD 1812)))))))))
+          (, ,))
+        (VP (VBZ has) (RB not)
+          (VP (VBN experienced)
+            (NP
+              (NP (DT an) (JJ uncomfortable) (NN feeling))
+              (PP (IN of)
+                (NP
+                  (NP (NN regret))
+                  (, ,)
+                  (NP (NN dissatisfaction))
+                  (, ,)
+                  (CC and)
+                  (NP (NN perplexity)))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ
+      (VP (VBZ has) (RB not)
+        (VP (VBN asked)
+          (NP (PRP himself))
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP it))
+              (VP (VBZ is)
+                (SBAR (IN that)
+                  (S
+                    (NP (DT the) (JJ French))
+                    (VP (VBD were) (RB not)
+                      (ADVP (DT all))
+                      (VP (VBN captured)
+                        (CC or)
+                        (VBN destroyed)
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP$ our) (CD three) (NNS armies))
+                            (VP (VBD surrounded)
+                              (NP (PRP them))
+                              (PP (IN in)
+                                (NP (JJ superior) (NNS numbers)))
+                              (, ,)
+                              (SBAR
+                                (WHADVP (WRB when))
+                                (S
+                                  (NP (DT the))
+                                  (VP (VBN disordered)
+                                    (SBAR
+                                      (SBAR
+                                        (S
+                                          (NP
+                                            (NP (NNP French))
+                                            (, ,)
+                                            (ADJP (JJ hungry)
+                                              (CC and)
+                                              (NN freezing))
+                                            (, ,))
+                                          (VP (VBD surrendered)
+                                            (PP (IN in)
+                                              (NP (NNS crowds))))))
+                                      (, ,)
+                                      (CC and)
+                                      (SBAR
+                                        (WHADVP (WRB when))
+                                        (S
+                                          (PRN (-LRB- -LRB-)
+                                            (SBAR (IN as)
+                                              (S
+                                                (NP (DT the) (NNS historians))
+                                                (VP (VBP relate))))
+                                            (-RRB- -RRB-))
+                                          (NP
+                                            (NP (DT the) (NN aim))
+                                            (PP (IN of)
+                                              (NP (DT the) (NNPS Russians))))
+                                          (VP (VBD was)
+                                            (S
+                                              (VP (TO to)
+                                                (VP (VB stop)
+                                                  (NP (DT the) (NNP French))))))))))))))))))))))
+          (, ,)
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB cut)
+                  (NP (PRP them))
+                  (PRT (RP off)))
+                (, ,)
+                (CC and)
+                (VP (VB capture)
+                  (S
+                    (NP (PRP them))
+                    (NP (DT all))))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBD was)
+      (NP (PRP it))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (JJ Russian) (NN army))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP
+                  (NP
+                    (FRAG
+                      (WHADVP (WRB when))
+                      (ADJP (RB numerically) (JJR weaker))))
+                  (PP (IN than)
+                    (NP
+                      (NP (DT the) (NNP French))
+                      (SBAR
+                        (S
+                          (VP (VBD had)
+                            (VP (VBN given))))))))
+                (VP (NN battle)
+                  (PP (IN at)
+                    (NP (NNP Borodinó))))))
+            (, ,))
+          (VP (VBD did) (RB not)
+            (VP (VB achieve)
+              (NP (PRP$ its) (NN purpose))
+              (SBAR
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP it))
+                    (VP (VBD had)
+                      (VP (VBN surrounded)
+                        (NP (DT the) (JJ French))
+                        (PP (IN on)
+                          (NP (CD three) (NNS sides)))))))
+                (CC and)
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP$ its) (NN aim))
+                    (VP (VBD was)
+                      (S
+                        (VP (TO to)
+                          (VP (VB capture)
+                            (NP (PRP them))))))))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (SQ (MD Can)
+    (NP (DT the) (JJ French))
+    (VP (VB be)
+      (ADJP
+        (ADJP (RB so) (RB enormously) (JJ superior))
+        (PP (TO to)
+          (NP (PRP us))))
+      (SBAR (IN that)
+        (S
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP we))
+              (VP (VBD had)
+                (VP (VBN surrounded)
+                  (NP (PRP them))
+                  (PP (IN with)
+                    (NP (JJ superior) (NNS forces)))))))
+          (NP (PRP we))
+          (VP (MD could) (RB not)
+            (VP (VB beat)
+              (NP (PRP them)))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (S (MD could)
+      (NP (WDT that))
+      (VP (VB happen)))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN History))
+        (PRN (-LRB- -LRB-)
+          (CC or)
+          (S
+            (NP (WP what))
+            (VP (VBZ is)
+              (VP (VBN called)
+                (PP (IN by)
+                  (NP (DT that) (NN name))))))
+          (-RRB- -RRB-)))
+      (VP (VBG replying)
+        (PP (TO to)
+          (NP (DT these) (NNS questions)))))
+    (VP (VBZ says)
+      (SBAR (IN that)
+        (S
+          (NP (DT this))
+          (VP (VBD occurred)
+            (SBAR (IN because)
+              (S
+                (NP
+                  (NP
+                    (NP (NNP Kutúzov))
+                    (CC and)
+                    (NP (NNP Tormásov)
+                      (CC and)
+                      (NNP Chichagóv)))
+                  (, ,)
+                  (CC and)
+                  (NP (DT this)
+                    (UCP
+                      (NP (NN man))
+                      (CC and)
+                      (ADJP (IN that)))
+                    (NN man))
+                  (, ,))
+                (VP (VBD did) (RB not)
+                  (VP (VB execute)
+                    (NP (JJ such)
+                      (CC and)
+                      (JJ such) (NNS maneuvers))))))))))
+    (: ...)))
+~~~~~~
+(ROOT
+  (SBARQ (CC But)
+    (WHADVP (WRB why))
+    (SQ (VBD did)
+      (NP (PRP they))
+      (VP (RB not) (VB execute)
+        (NP (DT those) (NNS maneuvers))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (FRAG (CC And)
+    (SBAR
+      (WHADVP (WRB why))
+      (S
+        (SBAR (IN if)
+          (S
+            (NP (PRP they))
+            (VP (VBD were)
+              (ADJP (JJ guilty)
+                (PP (IN of)
+                  (S (RB not)
+                    (VP (VBG carrying)
+                      (PRT (RP out))
+                      (NP (DT a) (JJ prearranged) (NN plan)))))))))
+        (VP
+          (VP (VBD were)
+            (SBAR
+              (S
+                (NP (PRP they))
+                (RB not)
+                (VP (VBD tried)))))
+          (CC and)
+          (VP (VBD punished)))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (SBAR (RB even) (IN if)
+      (S
+        (NP (PRP we))
+        (VP (VBD admitted)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (NNP Kutúzov) (, ,) (NNP Chichagóv) (, ,))
+                (CC and)
+                (NP (NNS others)))
+              (VP (VBD were)
+                (NP
+                  (NP (DT the) (NN cause))
+                  (PP (IN of)
+                    (NP (DT the) (JJ Russian) (NNS failures))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (NP
+        (NP (NN incomprehensible))
+        (SBAR
+          (WHADVP (WRB why))
+          (PRN (, ,)
+            (S
+              (NP
+                (NP (DT the) (NN position))
+                (PP (IN of)
+                  (NP (DT the) (JJ Russian) (NN army))))
+              (VP (VBG being)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (PRP it))
+                    (VP (VBD was)
+                      (PP
+                        (PP (IN at)
+                          (NP (NNP Krásnoe)))
+                        (CC and)
+                        (PP (IN at)
+                          (NP
+                            (NP (DT the) (NNP Berëzina))
+                            (PRN (-LRB- -LRB-)
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT both) (NNS cases))
+                                  (SBAR
+                                    (S
+                                      (NP (PRP we))
+                                      (VP (VBD had)
+                                        (NP (JJ superior) (NNS forces)))))))
+                              (-RRB- -RRB-))))))))))
+            (, ,))
+          (S
+            (NP
+              (NP (DT the) (JJ French) (NN army))
+              (PP (IN with)
+                (NP
+                  (NP (PRP$ its) (NNS marshals))
+                  (, ,)
+                  (NP (NNS kings))
+                  (, ,)
+                  (CC and)
+                  (NP (NNP Emperor)))))
+            (VP (VBD was) (RB not)
+              (VP (VBN captured))))))
+      (, ,)
+      (SBAR (IN if)
+        (S
+          (NP (DT that))
+          (VP (VBD was)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (DT the) (NNPS Russians))
+                (VP (VBN aimed)
+                  (PP (IN at)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN explanation))
+      (PP (IN of)
+        (NP
+          (NP (DT this) (JJ strange) (NN fact))
+          (PP (VBN given)
+            (PP (IN by)
+              (NP (JJ Russian) (JJ military) (NNS historians))))))
+      (PRN (-LRB- -LRB-)
+        (PP
+          (PP (TO to)
+            (NP (DT the) (NN effect)))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (NP (NNP Kutúzov))
+              (VP (VBD hindered)
+                (NP (DT an) (NN attack))))))
+        (-RRB- -RRB-)))
+    (VP (VBZ is)
+      (ADJP (JJ unfounded))
+      (, ,)
+      (SBAR (IN for)
+        (S
+          (NP (PRP we))
+          (VP (VBP know)
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (VP (MD could) (RB not)
+                  (VP (VB restrain)
+                    (NP (DT the) (NNS troops))
+                    (PP (IN from)
+                      (S
+                        (VP (VBG attacking)
+                          (PP (IN at)
+                            (NP (NNP Vyázma)
+                              (CC and)
+                              (NNP Tarútino))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (VBD was)
+      (NP
+        (NP (DT the) (JJ Russian) (NN army))
+        (SBAR
+          (S
+            (PRN (: --)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (PP (IN with)
+                    (NP (JJ inferior) (NNS forces)))
+                  (VP (VBD had)
+                    (VP (VBN withstood)
+                      (NP
+                        (NP (DT the) (NN enemy))
+                        (PP (IN in)
+                          (NP (JJ full) (NN strength))))
+                      (PP (IN at)
+                        (NP (NNP Borodinó)))))))
+              (: --))
+            (VP (VBD defeated)
+              (PP (IN at)
+                (NP
+                  (NP (NNP Krásnoe))
+                  (CC and)
+                  (NP (DT the) (NNP Berëzina))))
+              (PP (IN by)
+                (NP
+                  (NP (DT the) (JJ disorganized) (NNS crowds))
+                  (PP (IN of)
+                    (NP (DT the) (JJ French)))))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP it))
+                  (VP (VBD was)
+                    (ADJP (RB numerically) (JJ superior))))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (SBAR (IN If)
+        (S
+          (NP
+            (NP (DT the) (NN aim))
+            (PP (IN of)
+              (NP (DT the) (NNPS Russians))))
+          (VP (VBD consisted)
+            (PP (IN in)
+              (S
+                (VP
+                  (VP (VBG cutting)
+                    (PRT (RP off)))
+                  (CC and)
+                  (VP
+                    (VP (VBG capturing)
+                      (NP
+                        (NP (NNP Napoleon))
+                        (CC and)
+                        (NP (PRP$ his) (NNS marshals))
+                        (: --)
+                        (CC and)
+                        (SBAR (IN that)
+                          (S
+                            (NP (NN aim))
+                            (VP (VBD was) (RB not)
+                              (ADJP (RB merely) (JJ frustrated)))))))
+                    (CC but)
+                    (VP
+                      (NP (DT all) (NNS attempts)
+                        (S
+                          (VP (TO to)
+                            (VP (VB attain)))))))))))))
+      (NP (PRP it))
+      (VP (VBD were)
+        (ADVP (RBS most))
+        (VP
+          (ADVP (RB shamefully))
+          (VBN baffled))))
+    (: --) (RB then)
+    (S
+      (NP
+        (NP (DT this) (JJ last) (NN period))
+        (PP (IN of)
+          (NP (DT the) (NN campaign))))
+      (VP (VBZ is)
+        (VP
+          (VP
+            (ADVP (RB quite) (RB rightly))
+            (VBN considered)
+            (PP (IN by)
+              (NP (DT the) (JJ French)))
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (NP
+                    (NP (DT a) (NN series))
+                    (PP (IN of)
+                      (NP (NNS victories))))))))
+          (, ,)
+          (CC and)
+          (ADVP (RB quite) (RB wrongly))
+          (VP (VBN considered)
+            (ADJP (JJ victorious))
+            (PP (IN by)
+              (NP (JJ Russian) (NNS historians)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJ Russian) (JJ military) (NNS historians))
+        (PP (IN in)
+          (FRAG
+            (ADJP (RB so) (RB far)
+              (SBAR (IN as)
+                (S
+                  (NP (PRP they))
+                  (VP (VBP submit)
+                    (PP (TO to)
+                      (NP
+                        (NP (NNS claims))
+                        (PP (IN of)
+                          (NP (NN logic))))))))))))
+      (VP (MD must)
+        (VP (VB admit)
+          (SBAR (IN that)
+            (FRAG
+              (NP (NN conclusion)))))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN in)
+        (NP
+          (NP (NN spite))
+          (PP (IN of)
+            (NP
+              (NP (PRP$ their) (JJ lyrical) (NNS rhapsodies))
+              (PP (IN about)
+                (NP (NN valor)))))))
+      (, ,)
+      (NP (NN devotion))
+      (VP
+        (VP
+          (PRN (, ,)
+            (CC and)
+            (ADVP (RB so) (RB forth))
+            (, ,))
+          (MD must)
+          (VP
+            (ADVP (RB reluctantly))
+            (VB admit)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (DT the) (JJ French) (NN retreat))
+                  (PP (IN from)
+                    (NP (NNP Moscow))))
+                (VP (VBD was)
+                  (NP
+                    (NP (DT a) (NN series))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNS victories))
+                        (PP (IN for)
+                          (NP (NNP Napoleon)))))))))))
+        (CC and)
+        (VP (VBZ defeats)
+          (PP (IN for)
+            (NP (NNP Kutúzov))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (S
+      (VP (VBG putting)
+        (NP (JJ national) (NN vanity))
+        (ADVP (RB entirely))
+        (ADVP (RB aside)
+          (NP (CD one)))))
+    (VP (VBZ feels)
+      (SBAR (IN that)
+        (S
+          (NP (PDT such) (DT a) (NN conclusion))
+          (VP (VBZ involves)
+            (NP (DT a) (NN contradiction))
+            (, ,)
+            (SBAR (IN since)
+              (S
+                (NP
+                  (NP (DT the) (NN series))
+                  (PP (IN of)
+                    (NP (JJ French) (NNS victories))))
+                (VP (VBD brought)
+                  (NP (DT the) (JJ French) (JJ complete) (NN destruction)))))
+            (, ,)
+            (SBAR (IN while)
+              (S
+                (NP
+                  (NP (DT the) (NN series))
+                  (PP (IN of)
+                    (NP (JJ Russian))))
+                (VP (VBZ defeats)
+                  (VP (VBN led)
+                    (PP (TO to)
+                      (NP
+                        (NP
+                          (NP (DT the) (JJ total) (NN destruction))
+                          (PP (IN of)
+                            (NP (PRP$ their) (NN enemy))))
+                        (CC and)
+                        (NP
+                          (NP (DT the) (NN liberation))
+                          (PP (IN of)
+                            (NP (PRP$ their) (NN country))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN source))
+      (PP (IN of)
+        (NP (DT this) (NN contradiction))))
+    (VP (VBZ lies)
+      (PP (IN in)
+        (NP (DT the) (NN fact)))
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (S
+              (NP (DT the) (NNS historians))
+              (VP (VBG studying)
+                (NP (DT the) (NNS events))
+                (PP (IN from)
+                  (NP
+                    (NP (DT the) (NNS letters))
+                    (PP (IN of)
+                      (NP (DT the) (NNS sovereigns)))))))
+            (CC and)
+            (S
+              (NP (DT the) (NNS generals))
+              (, ,)
+              (UCP
+                (PP (IN from)
+                  (NP
+                    (NP (NNS memoirs))
+                    (, ,)
+                    (NP
+                      (NP (NNS reports))
+                      (, ,)
+                      (NP (NNS projects))
+                      (, ,))))
+                (CC and)
+                (ADVP (RB so) (RB forth)))
+              (, ,)
+              (VP (VBP have)
+                (VP (VBN attributed)
+                  (PP (TO to)
+                    (NP
+                      (NP (DT this) (JJ last) (NN period))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NN war))
+                          (PP (IN of)
+                            (NP
+                              (NP (CD 1812))
+                              (NP (DT an) (NN aim))))))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (ADVP (RB never))
+                          (VP (VBD existed)))))))))))
+        (, ,)
+        (ADVP (RB namely))
+        (SBAR (IN that)
+          (FRAG
+            (PP (IN of)
+              (S
+                (VP
+                  (VP (VBG cutting)
+                    (PRT (RP off)))
+                  (CC and)
+                  (VP (VBG capturing)
+                    (NP
+                      (NP (NNP Napoleon))
+                      (PP (IN with)
+                        (NP
+                          (NP (PRP$ his) (NNS marshals))
+                          (CC and)
+                          (NP (PRP$ his) (NN army)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (EX There))
+    (ADVP (RB never))
+    (VP
+      (VP (VBD was))
+      (CC or)
+      (VP (MD could)
+        (VP (VB have)
+          (VP (VBN been)
+            (PP (JJ such)
+              (NP (DT an) (NN aim))))))
+      (, ,)
+      (PP (IN for)
+        (S
+          (S
+            (NP (PRP it))
+            (VP (MD would)
+              (VP (VB have)
+                (VP (VBN been)
+                  (ADJP (JJ senseless))))))
+          (CC and)
+          (S
+            (NP (PRP$ its) (NN attainment))
+            (ADJP (RB quite) (JJ impossible))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (ADJP (JJ senseless))
+          (, ,)
+          (SBAR
+            (ADVP (JJ first))
+            (IN because)
+            (S
+              (NP
+                (NP (NNP Napoleon) (POS '))
+                (NNS s))
+              (PRN
+                (S
+                  (NP (JJ disorganized) (NN army))
+                  (VP (VBD was)
+                    (VP (VBG flying)
+                      (PP (IN from)
+                        (NP (NNP Russia)))
+                      (PP (IN with)
+                        (NP
+                          (NP (DT all) (JJ possible) (NN speed))
+                          (, ,)
+                          (SBAR
+                            (WHNP (WDT that))
+                            (S
+                              (VP (VBZ is)
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB say))))))))))))
+                (, ,))
+              (VP (VBD was)
+                (VP (VBG doing)
+                  (SBAR
+                    (WHADJP (RB just) (WP what))
+                    (S
+                      (NP (DT every) (JJ Russian))
+                      (VP (VBN desired)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SBARQ (RB So)
+    (WHNP (WP what))
+    (SQ (VBD was)
+      (NP
+        (NP (DT the) (NN use))
+        (PP (IN of)
+          (S
+            (VP (VBG performing)
+              (NP
+                (NP (JJ various) (NNS operations))
+                (PP (IN on)
+                  (NP (DT the) (NNP French)))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBD were)
+                      (VP (VBG running)
+                        (ADVP
+                          (ADVP (RB away) (RB as) (JJ fast))
+                          (SBAR (IN as)
+                            (S
+                              (NP (PRP they))
+                              (ADVP (RB possibly))
+                              (VP (MD could)))))))))))))))
+    (. ?)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Secondly))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (ADJP (JJ senseless)
+            (S
+              (VP (TO to)
+                (VP (VB block)
+                  (NP
+                    (NP (DT the) (NN passage))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNS men))
+                        (SBAR
+                          (WHNP (WP$ whose) (JJ whole) (NN energy))
+                          (S
+                            (VP (VBD was)
+                              (VP (VBN directed)
+                                (PP (TO to)
+                                  (NP (NN flight)))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Thirdly))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (ADJP (JJ senseless)
+            (S
+              (VP (TO to)
+                (VP (VB sacrifice)
+                  (NP
+                    (NP (CD one))
+                    ('' ')
+                    (SBAR
+                      (S
+                        (VP (VBZ s)
+                          (NP (JJ own) (NNS troops))
+                          (SBAR (IN in) (NN order)
+                            (S
+                              (VP (TO to)
+                                (VP (VB destroy)
+                                  (NP (DT the) (JJ French) (NN army)))))))))
+                    (, ,)
+                    (SBAR
+                      (WHNP (WDT which))
+                      (S
+                        (PP (IN without)
+                          (NP (JJ external) (NN interference)))
+                        (VP (VBD was)
+                          (VP (VBG destroying)
+                            (NP (PRP itself))
+                            (PP (IN at)
+                              (NP (PDT such) (DT a) (NN rate))))))))))))
+          (SBAR (IN that) (, ,)
+            (S
+              (SBAR (IN though)
+                (S
+                  (NP (PRP$ its) (NN path))
+                  (VP (VBD was) (RB not)
+                    (VP (VBN blocked)))))
+              (, ,)
+              (NP (PRP it))
+              (VP (MD could) (RB not)
+                (VP (VB carry)
+                  (PP (IN across)
+                    (ADVP
+                      (NP (DT the) (NN frontier))
+                      (RBR more)))
+                  (SBAR (IN than)
+                    (S
+                      (NP (PRP it))
+                      (VP
+                        (ADVP (RB actually))
+                        (VBD did)
+                        (PP (IN in)
+                          (NP (NNP December)))
+                        (, ,)
+                        (NP
+                          (NP (RB namely) (DT a) (JJ hundredth) (NN part))
+                          (PP (IN of)
+                            (NP (DT the) (JJ original) (NN army))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Fourthly))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (ADJP (JJ senseless)
+            (S
+              (VP (TO to)
+                (VP (VB wish)
+                  (S
+                    (VP (TO to)
+                      (VP (VB take)
+                        (NP
+                          (NP (JJ captive)
+                            (NX
+                              (NP
+                                (NP (DT the) (NNP Emperor))
+                                (, ,)
+                                (NP (NNS kings))
+                                (, ,)
+                                (CC and)
+                                (NP (NNS dukes)))
+                              (: --)
+                              (SBAR
+                                (WHNP (WP$ whose) (NN capture))
+                                (S
+                                  (VP (MD would)
+                                    (VP (VB have)
+                                      (VP (VBN been)
+                                        (PP (IN in)
+                                          (NP
+                                            (NP (DT the) (JJS highest) (NN degree))
+                                            (ADJP (VBG embarrassing)))))))))))
+                          (PP (IN for)
+                            (NP (DT the) (NNPS Russians)))))))))))
+          (, ,)
+          (PP (IN as)
+            (NP
+              (NP (DT the) (RBS most) (JJ adroit) (NNS diplomatists))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN time))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NNP Joseph) (IN de) (NNP Maistre))
+                      (CC and)
+                      (NP (NNS others)))
+                    (-RRB- -RRB-))
+                  (VP (VBN recognized)))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (SINV
+    (ADVP (RB Still))
+    (ADJP (RBR more) (JJ senseless))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (NP (DT the) (NN wish)
+            (S
+              (VP (TO to)
+                (VP (VB capture)
+                  (NP (NN army)))))))))
+    (NP
+      (NP (NN corps))
+      (PP (IN of)
+        (NP (DT the) (NNP French)))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP$ our) (JJ own) (NN army))
+          (VP (VBD had)
+            (VP (VBN melted)
+              (ADVP (RB away)
+                (PP (TO to)
+                  (NP (NN half))))
+              (PP (IN before)
+                (S
+                  (VP (VBG reaching)
+                    (SBAR
+                      (SBAR
+                        (S
+                          (NP
+                            (NP (NNP Krásnoe))
+                            (CC and)
+                            (NP (DT a) (JJ whole) (NN division)))
+                          (VP (MD would)
+                            (VP (VB have)
+                              (VP (VBN been)
+                                (VP (VBN needed)
+                                  (PP (TO to)
+                                    (NP (NN convoy)))
+                                  (NP
+                                    (NP (DT the) (NN corps))
+                                    (PP (IN of)
+                                      (NP (NNS prisoners))))))))))
+                      (, ,)
+                      (CC and)
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (S
+                            (NP (PRP$ our) (NNS men))
+                            (VP (VBD were) (RB not)
+                              (VP
+                                (ADVP (RB always))
+                                (VBG getting)
+                                (NP (JJ full) (NNS rations)))))
+                          (CC and)
+                          (S
+                            (NP
+                              (NP (DT the) (NNS prisoners))
+                              (VP
+                                (ADVP (RB already))
+                                (VBN taken)))
+                            (VP (VBD were)
+                              (VP (VBG perishing)
+                                (PP (IN of)
+                                  (NP (NN hunger)))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (PDT All) (DT the) (JJ profound) (NNS plans))
+      (PP (IN about)
+        (S
+          (VP
+            (VP (VBG cutting)
+              (PRT (RP off)))
+            (CC and)
+            (VP (VBG capturing)
+              (NP
+                (NP (NNP Napoleon))
+                (CC and)
+                (NP (PRP$ his) (NN army))))))))
+    (VP (VBD were)
+      (PP (IN like)
+        (NP
+          (NP (DT the) (NN plan))
+          (PP (IN of)
+            (NP (DT a) (NN market) (NN gardener)))))
+      (SBAR
+        (WHNP (WP who))
+        (S (, ,)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (VP (VBG driving)
+                (PRT (IN out))
+                (PP (IN of)
+                  (NP (PRP$ his) (NN garden)))
+                (NP
+                  (NP (DT a) (NN cow))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBD had)
+                        (VP (VBN trampled)
+                          (PP (IN down)
+                            (NP
+                              (NP (DT the) (NNS beds))
+                              (SBAR
+                                (S
+                                  (NP (PRP he))
+                                  (VP (VBD had)
+                                    (VP (VBN planted)))))))))))))))
+          (, ,)
+          (VP
+            (VP (MD should)
+              (VP (VB run)
+                (PP (TO to)
+                  (NP (DT the) (NN gate)))))
+            (CC and)
+            (VP (VBD hit)
+              (NP (DT the) (NN cow))
+              (PP (IN on)
+                (NP (DT the) (NN head))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ only) (NN thing)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN said)
+              (PP (IN in)
+                (NP
+                  (NP (NN excuse))
+                  (PP (IN of)
+                    (NP (DT that) (NN gardener))))))))))
+    (VP (MD would)
+      (VP (VB be)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBD was)
+              (ADJP (RB very) (JJ angry)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (ADVP (RB not) (RB even))
+    (NP (DT that))
+    (VP (MD could)
+      (VP (VB be)
+        (VP (VBN said)
+          (PP (IN for)
+            (NP
+              (NP (DT those))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD drew)
+                    (PRT (RP up))
+                    (NP (DT this) (NN project))
+                    (, ,)
+                    (SBAR (IN for)
+                      (S
+                        (NP (PRP it))
+                        (VP (VBD was) (RB not)
+                          (NP
+                            (NP (PRP they))
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (VBD had)
+                                  (VP (VBN suffered)
+                                    (PP (IN from)
+                                      (NP (DT the) (JJ trampled) (NNS beds)))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (PP (IN besides)
+      (NP
+        (NP (DT the) (NN fact))
+        (SBAR (IN that)
+          (S
+            (S
+              (VP (VBG cutting)
+                (PRT (RP off))
+                (NP
+                  (NP (NNP Napoleon))
+                  (PP (IN with)
+                    (NP (PRP$ his) (NN army))))))
+            (VP (MD would)
+              (VP (VB have)
+                (VP (VBN been)
+                  (ADJP (JJ senseless)))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADJP (JJ impossible)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+        (ADJP (JJ impossible))
+        (ADVP (RB first))
+        (SBAR
+          (ADVP (RB because) (: --))
+          (IN as)
+          (S
+            (NP (NN experience))
+            (VP (VBZ shows)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP
+                      (NP
+                        (QP (DT a) (CD three)))
+                      (: -)
+                      (NP
+                        (NP (NN mile) (NN movement))
+                        (PP (IN of)
+                          (NP (NNS columns)))))
+                    (PP (IN on)
+                      (NP (DT a) (NN battlefield))))
+                  (ADVP (RB never))
+                  (VP (VBZ coincides)
+                    (PP (IN with)
+                      (NP (DT the) (NNS plans)))))))))))
+    (: --)
+    (S
+      (NP
+        (NP (DT the) (NN probability))
+        (PP (IN of)
+          (NP (NNP Chichagóv) (, ,) (NNP Kutúzov) (, ,)
+            (CC and)
+            (NNP Wittgenstein)))
+        (VP (VBG effecting)
+          (NP
+            (NP (DT a) (NN junction))
+            (PP (IN on)
+              (NP (NN time))))
+          (PP (IN at)
+            (NP (DT an) (VBN appointed) (NN place)))))
+      (VP (VBD was)
+        (ADJP (RB so) (JJ remote)
+          (SBAR (IN as)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (ADJP (JJ tantamount)
+                    (PP (TO to)
+                      (NP
+                        (NP (NN impossibility))
+                        (, ,)
+                        (SBAR (IN as)
+                          (S
+                            (PP (IN in)
+                              (NP (NN fact)))
+                            (VP (VBD thought)
+                              (NP
+                                (NP (NNP Kutúzov))
+                                (, ,)
+                                (SBAR
+                                  (WHNP (WP who))
+                                  (S
+                                    (SBAR
+                                      (WHADVP (WRB when))
+                                      (S
+                                        (NP (PRP he))
+                                        (VP (VBD received)
+                                          (SBAR
+                                            (S
+                                              (NP (DT the) (NN plan))
+                                              (VP (VBD remarked)
+                                                (SBAR (IN that)
+                                                  (S
+                                                    (NP (NNS diversions))
+                                                    (VP (VBN planned)
+                                                      (PP (IN over)
+                                                        (NP (JJ great) (NNS distances))))))))))))
+                                    (VP (VBP do) (RB not)
+                                      (VP (VB yield)
+                                        (NP (DT the) (VBN desired) (NNS results))))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (ADVP (RB Secondly))
+      (NP (PRP it))
+      (VP (VBD was)
+        (ADJP (JJ impossible))
+        (, ,)
+        (SBAR (IN because)
+          (S
+            (VP (TO to)
+              (VP (VB paralyze)
+                (NP
+                  (NP (DT the) (NN momentum))
+                  (SBAR
+                    (WHPP (IN with)
+                      (WHNP (WDT which)))
+                    (S
+                      (NP
+                        (NP (NNP Napoleon) (POS '))
+                        (NNS s) (NN army))
+                      (VP (VBD was)
+                        (VP (VBG retiring))))))))))))
+    (, ,)
+    (NP
+      (NP
+        (ADJP (RB incomparably) (JJR greater))
+        (NNS forces))
+      (PP (IN than)
+        (NP (DT the) (NNPS Russians))))
+    (VP (VBD possessed)
+      (SBAR
+        (S
+          (VP (MD would)
+            (VP (VB have)
+              (VP (VBN been)
+                (VP (VBN required))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB Thirdly))
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADJP (JJ impossible))
+      (, ,)
+      (PP (IN because)
+        (NP
+          (NP (DT the) (JJ military) (NN term))
+          (SBAR
+            (S (`` ``)
+              (S
+                (VP (TO to)
+                  (VP (VB cut)
+                    (PRT (RP off)))))
+              ('' '')
+              (VP (VBZ has)
+                (NP (DT no) (NN meaning))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP One))
+    (VP (MD can)
+      (VP (VB cut)
+        (PRT (RP off))
+        (NP
+          (NP
+            (NP (DT a) (NN slice))
+            (PP (IN of)
+              (NP (NN bread))))
+          (, ,)
+          (CONJP (CC but)
+            (RB not))
+          (NP (DT an) (NN army)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB cut)
+          (PRT (RP off))
+          (NP (DT an) (NN army)))))
+    (PRN (: --)
+      (S
+        (VP (TO to)
+          (VP (VB bar)
+            (NP (PRP$ its) (NN road)))))
+      (: --))
+    (VP (VBZ is)
+      (ADJP (RB quite) (JJ impossible)
+        (PRN (, ,)
+          (SBAR (IN for)
+            (S
+              (S
+                (NP (EX there))
+                (VP (VBZ is)
+                  (ADVP (RB always))
+                  (NP
+                    (NP (JJ plenty))
+                    (PP (IN of)
+                      (NP (NN room))))
+                  (S
+                    (VP (TO to)
+                      (VP (VB avoid)
+                        (NP (NN capture)))))))
+              (CC and)
+              (S
+                (NP (EX there))
+                (VP (VBZ is)
+                  (NP
+                    (NP (DT the) (NN night))
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (NN nothing))
+                        (VP (MD can)
+                          (VP (VB be)
+                            (VP (VBN seen)))))))))))
+          (, ,))
+        (SBAR (IN as)
+          (S
+            (NP (DT the) (JJ military) (NNS scientists))
+            (VP (MD might)
+              (VP (VB convince)
+                (NP (PRP themselves))
+                (PP
+                  (PP (IN by)
+                    (NP
+                      (NP (DT the) (NN example))
+                      (PP (IN of)
+                        (NP (NNP Krásnoe)))))
+                  (CC and)
+                  (PP (IN of)
+                    (NP (DT the) (NNP Berëzina))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (RB only) (JJ possible))
+      (S
+        (VP (TO to)
+          (VP (VB capture)
+            (NP (NNS prisoners))
+            (SBAR (IN if)
+              (S
+                (NP (PRP they))
+                (VP (VBP agree)
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (VP (VBN captured)))))))))))
+      (, ,)
+      (SBAR (RB just) (IN as)
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (ADVP (RB only))
+            (ADJP (JJ possible)
+              (S
+                (VP (TO to)
+                  (VP (VB catch)
+                    (S
+                      (NP (DT a))
+                      (VP (VB swallow)
+                        (SBAR (IN if)
+                          (S
+                            (NP (PRP it))
+                            (VP (VBZ settles)
+                              (PP (IN on)
+                                (NP
+                                  (NP (CD one) (POS '))
+                                  (NNS s) (NN hand))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (NN Men))
+    (VP (MD can)
+      (ADVP (RB only))
+      (VP (VB be)
+        (VP (VBN taken)
+          (NP (NNS prisoners))
+          (SBAR (IN if)
+            (S
+              (NP (PRP they))
+              (VP (VBP surrender)
+                (PP (VBG according)
+                  (PP (TO to)
+                    (NP
+                      (NP (DT the) (NNS rules))
+                      (PP (IN of)
+                        (NP (NN strategy)
+                          (CC and)
+                          (NNS tactics))))))
+                (, ,)
+                (SBAR (IN as)
+                  (S
+                    (NP (DT the) (NNPS Germans))
+                    (VP (VBD did))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (NP (DT the) (JJ French) (NNS troops))
+    (ADVP (RB quite) (RB rightly))
+    (VP (VBD did) (RB not)
+      (VP (VB consider)
+        (SBAR (IN that)
+          (S
+            (NP (DT this))
+            (VP (VBN suited)
+              (NP (PRP them))
+              (, ,)
+              (SBAR (IN since)
+                (S
+                  (NP
+                    (NP (NN death))
+                    (PP (IN by)
+                      (NP (NN hunger)
+                        (CC and)
+                        (JJ cold))))
+                  (VP (VBD awaited)
+                    (NP (PRP them))
+                    (PP (IN in)
+                      (NP (NN flight)
+                        (CC or)
+                        (NN captivity)))
+                    (ADVP (RB alike))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (ADVP
+        (ADVP (RB Fourthly))
+        (CC and)
+        (ADVP (RB chiefly)))
+      (NP (PRP it))
+      (VP (VBD was)
+        (ADJP (JJ impossible))
+        (, ,)
+        (SBAR (IN because)
+          (S
+            (SBAR
+              (ADVP (RB never))
+              (IN since)
+              (S
+                (NP (DT the) (NN world))
+                (VP (VBD began))))
+            (VP (VBZ has)
+              (NP
+                (NP (DT a) (NN war))
+                (VP (VBN been)
+                  (VP (VBN fought)
+                    (PP (IN under)
+                      (NP (JJ such) (NNS conditions)))
+                    (PP (IN as)
+                      (NP
+                        (NP (DT those))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBD obtained)
+                              (PP (IN in)
+                                (NP (CD 1812))))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (JJ Russian) (NN army))
+        (PP (IN in)
+          (NP
+            (NP (PRP$ its) (NN pursuit))
+            (PP (IN of)
+              (NP (DT the) (JJ French))))))
+      (VP
+        (VP (VBD strained)
+          (NP (PRP$ its) (NN strength))
+          (PP (TO to)
+            (NP (DT the) (JJ utmost))))
+        (CC and)
+        (VP (MD could) (RB not)
+          (VP (VB have)
+            (VP (VBN done)
+              (ADVP (RBR more))
+              (PP (IN without)
+                (S
+                  (VP (VBG destroying)
+                    (NP (PRP itself))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN During)
+      (NP
+        (NP (DT the) (NN movement))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ Russian) (NN army))
+            (PP (IN from)
+              (NP (NNP Tarútino)))))
+        (S
+          (VP (TO to)
+            (VP (VB Krásnoe)
+              (SBAR
+                (S
+                  (NP (PRP it))
+                  (VP (VBD lost)
+                    (NP
+                      (NP
+                        (QP (CD fifty) (CD thousand))
+                        (JJ sick))
+                      (CC or)
+                      (NP (NNS stragglers)))))))))))
+    (, ,)
+    (NP (DT that))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN number))
+        (ADJP (JJ equal)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN population))
+              (PP (IN of)
+                (NP (DT a) (JJ large) (JJ provincial) (NN town))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (NN Half))
+      (NP (DT the) (NNS men)))
+    (VP (VBD fell)
+      (PRT (RB out))
+      (PP (IN of)
+        (NP (DT the) (NN army)))
+      (PP (IN without)
+        (NP (DT a) (NN battle))))
+    (. .)))
+~~~~~~
+no parsing
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NNPS Russians))
+        (, ,)
+        (NP
+          (NP (NN half))
+          (PP (IN of)
+            (SBAR
+              (WHNP (WP whom))
+              (S
+                (VP (VBD died))))))
+        (, ,))
+      (VP (VBD did)
+        (NP
+          (NP (DT all))
+          (SBAR
+            (WHNP (DT that))
+            (S
+              (VP (MD could)
+                (CC and)
+                (MD should)
+                (VP (VB have)
+                  (VP (VBN been)
+                    (VP (VBN done)
+                      (S
+                        (VP (TO to)
+                          (VP (VB attain)
+                            (S
+                              (NP (DT an) (NN end))
+                              (ADJP (JJ worthy)
+                                (PP (IN of)
+                                  (NP (DT the) (NN nation)))))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (VP (RB not)
+          (S
+            (VP (TO to)
+              (VP (VB blame)
+                (SBAR (IN because)
+                  (S
+                    (NP (JJ other) (NNPS Russians))
+                    (, ,)
+                    (S
+                      (VP (VBG sitting)
+                        (PP (IN in)
+                          (NP (JJ warm) (NNS rooms)))))
+                    (, ,)
+                    (VP (VBD proposed)
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP they))
+                          (VP (MD should)
+                            (VP (VB do)
+                              (SBAR
+                                (WHNP (WP what))
+                                (S
+                                  (VP (VBD was)
+                                    (ADJP (JJ impossible))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (NP
+            (NP (JJ strange) (NN contradiction))
+            (ADJP (RB now) (JJ difficult)))
+          (VP (TO to)
+            (VP (VB understand)
+              (PP (IN between)
+                (NP
+                  (NP (DT the) (NNS facts))
+                  (CC and)
+                  (NP (DT the) (JJ historical) (NNS accounts)))))))))
+    (ADVP (RB only))
+    (VP (VBZ arises)
+      (SBAR (IN because)
+        (S
+          (NP
+            (NP (DT the) (NNS historians))
+            (VP (VBG dealing)
+              (PP (IN with)
+                (NP (DT the) (NN matter)))))
+          (VP (VBP have)
+            (VP (VBN written)
+              (NP
+                (NP
+                  (NP (DT the) (NN history))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (JJ beautiful) (NNS words)
+                        (CC and)
+                        (NNS sentiments))
+                      (PP (IN of)
+                        (NP (JJ various) (NNS generals))))))
+                (, ,)
+                (CC and)
+                (RB not)
+                (NP
+                  (NP (DT the) (NN history))
+                  (PP (IN of)
+                    (NP (DT the) (NNS events))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (PP (TO To)
+        (NP (PRP them)))
+      (NP
+        (NP (DT the) (NNS words))
+        (PP (IN of)
+          (NP (NNP Milorádovich))))
+      (VP (VBP seem)
+        (ADJP (RB very) (JJ interesting))))
+    (, ,)
+    (CC and)
+    (RB so)
+    (S
+      (VP (VB do)
+        (NP
+          (NP (PRP$ their) (NNS surmises))
+          (CC and)
+          (NP
+            (NP (DT the) (NNS rewards))
+            (UCP
+              (FRAG
+                (NP (DT this)))
+              (CC or)
+              (SBAR (IN that)
+                (S
+                  (NP (JJ general))
+                  (VP (VBN received)))))))))
+    (: ;)
+    (S (CC but)
+      (NP
+        (NP (DT the) (NN question))
+        (PP (IN of)
+          (NP
+            (NP (DT those) (CD fifty) (CD thousand) (NNS men))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD were)
+                  (VP (VBN left)
+                    (PP
+                      (PP (IN in)
+                        (NP (NNS hospitals)))
+                      (CC and)
+                      (PP (IN in)
+                        (NP (NNS graves)))))))))))
+      (VP (VBZ does) (RB not)
+        (ADVP (RB even))
+        (VP (VB interest)
+          (NP (PRP them)))))
+    (, ,) (IN for)
+    (S
+      (NP (PRP it))
+      (VP (VBZ does) (RB not)
+        (VP (VB come)
+          (PP (IN within)
+            (NP
+              (NP (DT the) (NN range))
+              (PP (IN of)
+                (NP (PRP$ their) (NN investigation))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (RB Yet)
+    (VP
+      (VP
+        (ADVP
+          (NP (CD one) (NN need))
+          (RB only))
+        (VB discard)
+        (NP
+          (NP (DT the) (NN study))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNS reports))
+              (CC and)
+              (NP (JJ general) (NNS plans))))))
+      (CC and)
+      (VP (VB consider)
+        (NP
+          (NP (DT the) (NN movement))
+          (PP (IN of)
+            (NP
+              (NP (DT those) (NNS hundreds))
+              (PP (IN of)
+                (NP
+                  (NP (NNS thousands))
+                  (PP (IN of)
+                    (NP
+                      (NP
+                        (NP (NNS men))
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (VP (VBD took)
+                              (NP (DT a) (JJ direct) (NN part))
+                              (PP (IN in)
+                                (NP (DT the) (NNS events)))))))
+                      (, ,)
+                      (CC and)
+                      (NP
+                        (NP (PDT all) (DT the) (NNS questions))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBD seemed)
+                              (ADJP (JJ insoluble))
+                              (ADVP (RB easily))))))))))))))
+      (CC and)
+      (VP
+        (ADVP (RB simply))
+        (VB receive)
+        (NP (DT an)
+          (ADJP (JJ immediate)
+            (CC and)
+            (JJ certain))
+          (NN solution))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN aim))
+      (PP (IN of)
+        (S
+          (VP (VBG cutting)
+            (PRT (RP off))
+            (NP
+              (NP (NNP Napoleon))
+              (CC and)
+              (NP (PRP$ his) (NN army)))))))
+    (ADVP (RB never))
+    (VP (VBD existed)
+      (PP (IN except) (IN in)
+        (NP
+          (NP (DT the) (NNS imaginations))
+          (PP (IN of)
+            (NP
+              (QP (DT a) (NN dozen))
+              (NNS people))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD could) (RB not)
+      (VP (VB exist)
+        (SBAR (IN because)
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (ADJP (JJ senseless)
+                (CC and)
+                (JJ unattainable)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (NNS people))
+    (VP (VBD had)
+      (NP (DT a) (JJ single) (NN aim) (: :)
+        (S
+          (VP (TO to)
+            (VP (VB free)
+              (NP (PRP$ their) (NN land))
+              (PP (IN from)
+                (NP (NN invasion))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT That) (NN aim))
+    (VP (VBD was)
+      (VP (VBN attained)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (JJ first) (NN place))
+            (PP (IN of)
+              (NP (PRP itself)))))
+        (, ,)
+        (SBAR
+          (SBAR (IN as)
+            (S
+              (NP (DT the) (JJ French))
+              (VP (VBD ran)
+                (ADVP (RB away)))))
+          (, ,)
+          (CC and)
+          (SBAR (IN so)
+            (S
+              (NP (PRP it))
+              (VP (VBD was)
+                (ADVP (RB only))
+                (ADJP (JJ necessary)
+                  (S (RB not)
+                    (VP (TO to)
+                      (VP (VB stop)
+                        (NP (PRP$ their) (NN flight))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (ADVP (RB Secondly))
+      (NP (PRP it))
+      (VP (VBD was)
+        (VP (VBN attained)
+          (PP (IN by)
+            (NP
+              (NP (DT the) (NN guerrilla) (NN warfare))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBD was)
+                    (VP (VBG destroying)
+                      (NP (DT the) (JJ French)))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (ADVP
+        (ADVP
+          (ADVP (RB thirdly))
+          (PP (IN by)
+            (NP (DT the) (NN fact))))
+        (SBAR (IN that)
+          (S
+            (NP (DT a) (JJ large) (JJ Russian) (NN army))
+            (VP (VBD was)
+              (UCP
+                (PP (VBG following)
+                  (NP (DT the) (JJ French)))
+                (, ,)
+                (S
+                  (ADJP (JJ ready))
+                  (S
+                    (VP (TO to)
+                      (VP (VB use)
+                        (NP (PRP$ its) (NN strength))
+                        (PP (IN in)
+                          (NP (NN case))))))))))))
+      (NP (PRP$ their) (NN movement))
+      (VP (VBD stopped)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ Russian) (NN army))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB act)
+            (PP (IN like)
+              (NP (DT a) (NN whip)))
+            (PP (TO to)
+              (NP (DT a) (VBG running) (NN animal)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC And)
+    (NP (DT the) (JJ experienced) (NN driver))
+    (VP (VBD knew)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (ADJP (JJR better))
+            (S
+              (VP (TO to)
+                (VP (VB hold)
+                  (SBAR
+                    (S
+                      (NP (DT the) (NN whip))
+                      (VP (VBD raised)
+                        (PP (IN as)
+                          (NP (DT a) (NN menace)))
+                        (SBAR (IN than)
+                          (S
+                            (VP (TO to)
+                              (VP (VB strike)
+                                (NP
+                                  (NP (DT the) (VBG running) (NN animal))
+                                  (PP (IN on)
+                                    (NP (DT the) (NN head))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK) (CD FIFTEEN))
+    (: :)
+    (NP (CD 1812) (: -) (CD 13))))
+~~~~~~

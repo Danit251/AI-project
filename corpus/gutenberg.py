@@ -1,36 +1,33 @@
-from nltk.corpus import gutenberg
+import os
+
 from nltk.corpus import PlaintextCorpusReader
-import sys
-# import nltk
-# nltk.download()
-# ['austen-emma.txt', 'austen-persuasion.txt', 'austen-sense.txt', 'bible-kjv.txt', 'blake-poems.txt', 'bryant-stories.txt', 'burgess-busterbrown.txt', 'carroll-alice.txt', 'chesterton-ball.txt', 'chesterton-brown.txt', 'chesterton-thursday.txt', 'edgeworth-parents.txt', 'melville-moby_dick.txt', 'milton-paradise.txt', 'shakespeare-caesar.txt', 'shakespeare-hamlet.txt', 'shakespeare-macbeth.txt', 'whitman-leaves.txt']
-# print("St?cker".encode(sys.stdout.encoding, errors='replace'))
-# print(u"St?cker")
-f = open("data/bronte/Bronte-Villette/Metadata", "w+")
 
-n = gutenberg.fileids()
-# print(n)
-corpus = PlaintextCorpusReader("", 'Bronte-Villette')
-count = 0
-for sen in corpus.sents("Bronte-Villette"):
-    # if 'Book' in sen:
-    # print(sen)
-    if "Chapter" in sen:
-        f.close()
-        f = open("data/bronte/Bronte-Villette/Bronte-Villette_" + str(count) + ".txt", "w+")
-        count += 1
+data_set = 'gutenberg'
+# data_set = 'C50'
+
+for filename in os.listdir('raw_data'):
+    author, book_name = filename.split('-')
+    if book_name:
+        directory = '{}/data/{}/{}'.format(data_set, author.lower(), filename)
     else:
-        s = " ".join(sen) + " "
-        # e = s.encode('utf-8', errors='replace')
-        # print(s)
-        f.write(s)
-f.close()
+        directory = '{}/data/{}'.format(data_set, author.lower())
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    f = open("{}/Metadata".format(directory), "w+")
+    corpus = PlaintextCorpusReader("", filename)
+    # Counts the number of chapters
+    count = 0
 
-# austin_corpus = PlaintextCorpusReader("data/austen-persuasion", '.*\.txt')
-# austin_corpus = PlaintextCorpusReader("", 'Melville-Romance')
-# names = austin_corpus.fileids()
-# print(names)
-# for name in names:
-#     print(name)
-#     for sen in austin_corpus.sents(name):
-#         print(sen)
+    for sen in corpus.sents('raw_data/{}'.format(filename)):
+
+        # Opens new file to every chapter
+        if "Chapter" in sen or "CHAPTER" in sen:
+            f.close()
+            f = open("{}/{}_{}.txt".format(directory, filename, str(count)), "w+")
+            count += 1
+        else:
+            s = " ".join(sen) + " "
+            # Encoding latin letters
+            # e = s.encode('utf-8', errors='replace')
+            f.write(s)
+    f.close()

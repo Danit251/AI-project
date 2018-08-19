@@ -1,0 +1,181 @@
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (CD 1809)))
+      (NP
+        (NP (DT the) (NN intimacy))
+        (PP (IN between) (`` ``)
+          (NP (DT the) (NN world))
+          ('' ')))
+      (VP (VBZ s)
+        (NP
+          (NP (CD two) (NNS arbiters))
+          (, ,) ('' '')
+          (SBAR (IN as)
+            (S
+              (NP (NNP Napoleon)
+                (CC and)
+                (NNP Alexander))
+              (VP (VBD were)
+                (VP (VBN called)))))
+          (, ,)
+          (SBAR
+            (S
+              (VP (VBD was)
+                (ADJP (JJ such))
+                (SBAR (IN that)
+                  (S
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (NNP Napoleon))
+                        (VP (VBD declared)
+                          (NP (NN war))
+                          (PP (IN on)
+                            (NP (NNP Austria))))))
+                    (NP (DT a) (JJ Russian) (NN corps))
+                    (VP (VBD crossed)
+                      (NP
+                        (NP
+                          (NP (DT the) (NN frontier))
+                          (SBAR
+                            (S
+                              (VP (TO to)))))
+                        (X (SYM co))))))))))
+        (: -)
+        (S
+          (VP (VB operate)
+            (PP (IN with)
+              (NP (PRP$ our) (JJ old) (NN enemy) (NNP Bonaparte)))
+            (PP (IN against)
+              (NP (PRP$ our) (JJ old) (NN ally))))
+          (NP
+            (NP (DT the) (NNP Emperor))
+            (PP (IN of)
+              (NP (NNP Austria)))))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN in)
+        (NP (NN court) (NNS circles)))
+      (NP
+        (NP (DT the) (NN possibility))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NN marriage))
+              (PP (IN between)
+                (NP (NNP Napoleon))))
+            (CC and)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP
+                  (NP (NNP Alexander) (POS '))
+                  (NNS s) (NNS sisters)))))))
+      (VP (VBD was)
+        (VP (VBN spoken)
+          (PP (IN of)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (PP (IN besides)
+      (NP
+        (NP (NNS considerations))
+        (PP (IN of)
+          (NP (JJ foreign) (NN policy)))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN attention))
+      (PP (IN of)
+        (NP (JJ Russian) (NN society))))
+    (VP (VBD was)
+      (ADVP (IN at)
+        (NP (DT that) (NN time)))
+      (VP
+        (ADVP (RB keenly))
+        (VBN directed)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ internal) (NNS changes))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD were)
+                  (VP (VBG being)
+                    (VP (VBN undertaken)
+                      (PP (IN in)
+                        (NP
+                          (NP (PDT all) (DT the) (NNS departments))
+                          (PP (IN of)
+                            (NP (NN government))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Life))
+        (ADVP (RB meanwhile)))
+      (PRN (: --)
+        (NP
+          (NP
+            (NP (JJ real) (NN life))
+            (PRN (, ,)
+              (PP (IN with)
+                (NP
+                  (NP (PRP$ its) (JJ essential) (NNS interests))
+                  (PP (IN of)
+                    (NP (NN health)
+                      (CC and)
+                      (NN sickness)))))
+              (, ,))
+            (SBAR
+              (S
+                (VP (VBP toil)))))
+          (CC and)
+          (NP
+            (NP (NN rest))
+            (, ,)
+            (CC and)
+            (NP
+              (NP (PRP$ its) (JJ intellectual) (NNS interests))
+              (PP (IN in)
+                (NP
+                  (NP (NN thought) (, ,) (NN science) (, ,) (NN poetry) (, ,) (NN music) (, ,) (NN love) (, ,) (NN friendship) (, ,) (NN hatred) (, ,))
+                  (CC and)
+                  (NP (NNS passions)))))))
+        (: --)))
+    (VP (VBD went)
+      (PP (IN on)
+        (UCP
+          (ADJP (RB as) (JJ usual))
+          (, ,)
+          (PP
+            (ADVP (RB independently))
+            (IN of))
+          (CC and)
+          (ADVP (RB apart))))
+      (PP (IN from)
+        (NP (JJ political) (NN friendship)
+          (CC or)
+          (NN enmity)))
+      (PP
+        (PP (IN with)
+          (NP (NNP Napoleon) (NNP Bonaparte)))
+        (CC and)
+        (PP (IN from)
+          (NP
+            (NP (DT all) (DT the) (NNS schemes))
+            (PP (IN of)
+              (NP (NN reconstruction)))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (NP
+    (NP (NN BOOK) (CD SIX))
+    (: :)
+    (NP (CD 1808) (: -) (CD 10))))
+~~~~~~

@@ -1,0 +1,1090 @@
+(ROOT
+  (S
+    (NP (DT A) (NN locomotive))
+    (VP (VBZ is)
+      (VP (VBG moving)))
+    (. .)))
+~~~~~~
+(ROOT
+  (FRAG
+    (NP (NN Someone))
+    (SBAR
+      (S
+        (VP (VBZ asks))))
+    (: :) (`` ``)
+    (S
+      (NP (WP What))
+      (VP (VBZ moves)
+        (NP (PRP it))))
+    (. ?) ('' '')))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT Another) (NN man))
+    (VP (VBZ says)
+      (NP (DT the) (NN locomotive) (NNS moves))
+      (SBAR (IN because)
+        (S
+          (NP (PRP$ its) (NNS wheels))
+          (VP (VBP go)
+            (NP (NN round))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT A) (JJ third))
+    (VP (VBZ asserts)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NN cause))
+            (PP (IN of)
+              (NP (PRP$ its) (NN movement))))
+          (VP (VBZ lies)
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN smoke))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (DT the) (NN wind))
+                    (VP (VBZ carries)
+                      (ADVP (RB away)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (NN peasant))
+    (VP (VBZ is)
+      (ADJP (JJ irrefutable)))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (VP (VBN devised)
+        (NP (DT a) (JJ complete) (NN explanation))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB refute)
+          (NP (PRP him)))))
+    (S
+      (NP (NN someone))
+      (VP (MD would)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB prove)
+                (PP (TO to)
+                  (NP (PRP him)))
+                (SBAR (IN that)
+                  (S
+                    (NP (EX there))
+                    (VP (VBZ is)
+                      (NP (DT no) (NNP devil)))))))))))
+    (, ,)
+    (CC or)
+    (S
+      (NP (DT another) (NN peasant))
+      (VP (MD would)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB explain)
+                (PP (TO to)
+                  (NP (PRP him)))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ is) (RB not)
+                      (NP
+                        (NP (DT the) (NNP devil))
+                        (PP (CC but)
+                          (NP
+                            (NP (DT a) (JJ German))
+                            (, ,)
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (VBZ moves)
+                                  (NP (DT the) (NN locomotive)))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (RB Only)
+    (ADVP (RB then))
+    (, ,)
+    (PP (IN as)
+      (NP
+        (NP (DT a) (NN result))
+        (PP (IN of)
+          (NP (DT the) (NN contradiction)))))
+    (, ,)
+    (VP (MD will)
+      (NP (PRP they))
+      (S
+        (VP (VB see)
+          (SBAR (IN that)
+            (S
+              (NP (PRP they))
+              (VP (VBP are) (DT both)
+                (ADJP (JJ wrong))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT the) (NN man))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ says)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (DT the) (NN movement))
+                  (PP (IN of)
+                    (NP (DT the) (NNS wheels))))
+                (VP (VBZ is)
+                  (NP (DT the) (NN cause)))))))))
+    (VP (VBZ refutes)
+      (SBAR
+        (S
+          (NP (PRP himself))
+          (, ,)
+          (PP (IN for)
+            (S
+              (VP (VBG having)
+                (ADVP (RB once))
+                (VP (VBN begun)
+                  (S
+                    (VP (TO to)
+                      (VP (VB analyze)
+                        (SBAR
+                          (S
+                            (NP (PRP he))
+                            (VP (MD ought)
+                              (S
+                                (VP (TO to)
+                                  (VP
+                                    (VP (VB go)
+                                      (PP (IN on)))
+                                    (CC and)
+                                    (VP (VB explain)
+                                      (NP (JJ further))
+                                      (SBAR
+                                        (SBAR
+                                          (WHADVP (WRB why))
+                                          (S
+                                            (NP (DT the) (NNS wheels))
+                                            (VP (VBP go)
+                                              (NP (NN round)))))
+                                        (: ;)
+                                        (CC and)
+                                        (SBAR (IN till)
+                                          (S
+                                            (NP (PRP he))
+                                            (VP (VBZ has)
+                                              (VP (VBN reached)
+                                                (NP
+                                                  (NP (DT the) (JJ ultimate) (NN cause))
+                                                  (PP (IN of)
+                                                    (NP
+                                                      (NP (DT the) (NN movement))
+                                                      (PP (IN of)
+                                                        (NP (DT the) (NN locomotive))))))
+                                                (PP (IN in)
+                                                  (NP
+                                                    (NP (DT the) (NN pressure))
+                                                    (PP (IN of)
+                                                      (NP (NN steam)))))
+                                                (PP (IN in)
+                                                  (NP (DT the) (NN boiler))))))))))))))))))))))
+          (, ,)
+          (NP (PRP he))
+          (VP (VBZ has)
+            (NP (DT no) (NN right)
+              (S
+                (VP (TO to)
+                  (VP (VB stop)
+                    (PP (IN in)
+                      (NP
+                        (NP (PRP$ his) (NN search))
+                        (PP (IN for)
+                          (NP (DT the) (NN cause)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN man))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ explains)
+            (NP
+              (NP (DT the) (NN movement))
+              (PP (IN of)
+                (NP (DT the) (NN locomotive))))
+            (PP (IN by)
+              (NP
+                (NP (DT the) (NN smoke))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBN carried)
+                        (ADVP (RB back))))))))))))
+    (VP
+      (VP (VBZ has)
+        (VP (VBN noticed)
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NNS wheels))
+              (VP (VBP do) (RB not)
+                (VP (VB supply)
+                  (NP (DT an) (NN explanation))))))))
+      (CC and)
+      (VP (VBZ has)
+        (VP (VBN taken)
+          (NP
+            (NP (DT the) (JJ first) (NN sign))
+            (SBAR
+              (WHNP (IN that))
+              (S
+                (VP
+                  (VP (VBZ occurs)
+                    (PP (TO to)
+                      (NP (PRP him))))
+                  (CC and)
+                  (VP
+                    (PP (IN in)
+                      (NP (PRP$ his) (NN turn)))
+                    (VBZ has)
+                    (VP (VBN offered)
+                      (SBAR (IN that)
+                        (FRAG
+                          (PP (IN as)
+                            (NP (DT an) (NN explanation))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN conception))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (MD can)
+            (VP (VB explain)
+              (NP
+                (NP (DT the) (NN movement))
+                (PP (IN of)
+                  (NP (DT the) (NN locomotive)))))))))
+    (VP (VBZ is)
+      (ADVP (IN that)
+        (PP (IN of)
+          (NP (DT a) (NN force))))
+      (ADJP (JJ commensurate)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN movement))
+            (VP (VBN observed))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN conception))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (MD can)
+            (VP (VB explain)
+              (NP
+                (NP (DT the) (NN movement))
+                (PP (IN of)
+                  (NP (DT the) (NNS peoples)))))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT that))
+        (PP (IN of)
+          (NP
+            (NP (DT some) (NN force))
+            (ADJP (JJ commensurate)
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (JJ whole) (NN movement))
+                  (PP (IN of)
+                    (NP (DT the) (NNS peoples))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (RB Yet)
+    (VP (TO to)
+      (VP (VB supply)
+        (NP
+          (NP (DT this) (NN conception))
+          (SBAR
+            (S
+              (NP (JJ various) (NNS historians))
+              (VP (VBP take)
+                (NP
+                  (NP (NNS forces))
+                  (PP (IN of)
+                    (NP
+                      (NP (JJ different) (NNS kinds))
+                      (, ,)
+                      (SBAR
+                        (WHNP (DT all)
+                          (WHPP (IN of)
+                            (WHNP (WDT which))))
+                        (S
+                          (VP (VBP are)
+                            (ADJP (JJ incommensurate)
+                              (PP (IN with)
+                                (NP
+                                  (NP (DT the) (NN movement))
+                                  (VP (VBN observed)))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (VBP see)
+      (NP (PRP it))
+      (PP (IN as)
+        (NP
+          (NP (DT a) (NN force))
+          (ADJP (RB directly) (JJ inherent))
+          (PP (IN in)
+            (NP (NNS heroes)))))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (NP (DT the) (NN peasant))
+          (VP (VBZ sees)
+            (NP
+              (NP
+                (NP (DT the) (NNP devil))
+                (PP (IN in)
+                  (NP (DT the) (NN locomotive))))
+              (: ;)
+              (NP
+                (NP (NNS others))
+                (PP (IN as)
+                  (NP
+                    (NP (DT a) (NN force))
+                    (VP (VBG resulting)
+                      (PP (IN from)
+                        (NP (JJ several) (JJ other) (NNS forces))))))
+                (, ,)
+                (PP (IN like)
+                  (NP
+                    (NP (DT the) (NN movement))
+                    (PP (IN of)
+                      (NP (DT the) (NNS wheels))))))
+              (: ;)
+              (NP
+                (NP (NNS others))
+                (PP
+                  (ADVP (RB again))
+                  (IN as)
+                  (NP (DT an) (JJ intellectual) (NN influence))))
+              (, ,)
+              (PP (IN like)
+                (NP
+                  (NP (DT the) (NN smoke))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBZ is)
+                        (VP (VBN blown)
+                          (ADVP (RB away)))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (ADVP (RB So) (RB long)
+      (SBAR (IN as)
+        (S
+          (NP (NNS histories))
+          (VP (VBP are)
+            (VP (VBN written)
+              (PP (IN of)
+                (NP
+                  (NP
+                    (NP (JJ separate) (NNS individuals))
+                    (PRN (, ,)
+                      (SBAR (IN whether)
+                        (FRAG
+                          (NP
+                            (NP (NNP Caesars))
+                            (, ,)
+                            (NP (NNP Alexanders))
+                            (, ,)
+                            (NP (NNP Luthers))
+                            (, ,)
+                            (CC or)
+                            (NP (NNP Voltaires)))))
+                      (, ,)))
+                  (CC and)
+                  (NP
+                    (NP (RB not) (DT the) (NNS histories))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT all))
+                        (, ,)
+                        (NP
+                          (NP (RB absolutely) (PDT all) (DT those))
+                          (SBAR
+                            (WHNP (WP who))
+                            (S
+                              (VP (VBP take)
+                                (NP
+                                  (NP (NN part))
+                                  (PP (IN in)
+                                    (NP (DT an) (NN event))))))))))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (RB quite) (JJ impossible))
+      (S
+        (VP (TO to)
+          (VP (VB describe)
+            (NP
+              (NP (DT the) (NN movement))
+              (PP (IN of)
+                (NP (NN humanity))))
+            (PP (IN without)
+              (NP
+                (NP (DT the) (NN conception))
+                (PP (IN of)
+                  (NP (DT a) (NN force) (JJ compelling) (NNS men)))))
+            (S
+              (VP (TO to)
+                (VP (VB direct)
+                  (NP (PRP$ their) (NN activity))
+                  (PP (IN toward)
+                    (NP (DT a) (JJ certain) (NN end))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC And)
+    (NP
+      (NP (DT the) (RB only) (JJ such) (NN conception))
+      (VP (VBN known)
+        (PP (TO to)
+          (NP (NNS historians)))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT that))
+        (PP (IN of)
+          (NP (NN power)))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT This) (NN conception))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (CD one))
+        (SBAR
+          (S
+            (VP (VBP handle)
+              (PP (IN by)
+                (NP
+                  (NP
+                    (NP (NNS means))
+                    (SBAR
+                      (WHPP (IN of)
+                        (WHNP (WDT which)))
+                      (S
+                        (NP
+                          (NP (DT the) (NN material))
+                          (PP (IN of)
+                            (NP (NN history)))
+                          (, ,)
+                          (VP
+                            (ADVP (RB as)
+                              (PP (IN at)
+                                (ADJP (JJ present))))
+                            (VBD expounded))
+                          (, ,))
+                        (VP (MD can)
+                          (VP (VB be)
+                            (VP (VBN dealt)
+                              (PP (IN with))))))))
+                  (, ,)
+                  (CC and)
+                  (NP
+                    (NP (NN anyone))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBZ breaks)
+                          (SBAR (IN that)
+                            (S
+                              (S
+                                (VP
+                                  (VP (VB handle)
+                                    (PRT (RP off))
+                                    (, ,)
+                                    (SBAR (IN as)
+                                      (S
+                                        (NP (NN Buckle))
+                                        (VP (VBD did)))))
+                                  (, ,)
+                                  (PP (IN without)
+                                    (S
+                                      (VP (VBG finding)
+                                        (NP
+                                          (NP (DT some) (JJ other) (NN method))
+                                          (PP (IN of)
+                                            (S
+                                              (VP (VBG treating)
+                                                (NP (JJ historical) (NN material)))))))))))
+                              (, ,)
+                              (ADVP (RB merely))
+                              (VP (VBZ deprives)
+                                (NP
+                                  (NP (PRP himself))
+                                  (PP (IN of)
+                                    (NP (DT the) (CD one) (JJ possible) (NN way)))
+                                  (PP (IN of)
+                                    (S
+                                      (VP (VBG dealing)
+                                        (PP (IN with)
+                                          (NP (PRP it)))))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN necessity))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN conception))
+          (PP (IN of)
+            (NP
+              (NP (NN power))
+              (PP (IN as)
+                (NP
+                  (NP (DT an) (NN explanation))
+                  (PP (IN of)
+                    (NP (JJ historical) (NNS events))))))))))
+    (VP (VBZ is)
+      (NP
+        (NP (JJS best))
+        (VP (VBN demonstrated)
+          (PP (IN by)
+            (NP
+              (NP (DT the) (JJ universal) (NNS historians)
+                (CC and)
+                (NNS historians))
+              (PP (IN of)
+                (NP
+                  (NP (NN culture))
+                  (ADVP (PRP themselves))))))
+          (, ,)
+          (SBAR (IN for)
+            (S
+              (NP (PRP they))
+              (ADVP (RB professedly))
+              (VP (VBP reject)
+                (SBAR (IN that)
+                  (S
+                    (NP (NN conception))
+                    (VP (CC but)
+                      (VP
+                        (ADVP (RB inevitably))
+                        (VBP have)
+                        (NP (NN recourse))
+                        (PP (TO to)
+                          (NP
+                            (NP (PRP it))
+                            (PP (IN at)
+                              (NP (DT every) (NN step)))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (PP (IN In)
+      (S
+        (VP (VBG dealing)
+          (PP (IN with)
+            (NP
+              (NP (NN humanity) ('' '))
+              (NP (NNS s) (NN inquiry)))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN science))
+      (PP (IN of)
+        (NP
+          (NP (NN history))
+          (ADVP (IN up)
+            (PP (TO to)
+              (NP (RB now)))))))
+    (VP (VBZ is)
+      (PP (IN like)
+        (NP
+          (NP
+            (NP (NN money))
+            (PP (IN in)
+              (NP (NN circulation))))
+          (: --)
+          (NP
+            (NP (NN paper) (NN money))
+            (CC and)
+            (NP (NN coin))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS biographies))
+      (CC and)
+      (NP (JJ special) (JJ national) (NNS histories)))
+    (VP (VBP are)
+      (PP (IN like)
+        (NP (NN paper) (NN money))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (MD can)
+        (VP (VB be)
+          (VP (VBN used))))
+      (CC and)
+      (VP (MD can)
+        (VP (VB circulate)
+          (CC and)
+          (VB fulfill)
+          (NP (PRP$ their) (NN purpose))
+          (PP (IN without)
+            (NP
+              (NP (NN harm))
+              (PP
+                (PP (TO to)
+                  (NP (NN anyone)))
+                (CC and)
+                (PP (RB even)
+                  (ADVP (RB advantageously))))))
+          (, ,)
+          (ADVP
+            (ADVP (RB as) (RB long))
+            (SBAR (IN as)
+              (S
+                (NP (DT no) (NN one))
+                (VP (VBZ asks)
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (VP (VBZ is)
+                        (NP
+                          (NP (DT the) (NN security))
+                          (PP (IN behind)
+                            (NP (PRP them))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (VBP need) (RB only)
+        (VP (VB forget)
+          (S
+            (VP (TO to)
+              (VP (VB ask)
+                (SBAR
+                  (WHADVP (WRB how))
+                  (S
+                    (NP
+                      (NP (DT the) (NN will))
+                      (PP (IN of)
+                        (NP (NNS heroes))))
+                    (VP (VBZ produces)
+                      (NP (NNS events)))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (JJ such) (NNS histories))
+        (PP (IN as)
+          (NP (NNP Thiers) (POS '))))
+      (VP
+        (VP (MD will)
+          (VP (VB be)
+            (ADJP (JJ interesting)
+              (CC and)
+              (JJ instructive))))
+        (CC and)
+        (VP (MD may)
+          (ADVP (RB perhaps))
+          (VP
+            (ADVP (RB even))
+            (VB possess)
+            (NP
+              (NP (DT a) (NN tinge))
+              (PP (IN of)
+                (NP (NN poetry))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC But)
+    (SBAR (RB just) (IN as)
+      (S
+        (NP
+          (NP (NNS doubts))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJ real) (NN value))
+              (PP (IN of)
+                (NP (NN paper) (NN money))))))
+        (VP (VBP arise)
+          (PP (CC either)
+            (NP (RB because)))
+          (, ,)
+          (S
+            (VP (VBG being)
+              (ADJP (JJ easy)
+                (S
+                  (VP (TO to)
+                    (VP (VB make))))))))))
+    (, ,)
+    (NP
+      (NP (RB too) (JJ much))
+      (PP (IN of)
+        (NP (PRP it))))
+    (VP (VBZ gets)
+      (SBAR
+        (SBAR
+          (S
+            (VP (VBN made))))
+        (CC or)
+        (SBAR (IN because)
+          (S
+            (NP (NNS people))
+            (VP (VBP try)
+              (S
+                (VP (TO to)
+                  (VP (VB exchange)
+                    (NP (PRP it))
+                    (PP (IN for)
+                      (NP
+                        (NP
+                          (NP (NN gold))
+                          (, ,)
+                          (SBAR (RB so)
+                            (S
+                              (ADVP (RB also))
+                              (VP (VBZ doubts)
+                                (S
+                                  (VP (VBG concerning)
+                                    (SBAR
+                                      (S
+                                        (NP
+                                          (NP (DT the) (JJ real) (NN value))
+                                          (PP (IN of)
+                                            (NP (JJ such) (NNS histories))))
+                                        (VP (VBP arise)
+                                          (ADVP (RB either))
+                                          (PP (RB because)
+                                            (ADJP (RB too) (JJ many)))
+                                          (SBAR
+                                            (SBAR (IN of)
+                                              (S
+                                                (NP (PRP them))
+                                                (VP (VBP are)
+                                                  (VP (VBN written)))))
+                                            (CC or)
+                                            (SBAR (IN because)
+                                              (S
+                                                (PP (IN in)
+                                                  (NP
+                                                    (NP (PRP$ his) (NN simplicity))
+                                                    (PP (IN of)
+                                                      (NP (NN heart) (NN someone)))))
+                                                (VP (VBZ inquires))))))))))))))
+                        (: :)
+                        (SBARQ
+                          (WHPP (IN by)
+                            (WHNP (WDT what)
+                              (NP (NN force))))
+                          (SQ (VBD did)
+                            (NP (NNP Napoleon))
+                            (VP (VB do)
+                              (NP (DT this))))
+                          (. ?))))))))))))))
+~~~~~~
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS writers))
+      (PP
+        (PP (IN of)
+          (NP (JJ universal) (NNS histories)))
+        (CC and)
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN history))
+            (PP (IN of)
+              (NP (NN culture)))))))
+    (VP (VBP are)
+      (PP (IN like)
+        (NP
+          (NP (NNS people))
+          (SBAR
+            (WHNP (WP who))
+            (PRN (, ,)
+              (S
+                (VP (VBG recognizing)
+                  (NP
+                    (NP (DT the) (NNS defects))
+                    (PP (IN of)
+                      (NP (NN paper) (NN money))))))
+              (, ,))
+            (S
+              (VP (VB decide)
+                (S
+                  (VP (TO to)
+                    (VP (VB substitute)
+                      (PP (IN for)
+                        (NP (PRP it)))
+                      (NP
+                        (NP (NN money))
+                        (VP (VBN made)
+                          (PP (IN of)
+                            (NP
+                              (NP (NN metal))
+                              (SBAR
+                                (WHNP (WDT that))
+                                (S
+                                  (VP (VBZ has)
+                                    (NP
+                                      (NP (RB not) (DT the) (JJ specific) (NN gravity))
+                                      (PP (IN of)
+                                        (NP (NN gold))))))))))))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (MD may)
+        (ADVP (RB indeed))
+        (VP (VB make)
+          (S
+            (VP (VBG jingling)
+              (NP (NN coin))))))
+      (, ,)
+      (CC but)
+      (VP (MD will)
+        (VP (VB do)
+          (ADVP (DT no) (JJR more))
+          (PP (IN than)
+            (NP (DT that))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (S
+      (NP (NNP Paper) (NN money))
+      (VP (MD may)
+        (VP (VB deceive)
+          (NP (DT the) (JJ ignorant)))))
+    (, ,) (IN but)
+    (S
+      (NP (NN nobody))
+      (VP (VBZ is)
+        (ADJP (VBN deceived)
+          (PP (IN by)
+            (NP
+              (NP (NNS tokens))
+              (PP (IN of)
+                (NP (NN base) (NN metal)))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBP have)
+                    (NP
+                      (NP (DT no) (NN value))
+                      (CONJP (CC but)
+                        (RB merely))
+                      (NP (NN jingle)))))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (NN gold))
+        (VP (VBZ is)
+          (NP (NN gold))
+          (SBAR (RB only) (IN if)
+            (S
+              (NP (PRP it))
+              (VP (VBZ is)
+                (ADJP (JJ serviceable))
+                (PP
+                  (CONJP (RB not) (RB merely))
+                  (PP (IN for)
+                    (NP (NN exchange)))
+                  (CONJP (CC but)
+                    (RB also))
+                  (PP (IN for)
+                    (NP (NN use))))))))))
+    (, ,)
+    (NP (RB so) (JJ universal) (NNS historians))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (JJ valuable))
+        (ADVP (RB only))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP they))
+            (VP (MD can)
+              (VP (VB reply)
+                (PP (TO to)
+                  (NP (NN history) ('' ')))
+                (NP
+                  (ADJP
+                    (NP (NNS s))
+                    (JJ essential))
+                  (NN question))
+                (: :)
+                (SBARQ
+                  (WHNP (WP what))
+                  (SQ (VBZ is)
+                    (NP (NN power)))
+                  (. ?))))))))))
+~~~~~~
+(ROOT
+  (S
+    (NP (DT The) (JJ universal) (NNS historians))
+    (VP (VBP give)
+      (NP (JJ contradictory) (NNS replies))
+      (PP (TO to)
+        (NP (DT that) (NN question)))
+      (, ,)
+      (SBAR (IN while)
+        (S
+          (NP
+            (NP (DT the) (NNS historians))
+            (PP (IN of)
+              (NP (NN culture))))
+          (VP
+            (VP (VBP evade)
+              (NP (PRP it)))
+            (CC and)
+            (VP (VB answer)
+              (NP
+                (NP (NN something))
+                (ADJP (RB quite) (JJ different))))))))
+    (. .)))
+~~~~~~
+(ROOT
+  (S (CC And)
+    (SBAR (IN as)
+      (S
+        (NP
+          (NP (NNS counters))
+          (PP (IN of)
+            (NP (NN imitation) (NN gold))))
+        (VP (MD can)
+          (VP (VB be)
+            (VP (VBN used)
+              (ADVP (RB only))
+              (PP (IN among)
+                (NP
+                  (NP (DT a) (NN group))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNS people))
+                      (SBAR
+                        (WHNP (WP who))
+                        (S
+                          (VP (VBP agree)
+                            (S
+                              (S
+                                (VP (TO to)
+                                  (VP (VB accept)
+                                    (NP (PRP them))
+                                    (PP
+                                      (PP (IN as)
+                                        (NP (NN gold)))
+                                      (, ,)
+                                      (CC or)
+                                      (PP (IN among)
+                                        (NP
+                                          (NP
+                                            (NP (DT those))
+                                            (SBAR
+                                              (WHNP (WP who))
+                                              (S
+                                                (VP (VBP do) (RB not)
+                                                  (VP (VB know)
+                                                    (NP
+                                                      (NP (DT the) (NN nature))
+                                                      (PP (IN of)
+                                                        (NP (NN gold)))))))))
+                                          (, ,) (RB so)
+                                          (NP
+                                            (NP (JJ universal) (NNS historians)
+                                              (CC and)
+                                              (NNS historians))
+                                            (PP (IN of)
+                                              (NP (NN culture))))))))))
+                              (, ,) (RB not)
+                              (S
+                                (VP (VBG answering)
+                                  (NP (NN humanity))
+                                  ('' ')
+                                  (NP
+                                    (NP (NNS s))
+                                    (NP (JJ essential) (NN question))))))))))))))))))
+    (, ,)
+    (VP (VBP serve)
+      (PP (IN as)
+        (NP (NN currency)))
+      (PP (IN for)
+        (NP
+          (NP (DT some) (NNS purposes))
+          (PP (IN of)
+            (NP (PRP$ their) (JJ own)))))
+      (, ,)
+      (PP
+        (PP
+          (ADVP (RB only))
+          (IN in)
+          (NP (NNS universities)))
+        (CC and)
+        (PP (IN among)
+          (NP
+            (NP (DT the) (NN mass))
+            (PP (IN of)
+              (NP
+                (NP (NNS readers))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP have)
+                      (NP
+                        (NP (DT a) (NN taste))
+                        (PP (IN for)
+                          (SBAR
+                            (WHNP (WP what))
+                            (S
+                              (NP (PRP they))
+                              (VP (VBP call) (`` ``)
+                                (NP (JJ serious) (NN reading))))))))))))))))
+    (. .) ('' '')))
+~~~~~~

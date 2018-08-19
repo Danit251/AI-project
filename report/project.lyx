@@ -27,7 +27,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize default
 \use_geometry true
@@ -47,7 +47,7 @@
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 1
 \index Index
@@ -126,9 +126,11 @@ key "key-1"
 
 זיהוי מחברים הוא נושא חשוב בתחום של זיהוי שפה טבעית, הוא מאפשר לנו לזהות
  את הכותב בעל ההסתברות הגבוהה ביותר להיות הבעלים של מאמר, כתבת חדשות, מסרון,
- ספר ועוד.
- כלי אוטומטי מסוג זה יכול להיות מיושם בשלל משימות כגון זיהוי מחבר אנונימי,
- גילוי גניבה ספרותית, או מציאת סופר צללים.
+ ספר ועוד
+\lang english
+;
+\lang hebrew
+ כאשר כלי אוטומטי מסוג זה יכול להיות מיושם לשלל מטרות.
  בפרויקט זה נתמקד בזיהוי של כותבי ספרים תוך שימוש במאגר טקסטים בעזרת שלושה
  אלגוריתמי למידת מכונה קלאסיים, כאשר שניים מהם נלמדו בקורס הנוכחי.
  
@@ -153,7 +155,7 @@ status collapsed
 \begin_inset Formula $\text{Random Forest}$
 \end_inset
 
-אשר בוצע על 
+ אשר הופעל על 
 \begin_inset Formula $16$
 \end_inset
 
@@ -161,26 +163,124 @@ status collapsed
 \begin_inset Formula $683$
 \end_inset
 
- פרקים שנלקחו מפרויקט גוטנברג 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-אזכור
-\end_layout
-
-\end_inset
-
-, כאשר כל קטע טקסט יוצג על ידי וקטור של פיצ'רים רלוונטים שהתחלקו לשלושה
+ פרקים, כאשר כל קטע טקסט יוצג על ידי וקטור של פיצ'רים רלוונטים שהתחלקו לשלושה
  מחלקות שונות.
  
 \end_layout
 
 \begin_layout Section
-קורפוס
+הקדמה
 \end_layout
 
 \begin_layout Standard
+לסופרים ומחברים נחשבים קיים לרוב סגנון כתיבה אשר ייחודי לעבודותיהם, סגנון
+ זה במידת מה לא יהיה רלוונטי לנושא הכתוב 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ בו אך למרות זאת יוכל להיות מזוהה על ידי קורא אנושי המכיר את כתביו.
+ תהליך זה של זיהוי כותב בעזרת קטע טקסטואלי )משפט, פסקה או פרק קצר( מתוך
+ קבוצת מועמדים נקרא 
+\begin_inset Formula $\text{Authorship Identification}$
+\end_inset
+
+.
+ חשיבותו של התהליך נובעת משימושיו הנרחבים: החל מזיהוי מחבר אנונימי, גילוי
+ גניבה ספרותית, מציאת סופר צללים וכלה בדרך חדשה להמלצות על סופר בעל דמיון
+ גבוה לדפוס הכתיבה המועדף לקורא.
+\end_layout
+
+\begin_layout Standard
+בעבודה זו בחרנו להתמקד במאגר המידע של פרויקט גוטנברג
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ המכיל ארכיון דיגיטלי של ספרים מוכרים החופשיים לשימוש.
+ בחרנו לזהות את אופי הכתיבה של חמשת הסופרים הבאים: ג'יין אוסטין, הרמן מלוויל,
+ ז'ול ורן, שרלוט ברונטה ולואיס קרול.
+ כאשר לכל אחד מהסופרים כללנו בן שלושה לארבעה ספרים 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+)ראה נספח(
+\end_layout
+
+\end_inset
+
+.
+ כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
+ יותר, חילקנו את כל הספרים לפרקיהם, וכך לכל פרק התייחסנו כטקסט נפרד של אותו
+ הסופר )הטקסטים המוזכרים נתונים במאגר הפרויקט תחת תקיית 
+\begin_inset Formula $\text{corpus}$
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+לעשות כתב מגניב
+\end_layout
+
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+מכל פרק שאספנו ייצרנו וקטור באורך של [מספר הפיצ'רים] 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ כאשר כל תא בו מייצג תוצאה נומרית המתאימה לפיצ'ר ספציפי.
+ את 
+\begin_inset Formula $683$
+\end_inset
+
+ הוקטורים חילקנו ביחס של 
+\begin_inset Formula $80\%$
+\end_inset
+
+ לקבוצת האימון ואת השאר לקבוצת הבדיקה, ועל מאגר הנתונים זה הפעלנו שלושה
+ אלגוריתמים: 
+\begin_inset Formula $\text{Decision Tree, Random Forest}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\text{Nearest Neighbor}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Section
+קורפוס
+\end_layout
+
+\begin_layout Plain Layout
 בפרויקט בחרנו לזהות את אופי הכתיבה של הסופרים הבאים: ג'יין אוסטין, הרמן
  מלוויל, ז'ול ורן, שרלוט ברונטה ולואיס קרול.
  עבור כל אחד מהסופרים הכנסנו
@@ -316,84 +416,103 @@ status collapsed
 " כאשר תחת תיקייה זו יש תיקייה לכל סופר ותחתיו חלוקה לפי כל ספר.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 פיצ'רים
 \end_layout
 
 \begin_layout Standard
-כל הפיצ'רים הם פונקציות המקבלות טקסט ונותנות לו ערך יחסי מסוים בין
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-0
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ל-
-\numeric on
-1
-\numeric off
-.
- כל טקסט נריץ על כל הפיצ'רים שבנינו ואז מערכי הפיצ'רים נבנה וקטור המאפיין
- כל טקסט.
- באמצעות דימיון לוקטורים האלה נוכל אחר כך לזהות סופר לא ידוע של טקסט.
+תהליך בחירת הפיצ'רים המתאימים לפתרון הבעיה הוא חלק חשוב אשר מכריע על איכות
+ המסווג המתקבל באופן ישיר.
+ מטרתנו היא למצוא פיצ'רים שיהיו ככל שיותר אינפורמטייבים, מבדלים )יוצרים
+ הפרדה ניכרת בסט הדוגמאות( ובלתי תלויים אחד בשני.
+ בעבודה זו כל הפיצ'רים שמימשנו הם פונקציות המקבלות טקסט ונותנות לו ערך מספרי,
+ כך בהרצת התוכנית יקבל כל קטע וקטור ערכים המאפיין אותו באופן ייחודי.
+ את הפיצ'רים חילקנו לשלוש רמות שונות: רמת התו, רמת המילה ורמת התחביר.
 \end_layout
 
 \begin_layout Standard
-הפיצ'רים מחולקים ל-3 רמות שונות: תווים, מילים וניתוח תחבירי של הטקסט.
- הפיצ'רים לפי החלוקות להלן:
+הפיצ'רים שבחרנו הם יחסיים, כלומר כל אחד מהם מחושב ביחס לאורך המשפט או הטקסט.
+ החשיבות ליצירת הפיצ'רים באופן הזה נועד כדי לא להטות את התוצאות על פי אורך
+ הפרקים של כל כותב )אשר אינם מיוצגים באופן אחיד בקורפוס שלנו( או לתת עדיפות
+ לסופרים בעלי יותר טקסטים מאחרים.
+ בנוסף לכך.
 \end_layout
 
-\begin_layout Enumerate
-פיצ'רים ברמת התווים:
-\begin_inset Newline newline
+\begin_layout Standard
+ליצירת הפיצ'רים התחבריים השתמשנו בשני כלים: 
+\begin_inset Formula $\text{nltk.pos\_tag}$
 \end_inset
 
+ 
+\begin_inset Note Note
+status collapsed
 
+\begin_layout Plain Layout
+לעשות יפה
+\end_layout
+
+\end_inset
+
+ו-
+\begin_inset Formula $\text{StanfordCoreNLP}$
+\end_inset
+
+.
+ כאשר הספרייה הראשונה סייעה לנו בתיוג חלקי הדיבר והשנייה לבניית עצים תחביריים
+ לכל משפט.
+\end_layout
+
+\begin_layout Standard
+בחירת הפיצ'רים התבצעה ברובה בעזרת שימוש במאמרים שונים שהתפרסמו בנושא זה
+ )לאו דווקא עבור טקסטים ספרותיים(
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+לצטט את המאמרים
+\end_layout
+
+\end_inset
+
+ ,
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+להוסיף פה תוכן אם יש פיצ'רים שחשבנו עליהם בעצמנו
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+רמת התו
+\end_layout
+
+\begin_layout Standard
+הפיצ'רים ברמת התווים הם פיצ'רים שבאופן טבעי היינו חושבים עליהם כפחות מעניינים
+ וטריוואלים לבדיקה, אך חלקם מעלים תובנות משמעותיות לגבי סגנון דפוס הכתיבה
+ של המחבר.
+ כל פיצ'ר במחלקה זאת מחשב את הסתברות של מאורע תו בטקסט להתקיים; לדוגמא,
+ פיצ'ר 
+\begin_inset Formula $F_{3}$
+\end_inset
+
+ יחשב את ההסתברות של תו הנבחר באופן אקראי להיות ספרה.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -402,7 +521,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-תיאור הפיצ'ר
+תיאור
 \end_layout
 
 \end_inset
@@ -422,7 +541,17 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-יחס התווים שאינם אותיות או רווחים לכלל התווים בטקסט 
+יחס התווים המיוחדים
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+רשימת התווים המיוחדים
+\end_layout
+
+\end_inset
+
+ לכלל התווים בטקסט 
 \end_layout
 
 \end_inset
@@ -431,7 +560,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_of\_special\_chars}$
+\begin_inset Formula $F_{1}$
 \end_inset
 
 
@@ -454,7 +583,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_of\_letters}$
+\begin_inset Formula $F_{2}$
 \end_inset
 
 
@@ -477,7 +606,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_digit\_to\_char}$
+\begin_inset Formula $F_{3}$
 \end_inset
 
 
@@ -500,7 +629,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_space\_to\_text\_length}$
+\begin_inset Formula $F_{4}$
 \end_inset
 
 
@@ -514,7 +643,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-היחס בין הרווחים לכלל סוגי התווים הריקים כמו טאבים וירידת שורה 
+היחס בין הרווחים לכלל סוגי התווים הריקים )דוגמאת טאבים וירידת שורה( 
 \end_layout
 
 \end_inset
@@ -523,30 +652,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_of\_spaces\_tp\_white\_space}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-יחס בין טאבים לשאר סוגי הרווחים הריקים 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\text{ratio\_tabs\_to\_white\_spaces}$
+\begin_inset Formula $F_{5}$
 \end_inset
 
 
@@ -560,7 +666,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-היחס בין אותיות
+יחס בין טאבים לשאר סוגי הרווחים הריקים 
 \end_layout
 
 \end_inset
@@ -569,7 +675,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{punctuation\_chars\_ratio}$
+\begin_inset Formula $F_{6}$
 \end_inset
 
 
@@ -585,12 +691,413 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
-פיצ'רים ברמת המילים:
-\begin_inset Newline newline
+\begin_layout Subsection
+רמת המילה
+\end_layout
+
+\begin_layout Standard
+ברמה זו רצינו לבחון את מאפייני המילים בקטע כיחידות, כאשר את החלוקה למילים
+ ביצענו באמצעות הפרדה לפי תווים ריקים.
+ אלמנטים כמו אוצר המילים של הכותב יכולים להתבטא לדוגמא במספר המילים הייחודיות
+ בהם הוא משתמש, לכן יצרנו את פיצ'ר 
+\begin_inset Formula $F_{9}$
+\end_inset
+
+ שסופר את כמות המילים שמופעיהן הוא יחיד אל מול כמות המילים הכוללת בקטע,
+ ואת פיצ'רים 
+\begin_inset Formula $F_{7},F_{8}$
+\end_inset
+
+ הבוחנים את יחס השימוש במילים קצרות
+\backslash
+ארוכות.
+\end_layout
+
+\begin_layout Standard
+סיווג מילים נוסף בבלשנות קיים בחלוקה בן מילים פונקציונליות לבן מילות תוכן.
+ למילה פונקציונלית קיימת לרוב משמעות לקסיקלית נמוכה והיא מייצגת את היחס
+ התחבירי שיש למילות התוכן אחת עם השניה במשפט )ניתן לחשוב עליהן כמעין 'דבק'
+ המחבר בן מילים(, ומכאן שהן מהוות אלמנט חשוב במבנה המשפט.
+ לכן בחרנו בפיצ'ר 
+\begin_inset Formula $N_{4}$
+\end_inset
+
+ הסופר את כמות המילים הפונקציונליות בקטע )
+\begin_inset Formula $N_{4}$
+\end_inset
+
+ הוא הפיצ'ר הלקסיקלי היחיד ברמת המילה(.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+תיאור
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+שם הפיצ'ר
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס המילים הקצרות
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+הגדרתנו למילה קצרה היא מילה שאורה קטן או שווה ל-
+\begin_inset Formula $3$
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+ לכלל המילים 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס המילים הארוכות
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+הגדרתנו למילה קצרה היא מילה שאורה קטן או שווה ל-
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ לכלל המילים 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{8}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+יחס המילים הייחודיות לכלל המילים
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{9}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+אורך מילה ממוצע 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ממוצע מספר מילים במשפט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ממוצע מספר תווים במשפט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+מספר מילים פונקציונליות במשפט 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+רמת התחביר
+\end_layout
+
+\begin_layout Standard
+חלק חשוב מסגנון הכתיבה של הסופר מתבטא גם באופן פחות גלוי או מפורש בטקסט
+ כפי כפי שראינו ברמת התו והמילה )חישובים פשוטים יותר, למעט 
+\begin_inset Formula $N_{4}$
+\end_inset
+
+(.
+ כדי לנתח את דפוס הכתיבה התחבירי אנו נדרשים ראשית להבין את כללי השפה הקובעים
+ איזה רצף מילים בה מהווה משפט תקין.
+ כללים תחבירים אלו הם כללים היררכיים ולכן לא די לבחון את סדר מופעי המילים
+ לבדם באופן לינארי, אלא לתאר באופן מדויק ושיטתי את המבנה ההיררכי של המשפט
+ בשפה.
+ בעזרת כלים מתחום הבלשנות החישובית נוכל למצוא את המשפטים בקטע הטקסט ולנתח
+ את מבנם )נציין שחלק מהפיצרים ברמת המילה נעזרים בתוצאות כלים תחביריים אלו,
+ כדוגמאת 
+\begin_inset Formula $N_{2}-N_{4}$
+\end_inset
+
+(.
+ 
+\end_layout
+
+\begin_layout Standard
+בתחביר הגנרטיבי כללי שפה בסיסיים הם כללי גזירה, את מבנה המשפט המתקבל מכללים
+ מסוג זה מקובל לתאר באופן גרפי בעזרת תרשים היררכי הנקרא "עץ תחבירי".
+ היחסים המבניים המרכזיים שמתקיימים בכל עץ תחבירי, מהווים חלק מהידע התחבירי
+ הלא מודע של הדוברים, ידע שמאפשר את זיהוי היחידות התחביריות במשפט
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.kotar.co.il/KotarApp/Viewer.aspx?nBookID=102589202
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ בפרויקט זה השתמשנו בכלים המייצרים עצים תחבירים לטקסטים ויצרנו את פיצ'ר
+ 
+\begin_inset Formula $F_{46}$
+\end_inset
+
+ המייצג את עומק הממוצע של העץ התחבירי לכלל המשפטים.
+\end_layout
+
+\begin_layout Standard
+בנוסף, החלוקה לחלקי דיבר מאפשרת לסווג כל מילה בלקסיקון השפה לפי מאפיינה
+ המורפולוגיים, מילים שיסווגו לאותו חלק דיבר לרוב ימלאו תפקידים דומים במבנה
+ הדקדוקי של המשפט.
+ חלקי דיבר בשימוש נרחב הם שמות עצם, שם תואר, תואר השם, כינוי גוף, מילות
+ קישור, מילות קריאה ועוד.
+ בפרויקט זה השתמשנו ב-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $36$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+חלקי דיבר הנמצאים בשימוש בשפה האנגלית 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+# the list is from here: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_
+treebank_pos.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="2">
 <features tabularvalignment="middle">
@@ -621,7 +1128,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-יחס המילים הקצרות לכלל המילים 
+היחס בין אותיות
 \end_layout
 
 \end_inset
@@ -630,140 +1137,10 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{num\_of\_short\_words}$
+\begin_inset Formula $F_{8}$
 \end_inset
 
 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-אורך מילה ממוצע 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\text{average\_word\_length}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-ממוצע מספר מילים במשפט 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\text{average\_sentence\_length\_by\_words}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-ממוצע מספר תווים במשפט 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\text{average\_sentence\_length\_by\_chars}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-מספר מילים פונקציונליות במשפט 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\text{num\_function\_words}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-פיצ'רים ברמה התחבירית:
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-תיאור הפיצ'ר
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-שם הפיצ'ר
 \end_layout
 
 \end_inset
@@ -783,7 +1160,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{get\_pos\_tag\_frequency}$
+\begin_inset Formula $F_{9}-F_{44}$
 \end_inset
 
 
@@ -806,7 +1183,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{past\_tense\_frequency}$
+\begin_inset Formula $F_{45}$
 \end_inset
 
 
@@ -829,7 +1206,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{present\_tense\_frequency}$
+\begin_inset Formula $F_{46}$
 \end_inset
 
 
@@ -852,7 +1229,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\text{average\_tree\_depth}$
+\begin_inset Formula $F_{47}$
 \end_inset
 
 
@@ -868,22 +1245,54 @@ status collapsed
 
 \end_layout
 
+\begin_layout Subsection
+חשיבות הפיצ'רים
+\end_layout
+
 \begin_layout Standard
-הפיצ'רים שלנו הם יחסיים כלומר כל אחד מחושב ביחס לאורך המשפט או הטקסט.
- יש חשיבות ליצור פיצ'רים באופן הזה על מנת לא להטות את התוצאות על פי אורך
- הטקסט שהוא לא מייצג בהכרח בקורפוס שלנו או לתת עדיפות לסופרים בעלי יותר
- טקסטים.
- בנוסף לכך, עבור יצירת הפיצ'רים התחבריים השתמשנו בשני כלים: 
-\begin_inset Formula $\text{nltk.pos\_tag}$
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+בעצי החלטה חישוב חשיבות הפיצ'רים יכול להעשות על ידי מדד ה-
+\begin_inset Formula $\text{Information Gain}$
 \end_inset
 
- ו-
-\begin_inset Formula $\text{StanfordCoreNLP}$
+ שלמדנו בקורס, כאשר כל צומת בעץ מהווה תנאי על פיצ'ר מסוים )לדוגמא 
+\begin_inset Formula $F_{i}\ge0.37$
 \end_inset
 
-.
- כאשר הראשון סייע לנו בתיוג חלקי הדיבר והשני סייע לבניית עצים תחביריים לכל
- משפט.
+( אשר נועד לפצל את העץ לשני בנים שיחזירו את ה-
+\begin_inset Formula $\text{IG}$
+\end_inset
+
+ הגבוה ביותר.
+ כך גם עבור האלגוריתם 
+\begin_inset Formula $\text{Random Forest}$
+\end_inset
+
+ ניתן למצוא את חשיבות הפיצרים
+\end_layout
+
+\end_inset
+
+את הדירוג לכלל הפיצ'רים שהשתמשנו בהם ביצענו בעזרת מדד ה-
+\begin_inset Formula $\text{Information Gain}$
+\end_inset
+
+,אשר הניב את התוצאות הבאות על האלגוריתם 
+\begin_inset Formula $\text{Random Forest}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+[
+\series bold
+התוצאות
+\backslash
+גרף]
 \end_layout
 
 \begin_layout Section
@@ -1200,6 +1609,46 @@ status collapsed
 \end_inset
 
  לא יכולנו לזהות שהנקודה לא מסיימת משפט ולכן סטטיסטית תפסנו אותה כמשפט.
+\end_layout
+
+\begin_layout Section
+מסקנות ועבודה עתידית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+משהו בסגנון ״מעניין לציין שהמערכת מצליחה לזהות גם ספרים שבמקור נכתבו בשפות
+ שאינן אנגלית ותורגמו.״
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+כאן ניתן לדבר על אפשרויות שניתן להרחיב את העבודה שעשינו.
+\end_layout
+
+\begin_layout Enumerate
+יצירת פיצ'רים "בינלאומיים" שבעזרתם נוכל להפעיל את המסווג על כתבים בשפות
+ שונות
+\end_layout
+
+\begin_layout Enumerate
+הכנסת מאגרי נתונים של מסרונים, כתבות עיתונות )ועוד דברים אחרים שאפשר להכניס(
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section

@@ -4,6 +4,7 @@ import random
 from src.features import character_specific_features
 from src.features import syntactic_features
 from src.features import word_specific_features
+from src import util
 
 
 def create_features_vector(text, label, author, book, filename, features_mask):
@@ -39,7 +40,7 @@ def feature_names_vector(features_mask=[1] * 3):
     return feature_names
 
 
-def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
+def create_corpus_vector(authors_num, features_mask):
     """
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
@@ -48,6 +49,7 @@ def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
     for author in os.listdir("corpus/data")[:authors_num]:
         if author.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
             continue
+        print(author)
         for book in os.listdir("corpus/data/" + author):
             if book.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
                 continue
@@ -55,8 +57,33 @@ def create_corpus_vector(authors_num=5, features_mask=[1] * 3):
                 if filename.endswith(".txt"):
                     with open("corpus/data/" + author + "/" + book + "/" + filename, 'r', encoding='utf-8', errors='ignore') as file:
                         text = file.read()
+                        if not text:
+                            continue
                         vectors.append(create_features_vector(text, author, author, book, filename, features_mask))
     return np.asarray(vectors)
+
+
+def save_corpus_vector(data):
+    f = open("corpus/pre_calculated_vector.txt", "w+", encoding='utf-8', errors='ignore')
+    np.savetxt('corpus/pre_calculated_vector.txt', data, fmt='%s', delimiter=';')
+    f.close()
+    return f
+
+
+def load_corpus_vector():
+    a = np.genfromtxt("corpus/pre_calculated_vector.txt", delimiter=';', dtype=str)
+    vectors = []
+    lists = np.ndarray.tolist(a[:, 0])
+    for i in range(a.shape[0]):
+        splitted = lists[i][1:-1].split(', ')
+        vectors.append([[float(x) for x in splitted], a[i][1], a[i][2]])
+    return np.asarray(vectors)
+
+
+def get_corpus_vector(pre_calc, authors_num=10, features_mask=[1] * 3):
+    if pre_calc:
+        return load_corpus_vector()
+    return create_corpus_vector(authors_num, features_mask)
 
 
 def split_train_test(data):
@@ -67,6 +94,7 @@ def split_train_test(data):
     """
     test_data = []
     training_data = []
+    test_books = []
     for author in os.listdir("corpus/data"):
         if author.startswith("."):
             continue
@@ -75,10 +103,11 @@ def split_train_test(data):
         while os.listdir("corpus/data/" + author)[test_book_index].startswith("."):
             test_book_index = random.randint(0, num_of_books - 1)  # TODO delete. This is needed only on mac
         test_book = os.listdir("corpus/data/" + author)[test_book_index]
-        print("test: ", test_book)
-        for item in data:
-            if item[2] == test_book:
-                test_data.append(item)
-            else:
-                training_data.append(item)
+        test_books.append(test_book)
+    # print("test: ", test_books)
+    for item in data:
+        if item[2] in test_books:
+            test_data.append(item)
+        else:
+            training_data.append(item)
     return np.asarray(training_data), np.asarray(test_data)

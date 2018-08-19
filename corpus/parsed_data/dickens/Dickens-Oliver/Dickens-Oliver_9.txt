@@ -1,0 +1,18 @@
+(ROOT
+  (S
+    (NP (NNP OLIVER) (NNP BECOMES) (NNP BETTER))
+    (VP (VBD ACQUAINTED)
+      (PP (IN WITH))
+      (NP
+        (NP
+          (NP (DT THE) (NNS CHARACTERS))
+          (PP (IN OF)
+            (NP (PRP$ HIS) (JJ NEW) (NNPS ASSOCIATES))))
+        (: ;)
+        (CC AND)
+        (NP
+          (NP (NNS PURCHASES) (NN EXPERIENCE))
+          (PP (IN AT)
+            (NP (DT A) (JJ HIGH) (NN PRICE))))))
+    (. .)))
+~~~~~~
