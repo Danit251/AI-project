@@ -12,22 +12,27 @@ pip install --upgrade numpy scipy scikit-learn sklearn nltk matplotlib graphviz
 ```
 
 #### Running the library
+We included an option to run this library using `venv` module to create a [virtual environment](https://docs.python.org/3/tutorial/venv.html) using:
+```python
+python3 -m venv env
+source env/bin/activate
+```
 A dedicated file that will update the required libraries and runs the program with its default parameters:
 ```python
 run.sh
 ```
 Running the program with selected parameters:
 ```python
-usage: author_auth.py [-h] [-authors_num AUTHORS_NUM] [-test TEST]
-                      [-algo_list ALGO_LIST [ALGO_LIST ...]] [-split_by_book]
-                      [-repeat] [-no_nltk_dwn] [-export_tree]
+usage: run.sh "author_auth.py [-h] [-authors_num AUTHORS_NUM] [-test TEST]
+                              [-algo_list ALGO_LIST [ALGO_LIST ...]] [-split_by_book]
+                              [-repeat] [-no_nltk_dwn] [-export_tree]"
 ```
 ##### For example:
-To run `author_auth.py` over `4` different writers using `30%` of the data for test over *`Random Forest`* and *`Decision Tree`* algorithms for `100` (can be changed in `util.py`) iterations each, and finnaly will export a visualistion of the decision tree to `dt.pdf` file.
+To run over `7` different writers using `30%` of the data for test over *`Random Forest`* and *`Decision Tree`* algorithms for `100` (can be changed in `util.py`) iterations each, and finnaly will export a visualistion of the decision tree to `dt.pdf` file.
 ```python
-author_auth.py -authors_num 4 -test 0.3 -algo_list RF DT -repeat -export_tree
+run.sh "author_auth.py -authors_num 7 -test 0.3 -algo_list NN RF"
 ```
 To find an informative description for each parameter use:
 ```python
-author_auth.py -h
+run.sh "author_auth.py -h"
 ```
