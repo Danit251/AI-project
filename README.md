@@ -1,15 +1,6 @@
 ## __Author identification for literature books__
 
 This library helps classify an author out of a candidates list, based only on a given text sample.
-#### Dependencies
-Installing the required libraries can be done in two main ways:
-```python
-python3 dependencies/install_packages.py dependencies/requirements.txt
-```
-or
-```
-pip install --upgrade numpy scipy scikit-learn sklearn nltk matplotlib graphviz
-```
 
 #### Running the library
 We included an option to run this library using `venv` module to create a [virtual environment](https://docs.python.org/3/tutorial/venv.html) using:
@@ -17,7 +8,7 @@ We included an option to run this library using `venv` module to create a [virtu
 python3 -m venv env
 source env/bin/activate
 ```
-A dedicated file that will update the required libraries and runs the program with its default parameters:
+A dedicated file that will update the required libraries (you can check them over Dependencies section) and runs the program with its default parameters:
 ```python
 run.sh
 ```
@@ -36,3 +27,14 @@ To find an informative description for each parameter use:
 ```python
 run.sh "author_auth.py -h"
 ```
+
+#### Dependencies
+Installing the required libraries can be done in two main ways:
+```python
+python3 dependencies/install_packages.py dependencies/requirements.txt
+```
+or
+```
+pip install --upgrade numpy scipy scikit-learn sklearn nltk matplotlib graphviz
+```
+
