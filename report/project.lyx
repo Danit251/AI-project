@@ -1300,113 +1300,136 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-את העבודה שלנו חילקנו למספר קבצים על פי המודלים השונים בפרויקט.
- להלן הקבצים:
+את מימוש התוכנית ביצענו תוך ארבעה שלבים:
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $\text{character\_specific\_features.py}$
-\end_inset
 
- - בו נמצאים כל הפיצ'רים ברמת התווים וכן פונקציה ליצירת וקטור מייצג מהם.
+\series bold
+מאגרי המידע
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+איסוף מאגרי מידע רלוונטים- מצאנו טקסטים של סופרים מוכרים בעלי לפחות שלושה
+ ספרים לכל אחד.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $\text{word\_specific\_features.py}$
-\end_inset
-
- - בו נמצאים כל הפיצ'רים ברמת המילים וכן פונקציה ליצירת וקטור מייצג מהם.
+הכנת מאגר המידע- חילקנו את הספרים לפי פרקיהם על מנת לקבל חלוקה אחידה יותר
+ וסט דוגמאות רחב יותר שיעזור בתהליך הלמידה.
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
-\begin_inset Formula $\text{syntactic\_features.py}$
+
+\series bold
+חילוץ הפיצ'רים
+\series default
+ לכל כל אחד מהפרקים שכלל את מציאת ערכים של 
+\begin_inset Formula $55$
 \end_inset
 
- - בו נמצאים כל הפיצ'רים ברמה התחבירית וכן פונקציה ליצירת וקטור מייצג מהם.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{calculate\_features.py}$
-\end_inset
-
- - מחשב את כל סוגי הפיצ'רים ויוצר וקטור המייצג את כולם יחד עבור כל אחד מהטקסטים
- באימון.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{dependency\_parse.py}$
-\end_inset
-
- - מחשב את כל העצים עבור כל המשפטים בטקסט וכותב אותם לקובץ.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{run\_dt.py}$
-\end_inset
-
- - מריץ את ה-
-\begin_inset Formula $\text{Decision Tree}$
+ הפיצ'רים שהוצגו בפרק 
+\begin_inset Formula $2$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $\text{run\_rf.py}$
-\end_inset
 
- - מריץ את ה-
-\begin_inset Formula $\text{Random Forest}$
-\end_inset
-
-.
+\series bold
+למידה ואימון
+\series default
+ בעזרת הפיצ'רים הנ"ל למציאת המסווג בעזרת שלושה אלגוריתמי למידה שונים כאשר
+ המידע חולק לסט אימון וסט בדיקה.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $\text{run\_nn.py}$
-\end_inset
 
- - מריץ את ה-
-\begin_inset Formula $\text{Nearest Neighbor}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{author\_auth.py}$
-\end_inset
-
- - הקובץ הראשי אשר מריץ את כל האלגוריתמים ומחשב את כל הפיצ'רים.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\text{graphs.py}$
-\end_inset
-
- - מייצר את הגרפים על סמך ההרצות השונות.
+\series bold
+שימוש
+\series default
+ במודל מאומן בעל אחוזי ההצלחה הגבוהים ביותר שבעזרתו נוכל לאתר את זהות הכותב
+ לפי דוגמא טקסטואלית חדשה לגמרי.
 \end_layout
 
 \begin_layout Standard
-בפרויקט זה השתמשנו בשלושה אלגוריתמים מובנים של פייתון מספריית 
+עבור הרצת הסיפריה הפעלנו את השלבים 
+\begin_inset Formula $1-2$
+\end_inset
+
+ מבעוד מועד ושמרנו את וקטורי הפיצ'רים של כל הספרים בקובץ ייעודי כדי להקל
+ על זמן הריצה בהצגת התוכנית.
+ ניתן לחשב את הפיצ'רים בזמן הריצה בעזרת שימוש בפרמטר הדגל 
+\begin_inset Formula $\text{-calc\_data}$
+\end_inset
+
+ )יוסבר בפירוט בפרק 
+\begin_inset Formula $7$
+\end_inset
+
+(
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מימוש הפרויקט כלל שימוש במגוון סיפריות שעזרו לנו לייעל את זמן הריצה ודיוקו
+ של המודל, העיקריות מבניהן היו: 
+\end_layout
+
+\begin_layout Itemize
 \begin_inset Formula $\text{sklearn}$
 \end_inset
 
- והם: 
-\begin_inset Formula $\text{Random Forest ,Nearest Neighbor ,Decision Tree}$
+- מימוש של שלושת האלגוריתמים 
+\begin_inset Formula $\text{Random Forest, Decision Tree}$
 \end_inset
 
-.
- לכל אלגוריתם יש קובץ הרצה המקבל את וקטורי הפיצ'רים של כל הטקסטים.
- עבור כל אלגוריתם נחלק את הוקטורים באופן דיפולטיבי ל-
-\begin_inset Formula $80\%$
+ ו- 
+\begin_inset Formula $\text{Nearest Neighbors}$
 \end_inset
 
- אימון ו-
-\begin_inset Formula $20\%$
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{nltk}$
 \end_inset
 
- טסט.
+- שימוש במגוון אלגוריתמים וכלים של עיבוד שפה טבעית למציאת משפטים, תגים,
+ מילים פונקציונליות ועוד.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{StanfordCoreNLP}$
+\end_inset
+
+- ליצירת העצים התחביריים של כל פרקי הספרים.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{graphviz}$
+\end_inset
+
+- ליצירת וויזואליזציה של עץ ההחלטה.
+ 
+\end_layout
+
+\begin_layout Standard
+ב- 
+\begin_inset Formula $\text{ scipy, matplotlib}$
+\end_inset
+
+ו-
+\begin_inset Formula $\text{numpy}$
+\end_inset
+
+ השתמשנו לעבודה עם מסדי נתונים ספרתיים ויצירת גרפים.
 \end_layout
 
 \begin_layout Section
@@ -1860,10 +1883,19 @@ key "key-1"
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \text{Relevance of Syntactic and Discourse Features for Author Profiling and Identification, Boronat, Carrer, and Wanner‏}
 \]
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
