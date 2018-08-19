@@ -78,7 +78,7 @@ if __name__ == "__main__":
         else:
             res_text = 'Running with {} resulted score of: '.\
                 format(util.ALGORITHMS_NAMES[algo])
-        print('{}{}{}{}\n'.format(res_text, CBLUEBG, str(score), CEND))
+        print('{}{}\n'.format(res_text, str(score)))
         result_file.write('{}{}\n'.format(res_text, str(score)))
     result_file.write("\n")
     result_file.close()
