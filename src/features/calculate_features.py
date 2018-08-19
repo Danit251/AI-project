@@ -40,7 +40,7 @@ def feature_names_vector(features_mask=[1] * 3):
     return feature_names
 
 
-def create_corpus_vector(authors_num=util.AUTHORS_NUM, features_mask=[1] * 3):
+def create_corpus_vector(authors_num, features_mask):
     """
     Iterate over all authors and their books  and create a vector for each chapter
     :return: vectors with corresponding features values.
@@ -61,6 +61,29 @@ def create_corpus_vector(authors_num=util.AUTHORS_NUM, features_mask=[1] * 3):
                             continue
                         vectors.append(create_features_vector(text, author, author, book, filename, features_mask))
     return np.asarray(vectors)
+
+
+def save_corpus_vector(data):
+    f = open("corpus/pre_calculated_vector.txt", "w+", encoding='utf-8', errors='ignore')
+    np.savetxt('corpus/pre_calculated_vector.txt', data, fmt='%s', delimiter=';')
+    f.close()
+    return f
+
+
+def load_corpus_vector():
+    a = np.genfromtxt("corpus/pre_calculated_vector.txt", delimiter=';', dtype=str)
+    vectors = []
+    lists = np.ndarray.tolist(a[:, 0])
+    for i in range(a.shape[0]):
+        splitted = lists[i][1:-1].split(', ')
+        vectors.append([[float(x) for x in splitted], a[i][1], a[i][2]])
+    return np.asarray(vectors)
+
+
+def get_corpus_vector(pre_calc, authors_num=10, features_mask=[1] * 3):
+    if pre_calc:
+        return load_corpus_vector()
+    return create_corpus_vector(authors_num, features_mask)
 
 
 def split_train_test(data):

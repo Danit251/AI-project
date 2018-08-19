@@ -2,13 +2,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 from src.features import calculate_features
 from src import util
+import os
 
 LABELS = ["Character", "Syntactic", "Word"]
 
 def authors_num(test_ratio=util.TEST_SIZE):
     scores = np.zeros((len(util.AVAILABLE_ALGORITHMS), util.AUTHORS_NUM - 1))
     for i in range(2, util.AUTHORS_NUM + 1):
-        data = calculate_features.create_corpus_vector(authors_num=i)
+        data = calculate_features.get_corpus_vector(False, authors_num=i)
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
             scores[util.ALGORITHMS_NUMS[name], i-2] = (algo.run(util, test_ratio, data)[1])
 
@@ -23,7 +24,7 @@ def authors_num(test_ratio=util.TEST_SIZE):
 
 
 def feature_importance():
-    data = calculate_features.create_corpus_vector()
+    data = calculate_features.get_corpus_vector(True)
     importances = util.AVAILABLE_ALGORITHMS['RF'].run(util, util.TEST_SIZE, data)[0].feature_importances_
     count = 0
     for feature_class in LABELS:
@@ -34,11 +35,12 @@ def feature_importance():
     plt.legend()
     plt.show()
 
+
 def features():
     scores = np.zeros((len(util.AVAILABLE_ALGORITHMS), util.FEATURES_MODULES_NUMBER))
-    features_vectors = [calculate_features.create_corpus_vector(features_mask=[1, 0, 0]),
-                        calculate_features.create_corpus_vector(features_mask=[0, 1, 0]),
-                        calculate_features.create_corpus_vector(features_mask=[0, 0, 1])
+    features_vectors = [calculate_features.get_corpus_vector(False, features_mask=[1, 0, 0]),
+                        calculate_features.get_corpus_vector(False, features_mask=[0, 1, 0]),
+                        calculate_features.get_corpus_vector(False, features_mask=[0, 0, 1])
                         ]
     for i in range(len(features_vectors)):
         for name, algo in util.AVAILABLE_ALGORITHMS.items():
@@ -64,7 +66,7 @@ def algorithms():
     scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
     # split_by_book a.k.a spp
     sbb_scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
-    data = calculate_features.create_corpus_vector()
+    data = calculate_features.get_corpus_vector(True)
     labels = []
     for name, algo in util.AVAILABLE_ALGORITHMS.items():
         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True)[1])
@@ -84,7 +86,7 @@ def algorithms():
 
 # def split_by_book():
 #     scores = np.zeros(len(util.AVAILABLE_ALGORITHMS))
-#     data = calculate_features.create_corpus_vector()
+#     data = calculate_features.get_corpus_vector(True)
 #     labels = []
 #     for name, algo in util.AVAILABLE_ALGORITHMS.items():
 #         scores[util.ALGORITHMS_NUMS[name]] = (algo.run(util, util.TEST_SIZE, data, repeat=True, split_by_book=True)[1])
