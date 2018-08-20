@@ -272,17 +272,16 @@ status open
 .
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
 \begin_layout Section
 קורפוס
 \end_layout
 
-\begin_layout Plain Layout
-בפרויקט בחרנו לזהות את אופי הכתיבה של הסופרים הבאים: ג'יין אוסטין, הרמן
- מלוויל, ז'ול ורן, שרלוט ברונטה ולואיס קרול.
+\begin_layout Standard
+על מנת לאמן את המודל אנו זקוקים לקורפוס מכל סוג כמו: כתבות, מאמרים, הודעות
+ או מיילים, אשר מתויגים עם כותבים ואנו בחרנו בספרים המתויגים עם סופריהם.
+ בפרויקט בחרנו לזהות את אופי הכתיבה של עשרת הסופרים הבאים: ג'יין אוסטין,
+ הרמן מלוויל, ז'ול ורן, שרלוט ברונטה, לואיס קרול, ברם סטוקר, לאו טולסטוי,
+ רוברט סטיבנסון, פיודור דוסטויבסקי וצ'ארלס דיקנס.
  עבור כל אחד מהסופרים הכנסנו
 \family roman
 \series medium
@@ -402,23 +401,99 @@ status collapsed
 \begin_inset Formula $100$
 \end_inset
 
- טקסטים וכן ללואיס קרול 
+ טקסטים, ללואיס קרול 
 \begin_inset Formula $71$
+\end_inset
+
+ טקסטים, לברם סטוקר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $61$
+\end_inset
+
+ טקסטים, ללאו טולסטוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $616$
+\end_inset
+
+ טקסטים, לרוברט סטיבנסון 
+\begin_inset Formula $92$
+\end_inset
+
+ טקסטים, לפיודור דוסטויבסקי 
+\begin_inset Formula $158$
+\end_inset
+
+ טקסטים ולצ'ארלס דיקנס 
+\begin_inset Formula $177$
 \end_inset
 
  טקסטים.
  נוסיף כי כל הספרים נלקחו מפרויקט גוטנברג, פרויקט המנגיש לציבור ספרים אשר
- אין להם זכויות יוצרים.
+ אין להם זכויות יוצרים יותר.
+ בשל מקורם, רוב הספרים נכתבו במאה ה-
+\begin_inset Formula $19$
+\end_inset
+
+ וחלקם אף במאה ה-
+\numeric on
+
+\begin_inset Formula $18$
+\end_inset
+
+
+\numeric off
+.
  הטקסטים המוזכרים נתונים בפרויקט בתיקיית "
 \begin_inset Formula $\text{corpus}$
 \end_inset
 
 " כאשר תחת תיקייה זו יש תיקייה לכל סופר ותחתיו חלוקה לפי כל ספר.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -1433,7 +1508,7 @@ status collapsed
 \end_layout
 
 \begin_layout Section
-פרמטרים משפיעים
+תוצאות
 \end_layout
 
 \begin_layout Standard
@@ -1639,39 +1714,72 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-משהו בסגנון ״מעניין לציין שהמערכת מצליחה לזהות גם ספרים שבמקור נכתבו בשפות
- שאינן אנגלית ותורגמו.״
-\end_layout
-
+במבט על התוצאות השונות הבחנו כי קיימים פרמטרים רבים המשפיעים על אחוזי ההצלחה
+ של המודל שלנו.
+ כל פרמטר כזה עשוי להציג שינויים דרסטיים על התוצאות.
+ ראינו כי כקבוצה הפיצ'רים הסינטקטיים הם המשפיעים ביותר אך עם זאת בעת השילוב
+ שלהם עם האלגוריתם הלומד 
+\begin_inset Formula $RF$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-כאן ניתן לדבר על אפשרויות שניתן להרחיב את העבודה שעשינו.
-\end_layout
-
-\begin_layout Enumerate
-יצירת פיצ'רים "בינלאומיים" שבעזרתם נוכל להפעיל את המסווג על כתבים בשפות
- שונות
-\end_layout
-
-\begin_layout Enumerate
-הכנסת מאגרי נתונים של מסרונים, כתבות עיתונות )ועוד דברים אחרים שאפשר להכניס(
-\end_layout
-
-\end_inset
-
-
+ הגענו לתוצאות הגרועות ביותר.
+ לעומת זאת, הצבענו על רמת השפעה הכי נמוכה אצל הפיצ'רים ברמת המילים אך הם
+ הראו את היציבות הגבוהה ביותר בין אלגוריתמי הלמידה השונים.
+ ומכאן, שהשילוב בין פיצ'רים אלו ואחרים עשוי להביא לשיפור בתוצאות.
+ בפרויקט שלנו נגענו ב-
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+רבדים בודדים הנמצאים בשפה ולכן בתור צעד להמשך אנו מציעים להוסיף פיצ'רים
+ המשלבים עוד רבדים כמו סמנטיקה או פרגמטיקה המתארים את סגנון הכתיבה.
+ במהלך אימון המודל תהינו לגבי השפעת אופן חלוקת המידע עבור למידה.
+ האם ספר שנלמד יזוהה יותר טוב מספר שאינו נלמד.
+ גילינו כי אכן כמצופה ספרים שנלמדו זוהו יותר טוב על ידי המודל, אך עם זאת
+ גם בעת בחינת המודל על ספרים שלא נלמדו קיבלנו תוצאות טובות.
+ בעבודתנו השתמשנו במספר מועט של ספרים, בשל כך כל ספר היה מאוד משמעותי עבור
+ הלמידה והוסיף לה עוד פן באופי כתיבת הסופר.
+ לכן, כאשר הורדנו ספר מלמידת המודל גרמנו לו ללמוד פחות דבר שהיה עלול גם
+ להסביר את תוצאותינו.
+ מלבד זאת, כצפוי גורם מרכזי להצלחת המודל הוא מספר הסופרים אותו הוא צריך
+ ללמוד ולזהות.
+ ככל שמספר הסופרים גבוהה יותר הצלחת המודל קטנה, וזאת כי נדרש מהמודל לתאר
+ כל סופר באופן מדויק יותר.
+ בעתיד היינו רוצים להגדיל את עבודתינו ולבחון את הצלחת המודל עם מספר רב יותר
+ של סופרים.
+ עם הוספת הסופרים היינו רוצים גם להגדיל את הקורפוס ולהוסיף לכל סופר ספרים
+ נוספים על מנת לייצג את אופי כתיבתו בצורה טובה ומדויקת יותר.
+ במהלך למידתו, המודל למד ספרים באנגלית אשר חלקם לא נכתבו במקור באנגלית אלא
+ תורגמו אליה.
+ שפת המקור לא השפיעה באופן משמעותי על למידת המודל וגם עבור סופרים שלא כתבו
+ באנגלית נתן תוצאות טובות.
+ בשל עובדה זו, היינו רוצים להרחיב את עבודתנו גם לשפות שונות ולראות את השפעת
+ השפה על הצלחת המודל.
+ כמו כן, מלבד הרחבת המודל לשפות ניתן להרחיב אותו לסוגים שונים של טקסטים
+ כמו: פוסטים של פייסבוק, מיילים או שיחות ווצסאפ.
+ 
 \end_layout
 
 \begin_layout Section
@@ -1862,6 +1970,66 @@ h- או
 
  
 \begin_inset Formula $\text{Alice's Adventures in Wonderland, A Tangled Tale, \text{Sylvie and Bruno}, Through the Looking-Glass}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{:Bram Stoker}$
+\end_inset
+
+
+\begin_inset Formula $\text{Dracula, The Lair of the White Worm, The Jewel of Seven Stars}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{:Leo Tolstoy}$
+\end_inset
+
+
+\begin_inset Formula $\text{War and Peace, Anna Karenina, The Kingdom of God Is Within You}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{:Robert Stevenson}$
+\end_inset
+
+
+\begin_inset Formula $\text{Kidnapped, The Black Arrow, Catriona}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $:\text{Fyodor Dostoevsky}$
+\end_inset
+
+
+\begin_inset Formula $\text{The Brothers, Crime and Punishment, The Possessed}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $:\text{Charles Dickens}$
+\end_inset
+
+ 
+\begin_inset Formula $\text{Oliver Twist, Great Expectations, David Copperfield}$
 \end_inset
 
 .
