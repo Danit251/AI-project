@@ -9,7 +9,7 @@ def main(argv):
     except:
         from pip._internal import main as pipmain
 
-    pipmain(['install', "--upgrade", "pip"])
+    pipmain(['install', "--upgrade", "--user", "pip"])
 
     try:
         filename = argv.pop(0)
@@ -20,7 +20,7 @@ def main(argv):
         retcode = 0
         with open(filename, 'r') as f:
             for line in f:
-                pipcode = pip.main(['install', line.strip()] + argv)
+                pipcode = pip.main(['install', "--user", line.strip()] + argv)
                 retcode = retcode or pipcode
         return retcode
 
