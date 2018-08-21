@@ -87,43 +87,6 @@
 \end_layout
 
 \begin_layout Abstract
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-זיהוי סופרים
-\begin_inset Formula $\left(\text{Authorship Identification}\right)$
-\end_inset
-
- היא טכניקה המשמשת לזיהוי סופר אנונימי על פי זיהוי אופן הכתיבה שלו ברמות
- השונות.
- מטרתנו היא לממש את טכניקה זו.
- בנינו מערכת היודעת בהינתן מאגר של טקסטים עם שם הכותב שלהם, ללמוד את אופי
- כתיבתם.
- לאחר הלמידה, המערכת תקבל טקסט ותקבע מי כתב אותו.
- הלמידה שלנו תתבצע על ידי שלושה אלגרותמי למידה: 
-\begin_inset Formula $\text{Random Forest ,Nearest Neighbor ,Decision Tree}$
-\end_inset
-
-.
- האלגוריתמים נבחרו על פי החומר הנלמד בהרצאה וכן על פי מאמרים שונים
-\series bold
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-1"
-
-\end_inset
-
-
-\series default
- שקראנו על נושא זה המשתמשים בהם.
- במהלך הלמידה אנו נעזר בפיצ'רים שבנינו המייצגים תכונות מסוימות של הסופרים.
- טכניקה זו שיישמו יכולה לסייע עבור גניבות ספרותיות.
-\end_layout
-
-\end_inset
-
 זיהוי מחברים הוא נושא חשוב בתחום של זיהוי שפה טבעית, הוא מאפשר לנו לזהות
  את הכותב בעל ההסתברות הגבוהה ביותר להיות הבעלים של מאמר, כתבת חדשות, מסרון,
  ספר ועוד
@@ -138,7 +101,7 @@ key "key-1"
 
 \begin_layout Abstract
 הניסויים שערכנו העלו תוצאות טובות למדי של כ- 
-\begin_inset Formula $90\%$
+\begin_inset Formula $87\%$
 \end_inset
 
  
@@ -156,11 +119,11 @@ status collapsed
 \end_inset
 
  אשר הופעל על 
-\begin_inset Formula $16$
+\begin_inset Formula $29$
 \end_inset
 
  ספרים שונים שחולקו ל- 
-\begin_inset Formula $683$
+\begin_inset Formula $1784$
 \end_inset
 
  פרקים, כאשר כל קטע טקסט יוצג על ידי וקטור של פיצ'רים רלוונטים שהתחלקו לשלושה
@@ -208,52 +171,63 @@ status open
 \end_inset
 
  המכיל ארכיון דיגיטלי של ספרים מוכרים החופשיים לשימוש.
- בחרנו לזהות את אופי הכתיבה של חמשת הסופרים הבאים: ג'יין אוסטין, הרמן מלוויל,
- ז'ול ורן, שרלוט ברונטה ולואיס קרול.
- כאשר לכל אחד מהסופרים כללנו בן שלושה לארבעה ספרים 
-\begin_inset Note Note
-status collapsed
+ מכל ספר שאספנו ייצרנו וקטור באורך של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 
-\begin_layout Plain Layout
-)ראה נספח(
-\end_layout
-
+\begin_inset Formula $55$
 \end_inset
 
-.
- כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
- יותר, חילקנו את כל הספרים לפרקיהם, וכך לכל פרק התייחסנו כטקסט נפרד של אותו
- הסופר )הטקסטים המוזכרים נתונים במאגר הפרויקט תחת תקיית 
-\begin_inset Formula $\text{corpus}$
-\end_inset
 
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-לעשות כתב מגניב
-\end_layout
-
-\end_inset
-
-(.
-\end_layout
-
-\begin_layout Standard
-מכל פרק שאספנו ייצרנו וקטור באורך של [מספר הפיצ'רים] 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- כאשר כל תא בו מייצג תוצאה נומרית המתאימה לפיצ'ר ספציפי.
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+איברים כאשר כל תא בו מייצג תוצאה נומרית המתאימה לפיצ'ר ספציפי.
  את 
-\begin_inset Formula $683$
+\begin_inset Formula $1784$
 \end_inset
 
  הוקטורים חילקנו ביחס של 
@@ -1325,49 +1299,38 @@ treebank_pos.html
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-בעצי החלטה חישוב חשיבות הפיצ'רים יכול להעשות על ידי מדד ה-
+את הדירוג לכלל הפיצ'רים שהשתמשנו בהם ביצענו בעזרת יחס ה-
 \begin_inset Formula $\text{Information Gain}$
 \end_inset
 
- שלמדנו בקורס, כאשר כל צומת בעץ מהווה תנאי על פיצ'ר מסוים )לדוגמא 
-\begin_inset Formula $F_{i}\ge0.37$
-\end_inset
-
-( אשר נועד לפצל את העץ לשני בנים שיחזירו את ה-
+ הנמצא בשימוש בעצי החלטה ויערות אקראיים, אשר לרוב מוצא את הפיצ'רים הרלוונטלים
+ ביותר וממקמם באזור שורש העץ.
+ לכן, כדי לדעת איזה פיצ'ר גרם לפיצול הטוב ביותר, וכך השפיע יותר בתרומתו
+ ללמידה נרצה למצוא את האחד שה-
 \begin_inset Formula $\text{IG}$
 \end_inset
 
- הגבוה ביותר.
- כך גם עבור האלגוריתם 
-\begin_inset Formula $\text{Random Forest}$
-\end_inset
+ שלו היה המקסימלי.
 
- ניתן למצוא את חשיבות הפיצרים
-\end_layout
-
-\end_inset
-
-את הדירוג לכלל הפיצ'רים שהשתמשנו בהם ביצענו בעזרת מדד ה-
-\begin_inset Formula $\text{Information Gain}$
-\end_inset
-
-,אשר הניב את התוצאות הבאות על האלגוריתם 
-\begin_inset Formula $\text{Random Forest}$
-\end_inset
-
-:
+\series bold
+ 
 \end_layout
 
 \begin_layout Standard
-[
-\series bold
-התוצאות
-\backslash
-גרף]
+בגרף הבא ניתן לראות את דירוג הפיצ'רים על פי תרומתם תוך חלוקה לפי רמותיהם
+ השונות
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/features_importance.png
+	lyxscale 45
+	scale 45
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1514,45 +1477,62 @@ status collapsed
 \begin_layout Standard
 במהלך הפרויקט הבנו כי קיימים פרמטרים רבים שעשויים להשפיע על התוצאות ויש
  לקחת אותם בחשבון, ולכן החלטנו לבחון אותם.
- ראשית, על פי המאמרים שקראנו הבנו כי יש הבדלים משמעותיים בין כל אחד מהאלגוריתמים
- שבחרנו, ולכן גם רצינו לבחון ולהתמקד בהם, להלן התוצאות עבור כל אחד מהאלגוריתמים
- עם כל הפיצ'רים וכל חמשת הסופרים:
+ ראשית, כדאי לשים לב לעובדה שככל שיש יותר סופרים ברשימת המועמדים לסייוג
+ כך נדרשת הבחנה דקה יותר ביניהם ובין סגנונות הכתיבה שלהם על מנת לשייך טקסט
+ מסויים לסופר אחד ולא לאחר.
+ כדי לבדוק את ההשעפה של הגדלת כמות הסופרים ביצענו הרצה של התוכנית בין שלושת
+ האלגוריתמים השונים עבור מספר סופרים משתנה.
 \end_layout
 
 \begin_layout Standard
-[
+\align center
+
 \series bold
-התוצאות
-\backslash
-גרף]
+\begin_inset Graphics
+	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/authors_num.png
+	lyxscale 45
+	scale 45
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-בנוסף לכך, ככל שיש יותר סופרים כך נדרשת הבחנה דקה יותר ביניהם על מנת לשייך
- טקסט לסופר אחד ולא לאחר.
- להלן תוצאות האלגוריתמים עבור מספר סופרים שונה:
-\end_layout
+\align right
+ניתן לשים לב שבעבור האלגוריתם 
+\begin_inset Formula $\text{Random Forest}$
+\end_inset
 
-\begin_layout Standard
-[
-\series bold
-התוצאות
-\backslash
-גרף]
+ קיימת התכנסות סביב ה- 
+\begin_inset Formula $87\%$
+\end_inset
+
+ הצלחה גם עבור 
+\begin_inset Formula $10$
+\end_inset
+
+סופרים.
 \end_layout
 
 \begin_layout Standard
 הבעיה העיקרית שנאלצנו להתמודד איתה בפרויקט היא מציאת הפיצ'רים האולטימטיביים
  לאפיון סגנון כתיבת כל סופר.
- חילקנו את הפיצ'רים ל-3 רמות: רמת התווים, רמת המילים ורמה תחבירית ובחנו
- את תוצאות האלגוריתמים עבור כל אחד מסוגי הרמות.
+ חילקנו את הפיצ'רים ל-3 רמות: רמת התו, רמת המילה ורמת התחביר ובחנו את תוצאות
+ האלגוריתמים עבור כל אחד מסוגי הרמות.
  להלן התוצאות:
 \end_layout
 
 \begin_layout Standard
-[
-\series bold
-התוצאות/גרף]
+\align center
+\begin_inset Graphics
+	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/features.png
+	lyxscale 67
+	scale 67
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1670,9 +1650,19 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/algorithms.png
+	lyxscale 45
+	scale 45
 
-\series bold
-[התוצאות]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
@@ -1755,30 +1745,46 @@ status collapsed
 \color inherit
 רבדים בודדים הנמצאים בשפה ולכן בתור צעד להמשך אנו מציעים להוסיף פיצ'רים
  המשלבים עוד רבדים כמו סמנטיקה או פרגמטיקה המתארים את סגנון הכתיבה.
- במהלך אימון המודל תהינו לגבי השפעת אופן חלוקת המידע עבור למידה.
- האם ספר שנלמד יזוהה יותר טוב מספר שאינו נלמד.
- גילינו כי אכן כמצופה ספרים שנלמדו זוהו יותר טוב על ידי המודל, אך עם זאת
- גם בעת בחינת המודל על ספרים שלא נלמדו קיבלנו תוצאות טובות.
+\end_layout
+
+\begin_layout Standard
+במהלך אימון המודל תהינו לגבי השפעת אופן חלוקת המידע עבור קבוצת דוגמאות למידה,
+ האם פרק חדש מספר שנלמד יזוהה יותר טוב מפרק של ספר שאינו נלמד כלל?.
+ גילינו כי כמצופה כי אכן פרקים מתוך ספרים שנלמדו זוהו יותר טוב על ידי המודל,
+ אך עם זאת גם בעת בחינת המודל על ספרים שלא נלמדו קיבלנו תוצאות סבירות )סביב
+ ה-
+\begin_inset Formula $65\%$
+\end_inset
+
+ הצלחה(.
  בעבודתנו השתמשנו במספר מועט של ספרים, בשל כך כל ספר היה מאוד משמעותי עבור
- הלמידה והוסיף לה עוד פן באופי כתיבת הסופר.
- לכן, כאשר הורדנו ספר מלמידת המודל גרמנו לו ללמוד פחות דבר שהיה עלול גם
- להסביר את תוצאותינו.
+ הלמידה והוסיף לה עוד פן באופי כתיבתו של הסופר.
+ לכן, כאשר הורדנו ספר שלם )מתוך 
+\begin_inset Formula $3-4$
+\end_inset
+
+ ספרים( מלמידת המודל גרמנו לו ללמוד פחות, דבר שהיה עלול גם להסביר את תוצאותינו.
+ לכן אנו מאמינים שמאגר מידע הכולל יותר ספרים ביחס לכל סופר יעזור לייצג את
+ אופי כתיבת הסופר בצורה טובה ומדויקת יותר וכך התוצאות לפי החלוקה הנ"ל יהיו
+ קרובות לתוצאות החלוקה הרגילה.
  מלבד זאת, כצפוי גורם מרכזי להצלחת המודל הוא מספר הסופרים אותו הוא צריך
- ללמוד ולזהות.
- ככל שמספר הסופרים גבוהה יותר הצלחת המודל קטנה, וזאת כי נדרש מהמודל לתאר
- כל סופר באופן מדויק יותר.
+ ללמוד ולזהות, ככל שמספר הסופרים גבוהה יותר הצלחת המודל קטנה, וזאת כי נדרש
+ מהמודל לתאר כל סופר באופן מדויק יותר.
  בעתיד היינו רוצים להגדיל את עבודתינו ולבחון את הצלחת המודל עם מספר רב יותר
  של סופרים.
- עם הוספת הסופרים היינו רוצים גם להגדיל את הקורפוס ולהוסיף לכל סופר ספרים
- נוספים על מנת לייצג את אופי כתיבתו בצורה טובה ומדויקת יותר.
- במהלך למידתו, המודל למד ספרים באנגלית אשר חלקם לא נכתבו במקור באנגלית אלא
+\end_layout
+
+\begin_layout Standard
+במהלך האימון, המודל למד ספרים באנגלית אשר חלקם לא נכתבו במקור באנגלית אלא
  תורגמו אליה.
  שפת המקור לא השפיעה באופן משמעותי על למידת המודל וגם עבור סופרים שלא כתבו
- באנגלית נתן תוצאות טובות.
- בשל עובדה זו, היינו רוצים להרחיב את עבודתנו גם לשפות שונות ולראות את השפעת
- השפה על הצלחת המודל.
- כמו כן, מלבד הרחבת המודל לשפות ניתן להרחיב אותו לסוגים שונים של טקסטים
- כמו: פוסטים של פייסבוק, מיילים או שיחות ווצסאפ.
+ באנגלית בוצע סיווג נכון אל הסופר המקורי, נתון המעיד על כך שלמרות שחלק ניכר
+ מהפיצ'רים שהשתמשנו בהם היה תלוי שפה )הפיצ'רים התחביריים התמקדו בתגים שונים
+ ומילים פונקציונליות בשפה האנגלית(.
+ בשל עובדה זו, היינו רוצים להרחיב את עבודתנו בעזרת מציאת פיצ'רים אוניברסליים
+ יותר ולבחון את הצלחת המודל על טקסטים משפות שונות.
+ מלבד הרחבת המודל לשפות ניתן להרחיב אותו לסוגים שונים של טקסטים כמו: פוסטים
+ של פייסבוק, מיילים או שיחות טלגרם.
  
 \end_layout
 
