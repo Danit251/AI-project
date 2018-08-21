@@ -1793,7 +1793,18 @@ status collapsed
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST] [-algo\_list ALGO\_LIST [ALGO\_LIST ...]][-repeat]}
+\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST]}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{[-algo\_list ALGO\_LIST [ALGO\_LIST ...]][-repeat]}
 \]
 
 \end_inset
