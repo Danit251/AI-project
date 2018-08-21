@@ -768,11 +768,11 @@ status open
  התחבירי שיש למילות התוכן אחת עם השניה במשפט )ניתן לחשוב עליהן כמעין 'דבק'
  המחבר בן מילים(, ומכאן שהן מהוות אלמנט חשוב במבנה המשפט.
  לכן בחרנו בפיצ'ר 
-\begin_inset Formula $N_{4}$
+\begin_inset Formula $F_{13}$
 \end_inset
 
  הסופר את כמות המילים הפונקציונליות בקטע )
-\begin_inset Formula $N_{4}$
+\begin_inset Formula $F_{13}$
 \end_inset
 
  הוא הפיצ'ר הלקסיקלי היחיד ברמת המילה(.
@@ -917,7 +917,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $N_{1}$
+\begin_inset Formula $F_{10}$
 \end_inset
 
 
@@ -940,7 +940,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $N_{2}$
+\begin_inset Formula $F_{11}$
 \end_inset
 
 
@@ -963,7 +963,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $N_{3}$
+\begin_inset Formula $F_{12}$
 \end_inset
 
 
@@ -986,7 +986,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $N_{4}$
+\begin_inset Formula $F_{13}$
 \end_inset
 
 
@@ -1009,7 +1009,7 @@ status collapsed
 \begin_layout Standard
 חלק חשוב מסגנון הכתיבה של הסופר מתבטא גם באופן פחות גלוי או מפורש בטקסט
  כפי כפי שראינו ברמת התו והמילה )חישובים פשוטים יותר, למעט 
-\begin_inset Formula $N_{4}$
+\begin_inset Formula $F_{13}$
 \end_inset
 
 (.
@@ -1021,7 +1021,7 @@ status collapsed
  בעזרת כלים מתחום הבלשנות החישובית נוכל למצוא את המשפטים בקטע הטקסט ולנתח
  את מבנם )נציין שחלק מהפיצרים ברמת המילה נעזרים בתוצאות כלים תחביריים אלו,
  כדוגמאת 
-\begin_inset Formula $N_{2}-N_{4}$
+\begin_inset Formula $F_{11}-F_{13}$
 \end_inset
 
 (.
@@ -1055,7 +1055,7 @@ https://www.kotar.co.il/KotarApp/Viewer.aspx?nBookID=102589202
 .
  בפרויקט זה השתמשנו בכלים המייצרים עצים תחבירים לטקסטים ויצרנו את פיצ'ר
  
-\begin_inset Formula $F_{46}$
+\begin_inset Formula $F_{55}$
 \end_inset
 
  המייצג את עומק הממוצע של העץ התחבירי לכלל המשפטים.
@@ -1093,7 +1093,7 @@ https://www.kotar.co.il/KotarApp/Viewer.aspx?nBookID=102589202
 \noun default
 \color inherit
 
-\begin_inset Formula $36$
+\begin_inset Formula $39$
 \end_inset
 
 
@@ -1121,7 +1121,7 @@ https://www.kotar.co.il/KotarApp/Viewer.aspx?nBookID=102589202
 \uwave default
 \noun default
 \color inherit
-חלקי דיבר הנמצאים בשימוש בשפה האנגלית 
+חלקי דיבר הנמצאים בשימוש בשפה האנגלית
 \begin_inset Note Note
 status collapsed
 
@@ -1186,7 +1186,7 @@ treebank_pos.html
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{8}$
+\begin_inset Formula $F_{14}$
 \end_inset
 
 
@@ -1209,7 +1209,7 @@ treebank_pos.html
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{9}-F_{44}$
+\begin_inset Formula $F_{9}-F_{52}$
 \end_inset
 
 
@@ -1232,7 +1232,7 @@ treebank_pos.html
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{45}$
+\begin_inset Formula $F_{53}$
 \end_inset
 
 
@@ -1255,7 +1255,7 @@ treebank_pos.html
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{46}$
+\begin_inset Formula $F_{54}$
 \end_inset
 
 
@@ -1278,7 +1278,7 @@ treebank_pos.html
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{47}$
+\begin_inset Formula $F_{55}$
 \end_inset
 
 
@@ -1468,6 +1468,14 @@ treebank_pos.html
 \end_inset
 
  השתמשנו לעבודה עם מסדי נתונים ספרתיים ויצירת גרפים.
+\end_layout
+
+\begin_layout Standard
+הוראות לשימוש והרצת התוכנית נמצאות באופן מפורט בקובץ 
+\begin_inset Formula $\text{README.md}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1789,267 +1797,91 @@ treebank_pos.html
 \end_layout
 
 \begin_layout Section
-אופן הרצת התוכנית
-\end_layout
-
-\begin_layout Standard
-על מנת להריץ את התוכנית יש להריץ את השורה הבאה:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\text{python3 author\_auth.py [-h] [-authors\_num AUTHORS\_NUM] [-test TEST]}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\text{[-algo\_list ALGO\_LIST [ALGO\_LIST ...]][-repeat]}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-הדגלים:
-\end_layout
-
-\begin_layout Itemize
-h- או 
-\begin_inset Formula $\text{--help}$
-\end_inset
-
- יציג את ההסבר על כל אחד מהדגלים ויצא.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{-authors\_num}$
-\end_inset
-
- יקבל את מספר הסופרים שאנחנו רוצים לבחון.
- ערך ברירת מחדל: 5.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{-test}$
-\end_inset
-
-יקבל מספר בין 0 ל-1 שיהווה את אחוז המידע שישמש לטסט.
- ערך ברירת מחדל: 0.2.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{-algo\_list}$
-\end_inset
-
-רשימה שתכיל לפחות אלגוריתם אחד בו נשתמש ללמידה.
- ערך ברירת מחדל: 
-\begin_inset Formula $'DT','NN','RF'$
-\end_inset
-
-)כל האלגוריתמים(.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{-repeat}$
-\end_inset
-
-יריץ את האלגוריתמים הנבחרים מספר פעמים על מנת לתת סטטיסטיקה אמינה יותר.
- ללא דגל זה נריץ כל אלגוריתמים פעם אחת.
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-דוגמה להרצה:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\text{python3 author\_auth.py -authors\_num 4 -test 0.3 -algo\_list NN RF}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-שורה זו תריץ את הפרויקט עם 4 סופרים כאשר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $30\%$
-\end_inset
-
-
-\numeric off
- מהמידע ישמש לטסט וכן הלמידה תהיה עם האלגוריתמים 
-\begin_inset Formula $\text{NN}$
-\end_inset
-
- ו-
-\begin_inset Formula $\text{RF}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Section
 נספח
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\text{:Jane Austen}$
-\end_inset
+רשימת הסופרים וסיפריהם:
+\end_layout
 
- 
-\begin_inset Formula $\text{Emma, Persuation, Sense and Sensibility}$
-\end_inset
-
-.
-\begin_inset Newline newline
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Jane Austen}: Emma, Persuation, Sense, Sensibility}$
 \end_inset
 
 
-\begin_inset Formula $\text{:Herman Melville}$
-\end_inset
+\end_layout
 
- 
-\begin_inset Formula $\text{Moby Dick, Omoo, A Romance Of The South Seas}$
-\end_inset
-
-.
- 
-\begin_inset Newline newline
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Herman Melville}: Moby Dick, Omoo, A Romance Of The South Seas}$
 \end_inset
 
 
-\begin_inset Formula $\text{:Jule Verne}$
-\end_inset
+\end_layout
 
- 
-\begin_inset Formula $\text{Around the World in 80 days, The Secret of The Island, \text{Five Weeks in a Balloon}}$
-\end_inset
-
-.
-\begin_inset Newline newline
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Jule Verne}: Around the World in 80 days, The Secret of The Island, Five Weeks in a Balloon}$
 \end_inset
 
 
-\begin_inset Formula $\text{:Charlotte Bronte}$
-\end_inset
+\end_layout
 
- 
-\begin_inset Formula $\text{Jane Eyre, The professor, Villette}$
-\end_inset
-
-.
-\begin_inset Newline newline
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\text{\textbf{Lewis Carroll}: Alice's Adventures in Wonderland, A Tangled Tale, Sylvie and Bruno, Through the Looking-Glass }}$
 \end_inset
 
 
-\begin_inset Formula $:\text{Lewis Carroll}$
-\end_inset
+\end_layout
 
- 
-\begin_inset Formula $\text{Alice's Adventures in Wonderland, A Tangled Tale, \text{Sylvie and Bruno}, Through the Looking-Glass}$
-\end_inset
-
-.
-\begin_inset Newline newline
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{\text{Charlotte Bronte}}: Jane Eyre, The professor, Villette}$
 \end_inset
 
 
-\begin_inset Formula $\text{:Bram Stoker}$
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Bram Stoker}: Dracula, The Lair of the White Worm, The Jewel of Seven Stars}$
 \end_inset
 
 
-\begin_inset Formula $\text{Dracula, The Lair of the White Worm, The Jewel of Seven Stars}$
-\end_inset
+\end_layout
 
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $\text{:Leo Tolstoy}$
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Leo Tolstoy}: War and Peace, Anna Karenina, The Kingdom of God Is Within You}$
 \end_inset
 
 
-\begin_inset Formula $\text{War and Peace, Anna Karenina, The Kingdom of God Is Within You}$
-\end_inset
+\end_layout
 
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $\text{:Robert Stevenson}$
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Robert Stevenson}: Kidnapped, The Black Arrow, Catriona}$
 \end_inset
 
 
-\begin_inset Formula $\text{Kidnapped, The Black Arrow, Catriona}$
-\end_inset
+\end_layout
 
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $:\text{Fyodor Dostoevsky}$
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Fyodor Dostoevsky}: The Brothers, Crime and Punishment, The Possessed}$
 \end_inset
 
 
-\begin_inset Formula $\text{The Brothers, Crime and Punishment, The Possessed}$
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{\textbf{Charles Dickens}: Oliver Twist, Great Expectations, David Copperfield}$
 \end_inset
 
-.
-\begin_inset Newline newline
-\end_inset
 
-
-\begin_inset Formula $:\text{Charles Dickens}$
-\end_inset
-
- 
-\begin_inset Formula $\text{Oliver Twist, Great Expectations, David Copperfield}$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Bibliography
