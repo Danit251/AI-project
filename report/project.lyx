@@ -1324,7 +1324,7 @@ treebank_pos.html
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/features_importance.png
+	filename features_importance.png
 	lyxscale 45
 	scale 45
 
@@ -1497,7 +1497,7 @@ treebank_pos.html
 
 \series bold
 \begin_inset Graphics
-	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/authors_num.png
+	filename authors_num.png
 	lyxscale 45
 	scale 45
 
@@ -1534,7 +1534,7 @@ treebank_pos.html
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/features.png
+	filename features.png
 	lyxscale 67
 	scale 67
 
@@ -1660,7 +1660,7 @@ treebank_pos.html
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename C:/Users/roi12/Desktop/AI-project/statistics/plots/algorithms.png
+	filename algorithms.png
 	lyxscale 45
 	scale 45
 
@@ -1717,7 +1717,7 @@ treebank_pos.html
  כל פרמטר כזה עשוי להציג שינויים דרסטיים על התוצאות.
  ראינו כי כקבוצה הפיצ'רים הסינטקטיים הם המשפיעים ביותר אך עם זאת בעת השילוב
  שלהם עם האלגוריתם הלומד 
-\begin_inset Formula $RF$
+\begin_inset Formula $NN$
 \end_inset
 
  הגענו לתוצאות הגרועות ביותר.
