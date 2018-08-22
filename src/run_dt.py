@@ -7,6 +7,16 @@ from src.features import calculate_features
 
 
 def run(util, test_ratio, data, split_by_book=False, repeat=False):
+    """
+    Run the Decision Tree algorithm on the data
+    :param util: a library contains dictionaries used in the algorithm
+    :param test_ratio: what is the percentage of the corpus is the test part
+    :param data: the corpus features' vector
+    :param split_by_book: indicates if to split the data to train-test
+            where a entirely new book is only in the test part.
+    :param repeat: if needed to repeat the algorithm
+    :return: classifier, result
+    """
     run_count = 0
     score_sum = 0
     if repeat:

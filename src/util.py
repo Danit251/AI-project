@@ -4,8 +4,6 @@ from src import run_dt
 from src import run_rf
 from src.features import character_specific_features, syntactic_features, word_specific_features
 
-# os.chdir("..")
-
 AVAILABLE_ALGORITHMS = {'DT': run_dt, 'RF': run_rf, 'NN': run_nn}
 REPEAT_ITERATION = {'DT': 100, 'RF': 100, 'NN': 100}
 ALGORITHMS_NUMS = {'DT': 0, 'RF': 1, 'NN': 2}

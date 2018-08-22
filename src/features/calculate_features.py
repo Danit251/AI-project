@@ -46,11 +46,10 @@ def create_corpus_vector(authors_num, features_mask):
     """
     vectors = []
     for author in os.listdir("corpus/data")[:authors_num]:
-        if author.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
+        if author.startswith("."):  # It's needed just on mac (but will not create problems on other OS)
             continue
-        print(author)
         for book in os.listdir("corpus/data/" + author):
-            if book.startswith("."):  # TODO delete. It's needed just on mac (but will not create problems on other OS)
+            if book.startswith("."):  # It's needed just on mac (but will not create problems on other OS)
                 continue
             for filename in os.listdir("corpus/data/" + author + "/" + book):
                 if filename.endswith(".txt"):
@@ -63,6 +62,10 @@ def create_corpus_vector(authors_num, features_mask):
 
 
 def save_corpus_vector(data):
+    """
+    :param data: includes all the features' vectors
+    :returns a file with the data
+    """
     f = open("corpus/pre_calculated_vector.txt", "w+", encoding='utf-8', errors='ignore')
     np.savetxt('corpus/pre_calculated_vector.txt', data, fmt='%s', delimiter=';')
     f.close()
@@ -70,6 +73,10 @@ def save_corpus_vector(data):
 
 
 def load_corpus_vector():
+    """
+    Loads the vectors from a file to an array
+    :return: array with the feature vectors
+    """
     a = np.genfromtxt("corpus/pre_calculated_vector.txt", delimiter=';', dtype=str)
     vectors = []
     lists = np.ndarray.tolist(a[:, 0])
@@ -80,6 +87,14 @@ def load_corpus_vector():
 
 
 def get_corpus_vector(pre_calc, authors_num=10, features_mask=[1] * 3):
+    """
+    If the corpus has been calculated before, the function loads the vector from a file.
+    Else, it creates the features vectors.
+    :param pre_calc: indicates if the corpus has been calculated before
+    :param authors_num: how many authors should be considered in the corpus
+    :param features_mask: how many features should be considered in the corpus
+    :return: the features vector
+    """
     if pre_calc:
         return load_corpus_vector()
     return create_corpus_vector(authors_num, features_mask)
@@ -100,10 +115,9 @@ def split_train_test(data):
         num_of_books = len(os.listdir("corpus/data/" + author))
         test_book_index = random.randint(0, num_of_books - 1)
         while os.listdir("corpus/data/" + author)[test_book_index].startswith("."):
-            test_book_index = random.randint(0, num_of_books - 1)  # TODO delete. This is needed only on mac
+            test_book_index = random.randint(0, num_of_books - 1)  # This is needed only on mac
         test_book = os.listdir("corpus/data/" + author)[test_book_index]
         test_books.append(test_book)
-    # print("test: ", test_books)
     for item in data:
         if item[2] in test_books:
             test_data.append(item)
