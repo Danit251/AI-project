@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+    
+    <!-- you may want to add your own keywords here, for search engine optimization -->
+    <meta name="Keywords" content="INTRODUCTION TO ARTIFICIAL INTELLIGENCE, computer science, the hebrew university of jerusalem, project"/ >
+    <link rel="stylesheet" type="text/css" href="http://www.cs.huji.ac.il/~ai/projects/2012/css/default.css" />      <!-- Don't change this line!-->
+    <title>Author Identification</title>
+</head>
+
+<body>
+<div class="main">
+    <div class="gfx">
+        <a href="http://www.cs.huji.ac.il/~ai/projects/" alt="Introduction to Artificial Intelligence The Hebrew University of Jerusalem"></a>  <!-- Don't change this line!--> 
+    </div>
+    <div class="title">
+        <h1>Author Identification</h1>
+        <h4>Final project by </h4>
+        <h3>
+            <a href="mailto:vardit.arkash@mail.huji.ac.il" > Vardit Arkash  </a> &nbsp &nbsp
+            <a href="mailto:roi.shtivi@mail.huji.ac.il" > Roi Shtivi  </a> &nbsp &nbsp
+			<a href="mailto:danit.yshaayahu@mail.huji.ac.il" > Danit Yshaayahu  </a> &nbsp &nbsp
+            <a href="mailto:noga.stern@cs.huji.ac.il" > Noga Stern  </a>
+        </h3>     
+    </div>
+   <hr>
+
+    <div class="content">
+    <h2>Introduction</h2>
+    <p>
+    Our project deals with author identification. Our goal was to build a program that studies books by several authors and then is able to 
+receive a new text written by one of them and identify the writer.
+We used books by ten authors: Jane Austen, Charlotte Brontë, Lewis Carroll, Charles Dickens, Fyodor Dostoevsky, Herman Melville, 
+Robert Louis Stevenson, Bram Stoker, Leo Tolstoy and Jules Verne. The same program can be used for other authors (or other books by the same authors).
+    </p>
+    
+    <h2> Approach and Method </h2>
+<h3> Corpus </h3>
+<p>
+    All the texts we used came from the <a href="http://www.gutenberg.org">Project Gutenberg</a> database. As mentioned above, we used books by ten authors. For each author we downloaded about 3-4 books  and divided them to chapters. Each chapter was then treated as a separate, independent text, which allowed as to get a lot of data from a rather small number of books.
+The data was then separated into training data and test data in one of two ways: either taking 80% of the chapters to be the training data and 20% of the chapters to be the test data, 
+or taking one book by each of the authors to be in the test data, and leave the other books to be the training data (we called that "split by book").
+</p>
+<h3> Learning </h3>
+<p>
+Each text (i.e. a chapter of a book) is represented by a feature vector. We defined three types of features:
+</p>
+<h4> Character-Specific Features </h4>
+
+<ul>
+<li>Relative frequency of "special characters" (~, @, #, $, %, etc.) in the text</li>
+<li>Relative frequency of alphabetic characters in the text</li>
+<li>Relative frequency of digits in the text</li>
+<li>Relative frequency of spaces in the text</li>
+<li>Ratio of spaces to white space (the number of times the space character appears in the text divided by the number of times any kind of space character appears (tabs, newlines, etc.).</li>
+<li>Ratio of tabs to white spaces</li>
+</ul>
+
+<h4> Word-Specific Features </h4>
+
+<ul>
+<li>Relative frequency of short words (length under 3 characters) in the text</li>
+<li>Relative frequency of long words (length over 9 characters) in the text</li>
+<li>Relative frequency of unique words in the text</li>
+<li>Average word length</li>
+<li>Average sentence length by words</li>
+<li>Average sentence length by characters</li>
+<li>Number of function words</li>
+</ul>
+
+<h4> Syntactic Features </h4>
+<li>Relative frequency of punctuation characters in the text</li>
+<li>Relative frequency of each part of speech tag in the text (each tag is a different feature)</li>
+<li>Relative frequency of verbs in the past tense</li>
+<li>Relative frequency of verbs in the present tense</li>
+<li>Average dependency tree depth</li>
+
+
+<p>The assumption is that these features capture enough of the author's style so that after studying many text by a specific author the program can recognise his or her style in a different text.
+    </p>
+<p>
+To Identify the author of the texts in the test data we used three AI algorithms: Decision Tree, Random Forest and Nearest Neighbour.
+</p>
+       
+	<h2> Results </h2>
+    <p>
+First, we compared to different algorithms we used. The results in blue are those we get by splitting the data by chapter (80% training, 20% test), and the results in orange are those we get
+when we split by book.
+    </p>
+   
+    <img src="img/algorithms.png" alt="algorithms comparison" width="620" > 
+    <p>
+We wanted to check which type of features is the most effective, so we ran the program with only one type at a time (splitting the data by chapter):
+    </p>
+    <img src="img/features.png" alt="features comparison" width="620" >
+<p>
+Another thing we wanted to check was how the number of authors influenced the results:
+</p>
+    <img src="img/authors_num.png" alt="features comparison" width="620" >
+    
+    <!--
+    ***
+    note that the page width is 620px, so limit your images width to 620!
+    ***
+    -->    
+         
+    <h2>Conclusions</h2>
+    <p>
+The first conclusion that can be reached is that the Random Forest algorithm appears to be the best algorithm for this task.
+    </p>
+<p>
+Examining the features comparison graphs, we can see that the syntactic features are the most effective ones for the Random Forest algorithm (in fact using them alone we already can get 80% success!), but
+the they are the worst features for the Nearest Neighbour algorithm. It is interesting to compare that to the results we get when we use only the character-based features: For two out of the three algorithms we get the worst results, but on the other hand they give "stable" results, meaning they give almost the same results for all the algorithms. Our conclusion is what we assumed to be true from the beginning - combining different kinds of features is the best approach.
+</p>
+<p>
+When examining the first graph we can also see that splitting by chapter gives as better results than splitting by book. This is probably because when we split by chapter the program might have in the training data and the test data different chapters of the same book. Since every book is different from the others, even if they were written by the same author, it is easier to recognise the author if the program was trained on chapters from the same book. However, even when splitting by book we got pretty good results (65% for the best algorithm). We believe that learning more than 3-4 books by each author may lead to better generalisations and therefore better results, even when we split by book.
+</p>
+<p>
+The last graph tells us that when the number of authors grows it gets harder to identify the right one, as we expected.
+</p>
+   
+    <h2>Additional Information</h2>
+    <p>
+        <ul>
+            <li><a href="files/report.pdf"> Link to the report (Hebrew)</a></li>
+        </ul>
+   </p>
+
+   <h2>References</h2>
+   <p>
+   List any references from the literature you have consulted or used.
+<ul>
+<li>de Roc Boronat, Carrer, and Leo Wanner. "On the Relevance of Syntactic and Discourse Features for Author Profiling and Identification." <i>EACL 2017</i></li>
+<li>Skoglung, Simen. "Authorship Identification of Research Papers"</li>
+<li><a href="https://stanfordnlp.github.io/CoreNLP/">Stanford CoreNLP dependency parsing tool</li>
+</ul>
+   </p>   
+   </div>
+   
+    <!-- *Don't* delete the below code, copyright issues...  -->    
+    <div class="footer">		
+        <span class="right"><a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a>   </span>
+   </div>
+</div>
+</body>
+</html>
