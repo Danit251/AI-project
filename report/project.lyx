@@ -1670,7 +1670,17 @@ treebank_pos.html
 \end_layout
 
 \begin_layout Standard
+כדי לקבל יותר הבנה טובה יותר על התנהגות ודרכי סיווגו, ערך האנטרופיה של המודל
+ בהתייחס לאלגוריתם ה- 
+\begin_inset Formula $\text{Decision Tree}$
+\end_inset
 
+ניתן להתבונן בגרף של עץ ההחלטה הנמצא בקובץ 
+\begin_inset Formula $\text{statistics/plots/dt.pdf}$
+\end_inset
+
+ בו נמצאים הנתונים המצביעים על הפיצ'ר שעל פי מתבצעת ההחלטה בכל שלב, ערכי
+ האנטרופיה שהחלוקה מעלה והסיווג המתאים לכל עלה בעץ.
 \end_layout
 
 \begin_layout Section
