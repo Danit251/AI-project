@@ -1791,8 +1791,14 @@ status open
  ללמוד ולזהות.
  ככל שמספר הסופרים גבוהה יותר הצלחת המודל קטנה, וזאת כי נדרש מהמודל לתאר
  כל סופר באופן מדויק יותר.
- בעתיד היינו רוצים להגדיל את עבודתנו ולבחון את הצלחת המודל עם מספר רב יותר
- של סופרים.
+ בעתיד היינו רוצים להגדיל את עבודתנו
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+ ולבחון את הצלחת המודל עם מספר רב יותר של סופרים.
 \end_layout
 
 \begin_layout Standard
@@ -1817,155 +1823,259 @@ status open
 רשימת הסופרים וסיפריהם:
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Jane Austen}: Emma, Persuation, Sense and Sensibility}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Jane Austen
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Emma, Persuation, Sense and Sensibility
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Herman Melville}: Moby Dick, Omoo, A Romance Of The South Seas}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Herman Melville
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Moby Dick, Omoo, A Romance Of The South Seas
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Jule Verne}: Around the World in 80 days, The Secret of The Island, Five Weeks in a Balloon}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Jule Verne
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Around the World in 80 days, The Secret of The Island, Five Weeks in a
+ Balloon
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\text{\textbf{Lewis Carroll}: Alice's Adventures in Wonderland, A Tangled Tale, Sylvie and Bruno, Through the Looking-Glass }}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Lewis Carroll
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Alice's Adventures in Wonderland, A Tangled Tale, Sylvie and Bruno, Through
+ the Looking-Glass 
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{\text{Charlotte Bronte}}: Jane Eyre, The professor, Villette}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Charlotte Bronte
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Jane Eyre, The professor, Villette
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Bram Stoker}: Dracula, The Lair of the White Worm, The Jewel of Seven Stars}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Bram Stoker
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Dracula, The Lair of the White Worm, The Jewel of Seven Stars
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Leo Tolstoy}: War and Peace, Anna Karenina, The Kingdom of God Is Within You}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Leo Tolstoy
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: War and Peace, Anna Karenina, The Kingdom of God Is Within You
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Robert Stevenson}: Kidnapped, The Black Arrow, Catriona}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Robert Stevenson
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Kidnapped, The Black Arrow, Catriona
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Fyodor Dostoevsky}: The Brothers, Crime and Punishment, The Possessed}$
-\end_inset
+\begin_layout Itemize
 
-
+\series bold
+\lang english
+Fyodor Dostoevsky
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: The Brothers, Crime and Punishment, The Possessed
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Formula $\text{\textbf{Charles Dickens}: Oliver Twist, Great Expectations, David Copperfield}$
+\begin_layout Itemize
+
+\series bold
+\lang english
+Charles Dickens
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: Oliver Twist, Great Expectations, David Copperfield
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Newpage newpage
 \end_inset
 
 
 \end_layout
 
 \begin_layout Bibliography
+
+\lang english
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "key-1"
 
 \end_inset
 
- 
-\begin_inset Formula 
-\[
-\text{Authorship Identification of Research Papers, Simen Skoglund 2015}
-\]
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-\text{Relevance of Syntactic and Discourse Features for Author Profiling and Identification, Boronat, Carrer, and Wanner‏}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Authorship Identification of Research Papers, Simen Skoglund 2015 Relevance
+ of Syntactic and Discourse Features for Author Profiling and Identification,
+ Boronat, Carrer, and Wanner
 \end_layout
 
 \begin_layout Bibliography
+
+\lang english
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-1"
+key "key-1-1"
 
 \end_inset
 
-
-\begin_inset Formula 
-\[
-\text{de Roc Boronat, Carrer, and Leo Wanner. "On the Relevance of Syntactic and Discourse Features for Author Profiling and Identification." EACL 2017 681 (2017).‏}
-\]
-
-\end_inset
-
-
+ de Roc Boronat, Carrer, and Leo Wanner.
+ "On the Relevance of Syntactic and Discourse Features for Author Profiling
+ and Identification." EACL 2017 681 (2017).
 \end_layout
 
 \begin_layout Bibliography
+
+\lang english
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-1"
+key "key-35"
 
 \end_inset
 
-
-\begin_inset Formula 
-\[
-\text{Manning, Christopher D., Mihai Surdeanu, John Bauer, Jenny Finkel, Steven J. Bethard, and David McClosky. 2014. The Stanford CoreNLP Natural Language Processing Toolkit In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pp. 55-60.‏}
-\]
-
-\end_inset
-
-
+Manning, Christopher D., Mihai Surdeanu, John Bauer, Jenny Finkel, Steven
+ J.
+ Bethard, and David McClosky.
+ 2014.
+ The Stanford CoreNLP Natural Language Processing Toolkit In Proceedings
+ of the 52nd Annual Meeting of the Association for Computational Linguistics:
+ System Demonstrations, pp.
+ 55-60.
 \end_layout
 
 \end_body
