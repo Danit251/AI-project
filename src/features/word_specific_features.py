@@ -3,7 +3,7 @@ import nltk
 from collections import Counter
 
 FEATURE_NUM = 7
-
+feature_names = []
 
 def calculate_words_feature_vector(text):
     """
@@ -47,7 +47,11 @@ def get_feature_names():
     :returns the name of the features that have been used in the vector
     """
     if len(feature_names) == 0:
-        raise Exception("The feature vector must be calculated before get_feature_names() is called")
+        return ["number of short words", "number of long words", "number of unique words",
+                "average word length", "average sentence length by words",
+                "average sentence length by chars", "number of function words",
+                "number of words that appear more than twice", "number of words that appear twice",
+                "number of unique words"]
     return feature_names
 
 

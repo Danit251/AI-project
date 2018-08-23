@@ -4,6 +4,7 @@ special_chars = ['~', '@', '#', "$", '%', '^', '&', '*', '-', '_', '=',
                  '+', '<', '>', '|', '[', ']', '{', '}', '\\', '/']
 
 FEATURE_NUM = 6
+feature_names = []
 
 
 def get_feature_vector(text):
@@ -37,8 +38,9 @@ def get_feature_names():
     """
     :returns the name of the features that have been used in the vector
     """
-    if len(feature_names) == 0:
-        raise Exception("The feature vector must be calculated before get_feature_names() is called")
+    if len(feature_names)==0:
+        return ["ratio of special chars", "ratio of letters", "ratio digit to char", "ratio space to text length",
+                "ratio of spaces to white_space", "ratio tabs to white spaces"]
     return feature_names
 
 

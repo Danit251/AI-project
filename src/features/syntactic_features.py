@@ -17,6 +17,7 @@ tags_list = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD',
              'NNPS', 'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB',
              'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'WDT', 'WP', 'WP$', 'WRB']
 
+feature_names = []
 
 def calculate_syntactic_feature_vector(text, author, book, filename):
     """
@@ -57,7 +58,11 @@ def get_feature_names():
     :returns the name of the features that have been used in the vector
     """
     if len(feature_names) == 0:
-        raise Exception("The feature vector must be calculated before get_feature_names() is called")
+        names = ["punctuation chars ratio"]
+        for tag in tags_list:
+            names.append("frequency of " + tag)
+        names += ["past tense frequency", "present tense frequency", "average tree depth"]
+        return names
     return feature_names
 
 
