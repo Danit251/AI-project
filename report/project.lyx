@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{tablefootnote}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -579,17 +582,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-יחס התווים המיוחדים
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-רשימת התווים המיוחדים
-\end_layout
-
-\end_inset
-
- לכלל התווים בטקסט 
+יחס התווים המיוחדים לכלל התווים בטקסט 
 \end_layout
 
 \end_inset
@@ -800,21 +793,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-יחס המילים הקצרות
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-הגדרתנו למילה קצרה היא מילה שאורה קטן או שווה ל-
-\begin_inset Formula $3$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- לכלל המילים 
+יחס המילים הקצרות לכלל המילים 
 \end_layout
 
 \end_inset
@@ -837,21 +816,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-יחס המילים הארוכות
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-הגדרתנו למילה קצרה היא מילה שאורה קטן או שווה ל-
-\begin_inset Formula $3$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- לכלל המילים 
+יחס המילים הארוכות לכלל המילים 
 \end_layout
 
 \end_inset
@@ -1791,14 +1756,8 @@ status open
  ללמוד ולזהות.
  ככל שמספר הסופרים גבוהה יותר הצלחת המודל קטנה, וזאת כי נדרש מהמודל לתאר
  כל סופר באופן מדויק יותר.
- בעתיד היינו רוצים להגדיל את עבודתנו
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-1"
-
-\end_inset
-
- ולבחון את הצלחת המודל עם מספר רב יותר של סופרים.
+ בעתיד היינו רוצים להגדיל את עבודתנו ולבחון את הצלחת המודל עם מספר רב יותר
+ של סופרים.
 \end_layout
 
 \begin_layout Standard
