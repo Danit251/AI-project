@@ -82,23 +82,7 @@
 \end_layout
 
 \begin_layout Author
-רועי שתיוי 
-\begin_inset Formula $308192822$
-\end_inset
-
-, ורדית ארקש 
-\begin_inset Formula $305134140$
-\end_inset
-
-, נגה שטרן 
-\begin_inset Formula $302388715$
-\end_inset
-
- ודנית ישעיהו 
-\begin_inset Formula $312434269$
-\end_inset
-
-
+רועי שתיוי, ורדית ארקש, נגה שטרן ודנית ישעיהו
 \end_layout
 
 \begin_layout Abstract
@@ -229,7 +213,7 @@ key "key-5"
 \end_inset
 
  ו- 
-\begin_inset Formula $\text{Nearest Neighbor}$
+\begin_inset Formula $\text{Nearest Neighbors}$
 \end_inset
 
 .
@@ -437,8 +421,8 @@ data
 
 \begin_layout Standard
 הפיצ'רים שבחרנו הם יחסיים, כלומר כל אחד מהם מחושב ביחס לאורך המשפט או הטקסט.
- יצירת הפיצ'רים באופן הזה נועדה לא להטות את התוצאות על פי אורך הפרקים של
- כל כותב )אשר אינם מיוצגים באופן אחיד בקורפוס שלנו( או לתת עדיפות לסופרים
+ יצירת הפיצ'רים באופן הזה נועדה כדי לא להטות את התוצאות על פי אורך הפרקים
+ של כל כותב )אשר אינם מיוצגים באופן אחיד בקורפוס שלנו( או לתת עדיפות לסופרים
  בעלי יותר טקסטים מאחרים.
 \end_layout
 
@@ -453,7 +437,7 @@ nltk.pos_tag
 \family typewriter
 ו-
 \lang english
-StanfordCoreNLP
+ StanfordCoreNLP
 \family default
 \lang hebrew
 
@@ -470,14 +454,15 @@ key "key-4"
 
 \begin_layout Standard
 בחירת הפיצ'רים התבצעה ברובה בעזרת שימוש במאמרים שונים שהתפרסמו בנושא זה
- )לאו דווקא עבור טקסטים ספרותיים(
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1,key-2,key-3"
 
 \end_inset
 
- אך גם על ידי פיצ'רים שחשבנו עליהם במהלך כתיבת הפרויקט.
+ )לאו דווקא עבור טקסטים ספרותיים( אך גם על ידי פיצ'רים שחשבנו עליהם במהלך
+ כתיבת הפרויקט.
 \end_layout
 
 \begin_layout Subsection
@@ -485,10 +470,13 @@ key "key-1,key-2,key-3"
 \end_layout
 
 \begin_layout Standard
-הפיצ'רים ברמת התווים הם פיצ'רים שבאופן איטואיטיבי היינו חושבים עליהם כפחות
- מעניינים וטריוואלים לבדיקה, אך חלקם מעלים תובנות משמעותיות לגבי סגנון דפוס
- הכתיבה של המחבר.
- כל פיצ'ר במחלקה זאת מחשב את ההסתברות של מאורע תו בטקסט להתקיים; לדוגמא,
+הפיצ'רים ברמת התווים הם פיצ'רים שבאופן אינטואיטיבי היינו חושבים עליהם כפחות
+ מעניינים ו
+\backslash
+או טריוואלים לבדיקה, אך חלקם מעלים תובנות משמעותיות לגבי סגנון דפוס הכתיבה
+ של המחבר.
+ כל פיצ'ר במחלקה זאת מחשב את ההסתברות של מאורע, המאופיין כתו בטקסט, להתקיים
+ כאשר ההסתכלות על הטקסט היא כעל רצף של התווים השונים המרכיבים אותו; לדוגמא,
  פיצ'ר 
 \begin_inset Formula $F_{1}$
 \end_inset
@@ -692,12 +680,12 @@ status open
  ביצענו באמצעות הפרדה לפי תווים ריקים.
  אלמנטים כמו אוצר המילים של הכותב יכולים להתבטא לדוגמא במספר המילים הייחודיות
  בהן הוא משתמש, לכן יצרנו את פיצ'ר 
-\begin_inset Formula $F_{9}$
+\begin_inset Formula $F_{51}$
 \end_inset
 
  שסופר את מספר המילים שמופען הוא יחיד אל מול כמות המילים הכוללת בקטע, ואת
  פיצ'רים 
-\begin_inset Formula $F_{7},F_{8}$
+\begin_inset Formula $F_{49},F_{50}$
 \end_inset
 
  הבוחנים את יחס השימוש במילים קצרות 
@@ -737,11 +725,11 @@ status open
  התחבירי שיש למילות התוכן אחת עם השניה במשפט )ניתן לחשוב עליהן כמעין 'דבק'
  המחבר בן מילים(, ומכאן שהן מהוות אלמנט חשוב במבנה המשפט.
  לכן בחרנו בפיצ'ר 
-\begin_inset Formula $F_{13}$
+\begin_inset Formula $F_{55}$
 \end_inset
 
  הסופר את כמות המילים הפונקציונליות בקטע )
-\begin_inset Formula $F_{13}$
+\begin_inset Formula $F_{55}$
 \end_inset
 
  הוא הפיצ'ר הלקסיקלי היחיד ברמת המילה(.
@@ -789,7 +777,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{7}$
+\begin_inset Formula $F_{49}$
 \end_inset
 
 
@@ -812,7 +800,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{8}$
+\begin_inset Formula $F_{50}$
 \end_inset
 
 
@@ -835,7 +823,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{9}$
+\begin_inset Formula $F_{51}$
 \end_inset
 
 
@@ -858,7 +846,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{10}$
+\begin_inset Formula $F_{52}$
 \end_inset
 
 
@@ -881,7 +869,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{11}$
+\begin_inset Formula $F_{53}$
 \end_inset
 
 
@@ -904,7 +892,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{12}$
+\begin_inset Formula $F_{54}$
 \end_inset
 
 
@@ -927,7 +915,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{13}$
+\begin_inset Formula $F_{55}$
 \end_inset
 
 
@@ -950,7 +938,7 @@ status open
 \begin_layout Standard
 חלק חשוב מסגנון הכתיבה של הסופר מתבטא גם באופן פחות גלוי או מפורש בטקסט
  כפי שראינו ברמת התו והמילה )חישובים פשוטים יותר, למעט 
-\begin_inset Formula $F_{13}$
+\begin_inset Formula $F_{55}$
 \end_inset
 
 (.
@@ -962,7 +950,7 @@ status open
  בעזרת כלים מתחום הבלשנות החישובית נוכל למצוא את המשפטים בקטע הטקסט ולנתח
  את מבנם )נציין שחלק מהפיצ'רים ברמת המילה נעזרים בתוצאות כלים תחביריים אלו,
  כדוגמאת 
-\begin_inset Formula $F_{11}-F_{13}$
+\begin_inset Formula $F_{53}-F_{55}$
 \end_inset
 
 (.
@@ -983,7 +971,7 @@ key "key-8"
 .
  בפרויקט זה השתמשנו בכלים המייצרים עצים תחבירים לטקסטים ויצרנו את פיצ'ר
  
-\begin_inset Formula $F_{55}$
+\begin_inset Formula $F_{48}$
 \end_inset
 
  המייצג את עומק הממוצע של העץ התחבירי לכלל המשפטים.
@@ -1100,7 +1088,7 @@ key "key-9"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{14}$
+\begin_inset Formula $F_{7}$
 \end_inset
 
 
@@ -1123,7 +1111,7 @@ key "key-9"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{9}-F_{52}$
+\begin_inset Formula $F_{8}-F_{45}$
 \end_inset
 
 
@@ -1146,7 +1134,7 @@ key "key-9"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{53}$
+\begin_inset Formula $F_{46}$
 \end_inset
 
 
@@ -1169,7 +1157,7 @@ key "key-9"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{54}$
+\begin_inset Formula $F_{47}$
 \end_inset
 
 
@@ -1192,7 +1180,7 @@ key "key-9"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F_{55}$
+\begin_inset Formula $F_{48}$
 \end_inset
 
 
@@ -1294,7 +1282,7 @@ key "key-9"
 \series bold
 למידה ואימון
 \series default
- בעזרת הפיצ'רים הנ"ל למציאת המסווג בעזרת שלושה אלגוריתמי למידה שונים כאשר
+ בעזרת הפיצ'רים הנ"ל למציאת המסווג, בעזרת שלושה אלגוריתמי למידה שונים כאשר
  המידע חולק לסט אימון וסט בדיקה.
 \end_layout
 
@@ -1303,7 +1291,7 @@ key "key-9"
 \series bold
 שימוש
 \series default
- במודל מאומן בעל אחוזי ההצלחה הגבוהים ביותר שבעזרתו נוכל לאתר את זהות הכותב
+ במודל מאומן בעל אחוזי ההצלחה הגבוהים ביותר, שבעזרתו נוכל לאתר את זהות הכותב
  לפי דוגמא טקסטואלית חדשה לגמרי.
 \end_layout
 
@@ -1314,8 +1302,7 @@ key "key-9"
 
  מבעוד מועד ושמרנו את וקטורי הפיצ'רים של כל הספרים בקובץ ייעודי כדי להקל
  על זמן הריצה בהצגת התוכנית.
- ניתן גם לא להעזר בקובץ ולחשב את הפיצ'רים בזמן הריצה בעזרת שימוש בפרמטר
- הדגל
+ ניתן גם לא להעזר בקובץ ולחשב את הפיצ'רים בזמן אמת בעזרת שימוש בפרמטר הדגל
 \family roman
 \series medium
 \shape up
@@ -1517,7 +1504,7 @@ README.md
 \begin_inset Formula $10$
 \end_inset
 
-סופרים.
+ סופרים.
 \end_layout
 
 \begin_layout Standard
@@ -1532,8 +1519,8 @@ README.md
 \align center
 \begin_inset Graphics
 	filename features.png
-	lyxscale 67
-	scale 67
+	lyxscale 45
+	scale 45
 
 \end_inset
 
@@ -1713,7 +1700,7 @@ README.md
 \begin_layout Standard
 כאשר אנו מביטים בתוצאות עבודתנו עלינו לקחת בחשבון מספר גורמים העשויים להשפיע
  לטובה או לרעה על התוצאות.
- קורפוס העבודה באופן יחסי אינו גדול ומתבסס על מספר ספרים קטן אשר עלול לא
+ קורפוס העבודה באופן יחסי אינו גדול ומתבסס על מספר ספרים קטן אשר עלול שלא
  לייצג כהלכה את הסופרים.
  כלומר, ייתכן שלא ייצגנו את מגוון סגנונות הכתיבה וצורות הכתיבה השונות העשויות
  להשתנות בין ספריו של אותו הסופר.
@@ -1730,7 +1717,7 @@ StanfordCoreNLP
 \family default
 \lang hebrew
  כלים ששימשו אותנו לתיוג הטקסט אשר באמצעותו יצרנו פיצ'רים נוספים.
- כלים אלו אינם מדייקים באופן אבסולוטי, טעויות של תיוג מוטעה עשויות ליצור
+ כלים אלו אינם מדייקים באופן אבסולוטי, וטעויות של תיוג מוטעה עשויות ליצור
  פיצ'רים שלא מייצגים כראוי את הטקסט.
  כמו כן, על מנת ליצור פיצ'רים חילקנו את הטקסט למשפטים, חלוקה אשר נעשתה באמצעות
  סיום משפט, אך פעמים רבות לא ניתן היה לזהות כראוי את סיום המשפט.
@@ -1746,14 +1733,35 @@ StanfordCoreNLP
 \end_layout
 
 \begin_layout Standard
-במבט על התוצאות השונות הבחנו כי קיימים פרמטרים רבים המשפיעים על אחוזי ההצלחה
- של המודל שלנו.
- כל פרמטר כזה עשוי להציג שינויים דרסטיים על התוצאות.
+פרמטרים רבים משפיעים על אחוזי ההצלחה של המודל שלנו, כל פרמטר כזה עשוי להציג
+ שינויים דרסטיים על התוצאות.
  ראינו כי כקבוצה הפיצ'רים הסינטקטיים הם המשפיעים ביותר אך עם זאת בעת השילוב
- שלהם עם האלגוריתם הלומד 
-\begin_inset Formula $NN$
-\end_inset
-
+ שלהם עם האלגוריתם 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+Nearest Neighbors
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang hebrew
  הגענו לתוצאות הגרועות ביותר.
  לעומת זאת, הצבענו על רמת השפעה הכי נמוכה אצל הפיצ'רים ברמת המילים אך הם
  הראו את היציבות הגבוהה ביותר בין אלגוריתמי הלמידה השונים.
