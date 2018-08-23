@@ -28,6 +28,8 @@ To find an informative description for each parameter use:
 run.sh "author_auth.py -h"
 ```
 
+__For the course staff:__ Note that if you want to run with `-calc_data` flag, over the submitted `.zip` file you'll need a complete `/corpus/data` folder which can be achived in by download it [here](https://drive.google.com/open?id=1s1BBR1dwIDp4MRLOiFoT0-2Ls4Xbrlzb). (We did not submitted it due to size bound at the moodle submmit link)
+
 #### Dependencies
 Installing the required libraries can be done in two main ways:
 ```python
