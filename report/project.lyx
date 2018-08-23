@@ -78,15 +78,27 @@
 \begin_body
 
 \begin_layout Title
-פרויקט סיכום 
-\begin_inset Formula $\text{AI}$
-\end_inset
-
-
+זיהוי מחברים
 \end_layout
 
 \begin_layout Author
-רועי שתיוי, ורדית ארקש, נגה שטרן ודנית ישעיהו
+רועי שתיוי 
+\begin_inset Formula $308192822$
+\end_inset
+
+, ורדית ארקש 
+\begin_inset Formula $305134140$
+\end_inset
+
+, נגה שטרן 
+\begin_inset Formula $302388715$
+\end_inset
+
+ ודנית ישעיהו 
+\begin_inset Formula $312434269$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Abstract
@@ -207,11 +219,7 @@ key "key-5"
 \noun default
 \color inherit
 איברים כאשר כל תא בו מייצג תוצאה נומרית המתאימה לפיצ'ר ספציפי.
- את 
-\begin_inset Formula $1784$
-\end_inset
-
- הוקטורים חילקנו ביחס של 
+ את הוקטורים חילקנו ביחס של 
 \begin_inset Formula $80\%$
 \end_inset
 
@@ -232,43 +240,20 @@ key "key-5"
 \end_layout
 
 \begin_layout Standard
-על מנת לאמן את המודל אנו זקוקים לקורפוס מכל סוג כמו: כתבות, מאמרים, הודעות
- או מיילים, אשר מתויגים עם כותבים ואנו בחרנו בספרים המתויגים עם סופריהם.
+על מנת לאמן את המודל אנו זקוקים לקורפוס של: כתבות, מאמרים, הודעות או מיילים
+ )למעשה, כל מאגר טקסטואלי בעל מבנה משותף יכול להתאים(, אשר מתויגים על פי
+ מחבריהם.
+ אנו השתמשנו במאגרי מידע של ספרים והוספנו להם את התיוג המתאים על פי הסופר
+ הרלוונטי.
  בפרויקט בחרנו לזהות את אופי הכתיבה של עשרת הסופרים הבאים: ג'יין אוסטין,
  הרמן מלוויל, ז'ול ורן, שרלוט ברונטה, לואיס קרול, ברם סטוקר, לב טולסטוי,
  רוברט לואיס סטיבנסון, פיודור דוסטויבסקי וצ'ארלס דיקנס.
- עבור כל אחד מהסופרים הכנסנו
+ עבור כל אחד מהסופרים העלנו בין שלושה לארבעה
 \family roman
 \series medium
 \shape up
 \size normal
 \emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
 \bar no
 \strikeout off
 \uuline off
@@ -287,57 +272,7 @@ key "key-5"
 \uwave default
 \noun default
 \color inherit
--
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-4
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ספרים)ראה נספח(.
+ספרים )ראה נספח(.
  כמו כן, על מנת לקבל סטטיסטיקות רבות יותר על הטקסטים, המסייעות ללמידה טובה
  יותר, חילקנו את כל הספרים לפרקיהם.
  לכל פרק התייחסנו כטקסט נפרד של אותו הסופר וכך קיבלנו שלג'יין אוסטין 
@@ -428,10 +363,17 @@ key "key-5"
 \begin_inset Formula $177$
 \end_inset
 
- טקסטים.
- נוסיף כי כל הספרים נלקחו מפרויקט גוטנברג, פרויקט המנגיש לציבור ספרים אשר
- אין להם זכויות יוצרים יותר.
- בשל מקורם, רוב הספרים נכתבו במאה ה-
+ טקסטים, שהם בסך הכל 
+\begin_inset Formula $1784$
+\end_inset
+
+ פרקים.
+\end_layout
+
+\begin_layout Standard
+כל הספרים נלקחו מפרויקט גוטנברג, פרויקט המנגיש לציבור ספרים אשר פגו זכויות
+ היוצרים המגנים עליהם.
+ מסיבה זאת, רוב הספרים שאספנו נכתבו במאה ה-
 \begin_inset Formula $19$
 \end_inset
 
@@ -444,11 +386,39 @@ key "key-5"
 
 \numeric off
 .
- הטקסטים המוזכרים נתונים בפרויקט בתיקיית "
-\begin_inset Formula $\text{corpus}$
-\end_inset
+ הטקסטים המוזכרים נתונים בפרויקט בתיקיית 
+\family typewriter
+\lang english
 
-" כאשר תחת תיקייה זו יש תיקייה לכל סופר ותחתיו חלוקה לפי כל ספר.
+\backslash
+corpus
+\backslash
+data
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כאשר תיקייה זו מחולקת על פי הסופר ותחתיה על פי ספריו.
 \end_layout
 
 \begin_layout Section
@@ -507,7 +477,7 @@ key "key-1,key-2,key-3"
 
 \end_inset
 
-.
+ אך גם על ידי פיצ'רים שחשבנו עליהם במהלך כתיבת הפרויקט.
 \end_layout
 
 \begin_layout Subsection
@@ -735,7 +705,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-מילה שאורה קטן או שווה ל-
+מילה שאורכה קטן או שווה ל-
 \begin_inset Formula $3$
 \end_inset
 
@@ -751,11 +721,9 @@ status open
 status open
 
 \begin_layout Plain Layout
-מילה שאורה גדול מ-
-\begin_inset Formula $3$
-\end_inset
-
-
+מילה שאורכה גדול מ-
+\numeric on
+9
 \end_layout
 
 \end_inset
@@ -1005,23 +973,10 @@ status open
 בתחביר הגנרטיבי כללי שפה בסיסיים הם כללי גזירה, ואת מבנה המשפט המתקבל מכללים
  מסוג זה מקובל לתאר באופן גרפי בעזרת תרשים היררכי הנקרא "עץ תחבירי".
  היחסים המבניים המרכזיים שמתקיימים בכל עץ תחבירי מהווים חלק מהידע התחבירי
- הלא מודע של הדוברים, ידע שמאפשר את זיהוי היחידות התחביריות במשפט
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://www.kotar.co.il/KotarApp/Viewer.aspx?nBookID=102589202
-\end_layout
-
-\end_inset
-
-
-\end_layout
+ הלא מודע של הדוברים, ידע שמאפשר את זיהוי היחידות התחביריות במשפט 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-8"
 
 \end_inset
 
@@ -1094,24 +1049,10 @@ https://www.kotar.co.il/KotarApp/Viewer.aspx?nBookID=102589202
 \uwave default
 \noun default
 \color inherit
-חלקי דיבר הנמצאים בשימוש בשפה האנגלית
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-# the list is from here: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_
-treebank_pos.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
+חלקי דיבר הנמצאים בשימוש בשפה האנגלית 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-9"
 
 \end_inset
 
@@ -1374,15 +1315,35 @@ treebank_pos.html
  מבעוד מועד ושמרנו את וקטורי הפיצ'רים של כל הספרים בקובץ ייעודי כדי להקל
  על זמן הריצה בהצגת התוכנית.
  ניתן גם לא להעזר בקובץ ולחשב את הפיצ'רים בזמן הריצה בעזרת שימוש בפרמטר
- הדגל 
-\begin_inset Formula $\text{-calc\_data}$
-\end_inset
+ הדגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+-calc_data
+\family default
+\lang hebrew
 
- )יוסבר בפירוט בפרק 
-\begin_inset Formula $7$
-\end_inset
-
-(
 \begin_inset Newline newline
 \end_inset
 
@@ -1395,9 +1356,12 @@ treebank_pos.html
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\text{sklearn}$
-\end_inset
-
+ספריית 
+\family typewriter
+\lang english
+sklearn
+\family default
+\lang hebrew
 - מימוש של שלושת האלגוריתמים 
 \begin_inset Formula $\text{Random Forest, Decision Tree}$
 \end_inset
@@ -1410,46 +1374,105 @@ treebank_pos.html
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\text{nltk}$
-\end_inset
-
-- שימוש במגוון אלגוריתמים וכלים של עיבוד שפה טבעית למציאת משפטים, תגים,
- מילים פונקציונליות ועוד.
+ספריית 
+\family typewriter
+\lang english
+nltk
+\lang hebrew
+-
+\family default
+ שימוש במגוון אלגוריתמים וכלים של עיבוד שפה טבעית למציאת משפטים, תגים, מילים
+ פונקציונליות ועוד.
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\text{StanfordCoreNLP}$
-\end_inset
-
+ספריית 
+\family typewriter
+\lang english
+StanfordCoreNLP
+\family default
+\lang hebrew
 - ליצירת העצים התחביריים של כל פרקי הספרים.
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\text{graphviz}$
-\end_inset
-
+ספריית 
+\family typewriter
+\lang english
+graphviz
+\family default
+\lang hebrew
 - ליצירת וויזואליזציה של עץ ההחלטה.
  
 \end_layout
 
 \begin_layout Standard
-ב- 
-\begin_inset Formula $\text{ scipy, matplotlib}$
-\end_inset
-
+ב-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+scipy
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+matplotlib
+\family default
+\lang hebrew
 ו-
-\begin_inset Formula $\text{numpy}$
-\end_inset
-
+\family typewriter
+\lang english
+numpy
+\family default
+\lang hebrew
  השתמשנו לעבודה עם מסדי נתונים ספרתיים ויצירת גרפים.
 \end_layout
 
 \begin_layout Standard
 הוראות לשימוש והרצת התוכנית נמצאות באופן מפורט בקובץ 
-\begin_inset Formula $\text{README.md}$
-\end_inset
-
-
+\family typewriter
+\lang english
+README.md
 \end_layout
 
 \begin_layout Section
@@ -1651,10 +1674,34 @@ treebank_pos.html
 \begin_inset Formula $\text{Decision Tree}$
 \end_inset
 
- ניתן להתבונן בגרף של עץ ההחלטה בקובץ 
-\begin_inset Formula $\text{statistics/plots/dt.pdf}$
-\end_inset
-
+ ניתן להתבונן בגרף של עץ ההחלטה בקובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+/statistics/plots/dt.pdf
+\family default
+\lang hebrew
  המכיל נתונים כמו הפיצ'ר שעל פיו מתבצעת ההחלטה בכל שלב, ערכי האנטרופיה שהחלוקה
  מעלה, הסיווג המתאים לכל עלה בעץ ועוד.
 \end_layout
@@ -1671,29 +1718,20 @@ treebank_pos.html
  כלומר, ייתכן שלא ייצגנו את מגוון סגנונות הכתיבה וצורות הכתיבה השונות העשויות
  להשתנות בין ספריו של אותו הסופר.
  בנוסף לכך, השתמשנו בכלים 
-\begin_inset Formula $\text{nltk.pos\_tag}$
-\end_inset
-
+\family typewriter
+\lang english
+nltk.pos_tag
+\family default
+\lang hebrew
  ו-
-\begin_inset Formula $\text{StanfordCoreNLP}$
-\end_inset
-
+\family typewriter
+\lang english
+StanfordCoreNLP
+\family default
+\lang hebrew
  כלים ששימשו אותנו לתיוג הטקסט אשר באמצעותו יצרנו פיצ'רים נוספים.
- כלים אלו שוגים בתיוגם ב-
-\begin_inset Formula $10\%$
-\end_inset
-
- מהמקרים
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-, טעויות אשר עשויות ליצור פיצ'רים שלא מייצגים כראוי את הטקסט.
+ כלים אלו אינם מדייקים באופן אבסולוטי, טעויות של תיוג מוטעה עשויות ליצור
+ פיצ'רים שלא מייצגים כראוי את הטקסט.
  כמו כן, על מנת ליצור פיצ'רים חילקנו את הטקסט למשפטים, חלוקה אשר נעשתה באמצעות
  סיום משפט, אך פעמים רבות לא ניתן היה לזהות כראוי את סיום המשפט.
  למשל במשפטים בהם הופיע 
@@ -2078,6 +2116,84 @@ key "key-5"
 
 Project Gutenberg, Michael Hart and Gregory Newby 1971, accessed 17 August
  2018, <https://www.gutenberg.org/>
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+ מבוא לבלשנות תאורטית חלק ב', האוניברסיטה הפתוחה, אירנה בוטוויניק וגלית
+ אדם,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2012
+\numeric off
+.
+ עמ'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+118-133
+\end_layout
+
+\begin_layout Bibliography
+
+\lang english
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+ Alphabetical list of part-of-speech tags used in the Penn Treebank Project
+ , accessed 13 August 2018, <https://www.ling.upenn.edu/courses/Fall_2003/ling001/p
+enn_treebank_pos.html>
 \end_layout
 
 \end_body
