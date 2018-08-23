@@ -130,17 +130,8 @@
 
 \begin_layout Standard
 לסופרים ומחברים נחשבים קיים לרוב סגנון כתיבה אשר ייחודי לעבודותיהם, סגנון
- זה במידת מה לא יהיה רלוונטי לנושא הכתוב 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- בו אך למרות זאת יוכל להיות מזוהה על ידי קורא אנושי המכיר את כתביו.
+ זה במידת מה לא יהיה רלוונטי לנושא הכתוב בו אך למרות זאת יוכל להיות מזוהה
+ על ידי קורא אנושי המכיר את כתביו.
  תהליך זה של זיהוי כותב בעזרת קטע טקסטואלי )משפט, פסקה או פרק קצר( מתוך
  קבוצת מועמדים נקרא 
 \begin_inset Formula $\text{Authorship Identification}$
@@ -153,13 +144,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-בעבודה זו בחרנו להתמקד במאגר המידע של פרויקט גוטנברג
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+בעבודה זו בחרנו להתמקד במאגר המידע של פרויקט גוטנברג 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-5"
 
 \end_inset
 
@@ -486,21 +474,23 @@ status open
 
 \begin_layout Standard
 ליצירת הפיצ'רים התחביריים השתמשנו בשני כלים: 
-\begin_inset Formula $\text{nltk.pos\_tag}$
-\end_inset
-
+\family typewriter
+\lang english
+nltk.pos_tag
+\family default
+\lang hebrew
  
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-לעשות יפה
-\end_layout
-
-\end_inset
-
+\family typewriter
 ו-
-\begin_inset Formula $\text{StanfordCoreNLP}$
+\lang english
+StanfordCoreNLP
+\family default
+\lang hebrew
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+
 \end_inset
 
 .
@@ -511,22 +501,9 @@ status collapsed
 \begin_layout Standard
 בחירת הפיצ'רים התבצעה ברובה בעזרת שימוש במאמרים שונים שהתפרסמו בנושא זה
  )לאו דווקא עבור טקסטים ספרותיים(
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-לצטט את המאמרים
-\end_layout
-
-\end_inset
-
- ,
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-להוסיף פה תוכן אם יש פיצ'רים שחשבנו עליהם בעצמנו
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1,key-2,key-3"
 
 \end_inset
 
@@ -543,10 +520,24 @@ status collapsed
  הכתיבה של המחבר.
  כל פיצ'ר במחלקה זאת מחשב את ההסתברות של מאורע תו בטקסט להתקיים; לדוגמא,
  פיצ'ר 
-\begin_inset Formula $F_{3}$
+\begin_inset Formula $F_{1}$
 \end_inset
 
- יחשב את ההסתברות של תו הנבחר באופן אקראי להיות ספרה.
+ יחשב את ההסתברות של תו הנבחר באופן אקראי להיות תו מיוחד
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+תו הנמצא בקבוצה:
+\begin_inset Formula $\text{\textasciitilde, @, \#, \$, \%, \textasciicircum, \&, -, \_, =, +,\ensuremath{<}, \ensuremath{>}, |, [, ], \{, \}, \textbackslash, /}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -739,9 +730,37 @@ status collapsed
 \begin_inset Formula $F_{7},F_{8}$
 \end_inset
 
- הבוחנים את יחס השימוש במילים קצרות
+ הבוחנים את יחס השימוש במילים קצרות 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+מילה שאורה קטן או שווה ל-
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \backslash
-ארוכות.
+ארוכות
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+מילה שאורה גדול מ-
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Standard
@@ -1999,9 +2018,7 @@ key "key-1"
 
 \end_inset
 
-Authorship Identification of Research Papers, Simen Skoglund 2015 Relevance
- of Syntactic and Discourse Features for Author Profiling and Identification,
- Boronat, Carrer, and Wanner
+Authorship Identification of Research Papers, Simen Skoglund 2015 
 \end_layout
 
 \begin_layout Bibliography
@@ -2009,7 +2026,20 @@ Authorship Identification of Research Papers, Simen Skoglund 2015 Relevance
 \lang english
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-1-1"
+key "key-2"
+
+\end_inset
+
+Relevance of Syntactic and Discourse Features for Author Profiling and Identific
+ation, Boronat, Carrer, and Wanner
+\end_layout
+
+\begin_layout Bibliography
+
+\lang english
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
 
 \end_inset
 
@@ -2023,7 +2053,7 @@ key "key-1-1"
 \lang english
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-35"
+key "key-4"
 
 \end_inset
 
@@ -2035,6 +2065,19 @@ Manning, Christopher D., Mihai Surdeanu, John Bauer, Jenny Finkel, Steven
  of the 52nd Annual Meeting of the Association for Computational Linguistics:
  System Demonstrations, pp.
  55-60.
+\end_layout
+
+\begin_layout Bibliography
+
+\lang english
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+Project Gutenberg, Michael Hart and Gregory Newby 1971, accessed 17 August
+ 2018, <https://www.gutenberg.org/>
 \end_layout
 
 \end_body
